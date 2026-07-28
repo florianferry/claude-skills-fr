@@ -1,0 +1,104 @@
+{
+  "skill_name": "cold-email",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Rédige un cold email pour les directeurs marketing de PME B2B SaaS. On vend une plateforme d'analyse de contenu qui montre quels articles de blog génèrent réellement du pipeline. Notre principal point de preuve : les clients constatent une multiplication par 3 des revenus attribués au contenu en 90 jours.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit écrire comme un pair, pas comme un vendeur. Doit utiliser un framework structurel (observation→problème→preuve→demande ou similaire). L'objet doit faire 2 à 4 mots, en minuscules, à l'allure interne. Chaque phrase doit mériter sa place. La personnalisation doit être connectée au problème du prospect, pas seulement à son nom. Doit utiliser la preuve ×3 comme signal de crédibilité, pas comme argument commercial. Le CTA doit être à faible friction (pas « réservez une démo »). Doit fournir 2 à 3 variantes. Doit respecter la typographie française : espaces insécables avant : ; ! ?, guillemets « », casse de phrase. Corps en vouvoiement.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Écrit comme un pair, pas comme un vendeur",
+        "Utilise un framework structurel du skill",
+        "L'objet est court, en minuscules, à l'allure interne",
+        "Chaque phrase mérite sa place (concision)",
+        "La personnalisation est connectée au problème du prospect",
+        "Utilise le point de preuve comme crédibilité",
+        "Le CTA est à faible friction",
+        "Fournit 2 à 3 variantes",
+        "Typographie française correcte (espaces insécables, guillemets « », casse de phrase)",
+        "Aucune formule anglicisée ou calquée sur l'anglais (pas de « J'espère que cet e-mail vous trouve bien », « Solution innovante », « Synergie »)",
+        "Corps en vouvoiement"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Aide-moi à écrire un cold email pour des DSI de grands groupes. Je vends de la formation en cybersécurité. Mon e-mail actuel a un taux d'ouverture de 2 % et 0 % de réponses.",
+      "expected_output": "Doit diagnostiquer les problèmes probables de l'e-mail actuel à partir d'un taux d'ouverture de 2 % (problème d'objet) et de 0 % de réponses (problème de corps/pertinence). Doit adapter le ton pour un DSI de grand groupe (respect du temps, crédibilité technique, langage de pair). Doit proposer un e-mail entièrement réécrit suivant les frameworks structurels. L'objet doit faire 2 à 4 mots, à l'allure interne. Doit calibrer le ton pour un DSI grand compte : plus formel qu'une startup, mais toujours comme un pair. Doit fournir l'e-mail plus une analyse de pourquoi chaque élément fonctionne. Corps en vouvoiement, typographie française respectée.",
+      "assertions": [
+        "Diagnostique les problèmes à partir des données de performance",
+        "Identifie l'objet comme cause probable du faible taux d'ouverture",
+        "Adapte le ton pour un DSI grand compte",
+        "L'objet est court, en minuscules, à l'allure interne",
+        "Adapte le ton pour une audience grand groupe",
+        "Utilise un framework structurel du skill",
+        "Explique pourquoi chaque élément fonctionne",
+        "Corps en vouvoiement",
+        "Aucun anglicisme injustifié ni calque de l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "j'ai besoin d'une séquence de relance. le prospect n'a pas répondu à mon premier e-mail sur notre logiciel RH. combien j'en envoie et à quelle fréquence ?",
+      "expected_output": "Doit se déclencher même sur une formulation familière. Doit appliquer les recommandations sur les séquences de relance : 3 à 5 relances recommandées. Chaque relance doit apporter quelque chose de nouveau (angle différent, nouvelle preuve, nouvelle valeur), pas simplement « remonter dans la boîte ». Doit fournir des recommandations de timing entre les e-mails. Doit fournir une copy réelle pour chaque contact, avec des angles différents. Doit inclure un e-mail de rupture final. Doit noter que chaque relance doit être plus courte que la précédente. Corps en vouvoiement, typographie française respectée.",
+      "assertions": [
+        "Se déclenche sur une formulation familière",
+        "Recommande 3 à 5 relances",
+        "Chaque relance apporte quelque chose de nouveau",
+        "N'utilise pas de formule du type « je fais juste un suivi »",
+        "Fournit les intervalles de temps entre les e-mails",
+        "Fournit une copy réelle pour chaque relance",
+        "Inclut un e-mail de rupture",
+        "Les relances sont progressivement plus courtes",
+        "Corps en vouvoiement"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Peux-tu relire ce cold email et me dire ce qui ne va pas : « Madame, Monsieur, Je me permets de vous contacter afin de vous présenter notre solution innovante de gestion d'entreprise basée sur l'intelligence artificielle. Nous avons accompagné plus de 500 sociétés dans la transformation de leurs processus métier. Je serais ravi de pouvoir échanger avec vous lors d'un appel de 30 minutes pour vous présenter comment nous pouvons vous aider à atteindre vos objectifs. Bien cordialement, Julien »",
+      "expected_output": "Doit appliquer le framework de contrôle qualité. Doit identifier plusieurs problèmes : 'Madame, Monsieur' (aucune personnalisation), 'Je me permets de vous contacter' (phrase passe-partout), 'solution innovante' (jargon/buzzword), 'basée sur l'intelligence artificielle' (vague et banal), 'transformation de leurs processus métier' (ne signifie rien), 'appel de 30 minutes' (demande trop forte pour un premier contact), l'e-mail parle de l'expéditeur et non du prospect. Doit réécrire en suivant les principes : ton de pair, structure observation→problème→preuve→demande, chaque phrase mérite sa place, personnalisation connectée au problème, CTA à faible friction. Doit respecter la typographie française dans la version réécrite. Corps en vouvoiement.",
+      "assertions": [
+        "Identifie l'absence de personnalisation",
+        "Identifie les formules passe-partout",
+        "Identifie le jargon et les buzzwords",
+        "Identifie le langage commercial vs langage de pair",
+        "Identifie le CTA trop exigeant",
+        "Note que l'e-mail est centré sur l'expéditeur, pas sur le prospect",
+        "Fournit une version réécrite",
+        "La version réécrite suit les principes du cold email",
+        "Typographie française correcte dans la réécriture (espaces insécables, guillemets « », casse de phrase)",
+        "Aucun tic d'IA dans la réécriture (pas de « innovant », « découvrez », « optimisez »)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quels sont les meilleurs objets pour un cold email ? Je veux maximiser le taux d'ouverture.",
+      "expected_output": "Doit appliquer les recommandations sur les objets d'e-mail : court (2 à 4 mots), en minuscules ou casse de phrase, à l'allure interne (doit ressembler à un message d'un collègue, pas d'un fournisseur). Doit fournir des exemples en français suivant ces principes. Doit expliquer pourquoi ce format fonctionne (contourne les filtres promotionnels, suscite la curiosité, ne ressemble pas à du marketing). Doit mettre en garde contre les objets les plus courants à éviter (MAJUSCULES, emojis, clickbait, objets longs). Doit noter que l'objet provoque l'ouverture mais que c'est le corps qui déclenche la réponse.",
+      "assertions": [
+        "Applique les recommandations sur les objets (2 à 4 mots, minuscules, allure interne)",
+        "Fournit des exemples en français",
+        "Explique pourquoi ce format fonctionne",
+        "Met en garde contre les anti-modèles courants",
+        "Distingue taux d'ouverture et taux de réponse",
+        "Aucun exemple en anglais sans adaptation française",
+        "Typographie française respectée dans les exemples"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peux-tu m'aider à mettre en place une séquence d'e-mails automatisée pour les leads qui téléchargent notre livre blanc ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une séquence lifecycle/nurture, pas de prospection froide. Doit renvoyer vers ou mentionner le skill emails, qui gère les drip campaigns, les séquences de nurturing et les e-mails lifecycle. Le cold email concerne spécifiquement la prospection non sollicitée auprès de prospects qui n'ont pas manifesté leur intérêt. Doit clarifier cette distinction.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un e-mail lifecycle/nurture, pas de cold email",
+        "Mentionne ou renvoie vers le skill emails",
+        "Explique la distinction entre cold email et e-mail lifecycle",
+        "Ne cherche pas à concevoir une séquence nurture avec les patterns du cold email"
+      ],
+      "files": []
+    }
+  ]
+}

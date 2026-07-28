@@ -1,0 +1,94 @@
+{
+  "skill_name": "signup",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audite notre flux d'inscription. On a un processus en 3 étapes : l'étape 1 demande l'e-mail, le mot de passe et le nom complet. L'étape 2 demande le nom de l'entreprise, sa taille, le rôle de l'utilisateur et le secteur d'activité. L'étape 3 demande le cas d'usage et comment ils ont entendu parler de nous. Notre taux de complétion est de 45 %.",
+      "expected_output": "Doit commencer par vérifier l'existence de product-marketing.md. Doit identifier le type de flux (probablement essai SaaS B2B). Doit appliquer les principes fondamentaux : minimiser les champs obligatoires (lesquels sont vraiment nécessaires avant que l'utilisateur puisse utiliser le produit ?). Doit évaluer chaque étape : l'étape 1 est raisonnable, les champs de l'étape 2 sont pour la plupart différables via profilage progressif, l'étape 3 est entièrement différable. Doit recommander de réduire à l'étape 1 uniquement ou au maximum 2 étapes. Doit fournir les constats d'audit dans un format structuré (Problème, Impact, Correction, Priorité). Doit inclure les catégories Gains rapides, Changements à fort impact et Hypothèses à tester.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie le type de flux",
+        "Applique le principe de minimisation des champs obligatoires",
+        "Évalue chaque champ pour sa nécessité",
+        "Recommande de différer la majorité des champs de l'étape 2 et tous ceux de l'étape 3",
+        "Présente les constats dans un format structuré",
+        "Inclut les catégories Gains rapides, Changements à fort impact et Hypothèses à tester",
+        "Utilise la typographie française (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "N'utilise pas d'anglicismes injustifiés dans les recommandations"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Est-ce qu'on devrait ajouter Google et Microsoft en connexion sociale sur notre page d'inscription ? On est un outil de gestion de projet B2B et on n'a actuellement que l'inscription par e-mail et mot de passe.",
+      "expected_output": "Doit appliquer les recommandations sur les options de connexion sociale. Pour le B2B, doit recommander Google et Microsoft comme options principales (conformément aux recommandations B2B). Doit expliquer les bénéfices : meilleur taux de conversion (moins de friction), e-mail pré-vérifié, onboarding plus rapide. Doit recommander de placer la connexion sociale en position proéminente (souvent meilleur taux que le formulaire e-mail). Doit aborder les considérations d'implémentation : séparation visuelle claire avec le formulaire e-mail, libellés en casse de phrase (« S'inscrire avec Google » et non juste l'icône Google), recommander quelle option privilégier selon l'audience.",
+      "assertions": [
+        "Applique les recommandations sur la connexion sociale",
+        "Recommande Google et Microsoft pour le B2B",
+        "Explique les bénéfices de conversion de la connexion sociale",
+        "Recommande un placement proéminent",
+        "Aborde la séparation visuelle avec le formulaire e-mail",
+        "Propose des libellés de boutons en français avec casse de phrase (ex. « S'inscrire avec Google »)",
+        "N'utilise pas de title case pour les libellés de boutons"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "notre formulaire d'inscription c'est juste e-mail et mot de passe mais seulement 35 % des visiteurs le terminent. c'est quoi le problème ?",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit aller au-delà des champs du formulaire puisque celui-ci est déjà minimal. Doit appliquer les recommandations de réassurance et réduction des freins : y a-t-il un message « Sans carte bancaire » ? Une garantie de confidentialité ? Un témoignage à proximité du formulaire ? Doit vérifier les problèmes au niveau du formulaire : gestion des erreurs, clarté des règles du mot de passe, copy du bouton de soumission. Doit également examiner les facteurs en amont du formulaire : la proposition de valeur est-elle claire ? La page est-elle optimisée ? (croiser avec le skill cro). Doit fournir une checklist de diagnostic et des recommandations.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée et familière",
+        "Va au-delà des champs du formulaire",
+        "Applique les recommandations de réassurance et réduction des freins",
+        "Vérifie la présence d'un message « Sans carte bancaire »",
+        "Vérifie la gestion des erreurs et l'expérience mot de passe",
+        "Examine les facteurs en amont (proposition de valeur, CRO de la page)",
+        "Fournit une checklist de diagnostic",
+        "Rédige les recommandations sans anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On exige la vérification e-mail avant que les utilisateurs puissent accéder au produit. Est-ce que ça pénalise notre conversion ? Faut-il changer ça ?",
+      "expected_output": "Doit appliquer les recommandations sur les flux de vérification. Doit expliquer que l'exigence de vérification avant l'accès au produit crée de la friction et réduit probablement l'activation. Doit recommander des alternatives : reporter la vérification jusqu'à ce qu'elle soit nécessaire (laisser les utilisateurs explorer d'abord), le lien magique comme alternative au mot de passe, laisser les utilisateurs démarrer pendant que la vérification est en attente. Doit aborder les cas où la vérification e-mail EST nécessaire (conformité, prévention des abus). Doit proposer des améliorations concrètes de l'expérience de vérification si elle est conservée.",
+      "assertions": [
+        "Applique les recommandations sur les flux de vérification",
+        "Explique l'impact de la vérification sur la friction",
+        "Recommande de reporter la vérification",
+        "Suggère de laisser les utilisateurs explorer le produit en attendant",
+        "Aborde les cas où la vérification est nécessaire",
+        "Propose des améliorations si la vérification est conservée",
+        "Utilise la typographie française dans les exemples de messages (espaces insécables avant les deux-points)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quelles expériences devrions-nous lancer sur notre page d'inscription ? On veut améliorer notre taux d'inscription à l'essai.",
+      "expected_output": "Doit s'appuyer sur la section Idées d'expériences. Doit proposer des expériences dans plusieurs catégories : conception du formulaire (mise en page, nombre de champs, connexion sociale), copy et message (titre, texte du bouton CTA, éléments de réassurance), essai et engagement (carte bancaire requise ou non, durée de l'essai), et expériences post-soumission. Doit prioriser les expériences selon leur impact probable. Doit renvoyer au skill ab-testing pour la conception correcte des expériences.",
+      "assertions": [
+        "S'appuie sur la section Idées d'expériences",
+        "Couvre les expériences de conception du formulaire",
+        "Couvre les expériences de copy et de message",
+        "Couvre les expériences essai et engagement",
+        "Priorise selon l'impact probable",
+        "Renvoie au skill ab-testing",
+        "Propose des libellés de CTA en français (ex. « Créer mon compte », « Commencer l'essai gratuit »)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Les utilisateurs s'inscrivent sans problème mais ne s'activent jamais. Seulement 20 % terminent l'onboarding. Que faire ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'un problème d'onboarding post-inscription, pas d'un problème de flux d'inscription. Doit renvoyer au skill onboarding ou s'y référer explicitement, qui traite l'activation post-inscription et l'optimisation de l'onboarding. Le skill signup couvre la complétion du formulaire d'inscription, pas ce qui se passe ensuite.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un problème d'onboarding post-inscription, pas de flux d'inscription",
+        "Renvoie ou défère au skill onboarding",
+        "Explique que signup couvre le formulaire d'inscription, pas l'après-inscription"
+      ],
+      "files": []
+    }
+  ]
+}

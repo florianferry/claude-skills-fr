@@ -1,0 +1,102 @@
+{
+  "skill_name": "ads",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à planifier une stratégie de publicité payante. Nous sommes un outil SaaS B2B pour les équipes RH, vendu à 99 € par mois et par poste. Nous avons 15 000 € par mois à investir en pub et nous voulons générer des demandes de démo. Où doit-on faire de la pub ?",
+      "expected_output": "Doit commencer par vérifier si product-marketing.md existe. Doit appliquer le guide de sélection des plateformes en tenant compte du contexte B2B, de l'audience RH et du ticket à 99 €/mois. Doit recommander LinkedIn (ciblage B2B par poste et secteur), Google Ads (intention de recherche sur les mots-clés logiciels RH) et éventuellement Meta pour le retargeting. Doit recommander une structure de campagne avec des conventions de nommage. Doit définir une stratégie de ciblage d'audience pour chaque plateforme. Doit proposer une répartition du budget entre les plateformes. Doit définir des indicateurs de succès et une approche d'attribution. Doit recommander une structure de départ et un plan de passage à l'échelle. La copy d'exemple doit être en français avec une typographie correcte.",
+      "assertions": [
+        "Vérifie si product-marketing.md existe",
+        "Applique le guide de sélection des plateformes",
+        "Recommande des plateformes adaptées à une audience B2B RH francophone",
+        "Recommande une structure de campagne avec conventions de nommage",
+        "Définit le ciblage d'audience par plateforme",
+        "Propose une répartition du budget entre les plateformes",
+        "Définit des indicateurs de succès",
+        "Recommande une structure de départ et un plan de passage à l'échelle",
+        "Typographie française : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA : pas de Boostez, Optimisez, Révolutionnaire, En un clin d'œil, etc."
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre CPC Google Ads est à 12 € et notre coût par lead est à 180 €. C'est bon ? On obtient environ 80 leads par mois pour un budget de 15 000 €.",
+      "expected_output": "Doit évaluer les indicateurs dans leur contexte. Doit analyser : 12 € de CPC pour du B2B (raisonnable selon le secteur), 180 € de CPL (dépend de la LTV, à comparer avec la valeur vie client), 80 leads par mois pour 15 000 € (calcul cohérent). Doit appliquer le framework d'optimisation des campagnes : quality score, pertinence des termes de recherche, taux de conversion de la page de destination, mots-clés négatifs. Doit recommander des leviers d'optimisation précis pour réduire le CPC et le CPL. Doit contextualiser la performance par rapport aux benchmarks sectoriels si pertinent. Doit interroger sur les taux de conversion en aval (lead → démo → client).",
+      "assertions": [
+        "Évalue les indicateurs dans leur contexte",
+        "Compare le CPL aux considérations de LTV",
+        "Applique le framework d'optimisation des campagnes",
+        "Recommande des leviers d'optimisation précis",
+        "Interroge sur les taux de conversion en aval",
+        "Fournit un contexte sectoriel pour le benchmarking",
+        "Typographie française : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA : pas de Boostez, Optimisez, Révolutionnaire, En un clin d'œil, etc."
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "on veut faire du retargeting pour les gens qui ont visité notre site sans convertir. comment on s'y prend ?",
+      "expected_output": "Doit répondre même à une formulation décontractée. Doit appliquer la section stratégies de retargeting, notamment l'approche par étape du funnel. Doit recommander des segments d'audience : tous les visiteurs (faible intention), visiteurs de la page tarifs (forte intention), lecteurs de blog (intention plus faible) et abandonnistes du panier ou de l'inscription (intention maximale). Doit recommander des messages et offres différents par segment. Doit aborder le frequency capping pour éviter la fatigue publicitaire. Doit recommander les plateformes de retargeting (Meta, Google Display, LinkedIn). Doit inclure les fenêtres de durée par audience. Les exemples de copy doivent être en français avec typographie correcte.",
+      "assertions": [
+        "Répond à une formulation décontractée et informelle",
+        "Applique l'approche de retargeting par étape du funnel",
+        "Recommande des segments d'audience par niveau d'intention",
+        "Recommande des messages différents par segment",
+        "Aborde le frequency capping",
+        "Recommande des plateformes de retargeting",
+        "Inclut les fenêtres de durée par audience",
+        "Typographie française : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA : pas de Boostez, Optimisez, Révolutionnaire, En un clin d'œil, etc."
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Faut-il qu'on fasse de la pub sur TikTok ? On vend un logiciel de comptabilité aux petites entreprises. Actuellement, nos pubs tournent sur Google et Meta.",
+      "expected_output": "Doit appliquer le guide de sélection des plateformes spécifiquement pour TikTok. Doit évaluer l'adéquation TikTok pour un logiciel de comptabilité ciblant les PME : vraisemblablement moins pertinent que Google/Meta pour ce secteur (faible intention d'achat, audience plus jeune, ciblage B2B moins précis). Doit expliquer dans quels cas TikTok PEUT fonctionner pour du B2B (notoriété de marque, contenu créatif, dirigeants jeunes). Doit formuler une recommandation honnête avec nuances. Doit suggérer une approche avec un petit budget de test si l'utilisateur veut essayer.",
+      "assertions": [
+        "Applique le guide de sélection des plateformes pour TikTok",
+        "Évalue l'adéquation pour un logiciel de comptabilité et les PME",
+        "Formule une évaluation honnête de l'adéquation probablement faible",
+        "Explique quand TikTok peut fonctionner pour du B2B",
+        "Suggère un petit budget de test si l'utilisateur veut avancer",
+        "Compare avec les performances Google/Meta existantes",
+        "Typographie française : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA : pas de Boostez, Optimisez, Révolutionnaire, En un clin d'œil, etc."
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Comment structurer nos campagnes Google Ads ? Nous avons plus de 50 mots-clés à cibler pour notre outil CRM.",
+      "expected_output": "Doit appliquer le framework de structure de campagne et les conventions de nommage. Doit recommander d'organiser les campagnes par thème et intention (marque, concurrents, fonctionnalités produit, points de douleur). Doit recommander une structure de groupes d'annonces serrée (5 à 15 mots-clés par groupe, fortement thématisés). Doit définir des conventions de nommage pour les campagnes et les groupes d'annonces. Doit recommander une stratégie de types de correspondance. Doit inclure des listes de mots-clés négatifs. Doit fournir un exemple de structure de campagne.",
+      "assertions": [
+        "Applique le framework de structure de campagne",
+        "Organise les campagnes par thème et intention",
+        "Recommande une structure de groupes d'annonces serrée",
+        "Définit des conventions de nommage",
+        "Recommande une stratégie de types de correspondance",
+        "Inclut des listes de mots-clés négatifs",
+        "Fournit un exemple de structure de campagne",
+        "Typographie française : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA : pas de Boostez, Optimisez, Révolutionnaire, En un clin d'œil, etc."
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Tu peux écrire de la copy pour nos publicités Facebook ? On a besoin de titres et descriptions pour 5 angles différents.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de génération de créatifs publicitaires, et non de stratégie de campagne. Doit renvoyer vers ou citer le skill ad-creative, qui gère la génération de copy publicitaire par plateforme avec les limites de caractères, les variations par angle et la production en série. Peut fournir un cadrage succinct sur les frameworks de copy publicitaire, mais doit clarifier qu'ad-creative est le skill approprié pour générer de la copy à l'échelle.",
+      "assertions": [
+        "Reconnaît qu'il s'agit de génération de créatifs publicitaires",
+        "Renvoie vers le skill ad-creative ou le cite explicitement",
+        "Ne tente pas une génération de copy en série avec les patterns de stratégie de campagne",
+        "Typographie française si du texte est produit : espaces insécables avant ; ! ? :, guillemets « »",
+        "Absence de tics d'IA dans tout texte produit : pas de Boostez, Optimisez, Révolutionnaire, etc."
+      ],
+      "files": []
+    }
+  ]
+}

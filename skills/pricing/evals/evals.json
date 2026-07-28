@@ -1,0 +1,95 @@
+{
+  "skill_name": "pricing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à définir le pricing de notre nouveau produit SaaS. C'est une plateforme de support client pour les e-commerçants. On hésite entre facturer par agent, par ticket ou en forfait. On envisage une fourchette de 49 à 199 €/mois.",
+      "expected_output": "Doit commencer par vérifier s'il existe un product-marketing.md. Doit appliquer le cadre des trois axes du pricing : packaging (ce qu'inclut chaque palier), métrique de valeur (par agent, par ticket, forfait — évaluer chaque option), point de prix (évaluation de la fourchette 49-199 €/mois). Doit analyser quelle métrique s'aligne le mieux avec la valeur délivrée (par agent courant en support, mais par ticket aligné sur l'usage). Doit recommander une structure Bon-Mieux-Meilleur. Doit aborder la psychologie du pricing. Doit fournir une recommandation de pricing précise avec justification. Tous les prix doivent être en euros avec le format français (29 €/mois, 199 €/mois).",
+      "assertions": [
+        "Vérifie s'il existe un product-marketing.md",
+        "Applique le cadre des trois axes du pricing",
+        "Évalue plusieurs métriques de facturation",
+        "Analyse quelle métrique s'aligne sur la valeur délivrée",
+        "Recommande une structure Bon-Mieux-Meilleur",
+        "Aborde la psychologie du pricing",
+        "Fournit une recommandation précise avec justification",
+        "Utilise les prix en euros au format français (ex. : 49 €/mois) avec espace insécable avant €"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On veut augmenter nos prix de 30 %. On est à 29 €/mois depuis 2 ans et on a beaucoup ajouté de fonctionnalités. Comment faire ça sans perdre des clients ?",
+      "expected_output": "Doit appliquer les sections 'quand augmenter ses prix' et les stratégies de hausse de prix. Doit recommander une stratégie : grandfathering pour les clients existants (ou période de grâce), lier la hausse à la nouvelle valeur, communiquer le changement avec préavis suffisant, envisager une remise annuelle pour atténuer l'impact. Doit traiter les approches différenciées (immédiate pour les nouveaux clients, différée pour les existants). Doit recommander une stratégie de communication précise. Doit noter qu'un certain niveau de churn est attendu et acceptable. Doit conserver le format de prix français (29 €/mois).",
+      "assertions": [
+        "Applique les stratégies de hausse de prix",
+        "Recommande le grandfathering ou une période de grâce",
+        "Recommande de lier la hausse à la nouvelle valeur",
+        "Fournit une stratégie de communication",
+        "Traite le calendrier différencié nouveaux clients / existants",
+        "Suggère la facturation annuelle comme mesure d'atténuation",
+        "Note qu'un certain churn est attendu",
+        "Utilise le format de prix français avec espace insécable avant €"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "comment on fait pour savoir ce que les gens vont vraiment payer ? on lance un nouveau produit et on a aucune idée de quoi facturer.",
+      "expected_output": "Doit se déclencher sur le registre familier. Doit appliquer les méthodes de recherche tarifaire : analyse de sensibilité au prix Van Westendorp (trop bon marché, bonne affaire, cher mais envisageable, trop cher), MaxDiff pour l'importance des fonctionnalités, benchmarking concurrentiel. Doit expliquer comment mener chaque méthode. Doit aussi recommander des approches pragmatiques : parler aux clients potentiels, analyser le pricing des concurrents, tester différents points de prix. Doit fournir un plan de recherche tarifaire actionnable. Les exemples de prix doivent être en euros au format français.",
+      "assertions": [
+        "Se déclenche sur le registre familier",
+        "Applique la méthode Van Westendorp",
+        "Applique le MaxDiff pour l'importance des fonctionnalités",
+        "Recommande le benchmarking concurrentiel",
+        "Explique comment mener chaque méthode",
+        "Suggère des alternatives pragmatiques (entretiens clients, analyse concurrentielle)",
+        "Fournit un plan de recherche actionnable",
+        "Utilise des exemples en euros au format français sans anglicismes de prix ($, /mo)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On a un plan Basique (19 €/mois), Pro (49 €/mois) et Entreprise (sur devis). Le plan Pro représente 70 % des inscriptions. Faut-il ajouter un plan entre Pro et Entreprise ?",
+      "expected_output": "Doit appliquer le cadre de structure des paliers Bon-Mieux-Meilleur. Doit analyser la situation actuelle : 70 % des inscriptions sur le plan Pro est sain, mais l'écart avec Entreprise peut indiquer des clients mid-market mal servis. Doit évaluer si un 4e palier est pertinent : répond-il à un vrai besoin ou crée-t-il une paralysie du choix ? Doit appliquer la psychologie du pricing (loi de Hick : plus d'options peut réduire les décisions). Doit recommander soit un 4e palier avec une différenciation claire, soit un ajustement du plan Pro pour mieux combler l'écart. Format de prix en euros.",
+      "assertions": [
+        "Applique le cadre de structure des paliers",
+        "Analyse les performances actuelles des paliers",
+        "Évalue si un 4e palier répond à un vrai besoin",
+        "Prend en compte le risque de paralysie du choix",
+        "Applique la psychologie du pricing (loi de Hick)",
+        "Fournit une recommandation précise avec justification",
+        "Utilise le format de prix français (19 €/mois, 49 €/mois)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quelles techniques de psychologie du pricing utiliser sur notre page de tarifs ? On veut que le plan à 79 €/mois soit le plus populaire.",
+      "expected_output": "Doit appliquer les techniques de psychologie du pricing : ancrage (présenter le plan à 79 €/mois à côté d'un plan plus cher), effet de leurre (rendre le plan inférieur moins attractif), mise en valeur visuelle (surligner ou 'recommander' le plan à 79 €/mois), pricing de charme (79 € vs 80 €), loi des 100 (remise en % en dessous de 100 €, remise en valeur absolue au-dessus), cadrage par la perte (montrer ce que les plans inférieurs n'incluent pas). Doit fournir des recommandations précises pour la page de tarifs. Doit faire référence à cro pour l'optimisation plus large. Format de prix en euros.",
+      "assertions": [
+        "Applique les techniques de psychologie du pricing",
+        "Applique l'effet d'ancrage",
+        "Applique l'effet de leurre ou la mise en valeur visuelle",
+        "Applique le pricing de charme ou la loi des 100",
+        "Fournit des recommandations précises pour la page de tarifs",
+        "Fait référence à cro ou marketing-psychology",
+        "Utilise les prix en euros au format français (79 €/mois) avec espace insécable avant €"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre taux de conversion sur la page de tarifs est seulement à 1,5 %. Peux-tu analyser la page et proposer des améliorations ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche d'optimisation de conversion sur la page de tarifs, et non de stratégie de pricing. Doit renvoyer vers ou mentionner le skill cro, qui gère l'optimisation du taux de conversion de la page de tarifs (clarté de la comparaison des plans, optimisation des CTA, signaux de confiance). Le skill pricing porte sur les décisions tarifaires (quoi facturer, comment packager), pas sur le design de la page.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une tâche CRO sur la page de tarifs, pas de stratégie de pricing",
+        "Renvoie vers le skill cro",
+        "Explique que le skill pricing porte sur les décisions tarifaires",
+        "Ne réalise pas un audit CRO complet de la page"
+      ],
+      "files": []
+    }
+  ]
+}

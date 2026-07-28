@@ -1,0 +1,100 @@
+{
+  "skill_name": "video",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "On a besoin d'une vidéo de démo produit de 2 minutes pour la page d'accueil de notre SaaS. Quelle est la façon la plus rapide de la produire ?",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit présenter le workflow démo produit : rédiger le script des fonctionnalités clés et propositions de valeur (en renvoyant au skill copywriting), capturer l'écran pour le flow produit, ajouter des overlays programmatiques avec Hyperframes ou Remotion pour titres/callouts/transitions, générer du B-roll IA avec Veo/Runway pour les plans d'ambiance, enregistrer la voix off ou utiliser un avatar IA (HeyGen) pour la narration, exporter aux specs adaptées à la plateforme (16:9 pour la page d'accueil). Doit recommander Hyperframes pour la compatibilité agent (HTML simple, sans DSL React). Doit rappeler de ne pas utiliser l'IA pour l'interface produit (hallucinations) : utiliser de vraies captures d'écran. Doit mentionner que les sous-titres sont indispensables (85 % des vidéos sociales regardées sans le son, valable aussi en page d'accueil).",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Présente les étapes du workflow démo produit",
+        "Recommande les vraies captures d'écran, pas l'IA pour l'interface",
+        "Recommande un outil d'overlay programmatique",
+        "Mentionne les sous-titres",
+        "Renvoie au skill copywriting",
+        "Utilise la typographie française (pas de tiret cadratin, guillemets « », casse de phrase)",
+        "N'emploie pas de tournures anglicisées ni de tics d'IA (Découvrez, Boostez…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On veut publier des vidéos de mise à jour produit chaque semaine. Environ 60 secondes. Pas envie d'être filmé. Tu recommandes quoi comme setup ?",
+      "expected_output": "Doit recommander un workflow avec avatar IA, vu la cadence hebdomadaire et le refus d'être filmé. Doit recommander HeyGen en particulier : meilleur lip-sync du marché, dispose d'un serveur MCP (les agents peuvent générer les vidéos directement), plus de 230 avatars, plus de 140 langues, le plan Creator permet des vidéos illimitées de 5 minutes. Doit expliquer les avatars personnalisés (envoyer 2 à 5 min de soi-même pour créer un jumeau numérique) comme option pour la cohérence de marque. Doit décrire le pipeline récurrent : script rédigé depuis le contexte produit, HeyGen génère la vidéo avatar, overlays programmatiques optionnels avec Hyperframes pour les captures d'écran/callouts, export et diffusion. Doit souligner que c'est exactement le cas d'usage où les avatars IA excellentcontenu récurrent, versions multilingues, prospection personnalisée à grande échelle. Doit avertir : si l'authenticité du fondateur prime sur la scalabilité, se filmer soi-même.",
+      "assertions": [
+        "Recommande un workflow avec avatar IA",
+        "Nomme HeyGen spécifiquement",
+        "Mentionne le serveur MCP HeyGen pour les agents",
+        "Mentionne les avatars personnalisés",
+        "Identifie comme cas d'usage récurrent",
+        "Avertit du compromis sur l'authenticité",
+        "Utilise la typographie française correcte",
+        "Évite les anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Je veux générer un clip de 10 secondes montrant quelqu'un qui tape sur son ordinateur dans un café, pour notre landing page. Quel outil IA choisir ?",
+      "expected_output": "Doit appliquer le comparatif des modèles de génération vidéo IA. Doit recommander Veo 3 pour la qualité maximale avec audio synchronisé, Runway Gen-4 pour le contrôle du mouvement et la cohérence temporelle (10 secondes, son point fort), ou Kling 3.0 pour la production en volume à faible coût. Doit fournir un exemple de prompt structuré suivant le schéma Sujet + Action + Caméra + Style + Ambiance : « Un plan serré sur des mains qui tapent sur un clavier d'ordinateur portable dans un café chaleureux, faible profondeur de champ, lumière naturelle d'après-midi filtrant par une fenêtre, caméra fixe, étalonnage cinématique, 4K. » Doit signaler les erreurs fréquentes : trop vague, ignorer le mouvement de caméra, oublier le style, demander du texte lisible. Doit mentionner la disponibilité parfois limitée de Sora et recommander de vérifier son statut actuel.",
+      "assertions": [
+        "Compare Veo, Runway et Kling",
+        "Fournit un exemple de prompt structuré en français",
+        "Suit le schéma Sujet + Action + Caméra + Style + Ambiance",
+        "Signale les erreurs fréquentes de prompt",
+        "Mentionne les réserves sur la disponibilité de Sora",
+        "Le prompt exemple est rédigé en français plausible (pas une traduction mot à mot)",
+        "Utilise la typographie française correcte (espaces insécables, guillemets « »)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On vient de faire un webinaire d'une heure. Comment tirer des clips courts pour les réseaux sociaux ?",
+      "expected_output": "Doit appliquer le workflow de réutilisation : contenu long-format → Descript (nettoyer, supprimer les hésitations, polir) → Opus Clip (extraire automatiquement les 5 à 10 meilleurs moments, score de potentiel viral) → CapCut (sous-titres, effets, style plateforme) → diffuser sur TikTok, Reels, Shorts, LinkedIn. Doit expliquer l'utilité de chaque outil : Descript pour le montage par transcription, Opus Clip pour trouver les meilleurs moments à grande échelle, CapCut pour la finition native aux plateformes, Captions.ai pour les sous-titres automatiques et la correction du regard si besoin. Doit rappeler que 85 % des vidéos sociales sont regardées sans le son : les sous-titres sont indispensables. Doit préciser les formats : 9:16 pour TikTok/Reels/Shorts, 1:1 ou 9:16 pour LinkedIn. Doit recommander d'accrocher dès les 3 premières secondes, en renvoyant au skill social.",
+      "assertions": [
+        "Applique le workflow de réutilisation",
+        "Cite Descript, Opus Clip, CapCut dans l'ordre",
+        "Rappelle que les sous-titres sont indispensables",
+        "Précise les formats par plateforme",
+        "Mentionne l'accroche dans les 3 premières secondes",
+        "Renvoie éventuellement au skill social",
+        "Utilise la typographie française correcte",
+        "N'emploie pas de tics d'IA ni de calques de l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On doit générer 50 vidéos d'introduction personnalisées pour notre prospection commerciale. Chacune mentionne un nom d'entreprise et un problème différent.",
+      "expected_output": "Doit recommander un pipeline natif pour les agents combinant HeyGen MCP (ou API) pour la narration avatar + Hyperframes pour les overlays visuels. Doit expliquer : préparer un template de script avec des variables, boucler sur la génération de 50 vidéos HeyGen avec un script personnalisé pour chacune, overlays programmatiques optionnels via Hyperframes pour le logo ou le contexte visuel de l'entreprise. Doit noter que HeyGen convient parfaitement à la prospection personnalisée à grande échelle et dispose d'un serveur MCP. Doit avertir sur les compromis qualité/volume et recommander de tester les 5 premières manuellement avant de lancer les 50. Doit mentionner le suivi des réponses pour mesurer le ROI par rapport aux e-mails textuels, car ces vidéos coûtent cher à produire et doivent clairement surperformer pour le justifier. Doit mentionner les sous-titres.",
+      "assertions": [
+        "Recommande le pipeline HeyGen + Hyperframes",
+        "Mentionne le serveur MCP HeyGen",
+        "Propose l'approche template + boucle",
+        "Recommande de tester 5 vidéos manuellement d'abord",
+        "Mentionne le suivi des réponses / ROI",
+        "Mentionne les sous-titres",
+        "Utilise la typographie française correcte",
+        "N'emploie pas de tournures anglicisées"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Je dois choisir entre Hyperframes et Remotion pour de la vidéo programmatique. C'est quoi la différence ?",
+      "expected_output": "Doit comparer les deux à partir du tableau de décision. Doit recommander Hyperframes si : pipeline piloté par un agent (HTML/CSS simple, sans DSL React, les modèles IA génèrent du HTML bien mieux que des composants React), courbe d'apprentissage minimale, besoins en animation basiques, rendu local suffisant, licence Apache 2.0 souhaitée. Doit recommander Remotion si : déjà une stack React, animations complexes requises (Spring, interpolate), rendu en série à grande échelle via Lambda (AWS), à l'aise avec l'API React + Remotion, licence commerciale acceptée. Doit noter qu'Hyperframes vient de HeyGen et est conçu pour être nativement compatible avec les LLM. Doit poser une question sur la stack technique et les besoins en animation pour conclure sur un choix.",
+      "assertions": [
+        "Compare les deux avec le tableau de décision",
+        "Note qu'Hyperframes utilise du HTML/CSS simple",
+        "Note que Remotion prend en charge Lambda pour la montée en charge",
+        "Mentionne Apache 2.0 vs licence commerciale",
+        "Recommande Hyperframes pour les workflows pilotés par des agents",
+        "Pose une question sur la stack ou les besoins en animation",
+        "Utilise la typographie française correcte (casse de phrase, guillemets « », pas de tiret cadratin)",
+        "N'emploie pas d'anglicismes injustifiés"
+      ],
+      "files": []
+    }
+  ]
+}

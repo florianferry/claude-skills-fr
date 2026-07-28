@@ -1,0 +1,164 @@
+{
+  "skill_name": "customer-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "J'ai 20 transcripts d'entretiens clients. Aide-moi à les analyser.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit demander l'objectif avant d'analyser (améliorer le message, construire des personas, trouver des lacunes produit, etc.). Doit appliquer le cadre d'extraction : jobs to be done, points de douleur, déclencheurs, résultats attendus, langage/vocabulaire, alternatives envisagées. Doit recommander le regroupement par thème, le scoring fréquence + intensité, et l'identification des citations en or. Doit demander quel livrable est attendu.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Demande l'objectif avant de plonger dans l'analyse (améliorer le message, construire des personas, trouver des lacunes, etc.)",
+        "Mentionne l'extraction des jobs to be done, des points de douleur et des résultats attendus",
+        "Propose d'organiser les citations par thème",
+        "Fait référence au scoring fréquence et intensité",
+        "Demande quel livrable est attendu"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Je veux faire de la recherche ICP mais je n'ai encore aucun entretien client.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit recommander la recherche dans les communautés en ligne comme point de départ. Doit mentionner Reddit, G2, Capterra, forums ou communautés de niche comme sources. Doit proposer de construire un plan de recherche et d'expliquer quoi extraire des sources en ligne. Doit signaler qu'il s'agit du Mode 2 et demander quel produit ou quelle catégorie étudier.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Recommande la recherche dans les communautés en ligne comme alternative",
+        "Mentionne Reddit, G2 ou les sites d'avis comme points de départ",
+        "Demande quel produit ou quelle catégorie étudier",
+        "Propose d'aider à extraire des données utiles depuis des sources en ligne"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Mine Reddit et G2 pour comprendre ce que les gens détestent dans les logiciels de gestion de projet.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit identifier les sous-reddits pertinents (r/projectmanagement, r/productivity, r/agile) et les stratégies de recherche. Doit recommander de lire les avis G2 3 étoiles et 1 étoile, ainsi que les avis 4 étoiles des concurrents. Doit prévoir d'extraire des citations verbatim, les thèmes de douleur et les déclencheurs de changement. Doit appliquer le tableau d'extraction (source, citation, contexte, sentiment, tag thématique, signaux de profil).",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Identifie les sous-reddits pertinents ou des stratégies de recherche sur la gestion de projet",
+        "Recommande de lire les avis G2 3 étoiles et 1 étoile",
+        "Recommande les avis 4 étoiles des concurrents pour les plaintes enfouies",
+        "Prévoit d'extraire des citations verbatim et des thèmes de douleur",
+        "Mentionne ce qu'il faut chercher : plaintes, contournements, déclencheurs de changement"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Construis-moi un persona client pour un responsable marketing dans une entreprise B2B SaaS.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit demander s'il existe une recherche existante avant de générer un persona. Doit mettre en garde contre l'invention de détails sans données. Doit utiliser la structure de persona : profil, job to be done principal, déclencheurs, douleurs principales, résultats attendus, objections, alternatives, vocabulaire clé, comment l'atteindre. Doit noter que les personas doivent reposer sur au moins 5 à 10 points de données.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Demande s'il existe une recherche existante avant d'inventer des détails",
+        "Met en garde contre la construction de personas sans données",
+        "Inclut jobs to be done, douleurs, déclencheurs et résultats attendus dans la structure du persona",
+        "Mentionne la nécessité de capturer le vocabulaire réel des clients",
+        "Note le seuil minimal de données (5 à 10 points)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "J'ai 6 mois de tickets de support client. Quels insights puis-je en tirer ?",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit recommander de catégoriser les tickets avant d'analyser (bugs vs. confusion vs. demandes de fonctionnalités vs. attentes mal calibrées). Doit mettre en garde contre le fait de traiter tous les tickets comme un signal équivalent. Doit suggérer d'extraire le langage récurrent, les tendances et les formules « j'aimerais que… ». Doit demander l'objectif : amélioration produit, message, réduction de la charge de support ou autre.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Recommande de catégoriser les tickets avant d'analyser (bugs vs. confusion vs. demandes de fonctionnalités)",
+        "Met en garde contre le fait de traiter tous les tickets comme un signal équivalent",
+        "Mentionne l'extraction du langage récurrent et des tendances",
+        "Demande l'objectif : amélioration produit, message ou autre"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Que disent les clients sur mes concurrents dans les sites d'avis ?",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit demander quels concurrents étudier. Doit recommander G2 et Capterra comme sources principales. Doit spécifiquement cibler les avis 4 étoiles des concurrents pour les plaintes enfouies. Doit décrire ce qu'il faut extraire : ce qu'ils adorent (renseignement concurrentiel), ce qui les frustre (opportunités), les besoins non satisfaits. Doit utiliser le modèle de mining d'avis.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Recommande spécifiquement les avis 4 étoiles des concurrents pour les plaintes enfouies",
+        "Mentionne G2 ou Capterra comme sources",
+        "Décrit ce qu'il faut extraire : ce qu'ils adorent, ce qui les frustre, les besoins non satisfaits",
+        "Cadre le tout comme une entrée de renseignement concurrentiel"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Aide-moi à faire de la recherche voice of customer pour un nouveau SaaS dans les RH.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit demander quel segment précis de l'ICP dans les RH (recruteur, généraliste RH, DRH, etc.). Doit suggérer les communautés en ligne pertinentes : r/humanresources, r/recruiting, communautés Slack RH, catégorie RH sur G2, LinkedIn. Doit prévoir d'extraire le langage verbatim pour la copy. Doit proposer de produire une banque de citations VOC comme livrable.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Demande quel segment ICP précis dans les RH",
+        "Suggère des communautés en ligne pertinentes (sous-reddits, catégories G2, communautés)",
+        "Prévoit d'extraire le langage verbatim pour la copy",
+        "Mentionne l'organisation des résultats dans une banque de citations VOC"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Je veux comprendre pourquoi les clients churne. J'ai les résultats d'une enquête de sortie.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit recommander de segmenter les raisons de churn avant d'analyser : ne pas moyenner entre des causes différentes. Doit suggérer de croiser les réponses ouvertes avec les données quantitatives. Doit demander si des entretiens victoires/défaites ou des tickets de support sont également disponibles. Doit appliquer des labels de confiance (élevé/moyen/faible) en fonction de la taille d'échantillon et de la cohérence entre sources.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Recommande de segmenter les raisons de churn avant d'analyser",
+        "Met en garde contre le fait de moyenner entre des causes de churn différentes",
+        "Suggère de croiser les réponses ouvertes avec les données quantitatives",
+        "Demande si des entretiens victoires/défaites sont également disponibles"
+      ],
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "Trouve les communautés en ligne où les ingénieurs DevOps parlent de leur métier.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit identifier des communautés spécifiques et pertinentes : r/devops, r/sysadmin, Hacker News, groupes Discord/Slack DevOps, LinkedIn, Stack Overflow. Doit suggérer ce qu'il faut chercher dans ces communautés. Doit décrire quel signal extraire de chaque type de source et référencer source-guides.md pour les guides détaillés.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Mentionne des communautés spécifiques et pertinentes (r/devops, Hacker News, LinkedIn, Discord)",
+        "Suggère ce qu'il faut chercher dans ces communautés",
+        "Décrit quel signal extraire de chaque type de source"
+      ],
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Transforme ma recherche client en messages que je peux utiliser sur ma page d'accueil.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit extraire le langage VOC et les thèmes principaux avant de passer à la copy. Doit identifier les citations et tendances de langage les plus porteuses. Doit produire une synthèse VOC ou une banque de citations, puis passer la main au skill copywriting pour l'étape d'écriture proprement dite, plutôt qu'écrire directement la copy de la page d'accueil.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Extrait le langage VOC et les thèmes en premier, avant de passer à la copy",
+        "Identifie les citations les plus porteuses pour le message",
+        "Fait référence au skill copywriting pour l'étape d'écriture de la copy"
+      ],
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "Je gère une app fitness mobile et je veux comprendre pourquoi les utilisateurs décrochent après 2 semaines.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit reconnaître qu'il s'agit d'un scénario de recherche B2C. Doit suggérer des sources adaptées au B2C : avis App Store (1-3 étoiles), communautés Reddit fitness, commentaires YouTube sur les apps fitness, commentaires TikTok/Instagram. Doit aussi recommander des sondages in-app et l'analyse des tickets/avis de support. Doit cadrer le tout autour de la recherche sur l'activation et la formation d'habitudes.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Reconnaît qu'il s'agit d'un scénario de recherche B2C",
+        "Suggère les avis App Store comme source principale",
+        "Mentionne Reddit ou des communautés pertinentes pour le fitness/les apps grand public",
+        "Cadre autour de la compréhension des déclencheurs de décrochage et des résultats attendus"
+      ],
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "Je n'ai aucune recherche existante et je ne sais pas encore qui sont mes meilleurs clients.",
+      "expected_output": "Doit vérifier product-marketing.md en premier. Doit traiter cela comme un scénario de recherche à partir de zéro. Doit recommander de formuler des hypothèses avant de collecter des données. Doit suggérer un plan de recherche minimal viable : 5 à 10 entretiens clients + scan dans les communautés en ligne. Doit fournir des conseils pour recruter des personnes à interviewer et les questions à poser. Doit mettre en garde contre la construction de personas sans aucune donnée.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Reconnaît qu'il s'agit d'un scénario de recherche à zéro",
+        "Recommande de formuler des hypothèses avant de collecter des données",
+        "Suggère un plan de recherche minimal viable (entretiens + sources en ligne)",
+        "Met en garde contre la construction de personas sans données",
+        "Typographie française vérifiée : espaces insécables, guillemets « », absence de tiret cadratin",
+        "Aucun anglicisme injustifié ni tic d'IA (pas de « Découvrez », « Boostez », « En un clin d'œil », etc.)"
+      ],
+      "files": []
+    }
+  ]
+}

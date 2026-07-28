@@ -1,0 +1,114 @@
+{
+  "skill_name": "churn-prevention",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Notre outil SaaS de gestion de projet à 49 €/mois a un taux de churn mensuel de 7 % et on veut le réduire. On a environ 2 000 clients payants. Peux-tu nous aider à concevoir une stratégie de prévention du churn ?",
+      "expected_output": "Doit commencer par vérifier l'existence de product-marketing.md. Doit traiter à la fois le churn volontaire et involontaire. Doit concevoir un tunnel d'annulation en suivant le framework : déclencheur → exit survey → offre dynamique → confirmation → nurture post-annulation. Doit inclure les 7 ou 8 catégories d'exit survey et recommander des offres de rétention dynamiques associées à chaque raison. Doit aborder le dunning pour le churn involontaire (pré-dunning, relance intelligente, séquence d'e-mails, période de grâce). Doit recommander un modèle de score de santé. Doit fournir un plan de mise en œuvre priorisé.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Traite le churn volontaire et involontaire",
+        "Conçoit un tunnel d'annulation avec les bonnes étapes",
+        "Inclut un exit survey avec plusieurs catégories",
+        "Associe les offres aux raisons de résiliation",
+        "Aborde la pile dunning pour la récupération des paiements",
+        "Recommande un modèle de score de santé",
+        "Fournit un plan de mise en œuvre priorisé",
+        "Utilise la typographie française : espaces insécables, guillemets « », nombres à la française (49 €, 7 %)",
+        "Aucun tic d'IA (Découvrez, Boostez, Optimisez, Incontournable…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On perd des clients parce que leurs cartes bancaires expirent. Environ 15 % de notre churn vient de paiements échoués. Comment on règle ça ?",
+      "expected_output": "Doit identifier la situation comme du churn involontaire / récupération de paiement. Doit appliquer le framework de pile dunning : pré-dunning (rappels d'expiration avant l'échec), relance intelligente (logique selon le type d'échec), séquence d'e-mails de dunning (urgence croissante), période de grâce, puis résiliation. Doit fournir un calendrier précis pour chaque étape. Doit recommander des outils et stratégies de récupération (services de mise à jour de carte, moyens de paiement de secours). Doit inclure des références de performance.",
+      "assertions": [
+        "Identifie la situation comme churn involontaire / récupération de paiement",
+        "Applique le framework de pile dunning",
+        "Inclut des rappels pré-dunning pour l'expiration de carte",
+        "Inclut la logique de relance intelligente",
+        "Fournit une séquence d'e-mails avec urgence croissante",
+        "Recommande une période de grâce avant la résiliation",
+        "Mentionne les services de mise à jour de carte ou les moyens de paiement de secours",
+        "Inclut des références de performance",
+        "Typographie française correcte dans les exemples d'e-mails et les tableaux"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "qu'est-ce qu'on devrait montrer aux utilisateurs quand ils cliquent sur annuler ? pour l'instant ils sont directement redirigés vers la résiliation, on ne fait rien pour les retenir",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit concevoir le tunnel d'annulation : bouton annuler → exit survey → offre de rétention dynamique → confirmation → post-annulation. Doit détailler les catégories de l'exit survey (trop cher, fonctionnalité manquante, passage à un concurrent, pas assez utilisé, problèmes techniques, besoin temporaire, autre). Doit fournir des offres dynamiques associées à chaque raison (ex. trop cher → remise, fonctionnalité manquante → aperçu roadmap, pas assez utilisé → aide à l'onboarding). Doit inclure des recommandations de copy pour chaque écran. Doit mettre en garde contre les dark patterns.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Conçoit un tunnel d'annulation en plusieurs étapes",
+        "Inclut un exit survey avec 7 à 8 catégories",
+        "Fournit des offres dynamiques associées aux raisons",
+        "Inclut des recommandations de copy",
+        "Met en garde contre les dark patterns",
+        "Inclut les étapes de confirmation et post-annulation",
+        "La copy d'exemple respecte la typographie française et un registre tu/vous cohérent"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Comment identifier les clients susceptibles de churner avant qu'ils résilient vraiment ? On veut être proactifs.",
+      "expected_output": "Doit appliquer le framework du modèle de score de santé. Doit définir les composantes du score : signaux d'usage (fréquence de connexion, adoption des fonctionnalités, réalisation des actions clés), signaux d'engagement (tickets support, réponses NPS, engagement e-mail) et signaux de compte (type de contrat, croissance de l'entreprise, changements de parties prenantes). Doit recommander une méthodologie de scoring (échelle 0 à 100). Doit définir des niveaux de risque et les interventions recommandées pour chacun. Doit suggérer des sources de données et une approche de mise en œuvre.",
+      "assertions": [
+        "Applique le framework du modèle de score de santé",
+        "Définit des signaux de santé basés sur l'usage",
+        "Définit des signaux de santé basés sur l'engagement",
+        "Définit des signaux de santé basés sur le compte",
+        "Recommande une méthodologie de scoring",
+        "Définit des niveaux de risque avec les interventions associées",
+        "Suggère des sources de données et une approche de mise en œuvre",
+        "Utilise des pourcentages et des chiffres à la française (0 à 100, 50 %)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Notre exit survey montre que 40 % des résiliations citent « trop cher » comme raison. Quelles offres de rétention on devrait tester ?",
+      "expected_output": "Doit référencer les offres dynamiques associées à la raison « trop cher ». Doit proposer plusieurs types d'offres : remise temporaire, passage à une formule inférieure, remise sur la formule annuelle, pause plutôt que résiliation, prolongation d'essai de la formule actuelle. Doit recommander de tester différentes offres pour trouver ce qui fonctionne. Doit aussi creuser : « trop cher » masque souvent d'autres problèmes (valeur non perçue, fonctionnalités pas assez utilisées). Doit suggérer des questions de suivi dans l'exit survey pour aller plus loin.",
+      "assertions": [
+        "Référence les offres pour la raison « trop cher »",
+        "Propose plusieurs types d'offres (remise, changement de formule, pause)",
+        "Recommande de tester différentes offres",
+        "Signale que « trop cher » masque souvent d'autres problèmes",
+        "Suggère des questions de suivi plus précises",
+        "Fournit une structure ou une copy d'offre de rétention",
+        "Montants et pourcentages à la française (20 %, 30 %, X €/mois)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On veut mettre en place une séquence d'e-mails de réactivation pour les clients qui ont déjà résilié. Peux-tu nous aider à rédiger ces e-mails ?",
+      "expected_output": "Doit reconnaître que cette demande recoupe le travail de séquence d'e-mails. Doit renvoyer vers le skill emails pour la rédaction de la séquence complète. Peut fournir le contexte propre au churn (timing post-annulation, accroches de réengagement, stratégie d'offre de réactivation) mais doit préciser que emails est le skill adapté pour concevoir et rédiger la séquence complète.",
+      "assertions": [
+        "Reconnaît le recoupement avec le travail de séquence d'e-mails",
+        "Renvoie vers le skill emails ou le cite",
+        "Peut fournir le contexte propre au churn pour la séquence",
+        "Ne rédige pas une séquence d'e-mails complète"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Voici la copy qu'on a écrite pour notre tunnel d'annulation. Tu peux la corriger ?\n\n« Êtes-vous sure de vouloir nous abandonnez ? Cette action est irreversible ! Vous allez perdre TOUTES vos données et tout vos projets en cours !!! Avant de partir, découvrez notre offre exclusive : 50% de reduction pendant 6 mois... »",
+      "expected_output": "Doit identifier plusieurs problèmes graves : fautes d'accord (sure → sûr, abandonnez → abandonner, tout vos → tous vos), fautes typographiques (irreversible sans accent, 50% sans espace insécable, reduction sans accent, points de suspension en trois caractères séparés), dark patterns (exagération des pertes, points d'exclamation en série, culpabilisation), copy contre-productive (« nous abandonner » génère de la résistance, TOUTES en majuscules est agressif), et offre mal calibrée (50 % dépasse le seuil recommandé de 30 %). Doit proposer une version corrigée respectant la typographie française, un ton empathique et les bonnes pratiques du skill.",
+      "assertions": [
+        "Identifie les fautes d'accord (sure, abandonnez, tout vos)",
+        "Corrige la typographie française (accents, espace insécable avant %, guillemets « », points de suspension …)",
+        "Signale les dark patterns (culpabilisation, exagération des pertes)",
+        "Recommande un ton empathique sans point d'exclamation en série",
+        "Signale que 50 % dépasse le seuil recommandé (max 30 %)",
+        "Propose une version corrigée avec typographie française irréprochable",
+        "Aucun tic d'IA dans la version corrigée (pas de Découvrez, Incontournable…)"
+      ],
+      "files": []
+    }
+  ]
+}

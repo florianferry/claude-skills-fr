@@ -1,0 +1,97 @@
+{
+  "skill_name": "paywalls",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à concevoir le paywall d'upgrade pour notre outil de gestion de projets. Les utilisateurs gratuits peuvent créer 3 projets, et on veut afficher un écran d'upgrade quand ils essaient d'en créer un 4e.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit identifier cela comme un point de déclenchement par limite d'usage. Doit appliquer les composants du paywall : titre (mettre en avant la valeur de l'upgrade, pas seulement la limite), démonstration de valeur (montrer ce que le plan payant apporte), comparaison de plans (gratuit vs. payant), preuve sociale, CTA (précis et orienté action), et sortie de secours (option pour revenir en arrière). Doit fournir des recommandations de copy concrètes. Doit prendre en compte l'état émotionnel de l'utilisateur à ce moment (frustré par la limite). Doit mettre en garde contre les anti-patterns. Les prix doivent être au format français : 29 €/mois, pas $29/month.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie comme déclencheur par limite d'usage",
+        "Applique le cadre des composants du paywall",
+        "Inclut titre, démonstration de valeur, comparaison, preuve sociale, CTA",
+        "Fournit des recommandations de copy concrètes",
+        "Prend en compte l'état émotionnel de l'utilisateur à la limite",
+        "Inclut une sortie de secours",
+        "Met en garde contre les anti-patterns",
+        "Utilise le format de prix français (ex. 29 €/mois, pas $29/month)",
+        "Aucun anglicisme injustifié dans la copy proposée"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre essai gratuit expire au bout de 14 jours et les utilisateurs voient un écran générique « Votre essai a expiré ». Le taux d'upgrade depuis cet écran est seulement de 2 %. Comment l'améliorer ?",
+      "expected_output": "Doit identifier cela comme un déclencheur d'expiration d'essai. Doit appliquer les recommandations du type paywall expiration d'essai. Doit recommander : montrer ce que l'utilisateur a construit ou accompli pendant l'essai (effet de dotation), mettre en avant les fonctionnalités qu'il a utilisées, montrer la valeur qu'il perdrait, proposer des options de plans claires, inclure une preuve sociale d'utilisateurs similaires ayant upgradé. Doit diagnostiquer pourquoi 2 % est faible : probablement une proposition de valeur trop vague, aucune personnalisation, pas d'urgence ni de cadrage par la perte. Doit fournir des recommandations de refonte concrètes. La copy exemple doit éviter les tics d'IA (Découvrez, Ne manquez pas, etc.) et utiliser le vouvoiement.",
+      "assertions": [
+        "Identifie comme déclencheur d'expiration d'essai",
+        "Applique les recommandations du paywall expiration d'essai",
+        "Recommande de montrer les accomplissements de l'utilisateur pendant l'essai",
+        "Utilise le cadrage par la perte (ce qu'il va perdre)",
+        "Propose des options de plans claires",
+        "Inclut une preuve sociale",
+        "Diagnostique pourquoi le taux actuel de 2 % est faible",
+        "Fournit des recommandations de refonte concrètes",
+        "La copy proposée est en français sans tics d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "À quel moment faut-il afficher les invitations à upgrader ? On ne veut pas être intrusif, mais on a besoin de convertir les utilisateurs gratuits au payant.",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit appliquer les règles de moment et de fréquence. Doit recommander les points de déclenchement du skill : feature gates (quand l'utilisateur tente d'accéder à une fonctionnalité payante), limites d'usage (quand il atteint un seuil), moments de valeur (quand il vient de connaître un succès), et points de transition naturels. Doit aborder le plafonnement de fréquence pour éviter d'être intrusif. Doit recommander les anti-patterns à éviter (bloquer des fonctionnalités de base, popups trop fréquentes, dark patterns). Doit proposer une approche équilibrée respectant l'expérience utilisateur tout en favorisant les upgrades.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Applique les règles de moment et de fréquence",
+        "Recommande des points de déclenchement spécifiques",
+        "Aborde le plafonnement de fréquence",
+        "Met en garde contre les anti-patterns",
+        "Équilibre expérience utilisateur et objectifs de conversion",
+        "Fournit des recommandations concrètes pour chaque type de déclencheur"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Conçois un paywall feature gate. Quand les utilisateurs gratuits cliquent sur « Analyse avancée » dans notre tableau de bord, on veut leur afficher une invitation à upgrader.",
+      "expected_output": "Doit identifier cela comme un déclencheur feature gate. Doit appliquer les recommandations du type paywall feature lock. Doit recommander : montrer un aperçu ou une capture de la fonctionnalité Analyse avancée, expliquer le bénéfice concret (pas seulement « c'est une fonctionnalité payante »), inclure une comparaison de plans pertinente pour l'analyse, proposer un CTA clair pour upgrader, et inclure une sortie de secours pour revenir à l'analyse de base. Doit recommander de montrer les insights que l'utilisateur rate. Doit fournir des recommandations de copy pour l'écran paywall, en vouvoiement et sans anglicismes injustifiés.",
+      "assertions": [
+        "Identifie comme déclencheur feature gate",
+        "Applique les recommandations du paywall feature lock",
+        "Recommande de montrer un aperçu de la fonctionnalité",
+        "Explique le bénéfice concret de la fonctionnalité",
+        "Inclut une comparaison de plans pertinente",
+        "Propose un CTA clair et une sortie de secours",
+        "Fournit des recommandations de copy en français",
+        "Copy en vouvoiement, sans anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quels sont les erreurs courantes à éviter avec les paywalls in-app ? Je ne veux pas être insistant ni donner l'impression de piéger les utilisateurs.",
+      "expected_output": "Doit appliquer la section anti-patterns. Doit couvrir : les dark patterns (rendre le bouton de fermeture difficile à trouver, formulation d'opt-out confuse), les freins à la conversion (bloquer des fonctionnalités de base, afficher des paywalls trop tôt avant d'avoir apporté de la valeur, absence de sortie de secours), les problèmes de fréquence (trop d'invitations, répétition du même paywall). Doit proposer des alternatives positives pour chaque anti-pattern. Doit souligner que les bons paywalls se sentent utiles, pas intrusifs.",
+      "assertions": [
+        "Applique la section anti-patterns",
+        "Couvre les dark patterns à éviter",
+        "Couvre les freins à la conversion",
+        "Couvre les problèmes de fréquence",
+        "Propose des alternatives positives pour chaque anti-pattern",
+        "Souligne l'approche utile plutôt qu'insistante"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peux-tu m'aider à optimiser notre page de tarification publique ? On veut que davantage de visiteurs choisissent le plan Pro plutôt que le plan Essentiel.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche d'optimisation de page de tarification publique, pas d'un paywall in-app. Doit renvoyer au skill cro pour l'optimisation des pages de tarification. Le skill paywalls couvre les invitations à l'upgrade in-app pour les utilisateurs existants, pas les pages de tarification publiques.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une optimisation de page de tarification publique",
+        "Renvoie au skill cro ou le mentionne",
+        "Explique que paywalls couvre les invitations à l'upgrade in-app",
+        "Ne tente pas d'optimiser la page de tarification publique"
+      ],
+      "files": []
+    }
+  ]
+}

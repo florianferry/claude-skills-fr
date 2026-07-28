@@ -1,0 +1,115 @@
+{
+  "skill_name": "social",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à créer une stratégie de contenu LinkedIn. Je suis fondateur d'un SaaS en mode « building in public » et je veux développer ma marque personnelle pour générer de la notoriété autour de mon produit. J'ai actuellement 500 abonnés et je publie peut-être une fois par semaine.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit établir des piliers de contenu (3 à 5) adaptés à un fondateur SaaS en building in public : tendances sectorielles, coulisses, contenu pédagogique, anecdotes personnelles, promotionnel (minimal). Doit appliquer la référence plateforme LinkedIn (3 à 5 fois/semaine recommandé, carrousels performants). Doit fournir des formules de hooks pour les posts LinkedIn. Doit créer un planning hebdomadaire. Doit inclure une stratégie d'engagement (routine quotidienne 30 min). Doit aborder le passage de 1 publication/semaine à 3 à 5 avec une stratégie de batch. Doit respecter la typographie française (espaces insécables, guillemets « »). Aucun tic d'IA (Boostez, Optimisez, etc.).",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Établit 3 à 5 piliers de contenu",
+        "Applique les recommandations LinkedIn de la plateforme",
+        "Fournit des formules de hooks",
+        "Crée un planning hebdomadaire",
+        "Inclut une stratégie d'engagement",
+        "Aborde la stratégie de batch pour la régularité",
+        "Recommande de passer de 1 à 3-5 publications par semaine",
+        "Typographie française respectée (espaces insécables, guillemets « »)",
+        "Aucun tic d'IA (Boostez, Optimisez, Découvrez, Révolutionnaire…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Écris-moi un thread Twitter/X sur les leçons que j'ai apprises en bootstrappant mon SaaS jusqu'à 10 000 € de MRR. Inclus un hook et un CTA à la fin.",
+      "expected_output": "Doit appliquer les formules de hooks narratifs (ex. : « Il y a 6 mois, je tournais à 0 € de MRR. Aujourd'hui, j'ai franchi les 10 000 €. »). Doit structurer le thread selon les bonnes pratiques de la plateforme : hook fort dans le tweet 1, chaque tweet doit tenir seul tout en s'enchaînant, chiffres précis et anecdotes concrètes, CTA final. Doit rattacher le contenu au pilier correspondant (coulisses / parcours fondateur). Doit fournir le contenu réel du thread (8 à 12 tweets). Doit inclure des questions d'engagement. Doit respecter la typographie française. Aucun calque anglais ni tic d'IA.",
+      "assertions": [
+        "Applique les formules de hooks du skill",
+        "Utilise un hook narratif dans le premier tweet",
+        "Structure le thread avec des tweets qui tiennent seuls mais s'enchaînent",
+        "Utilise des chiffres précis et des anecdotes concrètes",
+        "Se termine par un CTA clair",
+        "Fournit un thread de 8 à 12 tweets",
+        "Inclut des questions d'engagement",
+        "Typographie française respectée",
+        "Aucun calque anglais ni tic d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "j'ai un article de blog qui a bien marché. comment j'en fais du contenu pour plusieurs réseaux ?",
+      "expected_output": "Doit se déclencher même sur un registre familier. Doit appliquer le système de réutilisation du contenu. Doit utiliser la correspondance Article de blog → Contenu social : LinkedIn (post insight clé + carrousel des points principaux), Twitter/X (thread des enseignements), Instagram (carrousel avec visuels + Reel résumant l'article). Doit suivre le processus de réutilisation : créer le pilier → extraire les insights clés (3 à 5) → adapter à chaque plateforme → programmer dans la semaine. Doit fournir des recommandations de format par plateforme.",
+      "assertions": [
+        "Se déclenche sur un registre familier",
+        "Applique le système de réutilisation du contenu",
+        "Utilise la correspondance Article de blog → Contenu social",
+        "Couvre LinkedIn, Twitter/X et Instagram",
+        "Suit le processus de réutilisation",
+        "Extrait 3 à 5 insights clés à réutiliser",
+        "Fournit des recommandations de format par plateforme",
+        "Typographie française correcte"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Mes posts LinkedIn font genre 200 impressions et quasi zéro engagement. Qu'est-ce que je fais de travers ?",
+      "expected_output": "Doit appliquer la section analyse et optimisation, notamment les recommandations « si l'engagement est faible ». Doit diagnostiquer les problèmes probables : hooks trop faibles (première ligne peu accrochante), mauvais créneaux horaires, manque d'engagement avec les autres, format peu adapté (pas de sauts de ligne, murs de texte), contenu qui ne résonne pas avec l'audience. Doit recommander des correctifs précis : tester de nouvelles formules de hooks, publier à des horaires différents, intensifier l'engagement avec les autres (routine quotidienne), essayer d'autres formats (carrousels, sondages). Doit fournir des exemples de hooks avant/après.",
+      "assertions": [
+        "Applique les recommandations analyse et optimisation",
+        "Diagnostique les problèmes d'engagement probables",
+        "Aborde la qualité des hooks",
+        "Aborde les créneaux de publication",
+        "Recommande la routine d'engagement quotidienne",
+        "Suggère d'essayer d'autres formats de contenu",
+        "Fournit des exemples de hooks avant/après en français",
+        "Aucun anglicisme injustifié dans les exemples"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Aide-moi à décrypter ce qui marche chez les meilleurs créateurs de contenu dans l'univers des outils no-code sur Twitter. Je veux comprendre leurs patterns de contenu.",
+      "expected_output": "Doit appliquer le cadre de décryptage du contenu viral. Doit parcourir le processus : identifier 10 à 20 comptes leaders du no-code, collecter leurs posts performants, analyser les patterns (hooks, formats, CTA, sujets, horaires), codifier un guide de structures reproductibles, puis appliquer la voix authentique de l'utilisateur. Doit fournir des conseils précis sur ce qu'on cherche dans l'analyse. Doit recommander des outils ou méthodes de collecte.",
+      "assertions": [
+        "Applique le cadre de décryptage du contenu viral",
+        "Parcourt le processus complet (trouver, collecter, analyser, codifier, appliquer)",
+        "Recommande d'identifier 10 à 20 comptes",
+        "Décrit les patterns à analyser",
+        "Insiste sur l'application de la voix authentique",
+        "Fournit des conseils de collecte de données",
+        "Exemples et recommandations en français"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Écris-moi une séquence de 5 e-mails de bienvenue pour les nouveaux abonnés qui viennent de mon audience LinkedIn.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de séquence e-mail et non de contenu social. Doit orienter vers le skill emails, qui gère les séquences de bienvenue, les drip campaigns et les e-mails lifecycle. Peut noter le contexte de transition social → e-mail mais doit indiquer clairement que emails est le bon skill pour rédiger des séquences d'e-mails.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un travail de séquence e-mail",
+        "Oriente vers ou cite le skill emails",
+        "Ne tente pas de rédiger la séquence e-mail avec des patterns de contenu social",
+        "Peut noter le contexte de transition social → e-mail"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Voici mon dernier post LinkedIn. Peux-tu le réécrire pour qu'il ait plus d'impact ?\n\n---\nBoostez votre productivité grâce à notre solution révolutionnaire ! Découvrez comment nos utilisateurs optimisent leur workflow en quelques clics. N'hésitez pas à nous contacter pour en savoir plus... En tant que fondateur, j'ai appris que le succès repose sur l'innovation — notre outil change vraiment la donne ! 🚀🚀\n---",
+      "expected_output": "Doit identifier et corriger : tics d'IA (Boostez, Découvrez, Optimisez, révolutionnaire, en quelques clics, N'hésitez pas à), calques anglais (workflow, change la donne), ponctuation excessive (🚀🚀, ...), absence de hook narratif, ton promotionnel pur sans valeur. Doit proposer une réécriture avec hook fort (narratif ou curiosité), valeur réelle, ton personnel et authentique, CTA naturel. Typographie française irréprochable (guillemets « », espaces insécables, casse de phrase). Pas de tiret cadratin.",
+      "assertions": [
+        "Identifie les tics d'IA présents (Boostez, Découvrez, Optimisez, révolutionnaire…)",
+        "Identifie les calques anglais (workflow, change la donne…)",
+        "Propose un hook fort en remplacement de l'accroche promotionnelle",
+        "Réécriture en ton personnel et authentique",
+        "CTA naturel en français",
+        "Typographie française irréprochable (guillemets « », espaces insécables avant : ; ! ?)",
+        "Pas de tiret cadratin dans la prose",
+        "Aucun tic d'IA dans la version corrigée"
+      ],
+      "files": []
+    }
+  ]
+}

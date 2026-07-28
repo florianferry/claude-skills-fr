@@ -1,0 +1,128 @@
+{
+  "skill_name": "cro",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Voici ma landing page SaaS : https://example.com/produit. On reçoit environ 5 000 visiteurs par mois via Google Ads, mais seulement 1,2 % s'inscrivent pour l'essai gratuit. Peux-tu m'aider à comprendre ce qui ne va pas ?",
+      "expected_output": "Doit d'abord vérifier l'existence de product-marketing.md. Doit identifier le type de page (landing page) et l'objectif de conversion (inscription à l'essai gratuit). Doit analyser selon les dimensions du cadre CRO : clarté de la proposition de valeur, efficacité du titre, placement et copy des CTA, hiérarchie visuelle, signaux de confiance, traitement des objections, points de friction. Doit structurer les recommandations en Gains rapides, Changements à fort impact et Idées à tester. Doit signaler le problème de cohérence du message entre Google Ads et la landing page. Doit proposer 2 à 3 alternatives de titres et de CTA avec justification. Doit respecter la typographie française (espaces insécables, guillemets « », absence de tiret cadratin) et éviter les tics d'IA.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie le type de page comme landing page",
+        "Identifie l'objectif de conversion comme essai gratuit",
+        "Analyse la clarté de la proposition de valeur",
+        "Analyse le placement et la copy des CTA",
+        "Signale le problème de cohérence du message entre les annonces et la landing page",
+        "La sortie comporte une section Gains rapides",
+        "La sortie comporte une section Changements à fort impact",
+        "La sortie comporte une section Idées à tester",
+        "Propose 2 à 3 alternatives de titres ou de CTA",
+        "Respecte la typographie française : espaces insécables, guillemets « », pas de tiret cadratin",
+        "Aucun tic d'IA (Découvrez, Boostez, Optimisez, Incontournable…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre page de tarifs propose trois formules, mais personne ne choisit la formule intermédiaire. 60 % prennent la moins chère et 30 % repartent sans rien. Que faut-il changer ?",
+      "expected_output": "Doit appliquer le cadre CRO pour page de tarifs. Doit traiter la clarté de la comparaison entre formules, la mise en valeur de la formule recommandée et l'angoisse « quelle formule est faite pour moi ? ». Doit analyser si la proposition de valeur de la formule intermédiaire est suffisamment différenciée. Doit recommander des signaux de confiance et une preuve sociale près de la section tarifaire. Doit suggérer des expériences précises : renommer les formules, ajuster la différenciation des fonctionnalités, ajouter un toggle annuel/mensuel, mettre visuellement en avant la formule recommandée. La sortie doit comporter les sections Gains rapides, Changements à fort impact et Idées à tester.",
+      "assertions": [
+        "Applique le cadre CRO pour page de tarifs",
+        "Traite la mise en valeur de la formule recommandée",
+        "Traite l'angoisse « quelle formule est faite pour moi »",
+        "Analyse la différenciation de la formule intermédiaire",
+        "Suggère des expériences précises",
+        "La sortie comporte une section Gains rapides",
+        "La sortie comporte une section Changements à fort impact",
+        "La sortie comporte une section Idées à tester"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "cette page ne convertit pas. tu peux jeter un oeil ? c'est notre page d'accueil pour un outil de gestion de projet B2B",
+      "expected_output": "Doit se déclencher sur la formulation familière « cette page ne convertit pas ». Doit identifier le cas comme une analyse CRO de page d'accueil. Doit poser des questions de clarification sur le taux de conversion actuel, les sources de trafic et l'objectif de conversion. Doit appliquer le cadre d'analyse CRO en commençant par la clarté de la proposition de valeur. Doit aborder les points spécifiques à la page d'accueil : servir plusieurs audiences, ouvrir sur la proposition de valeur la plus large, offrir des chemins clairs selon l'intention du visiteur. Doit produire une sortie structurée avec Gains rapides, Changements à fort impact, Idées à tester et Alternatives de copy.",
+      "assertions": [
+        "Se déclenche sur la formulation familière",
+        "Identifie le cas comme CRO de page d'accueil",
+        "Pose des questions sur le taux de conversion actuel",
+        "Pose des questions sur les sources de trafic",
+        "Applique le cadre d'analyse CRO",
+        "Traite la question de la pluralité d'audiences",
+        "Traite la question des chemins clairs selon l'intention du visiteur",
+        "La sortie comporte des sections structurées"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Notre blog reçoit 20 000 visites organiques par mois, mais presque personne ne clique vers notre produit. Comment obtenir plus de conversions depuis les lecteurs du blog ?",
+      "expected_output": "Doit appliquer le cadre CRO pour article de blog. Doit recommander des CTA contextuels cohérents avec le sujet des articles et des CTA intégrés aux points d'arrêt naturels. Doit analyser si les CTA actuels sont pertinents par rapport au contenu ou trop génériques. Doit suggérer des emplacements précis : dans le texte, en fin d'article, barre latérale, barre fixe. Doit recommander de tester différents formats de CTA (lien texte inline, encart, popup de sortie). Doit renvoyer au skill copywriting pour l'amélioration de la copy des CTA.",
+      "assertions": [
+        "Applique le cadre CRO pour article de blog",
+        "Recommande des CTA contextuels cohérents avec le contenu",
+        "Recommande des CTA intégrés aux points d'arrêt naturels",
+        "Suggère des emplacements précis de CTA",
+        "Suggère de tester différents formats de CTA",
+        "Renvoie au skill copywriting ou à un skill connexe"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On a refondu notre landing page et les conversions sont passées de 4,2 % à 2,8 %. Voici la nouvelle version. Qu'est-ce qui a merdé ?",
+      "expected_output": "Doit aborder le cas comme un audit CRO diagnostique centré sur ce qui a changé. Doit comparer systématiquement avec les dimensions du cadre CRO pour identifier les causes probables de régression. Doit vérifier les erreurs classiques de refonte : perte des signaux de confiance, proposition de valeur affaiblie, modification de la hiérarchie des CTA, friction ajoutée, rupture de cohérence du message avec les sources de trafic. Doit proposer des corrections organisées par impact probable. Doit recommander de revenir sur les changements les plus risqués et d'en tester d'autres.",
+      "assertions": [
+        "Aborde le cas comme un audit diagnostique",
+        "Vérifie la perte de signaux de confiance",
+        "Vérifie l'affaiblissement de la proposition de valeur",
+        "Vérifie les modifications de hiérarchie des CTA",
+        "Vérifie la friction ajoutée",
+        "Vérifie la rupture de cohérence du message avec les sources de trafic",
+        "Propose des corrections organisées par impact",
+        "Recommande de revenir sur les changements les plus risqués"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre formulaire d'inscription a trop de champs et les gens l'abandonnent à mi-chemin. Peux-tu aider à l'optimiser ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une optimisation du tunnel d'inscription, pas d'une analyse CRO de page générale. Doit renvoyer au skill signup, qui traite spécifiquement les tunnels d'inscription, d'enregistrement et de création de compte. Peut apporter quelques conseils généraux de réduction de friction, mais doit clairement indiquer que signup est le bon skill pour cette tâche.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une optimisation du tunnel d'inscription",
+        "Renvoie au skill signup",
+        "Ne tente pas une analyse CRO complète sur un formulaire d'inscription"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Peux-tu analyser la page fonctionnalité de notre outil de monitoring d'API ? La majorité du trafic vient de recherches organiques sur « outils de monitoring d'API ». On veut qu'ils démarrent un essai gratuit.",
+      "expected_output": "Doit appliquer le cadre CRO pour page fonctionnalité : relier fonctionnalité à bénéfice, proposer des cas d'usage et des exemples, offrir un chemin clair pour essayer ou acheter. Doit renvoyer à la section expériences et suggérer des hypothèses priorisées sur le hero, les signaux de confiance et les variantes de CTA. Doit noter la source de trafic organique et vérifier la cohérence du message avec l'intention de recherche. Doit renvoyer au skill ab-testing pour la mise en œuvre correcte des tests.",
+      "assertions": [
+        "Applique le cadre CRO pour page fonctionnalité",
+        "Relie les fonctionnalités aux bénéfices",
+        "Suggère des cas d'usage et des exemples",
+        "Fournit un chemin clair pour essayer ou acheter",
+        "Note la source de trafic organique et la cohérence avec l'intention de recherche",
+        "Suggère des hypothèses d'expériences précises",
+        "Renvoie au skill ab-testing"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Voici la copy de notre page de tarifs. Peux-tu l'améliorer ?\n\n---\nNOS PRIX\n\nDécouvrez nos offres révolutionnaires ! Boostez votre business grâce à nos solutions innovantes.\n\nFormule Starter — 29€/mois\nLa solution incontournable pour démarrer ! Bénéficiez de fonctionnalités clés afin de propulser votre activité.\n\nFormule Pro — 79€/mois\nOptimisez votre workflow et dopez vos performances grâce à des outils avancés.\n\nFormule Business — 199€/mois\nUne véritable solution clé en main au coeur de votre stratégie — pour les équipes qui veulent révolutionner leur façon de travailler.\n\nN'hésitez pas à nous contacter pour en savoir plus !",
+      "expected_output": "Doit identifier et corriger : tics d'IA (Découvrez, révolutionnaires, Boostez, grâce à, innovantes, incontournable, Optimisez, dopez, véritable, clé en main, au coeur de, révolutionner) ; absence d'espace insécable avant les signes : ! et l'€ ; guillemets droits absents mais absence de guillemets français à vérifier ; tirets cadratin potentiels ; title case sur le titre NOS PRIX (ok pour titre de section, mais vérifier la casse des boutons CTA) ; formulations qui sonnent traduites. Doit réécrire en proposant des titres de formules différenciants, des bénéfices concrets à la place des tics d'IA, un CTA de contact naturel en français. Doit respecter la typographie : 29 €/mois (espace insécable), pas de tiret cadratin, guillemets « » si nécessaire.",
+      "assertions": [
+        "Identifie et supprime les tics d'IA : Découvrez, révolutionnaires, Boostez, incontournable, Optimisez, dopez, véritable, au coeur de",
+        "Corrige la typographie : espace insécable avant € et avant ! ; 29 €/mois avec espace insécable",
+        "Remplace les formulations calquées sur l'anglais par des tournures françaises naturelles",
+        "Propose des bénéfices concrets à la place des mots-valises",
+        "Propose un CTA de contact naturel en français, sans calque de l'anglais",
+        "Vérifie l'absence de tiret cadratin dans le corps du texte",
+        "Aucun tic d'IA dans la version finale"
+      ],
+      "files": []
+    }
+  ]
+}

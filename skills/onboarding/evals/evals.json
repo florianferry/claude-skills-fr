@@ -1,0 +1,101 @@
+{
+  "skill_name": "onboarding",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à optimiser notre flux d'onboarding. On a un outil de gestion de projet et seulement 30 % des utilisateurs en essai créent leur premier projet dans la première semaine. On doit les amener à la valeur plus vite.",
+      "expected_output": "Doit d'abord vérifier si product-marketing.md existe. Doit commencer par définir l'activation/aha moment — ici, créer un premier projet. Doit évaluer le time-to-value actuel et identifier les points de friction. Doit recommander une approche de flux d'onboarding (produit direct, setup guidé ou valeur d'abord). Doit appliquer le pattern checklist (3 à 7 éléments). Doit traiter les empty states comme des opportunités de guidage. Doit proposer des idées d'expérimentations pour tester les améliorations. Doit inclure des métriques de mesure. La réponse ne doit pas contenir d'anglicismes injustifiés ni de tics d'IA.",
+      "assertions": [
+        "Vérifie si product-marketing.md existe",
+        "Définit l'activation/aha moment",
+        "Évalue le time-to-value",
+        "Recommande une approche de flux d'onboarding",
+        "Applique le pattern checklist avec 3 à 7 éléments",
+        "Traite les empty states comme des opportunités",
+        "Propose des idées d'expérimentations",
+        "Inclut des métriques de mesure",
+        "N'utilise pas d'anglicismes injustifiés (Découvrez, Boostez, etc.)",
+        "Respecte la typographie française (espaces insécables, guillemets « », pas de tiret cadratin)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Qu'est-ce qu'on doit mettre dans notre checklist d'onboarding ? On a un outil de collaboration design. Les utilisateurs doivent importer un design, inviter un membre de l'équipe et laisser un commentaire pour vraiment comprendre la valeur.",
+      "expected_output": "Doit appliquer le pattern checklist. Doit inclure les 3 actions d'activation mentionnées (importer un design, inviter l'équipe, laisser un commentaire). Doit recommander 3 à 7 éléments au total, ordonnés par niveau d'engagement croissant. Doit suggérer de commencer par la victoire la plus rapide pour construire l'élan. Doit recommander des indicateurs de progression et des célébrations de complétion. Doit aborder ce qui se passe quand les utilisateurs ignorent des éléments. Doit fournir des recommandations UX précises pour l'implémentation de la checklist.",
+      "assertions": [
+        "Applique le pattern checklist",
+        "Inclut les 3 actions d'activation mentionnées",
+        "Limite à 3 à 7 éléments au total",
+        "Ordonne par engagement croissant",
+        "Commence par la victoire la plus rapide",
+        "Recommande des indicateurs de progression",
+        "Aborde les éléments ignorés",
+        "Fournit des recommandations UX",
+        "Utilise la casse de phrase pour les titres (pas de title case)",
+        "Pas d'anglicismes injustifiés dans la copie proposée"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "nos utilisateurs s'inscrivent et ne reviennent jamais. genre 50 % ne se reconnectent même pas une deuxième fois. qu'est-ce qu'on fait ?",
+      "expected_output": "Doit se déclencher sur une formulation familière. Doit traiter ça comme un problème d'utilisateurs bloqués. Doit appliquer le cadre de gestion des utilisateurs bloqués : identifier les points de décrochage, déclencheurs de réactivation, outreach multi-canal (e-mail, in-app, push). Doit investiguer les causes racines : la first-run experience est-elle trop complexe ? La valeur est-elle immédiatement visible ? Le setup est-il trop long ? Doit recommander des améliorations immédiates à la première session. Doit suggérer un onboarding multi-canal (séquences e-mail pour les ramener). Doit faire référence à emails pour les e-mails de réactivation.",
+      "assertions": [
+        "Se déclenche sur une formulation familière",
+        "Applique le cadre d'utilisateurs bloqués",
+        "Identifie les causes potentielles du décrochage",
+        "Recommande des améliorations à la première session",
+        "Suggère un onboarding multi-canal",
+        "Fait référence au skill emails pour la réactivation",
+        "Propose des déclencheurs de réactivation précis",
+        "Répond en français naturel sans anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Comment gérer l'état vide quand un nouvel utilisateur se connecte pour la première fois ? Pour l'instant il voit juste un tableau de bord vide.",
+      "expected_output": "Doit appliquer le guidage sur les empty states comme opportunités. Doit recommander de transformer le tableau de bord vide en expérience guidée : données d'exemple pour montrer à quoi ressemble le produit rempli, un CTA d'action principale clair, des conseils contextuels, ou un assistant de démarrage. Doit fournir des recommandations précises pour le design des empty states : quoi montrer, quelle action proposer, comment réduire la paralysie devant la page blanche. Doit proposer des exemples de microcopy en français naturel. Doit faire référence aux patterns par type de produit si applicable.",
+      "assertions": [
+        "Applique le guidage sur les empty states comme opportunités",
+        "Recommande des alternatives au tableau de bord vide",
+        "Suggère des données d'exemple ou des templates",
+        "Propose un CTA d'action principale clair",
+        "Traite la paralysie devant la page blanche",
+        "Fournit des recommandations de design précises pour les empty states",
+        "Propose de la microcopy en français plausible et naturelle",
+        "Microcopy sans tics d'IA ni anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Doit-on utiliser des infobulles, une visite guidée du produit ou un assistant de configuration pour l'onboarding ? Qu'est-ce qui marche le mieux ?",
+      "expected_output": "Doit appliquer le guidage sur les infobulles et visites guidées. Doit comparer les approches : infobulles (contextuelles, à la demande, moins intrusives), visites produit (parcours guidé, peuvent submerger), assistants de configuration (structurés, garantissent les étapes clés). Doit recommander selon la complexité du produit et les objectifs d'onboarding. Doit noter que la meilleure approche combine souvent plusieurs éléments. Doit fournir les bonnes pratiques pour chacun : éviter la fatigue des infobulles, limites de longueur des visites, nombre d'étapes d'assistant. Doit recommander de tester différentes approches.",
+      "assertions": [
+        "Compare infobulles, visites produit et assistants de configuration",
+        "Explique quand chacun fonctionne le mieux",
+        "Indique que les approches combinées fonctionnent souvent mieux",
+        "Fournit les bonnes pratiques pour chacun",
+        "Aborde la fatigue des infobulles et la longueur des visites",
+        "Recommande de tester différentes approches",
+        "Utilise des termes français clairs plutôt que du jargon anglais brut"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre formulaire d'inscription a 8 champs et les gens abandonnent. Vous pouvez nous aider à corriger le flux d'inscription ?",
+      "expected_output": "Doit reconnaître que c'est une tâche d'optimisation du formulaire d'inscription, pas de l'onboarding post-inscription. Doit renvoyer vers le skill signup, qui couvre l'optimisation du formulaire d'inscription, la réduction des champs et la conception du flux d'enregistrement. Le skill onboarding couvre ce qui se passe après l'inscription. Doit clarifier cette distinction.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'optimisation du formulaire d'inscription, pas d'onboarding",
+        "Renvoie vers le skill signup",
+        "Explique que l'onboarding couvre l'après-inscription",
+        "Ne tente pas de refondre le formulaire d'inscription avec des patterns d'onboarding",
+        "Répond en français correct sans fautes de typographie"
+      ],
+      "files": []
+    }
+  ]
+}

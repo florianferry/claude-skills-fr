@@ -1,0 +1,102 @@
+{
+  "skill_name": "marketing-ideas",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "J’ai besoin d’idées marketing pour mon SaaS. On est une équipe de 3 en bootstrapping, on vend un outil d’analyse pour les e-commerçants à 49 €/mois, et on a environ 200 clients. Le budget est serré, 500 €/mois maximum pour le marketing.",
+      "expected_output": "Doit vérifier en premier la présence d’un fichier product-marketing.md. Doit filtrer les idées selon les contraintes de petit budget et de stade initial. Doit piocher dans les 139 idées organisées par catégorie. Doit proposer des idées adaptées à un SaaS bootstrappé : contenu marketing, développement de communauté, SEO, partenariats, programmes de parrainage, réseaux sociaux, Product Hunt, et autres idées qui ne nécessitent pas de gros budgets. Le format de sortie doit suivre la structure : nom de l’idée, pourquoi ça colle, par où commencer, ce qu’on peut en attendre, ressources nécessaires. Doit prioriser par impact probable compte tenu du stade.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Filtre les idées selon la contrainte de petit budget",
+        "Propose des idées issues du catalogue des 139 idées",
+        "Les idées sont adaptées au stade bootstrappé",
+        "Le format de sortie est structuré par idée",
+        "Inclut : pourquoi ça colle, par où commencer, ce qu’on peut en attendre",
+        "Priorise par impact probable",
+        "Inclut les ressources nécessaires par idée",
+        "Typographie française : espaces insécables, guillemets « », pas de tiret cadratin",
+        "Absence de tics d’IA (Découvrez, Boostez, Optimisez, Révolutionnaire, etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Quelle est la façon la plus rapide d’obtenir plus de leads ? On vend un logiciel de cybersécurité pour les grandes entreprises et on a un budget marketing de 10 000 €/mois.",
+      "expected_output": "Doit appliquer le filtre « besoin de leads rapidement » des meilleures idées par cas d’usage. Doit recommander des canaux payants (Google Ads, LinkedIn Ads pour les grands comptes), de l’outbound (cold e-mail, prospection LinkedIn) et des lead magnets à base de contenu. Doit filtrer pour des tactiques adaptées aux grandes entreprises. Doit fournir un format structuré avec : pourquoi l’idée colle, par où commencer, horizon de résultats attendu, ressources nécessaires. Doit préciser que des leads rapides passent généralement par du payant ou de l’outbound.",
+      "assertions": [
+        "Applique le filtre « leads rapides »",
+        "Recommande des canaux payants adaptés aux grands comptes",
+        "Recommande des tactiques outbound",
+        "Filtre pour des tactiques adaptées aux grandes entreprises",
+        "Fournit un format structuré par idée",
+        "Précise que des leads rapides passent par du payant ou de l’outbound",
+        "Inclut des horizons de résultats",
+        "Typographie française : espaces insécables, guillemets « », prix en euros avec espace (10 000 €/mois)",
+        "Absence d’anglicismes injustifiés et de tics d’IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "comment on fait pour grandir sans dépenser en pub ? on est un outil PLG avec un modèle freemium",
+      "expected_output": "Doit se déclencher sur un phrasé familier. Doit appliquer le filtre « croissance par le produit » des meilleures idées par cas d’usage. Doit recommander des tactiques PLG : mécaniques de viralité produit, programmes de parrainage, développement de communauté, contenu marketing, SEO, outils gratuits et calculateurs, contributions open source, boucles de preuve sociale. Doit éviter les idées qui dépendent de la publicité. Doit fournir un format structuré avec des conseils de mise en œuvre.",
+      "assertions": [
+        "Se déclenche sur un phrasé familier",
+        "Applique le filtre PLG",
+        "Recommande des tactiques spécifiques au PLG",
+        "Évite les idées dépendantes de la publicité",
+        "Inclut des tactiques de viralité et de parrainage",
+        "Fournit un format structuré avec des conseils de mise en œuvre",
+        "Typographie française : espaces insécables, guillemets « »",
+        "Absence de tics d’IA et de calques de l’anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On veut construire notre autorité et devenir une référence dans la RH tech. On est une jeune entreprise, personne ne nous connaît encore.",
+      "expected_output": "Doit appliquer le filtre « construire son autorité » des meilleures idées par cas d’usage. Doit recommander des tactiques de leadership d’opinion : recherche originale et sondages, articles invités, participations à des podcasts, prises de parole en conférence, contenu LinkedIn, publication de rapports sectoriels, tribunes d’experts. Doit souligner que la construction d’autorité est un travail de long terme. Doit fournir un format structuré avec par où commencer, ce qu’on peut en attendre et l’horizon de temps.",
+      "assertions": [
+        "Applique le filtre « construire son autorité »",
+        "Recommande des tactiques de leadership d’opinion",
+        "Inclut la recherche originale et la production de contenu",
+        "Inclut la communauté et les prises de parole médias",
+        "Souligne que la construction d’autorité est un travail de long terme",
+        "Fournit un format structuré avec des horizons de temps",
+        "Typographie française : espaces insécables, guillemets « », pas de tiret cadratin",
+        "Absence de tics d’IA (Révolutionnaire, Incontournable, etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Donne-moi 20 idées marketing. On vend un logiciel de gestion de projet.",
+      "expected_output": "Doit proposer une liste d’environ 20 idées issues du catalogue. Doit les organiser par catégorie ou par effort/impact. Doit fournir un contexte de mise en œuvre succinct pour chacune. Doit varier les idées entre catégories (contenu, communauté, partenariats, produit, payant, etc.) pour un ensemble équilibré. Le format de sortie doit au moins inclure le nom de l’idée et une brève description par idée.",
+      "assertions": [
+        "Propose environ 20 idées",
+        "Les idées couvrent plusieurs catégories",
+        "Organise par catégorie ou par effort/impact",
+        "Fournit un contexte de mise en œuvre succinct par idée",
+        "Le format de sortie est structuré",
+        "Les idées sont pertinentes pour un logiciel de gestion de projet",
+        "Typographie française : espaces insécables, guillemets « »",
+        "Absence de tics d’IA et d’anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On veut mettre en place un programme de parrainage. Comment le structurer ?",
+      "expected_output": "Doit reconnaître qu’il s’agit d’une demande de conception de programme de parrainage. Doit renvoyer vers le skill referrals, qui fournit des conseils détaillés sur la conception de la boucle de parrainage, les structures d’incentives, la mise en œuvre et l’optimisation. Peut mentionner brièvement les parrainages en tant qu’idée marketing, mais doit indiquer clairement que referrals est le bon skill pour la conception détaillée.",
+      "assertions": [
+        "Reconnaît qu’il s’agit d’une demande de conception de programme de parrainage",
+        "Renvoie vers le skill referrals",
+        "N’essaie pas de concevoir le programme de parrainage en détail",
+        "Peut mentionner brièvement les parrainages comme idée marketing",
+        "Typographie française : espaces insécables, guillemets « »",
+        "Absence de tics d’IA et de calques de l’anglais"
+      ],
+      "files": []
+    }
+  ]
+}

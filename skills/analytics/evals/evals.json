@@ -1,0 +1,102 @@
+{
+  "skill_name": "analytics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à mettre en place le tracking analytics pour notre SaaS B2B. On utilise GA4 et GTM. On veut tracker les inscriptions, l'usage des fonctionnalités et les passages à une offre supérieure.",
+      "expected_output": "Doit commencer par chercher product-marketing.md. Doit appliquer le principe « tracker pour décider » et demander quelles décisions le tracking va alimenter. Doit utiliser la convention de nommage objet_action en minuscules avec underscores. Doit définir les événements essentiels SaaS : signup_completed, trial_started, feature_used, plan_upgraded, etc. Doit fournir les détails d'implémentation GA4 avec les paramètres d'événements corrects. Doit inclure des exemples de push dans le dataLayer GTM. Doit organiser le résultat en plan de tracking avec nom de l'événement, déclencheur, paramètres et objectif pour chaque événement.",
+      "assertions": [
+        "Cherche product-marketing.md en premier",
+        "Applique le principe « tracker pour décider »",
+        "Utilise la convention de nommage objet_action",
+        "Définit les événements SaaS essentiels (inscription, usage fonctionnalités, montée en gamme)",
+        "Fournit les détails d'implémentation GA4",
+        "Inclut des exemples de push dataLayer GTM",
+        "Résultat au format plan de tracking",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Quels paramètres UTM on doit utiliser ? On fait de la pub sur Google, Meta et LinkedIn, on envoie une newsletter hebdo et on poste organiquement sur LinkedIn.",
+      "expected_output": "Doit appliquer le framework de stratégie UTM. Doit définir des conventions UTM cohérentes : source (google, meta, linkedin, newsletter), medium (cpc, paid-social, email, organic-social), campaign (convention de nommage avec date ou identifiant). Doit fournir des exemples d'UTM concrets pour chaque canal cité. Doit signaler les erreurs UTM courantes (casse incohérente, paramètres redondants, medium manquant). Doit recommander un tableau de suivi ou un document de convention de nommage partagé.",
+      "assertions": [
+        "Applique le framework de stratégie UTM",
+        "Définit des conventions source, medium et campaign",
+        "Fournit des exemples UTM concrets pour chaque canal",
+        "Utilise des conventions de nommage cohérentes (tout en minuscules)",
+        "Signale les erreurs UTM courantes",
+        "Recommande une documentation de suivi",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "notre tracking déconne, on voit des événements en double et nos chiffres de conversion dans GA4 ne correspondent pas à ce qu'il y a dans notre base de données. une idée ?",
+      "expected_output": "Doit se déclencher sur une formulation familière. Doit appliquer le framework de débogage et de validation. Doit vérifier systématiquement les causes courantes : tags GTM qui se déclenchent en double, déduplication d'événements manquante, conditions de déclencheurs incorrectes, problèmes de tracking cross-domaine, filtrage par le mode consentement. Doit fournir des étapes de débogage précises : GA4 DebugView, mode prévisualisation GTM, outils de développement du navigateur. Doit expliquer les raisons courantes d'écart entre GA4 et la base de données (mode consentement, bloqueurs de publicités, tracking client vs. serveur, différences de délai d'expiration de session).",
+      "assertions": [
+        "Se déclenche sur une formulation familière et informelle",
+        "Applique le framework de débogage et de validation",
+        "Vérifie les déclenchements de tags en double",
+        "Fournit des outils de débogage précis (GA4 DebugView, mode prévisualisation GTM)",
+        "Explique les raisons de l'écart entre GA4 et la base de données",
+        "Liste les causes courantes de divergences de données",
+        "Fournit des étapes de dépannage systématiques",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On lance une boutique en ligne et on doit configurer le tracking de zéro. Quels événements sont vraiment indispensables ?",
+      "expected_output": "Doit se référer aux événements essentiels par type de site, en particulier e-commerce. Doit définir la taxonomie d'événements e-commerce : product_viewed, product_added_to_cart, cart_viewed, checkout_started, checkout_step_completed, purchase_completed, product_removed_from_cart. Doit inclure les paramètres e-commerce enrichis (item_id, item_name, price, quantity, etc.). Doit respecter la convention de nommage objet_action. Doit organiser le résultat en plan de tracking avec priorisation (indispensable vs. utile si possible).",
+      "assertions": [
+        "Se réfère aux événements essentiels pour le type e-commerce",
+        "Définit la taxonomie complète d'événements e-commerce",
+        "Inclut les paramètres e-commerce enrichis",
+        "Respecte la convention de nommage objet_action",
+        "Organise par priorité (indispensable vs. utile si possible)",
+        "Fournit un résultat au format plan de tracking",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On doit s'assurer que notre tracking est conforme au RGPD. On a des utilisateurs en France et en Europe, et on utilise GA4, Hotjar et le pixel Facebook.",
+      "expected_output": "Doit appliquer le framework vie privée et conformité. Doit aborder les exigences RGPD pour chaque outil : consentement avant tracking, mise en place d'une CMP (plateforme de gestion du consentement), configuration du mode consentement GA4, chargement conditionnel de Hotjar et du pixel Facebook. Doit recommander une hiérarchie de consentement (nécessaire, analytics, marketing). Doit fournir l'implémentation GTM pour le déclenchement des tags selon le consentement. Doit mentionner les paramètres de conservation des données dans GA4. Doit aborder les exigences liées à la bannière de consentement (cookies).",
+      "assertions": [
+        "Applique le framework vie privée et conformité",
+        "Aborde les exigences RGPD spécifiquement",
+        "Recommande une CMP (plateforme de gestion du consentement)",
+        "Couvre la configuration du mode consentement GA4",
+        "Aborde le chargement conditionnel pour chaque outil",
+        "Fournit une hiérarchie de consentement",
+        "Mentionne les paramètres de conservation des données",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Aide-moi à configurer le tracking pour notre A/B test. On veut mesurer quelle version de notre page de tarifs convertit le mieux.",
+      "expected_output": "Doit reconnaître que la demande chevauche la mise en place d'un A/B test et pas seulement le tracking analytics. Doit renvoyer vers le skill ab-testing ou le mentionner explicitement pour le design de l'expérience, l'hypothèse et l'analyse statistique. Peut aider sur les détails d'implémentation du tracking (événements à déclencher, paramètres à inclure) mais doit clairement indiquer que ab-testing est le skill adapté pour le framework d'expérimentation.",
+      "assertions": [
+        "Reconnaît le chevauchement avec la mise en place d'un A/B test",
+        "Renvoie vers le skill ab-testing ou le mentionne",
+        "Peut aider sur les détails d'implémentation du tracking",
+        "Ne tente pas de concevoir l'expérience dans son intégralité",
+        "Typographie française correcte (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Pas de tics d'IA ni d'anglicismes injustifiés"
+      ],
+      "files": []
+    }
+  ]
+}

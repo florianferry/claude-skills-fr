@@ -1,0 +1,99 @@
+{
+  "skill_name": "emails",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Crée une séquence de bienvenue pour les nouveaux utilisateurs qui s'inscrivent à l'essai gratuit de 14 jours de notre outil de gestion de projets. On veut les amener au moment « aha » : créer leur premier projet et inviter un collègue.",
+      "expected_output": "Doit vérifier d'abord si product-marketing.md existe. Doit créer une séquence de bienvenue de 5-7 e-mails en appliquant les principes fondateurs : un e-mail un seul rôle, la valeur avant la demande. Chaque e-mail doit viser un objectif précis sur les 14 jours d'essai. Doit inclure les délais entre e-mails. Chaque e-mail doit suivre la structure : accroche → contexte → valeur → CTA → clôture. Les objets doivent respecter la stratégie : casse de phrase, 40-60 caractères, clair plutôt que malin. La séquence doit être alignée sur le moment « aha » défini (premier projet + invitation d'un collègue). La livraison doit suivre le format structuré avec vue d'ensemble et fiche par e-mail.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Crée une séquence de bienvenue de 5-7 e-mails",
+        "Applique le principe un e-mail un seul rôle",
+        "Mappe les e-mails sur les 14 jours d'essai",
+        "Inclut les délais entre les e-mails",
+        "Chaque e-mail a une accroche, un contexte, une valeur, un CTA",
+        "Les objets sont en casse de phrase (pas de Title Case)",
+        "Pas d'anglicismes injustifiés dans les objets ou la copy",
+        "La séquence est alignée sur le moment aha défini",
+        "La livraison suit le format structuré fiche par e-mail"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On a besoin d'une séquence de nurture pour les gens qui téléchargent notre guide « Réussir sa transition vers le travail indépendant ». L'objectif est de les amener à réserver une session découverte avec notre coach.",
+      "expected_output": "Doit créer une séquence de nurture de 6-8 e-mails. Doit appliquer le principe valeur avant la demande : les premiers e-mails apportent de la valeur, ils ne poussent pas immédiatement vers la réservation. Doit faire progresser la séquence depuis la prise de conscience (téléchargement du guide) jusqu'à la décision (réserver une session). Doit inclure les délais entre e-mails. Chaque e-mail doit avoir un objet clair et un seul CTA. Les demandes d'engagement doivent augmenter progressivement au fil de la séquence. La copy doit sonner naturellement en français, sans calque anglophone.",
+      "assertions": [
+        "Crée une séquence de nurture de 6-8 e-mails",
+        "Applique le principe valeur avant la demande",
+        "Fait progresser de la prise de conscience à la décision",
+        "Inclut les délais entre les e-mails",
+        "Chaque e-mail a un objet clair et un seul CTA",
+        "Les objets sont en casse de phrase sans Title Case",
+        "Les demandes d'engagement augmentent progressivement",
+        "Pas d'tics d'IA (Découvrez, Boostez, etc.) dans les objets ou la copy",
+        "Pas de calque anglophone (tiret cadratin, Title Case, etc.)",
+        "La copy est liée au sujet du guide téléchargé"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "nos taux d'ouverture se sont effondrés. on était à 35 %, on est maintenant à 18 %. qu'est-ce qui se passe et comment on améliore nos objets ?",
+      "expected_output": "Doit se déclencher sur une formulation informelle. Doit diagnostiquer les causes possibles du déclin : réputation de l'expéditeur, hygiène de liste, qualité des objets, fréquence d'envoi, délivrabilité. Doit appliquer la stratégie d'objets du skill : tester curiosité vs bénéfice, personnalisation, longueur optimale, casse de phrase française. Doit recommander une campagne de réengagement pour nettoyer la liste. Doit fournir des structures d'objets et des exemples concrets en français. Doit proposer un cadre de test.",
+      "assertions": [
+        "Se déclenche sur une formulation informelle",
+        "Diagnostique plusieurs causes au-delà des seuls objets",
+        "Aborde la réputation de l'expéditeur et la délivrabilité",
+        "Recommande un nettoyage de liste ou une séquence de réengagement",
+        "Applique la stratégie d'objets avec des exemples concrets en français",
+        "Les exemples d'objets sont en casse de phrase (pas de Title Case)",
+        "Pas d'anglicismes injustifiés dans les exemples",
+        "Propose un cadre de test A/B"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Construis une séquence de réengagement pour les abonnés qui n'ont pas ouvert un seul e-mail depuis 90 jours. On a environ 5 000 abonnés inactifs.",
+      "expected_output": "Doit créer une séquence de réengagement de 3-4 e-mails. Doit suivre la progression : premier e-mail sincère qui prend des nouvelles, e-mails intermédiaires qui escaladent avec de bonnes raisons de revenir, dernier e-mail clair de type 'dernière chance'. Doit recommander des objets percutants pour sortir du lot. Doit inclure une politique de suppression (retirer les non-répondants après la séquence). Doit aborder l'impact sur la délivrabilité des abonnés inactifs. Les objets doivent être en casse de phrase et exempts d'tics d'IA.",
+      "assertions": [
+        "Crée une séquence de réengagement de 3-4 e-mails",
+        "Le premier e-mail prend des nouvelles de façon sincère",
+        "La séquence monte en intensité",
+        "Inclut un e-mail de type « dernière chance »",
+        "Recommande une politique de suppression des non-répondants",
+        "Aborde l'impact de la liste inactive sur la délivrabilité",
+        "Les objets sont en casse de phrase, sans Title Case",
+        "Pas de tics d'IA ni d'anglicismes injustifiés dans les exemples"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quel est le bon rythme pour notre séquence d'onboarding ? On envoie le premier e-mail juste après l'inscription, mais on ne sait pas pour la suite.",
+      "expected_output": "Doit donner des recommandations de délais pour les séquences d'onboarding. Doit recommander un premier e-mail immédiat. Doit expliquer la différence entre déclencheurs comportementaux et délais temporels fixes, en privilégiant les comportementaux. Doit fournir des délais types pour l'onboarding SaaS (j0, j+1, j+3, j+5, j+7, etc.). Doit préciser que le rythme optimal dépend de la complexité du produit et de la durée de l'essai.",
+      "assertions": [
+        "Donne des recommandations de délais pour l'onboarding",
+        "Recommande un premier e-mail immédiat",
+        "Distingue déclencheurs comportementaux et délais temporels",
+        "Fournit des délais types en jours",
+        "Note que le rythme dépend du produit et de la durée d'essai",
+        "Recommande les déclencheurs comportementaux avec délais de repli"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Aidez-moi à optimiser notre expérience d'onboarding post-inscription. Les utilisateurs s'inscrivent mais 60 % ne finissent jamais le paramétrage.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une optimisation de l'onboarding in-app, pas d'une séquence e-mail. Doit renvoyer vers le skill onboarding, qui couvre les flows in-app, les checklists et l'optimisation de l'activation. Peut proposer de traiter le volet e-mail de l'onboarding, mais doit préciser que onboarding est le skill principal pour cette tâche.",
+      "assertions": [
+        "Reconnaît que c'est une problématique d'onboarding in-app",
+        "Renvoie vers le skill onboarding",
+        "Ne tente pas de refondre l'onboarding complet avec les seuls patterns e-mail",
+        "Peut proposer de traiter le volet e-mail en complément"
+      ],
+      "files": []
+    }
+  ]
+}

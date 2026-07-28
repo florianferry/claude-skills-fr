@@ -1,0 +1,124 @@
+{
+  "skill_name": "copywriting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Rédige le contenu de la page d'accueil d'un logiciel SaaS qui automatise l'intégration des nouveaux salariés. La cible, ce sont les responsables RH d'entreprises de taille moyenne (200 à 2 000 salariés). Le principal atout : l'outil se connecte à tous les SIRH du marché et fait passer le temps d'intégration de 2 semaines à 2 jours.",
+      "expected_output": "Doit d'abord vérifier la présence de product-marketing.md. Doit rédiger le contenu complet de la page, organisé par section : titre, sous-titre, CTA (au-dessus de la ligne de flottaison), puis preuve sociale, problème/douleur, solution/bénéfices, comment ça marche, traitement des objections et CTA final. Doit respecter les principes de copywriting : clarté avant l'effet de style, bénéfices avant fonctionnalités, spécificité (réutiliser le chiffre « 2 semaines à 2 jours »), langage du client. Le titre doit porter la proposition de valeur centrale. Les CTA doivent être orientés action (« Démarrer mon essai gratuit », jamais « Envoyer » ni un calque comme « Commencer »). Doit proposer 2 à 3 titres alternatifs avec justification. Doit inclure des annotations expliquant les choix de copy. Doit inclure le contenu méta (balise titre SEO et méta-description). Côté qualité française : typographie irréprochable (espaces insécables avant : ; ! ?, guillemets « », apostrophes typographiques, chiffres et unités à la française comme « 2 000 salariés », « 29 € », « 80 % »), titres et boutons en casse de phrase (pas de title case), aucun tiret cadratin, registre vouvoiement cohérent du début à la fin, et aucun tic d'IA (« Découvrez », « Boostez », « Optimisez », « Révolutionnaire ») ni calque de l'anglais.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Rédige le contenu complet de la page organisé par section",
+        "Inclut titre, sous-titre et CTA au-dessus de la ligne de flottaison",
+        "Inclut les sections preuve sociale, problème/douleur, solution/bénéfices et comment ça marche",
+        "Réutilise la spécificité « 2 semaines à 2 jours » dans le texte",
+        "Les CTA sont orientés action, pas génériques",
+        "Propose 2 à 3 titres alternatifs avec justification",
+        "Inclut des annotations expliquant les choix de copy",
+        "Inclut le contenu méta (titre SEO et méta-description)",
+        "La typographie française est correcte : espaces insécables, guillemets « », apostrophes typographiques, chiffres et unités à la française, casse de phrase et aucun tiret cadratin",
+        "N'emploie aucun anglicisme injustifié, calque structurel de l'anglais ni tic d'IA, avec un registre vouvoiement homogène"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Réécris ce titre : « Une plateforme innovante propulsée par l'IA pour des opérations métier fluidifiées » — c'est pour un outil SaaS B2B qui aide les petites entreprises à gérer leur facturation et leurs paiements.",
+      "expected_output": "Doit repérer les problèmes : jargon et tics d'IA (« innovante », « propulsée par l'IA », « fluidifiées », « opérations métier »), trop vague, langage de l'entreprise plutôt que du client, et tournures qui sonnent traduites de l'anglais. Doit appliquer les principes de copywriting : spécificité plutôt que flou, bénéfices plutôt que fonctionnalités, langage du client plutôt que de l'entreprise. Doit proposer 2 à 3 titres alternatifs s'appuyant sur des formules comme « {Obtenir tel résultat} sans {telle douleur} » ou « Le {catégorie} pour {audience} ». Chaque alternative doit être justifiée. Doit aussi suggérer un sous-titre qui ajoute de la spécificité. Côté qualité française : typographie irréprochable (guillemets « », apostrophes typographiques, espaces insécables), titres en casse de phrase, aucun tiret cadratin, et formulations pensées en français et non calquées de l'anglais.",
+      "assertions": [
+        "Repère le jargon et les tics d'IA du titre d'origine",
+        "Identifie le flou comme un problème",
+        "Identifie le problème langage de l'entreprise contre langage du client",
+        "Propose 2 à 3 titres alternatifs",
+        "Les alternatives s'appuient sur des formules de titres du skill",
+        "Chaque alternative est justifiée",
+        "Suggère un sous-titre",
+        "La typographie française est correcte : guillemets « », apostrophes typographiques, espaces insécables, casse de phrase et aucun tiret cadratin",
+        "Les titres sont pensés en français, sans anglicisme ni calque structurel de l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "il me faut du texte pour ma page de tarifs. on a trois formules : essentiel (29 €/mois), pro (79 €/mois), entreprise (199 €/mois). c'est un outil de programmation de publications sur les réseaux sociaux pour les marketeurs",
+      "expected_output": "Doit réagir au ton familier de la demande. Doit demander ou déduire le contexte d'audience. Doit appliquer les conseils pour une page de tarifs : aider le visiteur à choisir la bonne formule, apaiser l'anxiété du « laquelle est faite pour moi ? », rendre la formule recommandée évidente. Doit rédiger les noms de formules, descriptions et listes de fonctionnalités avec un texte orienté bénéfices (pas seulement des noms de fonctionnalités). Doit inclure un titre de page qui traite la décision de tarif. Les CTA doivent être spécifiques à chaque formule. Doit traiter les objections (texte de FAQ). Doit proposer des alternatives pour les éléments clés. Côté qualité française : prix et unités à la française (« 29 €/mois », espace insécable avant l'unité), typographie irréprochable (guillemets « », apostrophes typographiques, espace insécable avant ? ), titres et boutons en casse de phrase, aucun tiret cadratin, registre cohérent, et aucun anglicisme injustifié ni calque de l'anglais.",
+      "assertions": [
+        "Réagit au ton familier de la demande",
+        "Applique les conseils pour une page de tarifs",
+        "Apaise l'anxiété du « laquelle est faite pour moi »",
+        "Rend la formule recommandée évidente",
+        "Rédige des fonctionnalités orientées bénéfices, pas de simples noms de fonctionnalités",
+        "Inclut un titre de page",
+        "Les CTA sont spécifiques à chaque formule",
+        "Inclut une FAQ ou un traitement des objections",
+        "Propose des alternatives pour les éléments clés",
+        "La typographie française est correcte : prix et unités à la française, guillemets « », apostrophes typographiques, espaces insécables, casse de phrase et aucun tiret cadratin",
+        "N'emploie aucun anglicisme injustifié ni calque de l'anglais, avec un registre cohérent"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Rédige le texte de notre page « À propos ». On est une jeune entreprise de 3 personnes qui a créé un outil pour développeurs dédié aux migrations de bases de données. On l'a lancé parce qu'on perdait sans arrêt des données pendant les migrations à nos précédents postes. Le ton doit rester professionnel mais humain.",
+      "expected_output": "Doit appliquer les conseils pour une page « À propos » : raconter l'histoire de la raison d'être, relier la mission au bénéfice client, prévoir tout de même un CTA. Doit adapter la voix et le ton au « professionnel mais humain » demandé. Doit raconter l'histoire d'origine des fondateurs de façon authentique. Doit relier la douleur personnelle vécue à celle du client. Doit inclure un CTA même sur la page « À propos ». Le texte doit suivre les règles de style : voix active, ton assuré, propos spécifique. Ne doit pas être trop corporate ni générique. Côté qualité française : typographie irréprochable (guillemets « », apostrophes typographiques, espaces insécables, aucun tiret cadratin, « À propos » avec majuscule accentuée), rythme français qui varie la longueur des phrases plutôt qu'un staccato calqué de l'anglais, registre cohérent, et aucun tic d'IA ni anglicisme injustifié.",
+      "assertions": [
+        "Applique les conseils pour une page « À propos »",
+        "Raconte l'histoire de la raison d'être de l'entreprise",
+        "Relie la mission au bénéfice client",
+        "Inclut un CTA",
+        "Adapte le ton à « professionnel mais humain »",
+        "Utilise l'histoire d'origine des fondateurs",
+        "Relie la douleur personnelle à celle du client",
+        "Emploie la voix active",
+        "Évite le jargon corporate",
+        "La typographie française est correcte : guillemets « », apostrophes typographiques, espaces insécables, majuscules accentuées et aucun tiret cadratin",
+        "N'emploie aucun tic d'IA ni anglicisme injustifié, avec un rythme français et un registre cohérent"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Tu peux améliorer ce CTA ? On a actuellement « En savoir plus » sur la page fonctionnalité de notre produit de tableau de bord analytique.",
+      "expected_output": "Doit immédiatement identifier « En savoir plus » comme un CTA faible, conformément aux recommandations. Doit appliquer la formule de CTA : [verbe d'action] + [ce que la personne obtient] + [qualificatif]. Doit proposer 2 à 3 alternatives fortes comme « Voir le tableau de bord en action », « Démarrer mon essai gratuit » ou « Explorer les analyses ». Chaque alternative doit être justifiée et précisée quant au contexte où elle fonctionne le mieux. Doit aussi considérer la hiérarchie des CTA — s'agit-il d'un CTA principal ou secondaire — et suggérer des CTA complémentaires si pertinent. Côté qualité française : CTA formulés avec un verbe d'action naturel en français (pas un calque de l'anglais ni une rafale de « ! »), en casse de phrase, avec une typographie irréprochable (guillemets « », apostrophes typographiques) et aucun tiret cadratin.",
+      "assertions": [
+        "Identifie « En savoir plus » comme un CTA faible",
+        "Applique la formule de CTA du skill",
+        "Propose 2 à 3 alternatives fortes",
+        "Chaque alternative est justifiée",
+        "Considère la hiérarchie des CTA (principal contre secondaire)",
+        "Suggère des CTA complémentaires",
+        "La typographie française est correcte : guillemets « », apostrophes typographiques, casse de phrase et aucun tiret cadratin",
+        "Les CTA emploient un verbe d'action naturel en français, sans calque de l'anglais ni ponctuation excessive"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Écris-moi une séquence de 5 e-mails de bienvenue pour les nouveaux utilisateurs en période d'essai de notre outil de gestion de projet.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de rédaction d'e-mails, et non de rédaction de page. Doit renvoyer au skill emails, ou s'y référer, puisque c'est lui qui traite spécifiquement les séquences d'e-mails, les campagnes de relance et les e-mails de cycle de vie. Peut donner quelques conseils généraux mais doit indiquer clairement qu'emails est le bon skill pour cette tâche. Toute formulation produite reste en français correct, sans anglicisme injustifié (« e-mail » plutôt que « mail » brut si le projet l'emploie) ni calque de l'anglais.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un travail de séquence d'e-mails",
+        "Renvoie au skill emails ou s'y réfère",
+        "Ne tente pas de rédiger une séquence d'e-mails complète avec les patterns de rédaction de page",
+        "Toute formulation produite reste en français correct, sans anglicisme injustifié ni calque de l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Relis ce texte et dis-moi ce qui ne va pas : « Nous sommes incroyablement fiers de vous présenter notre plateforme révolutionnaire et avant-gardiste qui va totalement transformer la façon dont les entreprises optimisent leurs processus ! Inscrivez-vous maintenant !! »",
+      "expected_output": "Doit appliquer le contrôle qualité rapide. Doit repérer : les points d'exclamation (à supprimer), les mots à la mode sans substance et tics d'IA (« révolutionnaire », « avant-gardiste », « totalement transformer », « optimisent »), les constructions passives ou faibles (« Nous sommes fiers de vous présenter »), le langage vague (« processus »). Doit appliquer les règles de style : simple plutôt que complexe, spécifique plutôt que vague, assuré plutôt que prudent, montrer plutôt que dire. Doit réécrire le texte en suivant ces principes. Doit proposer 2 à 3 alternatives. Côté qualité française : signaler aussi la ponctuation excessive (« ! » et « !! » en série) et tout calque de l'anglais ; la réécriture doit avoir une typographie irréprochable (guillemets « », apostrophes typographiques, espace insécable avant ! et ? ), une ponctuation sobre, aucun tiret cadratin, et bannir les tics d'IA français.",
+      "assertions": [
+        "Identifie la surutilisation des points d'exclamation",
+        "Identifie les mots à la mode sans substance et les tics d'IA",
+        "Identifie le langage vague",
+        "Applique les règles de style rédactionnel",
+        "Réécrit le texte en suivant les principes",
+        "Propose des alternatives",
+        "Le résultat est spécifique, clair et sans jargon",
+        "La typographie française est correcte : guillemets « », apostrophes typographiques, espaces insécables, ponctuation sobre et aucun tiret cadratin",
+        "La réécriture bannit les tics d'IA et les calques de l'anglais"
+      ],
+      "files": []
+    }
+  ]
+}

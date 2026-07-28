@@ -1,0 +1,100 @@
+{
+  "skill_name": "competitors",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Crée une page 'Meilleures alternatives à Asana' pour notre outil de gestion de projet. On se différencie principalement sur le prix (8 €/utilisateur contre 24 € chez eux) et la simplicité (Asana est devenu trop complexe). Cible : les petites équipes de 5 à 20 personnes.",
+      "expected_output": "Doit vérifier d'abord l'existence de product-marketing.md. Doit identifier ce cas comme le format alternatives multiples ([Concurrent] Alternatives). Doit inclure les sections essentielles : résumé rapide, paragraphes sur chaque alternative (ton produit mis en avant en premier), tableau comparatif de fonctionnalités, comparaison tarifaire, pour qui chaque alternative est faite. Doit utiliser l'approche d'architecture de contenu modulaire. Doit prendre en compte le SEO pour le mot-clé 'alternatives Asana'. Doit positionner le produit de l'utilisateur avec les différenciateurs indiqués (prix, simplicité). La copy doit être en vouvoiement, sans tiret cadratin, avec les guillemets français « » et les espaces insécables avant : ; ! ?",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie le format alternatives multiples",
+        "Inclut une section résumé rapide",
+        "Inclut un tableau comparatif de fonctionnalités",
+        "Inclut une comparaison tarifaire en euros",
+        "Inclut une section 'pour qui' par alternative",
+        "Positionne le produit de l'utilisateur en premier avec ses différenciateurs",
+        "Prend en compte le SEO pour le mot-clé ciblé",
+        "Aucun anglicisme injustifié (pas de 'Boost', 'Game-changer', etc.)",
+        "Typographie française respectée (guillemets « », espaces insécables, casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Rédige une page de comparaison 'HubSpot ou Salesforce : lequel choisir ?'. On est HubSpot et on veut montrer pourquoi on est le meilleur choix pour les PME.",
+      "expected_output": "Doit identifier le format 'ton produit vs concurrent'. Doit inclure des sections de comparaison structurées : présentation des deux outils, comparaison fonctionnalité par fonctionnalité, comparaison tarifaire, avantages/inconvénients de chacun, pour qui chacun est fait, et le processus de migration. Doit être factuellement honnête sur le concurrent tout en positionnant stratégiquement HubSpot pour les PME. Doit inclure un résumé rapide en tête de page. Doit utiliser le pattern d'architecture de données concurrentielles centralisées. Vouvoiement dans la copy, typographie française irréprochable.",
+      "assertions": [
+        "Identifie le format 'ton produit vs concurrent'",
+        "Inclut des sections de comparaison structurées",
+        "Inclut une comparaison fonctionnalité par fonctionnalité",
+        "Inclut une comparaison tarifaire",
+        "Inclut un résumé rapide en tête de page",
+        "Factuellement honnête sur Salesforce",
+        "Positionne HubSpot stratégiquement pour les PME",
+        "Inclut une section migration ou changement d'outil",
+        "Pas de tiret cadratin dans le corps du texte",
+        "Aucun tic d'IA (Découvrez, Révolutionnaire, Incontournable…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "on a besoin d'une page sur 'alternative mailchimp' (singulier). on est une plateforme d'e-mail marketing axée sur les marques e-commerce.",
+      "expected_output": "Doit réagir au message informel. Doit identifier le format alternative singulière (positionnant ton produit comme LA meilleure alternative). Doit centrer toute la page sur pourquoi la plateforme de l'utilisateur est la meilleure alternative à Mailchimp pour l'e-commerce. Doit inclure : pourquoi les gens quittent Mailchimp, les avantages spécifiques e-commerce, comparaison de fonctionnalités, comparaison tarifaire, guide de migration, témoignages clients. Doit cibler le mot-clé singulier 'alternative Mailchimp'. Vouvoiement dans la copy, typographie française.",
+      "assertions": [
+        "Réagit à la formulation informelle",
+        "Identifie le format alternative singulière",
+        "Positionne le produit de l'utilisateur comme LA meilleure alternative",
+        "Inclut les raisons pour lesquelles les gens quittent Mailchimp",
+        "Met en avant les avantages spécifiques à l'e-commerce",
+        "Inclut une comparaison de fonctionnalités et de tarifs",
+        "Inclut un guide de migration",
+        "Cible le mot-clé au singulier 'alternative Mailchimp'",
+        "Aucun anglicisme non justifié par l'audience",
+        "Guillemets français « » et casse de phrase pour les titres"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Peux-tu créer une page de comparaison 'Notion vs Coda' ? On est un site de comparaison tiers, pas affilié à l'un ou l'autre produit.",
+      "expected_output": "Doit identifier le format 'concurrent vs concurrent' (point de vue tiers). Doit maintenir l'objectivité, l'utilisateur n'étant affilié à aucun des deux produits. Doit inclure une comparaison équilibrée : présentation des deux outils, comparaison de fonctionnalités, tarifs, avantages/inconvénients, recommandations par cas d'usage. Doit utiliser les sections essentielles du skill. Peut suggérer des pistes de monétisation (liens d'affiliation, mise en avant d'un autre produit si pertinent). Doit prendre en compte le SEO pour la requête 'Notion vs Coda'. Typographie française.",
+      "assertions": [
+        "Identifie le format 'concurrent vs concurrent'",
+        "Maintient l'objectivité (point de vue tiers)",
+        "Inclut une comparaison équilibrée des fonctionnalités",
+        "Inclut une comparaison tarifaire",
+        "Inclut des recommandations par cas d'usage",
+        "Prend en compte le SEO pour la requête ciblée",
+        "Suggère une approche de monétisation",
+        "Typographie française correcte dans la copy produite"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On veut construire un hub comparatif complet. On a 5 concurrents principaux et on veut créer des pages alternatives pour chacun, plus des comparaisons directes. Comment structurer tout ça ?",
+      "expected_output": "Doit appliquer l'architecture de données concurrentielles centralisées. Doit recommander une structure hub avec : pages alternatives individuelles pour chaque concurrent (5 pages singulières), une page récapitulative 'meilleures alternatives', des pages de comparaison directe pour les face-à-face clés. Doit aborder la stratégie de maillage interne entre ces pages. Doit recommander un processus de recherche pour collecter les données concurrentielles. Doit traiter la structure d'URL et l'architecture du hub.",
+      "assertions": [
+        "Applique l'architecture de données concurrentielles centralisées",
+        "Recommande une structure hub avec plusieurs types de pages",
+        "Suggère des pages alternatives individuelles et récapitulatives",
+        "Aborde le maillage interne entre les pages comparatives",
+        "Recommande un processus de recherche concurrentielle",
+        "Traite la structure d'URL"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "J'ai besoin de créer une battle card pour mon équipe commerciale, pour nous comparer à Zendesk. L'objectif est d'aider les commerciaux à traiter les objections concurrentielles en rendez-vous.",
+      "expected_output": "Doit reconnaître qu'il s'agit de support commercial interne, pas d'une page comparative publique. Doit renvoyer vers le skill sales-enablement, qui gère les battle cards, les fiches de traitement des objections et les supports concurrentiels internes. Peut donner quelques conseils de positionnement concurrentiel, mais doit clairement indiquer que sales-enablement est le skill adapté pour les supports commerciaux internes.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un support commercial interne",
+        "Renvoie vers le skill sales-enablement",
+        "Ne tente pas de créer une battle card interne avec les patterns de pages comparatives publiques"
+      ],
+      "files": []
+    }
+  ]
+}

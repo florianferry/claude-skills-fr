@@ -1,0 +1,110 @@
+{
+  "skill_name": "revops",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à mettre en place nos stades du cycle de vie des leads. Nous sommes une SaaS B2B qui vend au mid-market. Nous utilisons HubSpot comme CRM et nos équipes marketing et ventes ne s'accordent pas sur les définitions des leads.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit appliquer le cycle de vie des leads : Abonné → Lead → MQL → SQL → Opportunité → Client → Ambassadeur. Doit définir des critères clairs pour chaque transition de stade (ce qui fait passer un Lead en MQL, etc.). Doit traiter le problème d'alignement marketing-ventes : définir des définitions communes et des SLA. Doit recommander les étapes de configuration dans HubSpot. Doit inclure le paramétrage du lead scoring. Doit fournir un processus de passation entre marketing et ventes.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Applique le cycle de vie complet avec tous les stades",
+        "Définit les critères pour chaque transition de stade",
+        "Traite l'alignement marketing-ventes",
+        "Fournit des conseils de configuration HubSpot",
+        "Inclut le paramétrage du lead scoring",
+        "Fournit un processus de passation entre équipes",
+        "Typographie française correcte : guillemets « », espaces insécables, pas de tiret cadratin"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Mets en place un système de lead scoring pour nous. On veut savoir quels leads les commerciaux doivent appeler en priorité. On vend un logiciel enterprise (ACV 50 000 €+).",
+      "expected_output": "Doit appliquer le framework de scoring avec trois dimensions : scoring explicite (firmographique : effectif, secteur, titre), scoring implicite (comportemental : pages visitées, téléchargements, engagement e-mail) et scoring négatif (désabonnements, e-mails de concurrents, e-mails étudiants). Doit fournir des critères de scoring adaptés à l'enterprise (ACV 50 000 €+) : pondérer fortement les signaux firmographiques, inclure les signaux budgétaires et d'autorité. Doit définir les seuils de score pour le MQL et le SQL. Doit recommander le routage des leads selon les scores.",
+      "assertions": [
+        "Applique le scoring avec les dimensions explicite, implicite et négatif",
+        "Fournit des critères adaptés à l'enterprise",
+        "Pondère correctement les signaux firmographiques",
+        "Inclut les signaux comportementaux",
+        "Inclut les signaux de scoring négatif",
+        "Définit les seuils MQL et SQL",
+        "Recommande le routage des leads selon les scores",
+        "Absence d'anglicismes injustifiés et de tics d'IA (Découvrez, Optimisez, etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "notre pipeline c'est le bazar. les deals restent bloqués dans les mêmes stades et on sait pas ce qui va vraiment se conclure. comment on règle ça ?",
+      "expected_output": "Doit se déclencher sur une formulation familière. Doit appliquer les conseils de gestion des stades du pipeline. Doit recommander : définir des stades clairs avec critères d'entrée/sortie, fixer une durée maximale par stade, mettre en place le suivi de la vélocité par stade, ajouter des champs obligatoires par stade pour forcer la saisie des données. Doit aborder l'hygiène du pipeline : revues régulières, signalement des deals stagnants, analyse des gains et pertes. Doit recommander des automatisations CRM pour faire respecter les règles. Doit fournir un plan concret de remise en ordre.",
+      "assertions": [
+        "Se déclenche sur une formulation familière",
+        "Applique la gestion des stades du pipeline",
+        "Définit les stades avec critères d'entrée/sortie",
+        "Recommande une durée maximale par stade",
+        "Traite l'hygiène du pipeline et les revues régulières",
+        "Recommande des automatisations CRM",
+        "Fournit un plan de remise en ordre concret",
+        "Typographie française correcte : guillemets « », espaces insécables, nombres à la française"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Quels indicateurs RevOps devrions-nous suivre ? On veut construire un tableau de bord pour notre comité de direction.",
+      "expected_output": "Doit appliquer le framework de tableau de bord RevOps. Doit recommander des indicateurs couvrant tout l'entonnoir : volume de leads par source, taux MQL-vers-SQL, taux SQL-vers-opportunité, taux de gain, taille moyenne des deals, durée du cycle de vente, vélocité du pipeline, ratio de couverture, CAC, LTV, ratio LTV:CAC. Doit organiser les indicateurs par audience (équipe marketing, équipe ventes, direction). Doit recommander la structure du tableau de bord et la cadence des revues.",
+      "assertions": [
+        "Applique le framework de tableau de bord RevOps",
+        "Couvre les indicateurs sur tout l'entonnoir",
+        "Inclut les taux de conversion entre stades",
+        "Inclut la vélocité du pipeline et le ratio de couverture",
+        "Inclut CAC, LTV et ratio LTV:CAC",
+        "Organise par audience",
+        "Recommande la structure du tableau de bord et la cadence des revues",
+        "Absence d'anglicismes injustifiés et de tics d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Nos données CRM sont catastrophiques. Des doublons partout, des champs vides, des nommages incohérents. Comment on nettoie tout ça et comment on évite que ça recommence ?",
+      "expected_output": "Doit appliquer les conseils de qualité des données. Doit recommander : stratégie de détection et fusion des doublons, champs obligatoires, conventions de nommage standardisées (listes déroulantes plutôt que saisie libre), règles de validation des données, cadence d'audit régulière. Doit traiter à la fois le nettoyage ponctuel et la prévention à long terme. Doit recommander des automatisations CRM pour la qualité des données. Doit fournir un plan de nettoyage priorisé (commencer par les problèmes à fort impact).",
+      "assertions": [
+        "Applique les conseils de qualité des données",
+        "Recommande la détection et la fusion des doublons",
+        "Recommande les champs obligatoires",
+        "Traite les conventions de nommage standardisées",
+        "Couvre à la fois le nettoyage et la prévention",
+        "Recommande des automatisations CRM pour la qualité",
+        "Fournit un plan de nettoyage priorisé",
+        "Typographie française correcte : guillemets « », espaces insécables, pas de tiret cadratin"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Pouvez-vous m'aider à rédiger des e-mails de prospection froide pour les prospects dans notre pipeline ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de rédaction d'e-mails de prospection froide, pas de RevOps. Doit renvoyer vers le skill cold-email pour la rédaction d'e-mails de prospection sortante. Le RevOps couvre les systèmes, les processus et l'infrastructure des données, pas le contenu des e-mails.",
+      "assertions": [
+        "Reconnaît qu'il s'agit de rédaction d'e-mails de prospection, pas de RevOps",
+        "Renvoie vers le skill cold-email",
+        "Explique que le RevOps couvre les systèmes et les processus, pas le contenu des e-mails",
+        "Absence d'anglicismes injustifiés et de tics d'IA (Découvrez, N'hésitez pas à…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Voici la copy de notre alerte MQL envoyée aux commerciaux. Dis-moi ce qui ne va pas :\n\n« Bonjour !\n\nVous avez un nouveau lead Super-Qualifié ! 🚀 Boostez vos performances et saisissez cette opportunité incontournable ! Ce lead est un véritable game-changer pour votre pipeline — n'hésitez pas à le contacter au plus vite pour maximiser vos chances de succès ! »",
+      "expected_output": "Doit identifier les problèmes de la copy : tics d'IA (Boostez, incontournable, véritable, N'hésitez pas à), calques de l'anglais (game-changer), absence d'informations concrètes sur le lead, ponctuation excessive (points d'exclamation en série, émoji), tiret cadratin mal utilisé. Doit proposer une version corrigée sobre, factuelle et orientée action, avec typographie française correcte, sans tics d'IA ni anglicismes injustifiés.",
+      "assertions": [
+        "Identifie les tics d'IA et calques de l'anglais (Boostez, incontournable, game-changer, N'hésitez pas à)",
+        "Signale les points d'exclamation en série comme problème de ton",
+        "Propose une version sobre et factuelle",
+        "Typographie française correcte dans la version corrigée : guillemets « », espaces insécables, pas de tiret cadratin",
+        "Absence d'anglicismes injustifiés et de tics d'IA dans la version corrigée"
+      ],
+      "files": []
+    }
+  ]
+}

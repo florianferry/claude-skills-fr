@@ -1,0 +1,97 @@
+{
+  "skill_name": "copy-editing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Édite la copy de notre page d'accueil : « Bienvenue chez CloudSync ! Nous sommes très heureux de vous proposer une solution innovante et incontournable qui va révolutionner votre quotidien. Notre plateforme puissante s'intègre de manière transparente à vos outils existants et permet aux entreprises de toutes tailles d'optimiser leurs workflows et de booster des résultats concrets. Découvrez la différence dès aujourd'hui !! »",
+      "expected_output": "Devrait d'abord vérifier la présence d'un contexte product-marketing.md. Devrait appliquer systématiquement les sept passes. Passe 1 (Clarté) : repérer le langage vague (« optimiser leurs workflows », « booster des résultats concrets », « découvrez la différence »). Passe 2 (Voix et ton) : signaler « Bienvenue chez » comme accroche faible et « nous sommes très heureux » comme tournure centrée sur l'entreprise plutôt que sur le lecteur. Passe 3 (Et alors ?) : interroger la valeur concrète réellement offerte. Passe 4 (Preuve) : noter l'absence de preuve, chiffre ou élément factuel. Passe 5 (Précision) : signaler « entreprises de toutes tailles », « vos outils existants », « plateforme puissante » comme génériques. Passe 6 (Émotion) : évaluer l'impact émotionnel. Passe 7 (Zéro risque) : vérifier les signaux de confiance. Devrait repérer les tics d'IA et anglicismes (« innovante », « incontournable », « révolutionner », « de manière transparente », « workflows », « booster », « Découvrez ») et les calques de l'anglais. Devrait corriger la typographie française : espace insécable avant « ! », « ? », « : », guillemets « », casse de phrase, suppression des « !! » en série, pas de tiret cadratin. Devrait fournir une version réécrite traitant tous ces points.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Applique les sept passes (Clarté, Voix et ton, Et alors ?, Preuve, Précision, Émotion, Zéro risque)",
+        "Repère le langage vague (passe Clarté)",
+        "Signale l'accroche faible et la formulation centrée sur l'entreprise (passe Voix et ton)",
+        "Interroge la proposition de valeur manquante (passe Et alors ?)",
+        "Note l'absence de preuve (passe Preuve)",
+        "Signale les termes génériques (passe Précision)",
+        "Supprime les anglicismes et tics d'IA (« innovante », « incontournable », « révolutionner », « workflows », « booster », « Découvrez »)",
+        "Corrige la typographie française (espaces insécables, guillemets « », casse de phrase, suppression des « !! »)",
+        "Fournit une version réécrite"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Petite retouche rapide sur cette section d'appel à l'action : « Prêt à faire passer votre business au niveau supérieur ? Notre équipe de professionnels dévoués se tient à votre disposition pour vous aider à atteindre vos objectifs. Cliquez ici pour en savoir plus sur la façon dont nous pouvons vous aider à réussir. »",
+      "expected_output": "Devrait appliquer les vérifications de la passe rapide. Devrait repérer : « faire passer votre business au niveau supérieur » (cliché et anglicisme « business »), « équipe de professionnels dévoués » (remplissage), « se tient à votre disposition » (tournure passive et calque), « Cliquez ici » (CTA faible), « en savoir plus » (action vague), « vous aider à réussir » (générique). Devrait appliquer les contrôles au niveau du mot, de la phrase et du paragraphe. Devrait réécrire avec une proposition de valeur concrète, une voix active et un CTA fort formulé comme un verbe d'action naturel en français (« Réserver une démo », « Voir les tarifs »). Devrait corriger la typographie française : espace insécable avant « ? », guillemets « ». Devrait rester concis puisque la demande était une retouche rapide.",
+      "assertions": [
+        "Repère les clichés et tournures de remplissage",
+        "Signale « Cliquez ici » et « en savoir plus » comme faibles",
+        "Applique les contrôles au niveau du mot et de la phrase",
+        "Supprime les anglicismes et tics d'IA (« business », calques de l'anglais)",
+        "Réécrit avec une valeur concrète et un CTA fort en verbe d'action français",
+        "Emploie la voix active dans la réécriture",
+        "Corrige la typographie française (espace insécable avant « ? », guillemets « »)",
+        "Reste concis pour une retouche rapide"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "édite cette description produit, je la trouve trop longue et lourde : « Notre solution complète de gestion de projet offre aux équipes un ensemble robuste d'outils qui leur permet de planifier, exécuter et suivre efficacement leurs projets du début à la fin. Grâce à notre interface intuitive, notre tableau de bord analytique puissant et nos capacités d'intégration transparentes, vous pouvez vous assurer que chaque aspect de votre projet est géré avec précision et soin. Que vous soyez une petite startup ou une grande entreprise, notre plateforme s'adapte pour répondre à vos besoins et exigences uniques, vous aidant à livrer vos projets dans les temps et dans le budget à chaque fois. »",
+      "expected_output": "Devrait se déclencher sur la formulation familière de la demande. Devrait appliquer surtout les passes Clarté et Précision. Devrait repérer : la redondance (« planifier, exécuter et suivre » recoupe « du début à la fin »), les mots de remplissage et tics d'IA (« complète », « robuste », « efficacement », « transparentes », « puissant », « uniques »), les calques de l'anglais (« Grâce à », « vous assurer que chaque aspect », « avec précision et soin », « Que vous soyez… ou… »), l'anglicisme « startup » et les affirmations génériques (« s'adapte pour répondre à vos besoins », « dans les temps et dans le budget à chaque fois »). Devrait raccourcir nettement la copy (probablement de plus de 50 %). Devrait corriger la typographie française (guillemets « », espaces insécables, pas de tiret cadratin). Devrait fournir une réécriture plus serrée qui dit la même chose en moins de mots et de façon plus concrète.",
+      "assertions": [
+        "Se déclenche sur la formulation familière",
+        "Repère la redondance dans la copy",
+        "Repère les mots de remplissage et les tournures alambiquées",
+        "Supprime les anglicismes et tics d'IA (« robuste », « transparentes », « Grâce à », « Que vous soyez… », « startup »)",
+        "Repère les affirmations génériques",
+        "Raccourcit nettement la copy (réduction de 50 % et plus)",
+        "Corrige la typographie française (guillemets « », espaces insécables, pas de tiret cadratin)",
+        "Fournit une réécriture plus serrée et plus concrète"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Relis cette section de témoignage et améliore-la : « CloudSync c'est top !! Ça a vraiment aidé notre entreprise. L'équipe était très réactive et le produit fonctionne bien. On le recommande à tous ceux qui cherchent une solution. — Jean S., PDG »",
+      "expected_output": "Devrait appliquer les passes Preuve et Précision. Devrait repérer que le témoignage est trop vague pour être convaincant (« top », « vraiment aidé », « fonctionne bien », « tous ceux qui cherchent une solution »). Devrait recommander de le remplacer par des résultats concrets (« délais de livraison réduits de 30 % »), un contexte précis (« équipe de 45 personnes ») et des effets mesurables. Devrait suggérer des questions à poser au client pour obtenir un meilleur témoignage. Ne devrait PAS inventer de chiffres précis, mais fournir un modèle montrant à quoi ressemble un témoignage solide. Devrait corriger la typographie française : remplacer le tiret cadratin « — » devant l'attribution, supprimer les « !! » en série, employer les guillemets « » et l'espace insécable.",
+      "assertions": [
+        "Applique les passes Preuve et Précision",
+        "Repère le témoignage comme trop vague",
+        "Recommande des résultats et un contexte concrets",
+        "Suggère des questions pour obtenir un meilleur témoignage",
+        "N'invente pas de chiffres précis",
+        "Fournit un modèle de témoignage solide",
+        "Corrige la typographie française (supprime le tiret cadratin « — » et les « !! », guillemets « », espace insécable)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "J'aimerais que tu appliques les passes « Et alors ? » et « Zéro risque » à cette copy de page de tarifs : « Notre formule Pro inclut des projets illimités, des rapports avancés, un support prioritaire et des intégrations sur mesure. À partir de 99$/mois. »",
+      "expected_output": "Devrait appliquer spécifiquement les passes Et alors ? et Zéro risque, comme demandé. Et alors ? : pour chaque fonctionnalité, demander « et alors, qu'est-ce que ça change pour le client ? » — projets illimités (ce que ça permet de faire), rapports avancés (quelles décisions ça rend possibles), support prioritaire (qu'est-ce que ça veut dire concrètement, quel délai de réponse ?), intégrations sur mesure (lesquelles, quel usage ça débloque ?). Zéro risque : repérer l'absence de signaux de confiance — pas de garantie, pas de mention d'essai, pas de preuve sociale près du prix, pas d'assurance « sans engagement ». Devrait corriger la typographie française : prix à la française avec espace insécable et symbole après le nombre (« 99 € » et non « 99$ »), « par mois » plutôt que le calque « /mois ». Devrait fournir une copy réécrite traitant les deux passes.",
+      "assertions": [
+        "Applique la passe Et alors ? à chaque fonctionnalité",
+        "Traduit les fonctionnalités en bénéfices pour le client",
+        "Applique la passe Zéro risque",
+        "Repère les signaux de confiance manquants",
+        "Suggère une garantie, un essai ou une formule « sans engagement »",
+        "Corrige la typographie française des prix (« 99 € » avec espace insécable et symbole après le nombre, pas « 99$ »)",
+        "Fournit une copy réécrite traitant les deux passes"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Écris la copy de page d'accueil de notre nouveau produit. On lance un CRM pour les agents immobiliers.",
+      "expected_output": "Devrait reconnaître qu'il s'agit d'une tâche de rédaction de zéro, pas d'édition de copy existante. Devrait renvoyer vers le skill copywriting, qui gère la rédaction de copy à partir de zéro. Le skill copy-editing sert spécifiquement à améliorer une copy existante. Devrait expliquer clairement cette distinction et ne pas se lancer dans la rédaction d'une page complète.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'écrire une nouvelle copy, pas d'éditer une copy existante",
+        "Renvoie vers le skill copywriting",
+        "Explique que copy-editing sert à améliorer une copy existante",
+        "Ne tente pas de rédiger une page complète de zéro"
+      ],
+      "files": []
+    }
+  ]
+}

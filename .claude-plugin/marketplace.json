@@ -1,0 +1,19 @@
+{
+  "name": "claude-skills-fr",
+  "owner": {
+    "name": "Florian Ferry",
+    "url": "https://github.com/florianferry"
+  },
+  "metadata": {
+    "description": "Skills francophones pour Claude : rédaction française irréprochable et pack marketing adapté au français",
+    "version": "1.1.0",
+    "repository": "https://github.com/florianferry/claude-skills-fr"
+  },
+  "plugins": [
+    {
+      "name": "skills-fr",
+      "description": "50 skills en français : rédaction française irréprochable (typographie, anti-calques, anti-slop) et 49 skills marketing adaptées au français (CRO, copywriting, SEO, pricing, ads, ad creative, analytics, attribution, offres, prospection, relations presse, SMS, growth)",
+      "source": "./"
+    }
+  ]
+}

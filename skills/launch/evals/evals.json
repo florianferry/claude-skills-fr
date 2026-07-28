@@ -1,0 +1,101 @@
+{
+  "skill_name": "launch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "On lance un nouveau produit SaaS B2B pour les équipes design dans 6 semaines. C'est un outil de revue de design. Notre audience est petite (500 abonnés e-mail, 2 000 abonnés LinkedIn). Aide-nous à planifier le lancement.",
+      "expected_output": "Doit vérifier en premier si product-marketing.md existe. Doit appliquer le cadre OEP (Owned, Rented, Borrowed) aux ressources spécifiques de l'utilisateur. Possédés : liste e-mail (500 abonnés), site web. Loués : LinkedIn (2 000 abonnés). Empruntés : partenariats, communautés, Product Hunt. Doit recommander l'approche en cinq phases avec une frise calée sur les 6 semaines : préparation interne, alpha (réseau existant), bêta (élargi), accès anticipé, lancement complet. Doit fournir des tactiques concrètes pour chaque phase. Doit recommander de construire l'audience avant le jour du lancement. Doit inclure une checklist pour le jour J. La réponse doit utiliser la typographie française : espaces insécables avant les signes de ponctuation doubles, guillemets « », casse de phrase.",
+      "assertions": [
+        "Vérifie si product-marketing.md existe",
+        "Applique le cadre OEP (Owned, Rented, Borrowed)",
+        "Adapte les recommandations aux canaux et audiences de l'utilisateur",
+        "Recommande l'approche en cinq phases",
+        "Fournit une frise calée sur les 6 semaines",
+        "Donne des tactiques concrètes pour chaque phase",
+        "Recommande de construire l'audience avant le lancement",
+        "Inclut une checklist pour le jour du lancement",
+        "Utilise la typographie française (guillemets « », casse de phrase)",
+        "N'utilise pas d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On veut lancer notre produit sur Product Hunt. T'as des conseils ? On n'a jamais fait ça.",
+      "expected_output": "Doit appliquer la section stratégie Product Hunt. Doit préciser que Product Hunt est une plateforme anglophone et que les annonces sur la plateforme elle-même (tagline, description) restent en anglais, mais que les annonces pour les canaux francophones (LinkedIn, e-mail, page de lancement) doivent être rédigées en français. Doit couvrir : choisir le bon jour et l'heure, préparer les ressources (logo, galerie d'images, vidéo maker), rédiger la tagline et la description, construire un réseau de soutiens, mobiliser ses soutiens le jour J, interagir avec les commentaires, et assurer le suivi post-lancement. Doit recommander une timeline de préparation (commencer 2 à 4 semaines avant). Doit mentionner les erreurs courantes à éviter. Doit cadrer des attentes réalistes sur les résultats. La réponse est en français, sans tics d'IA.",
+      "assertions": [
+        "Applique la section stratégie Product Hunt",
+        "Précise que les contenus Product Hunt restent en anglais sur la plateforme",
+        "Propose des annonces en français pour LinkedIn, e-mail et page de lancement",
+        "Couvre la préparation des ressources visuelles et la tagline",
+        "Aborde le réseau de soutiens et la mobilisation le jour J",
+        "Recommande une timeline de préparation",
+        "Mentionne les erreurs courantes à éviter",
+        "Cadre des attentes réalistes",
+        "Répond en français sans anglicismes injustifiés ni tics d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "on vient de shipper une grosse mise à jour de feature. comment on l'annonce ? c'est pas un lancement complet, juste une grande nouvelle fonctionnalité.",
+      "expected_output": "Doit se déclencher sur le langage familier. Doit appliquer la section stratégie de lancement continue, en particulier la matrice majeur/intermédiaire/mineur. Doit identifier cette mise à jour comme une mise à jour majeure. Doit recommander les canaux et tactiques adaptés à une annonce de fonctionnalité (moins qu'un lancement complet, mais plus qu'une simple entrée de changelog). Doit inclure : e-mail d'annonce, article de blog, push sur les réseaux sociaux, notification in-app, et éventuellement un mini-lancement Product Hunt. Doit fournir un cadre d'annonce de fonctionnalité. La réponse est en français avec typographie correcte.",
+      "assertions": [
+        "Se déclenche sur le langage familier (« on vient de shipper »)",
+        "Applique la matrice de mise à jour (majeur/intermédiaire/mineur)",
+        "Identifie comme une mise à jour majeure",
+        "Calibre les tactiques de façon appropriée (pas un lancement complet)",
+        "Recommande les canaux d'annonce",
+        "Inclut e-mail, blog, réseaux sociaux et notification in-app",
+        "Fournit un cadre d'annonce de fonctionnalité",
+        "Utilise la typographie française (guillemets « », casse de phrase, pas de tiret cadratin)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Notre lancement a été un échec. On a lancé il y a 3 semaines et on n'a eu que 50 inscriptions. On en espérait au moins 500. Qu'est-ce qui s'est passé et que peut-on faire maintenant ?",
+      "expected_output": "Doit appliquer la section marketing post-lancement. Doit diagnostiquer les causes potentielles d'échec : construction d'audience insuffisante avant le lancement, mauvais canaux, message de proposition de valeur faible, exécution du lancement ratée, ciblage d'une mauvaise audience. Doit recommander des tactiques de relance post-lancement : itérer sur le message, identifier quels canaux ont produit les 50 inscriptions et les renforcer, tester de nouveaux canaux de distribution, capitaliser sur les premiers utilisateurs pour obtenir des témoignages. Doit proposer un plan de relance sur 30 jours. La réponse est en français, sans tics d'IA ni anglicismes injustifiés.",
+      "assertions": [
+        "Applique la section marketing post-lancement",
+        "Diagnostique les causes potentielles d'échec",
+        "Aborde le manque de construction d'audience avant le lancement",
+        "Recommande des tactiques de relance post-lancement",
+        "Suggère d'analyser quels canaux ont produit des inscriptions",
+        "Propose un plan de relance concret",
+        "Répond en français sans anglicismes injustifiés",
+        "Pas d'anglicismes non justifiés (pas de « boost », « optimize », etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Comment exploiter des partenariats et des audiences empruntées pour notre lancement ? On n'a pas de grande audience en propre.",
+      "expected_output": "Doit se concentrer sur le canal Borrowed (emprunté) du cadre OEP. Doit fournir des tactiques concrètes : participations à des podcasts en tant qu'invité, co-marketing avec des outils complémentaires, partenariats avec des créateurs, engagement communautaire (groupes Slack, serveurs Discord, Reddit), articles invités, cross-promotions. Doit recommander comment identifier et approcher des partenaires potentiels. Doit signaler que les stratégies de canaux empruntés prennent du temps à construire et doivent démarrer bien avant le lancement. La réponse est en français avec typographie correcte et sans calques de l'anglais.",
+      "assertions": [
+        "Se concentre sur le canal Emprunté (Borrowed) du cadre OEP",
+        "Fournit des tactiques concrètes de canaux empruntés",
+        "Mentionne partenariats, communautés et contenus invités",
+        "Recommande comment identifier et approcher des partenaires",
+        "Signale que ces stratégies prennent du temps",
+        "Suggère de démarrer bien avant le lancement",
+        "Utilise la typographie française (espaces insécables, guillemets « »)",
+        "Pas de phrases qui « sonnent traduites » de l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Donne-moi des idées créatives pour promouvoir notre produit. On est bootstrappés, pas de gros budget.",
+      "expected_output": "Doit reconnaître que c'est une demande d'idées marketing plus large, pas spécifiquement une tâche de stratégie de lancement. Doit renvoyer vers ou croiser avec le skill marketing-ideas, qui propose de nombreuses idées marketing organisées par catégorie et filtrées par budget. Peut fournir quelques idées tactiques liées au lancement mais doit indiquer clairement que marketing-ideas est le skill approprié pour un brainstorming plus large.",
+      "assertions": [
+        "Reconnaît que c'est une demande d'idées marketing générale",
+        "Renvoie vers ou cite le skill marketing-ideas",
+        "Ne tente pas un brainstorming marketing complet avec les patterns de stratégie de lancement",
+        "Peut fournir quelques idées tactiques liées au lancement",
+        "Répond en français avec typographie correcte"
+      ],
+      "files": []
+    }
+  ]
+}

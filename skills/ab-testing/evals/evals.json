@@ -1,0 +1,108 @@
+{
+  "skill_name": "ab-testing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Je veux faire un A/B test sur le titre de notre page d'accueil. Actuellement on dit « La solution tout-en-un pour gérer vos projets » et on veut tester quelque chose d'orienté bénéfice. On a environ 15 000 visiteurs par mois et notre taux d'inscription actuel est de 3,2 %.",
+      "expected_output": "Doit d'abord chercher product-marketing.md. Doit construire une hypothèse solide avec le cadre : « Parce que [observation], nous pensons que [changement] produira [résultat], ce qu'on mesurera avec [métrique]. » Doit identifier comme un A/B test (deux variantes). Doit calculer ou référencer la taille d'échantillon nécessaire sur la base de 15 000 visiteurs/mois et d'un taux de référence de 3,2 %. Doit définir la métrique principale (taux d'inscription), les métriques secondaires et les métriques de garde-fou. Doit mettre en garde contre la consultation prématurée des résultats et recommander une durée fixée à l'avance. Doit fournir le plan de test dans un format structuré. La copy d'exemple éventuelle doit être en français correct, sans tic d'IA ni calque de l'anglais.",
+      "assertions": [
+        "Cherche product-marketing.md",
+        "Utilise le cadre d'hypothèse avec observation, croyance, résultat attendu et métrique",
+        "Identifie comme test A/B (deux variantes)",
+        "Traite le calcul de taille d'échantillon sur la base du trafic et du taux de référence",
+        "Définit la métrique principale (taux d'inscription)",
+        "Définit les métriques secondaires et de garde-fou",
+        "Met en garde contre la consultation prématurée des résultats",
+        "Fournit un plan de test structuré",
+        "Typographie française correcte dans les exemples de copy (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Absence de tics d'IA et d'anglicismes injustifiés dans la copy produite"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "on voudrait tester genre 4 couleurs différentes de bouton CTA sur notre page de tarifs. c'est une bonne idée ?",
+      "expected_output": "Doit réagir au ton informel. Doit identifier comme un test A/B/n (plusieurs variantes). Doit mettre en garde sur le fait que tester 4 variantes nécessite beaucoup plus de trafic qu'un simple A/B. Doit référencer les multiplicateurs de taille d'échantillon pour plusieurs variantes. Doit questionner la pertinence de tester la couleur seule plutôt que le texte du CTA, son emplacement ou le contexte environnant. Doit recommander de réduire à 2 variantes ou de s'assurer d'avoir le trafic suffisant. Doit quand même fournir le cadre d'hypothèse et la structure du test si on décide de continuer.",
+      "assertions": [
+        "Réagit au ton informel",
+        "Identifie comme test A/B/n (plusieurs variantes)",
+        "Met en garde sur le surcroît de trafic nécessaire pour 4 variantes",
+        "Référence les exigences en taille d'échantillon",
+        "Questionne si la couleur seule est un levier à fort impact",
+        "Suggère des alternatives à plus fort impact à tester",
+        "Fournit le cadre d'hypothèse"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Notre test tourne depuis 3 jours et la variante B gagne avec une confiance à 95 %. On peut conclure ?",
+      "expected_output": "Doit immédiatement aborder le problème du coup d'œil prématuré. Doit expliquer que consulter les résultats tôt augmente le taux de faux positifs. Doit recommander de laisser tourner le test jusqu'à la durée pré-calculée, quoi qu'il arrive. Doit expliquer pourquoi une significativité précoce peut être trompeuse (régression vers la moyenne, effets jour de semaine, glissement du mix d'audience). Doit indiquer dans quels cas il est acceptable de stopper tôt (méthodes de tests séquentiels). Doit recommander de définir la durée avant de lancer le test.",
+      "assertions": [
+        "Aborde directement le problème du coup d'œil prématuré",
+        "Explique pourquoi une significativité précoce est trompeuse",
+        "Recommande de faire tourner jusqu'à la durée pré-calculée",
+        "Mentionne les effets jour de semaine ou le glissement du mix d'audience",
+        "Explique l'inflation du taux de faux positifs liée aux consultations prématurées",
+        "Mentionne les tests séquentiels comme alternative"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Aide-moi à mettre en place un test multivarié sur notre landing page. Je veux tester le titre, l'image hero et le bouton CTA en même temps.",
+      "expected_output": "Doit identifier comme test multivarié (MVT). Doit expliquer que le MVT teste des combinaisons d'éléments et nécessite beaucoup plus de trafic qu'un A/B test. Doit calculer ou référencer le volume de trafic nécessaire (les combinaisons se multiplient : ex. 2 titres × 2 images × 2 CTA = 8 combinaisons). Doit recommander le MVT seulement si le trafic le permet, sinon suggérer des tests A/B séquentiels. Doit construire des hypothèses pour chaque élément testé. Doit définir les effets d'interaction à surveiller. Doit fournir un plan de test structuré.",
+      "assertions": [
+        "Identifie comme test multivarié (MVT)",
+        "Explique que le MVT teste des combinaisons d'éléments",
+        "Traite les besoins en trafic nettement plus élevés",
+        "Calcule le nombre de combinaisons",
+        "Suggère des tests A/B séquentiels si le trafic est insuffisant",
+        "Construit des hypothèses pour chaque élément",
+        "Fournit un plan de test structuré"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quelles métriques suivre pour un A/B test sur notre page d'inscription à l'essai gratuit ? On teste un formulaire plus long (avec des champs secteur d'activité et poste) contre le formulaire court actuel.",
+      "expected_output": "Doit appliquer le cadre de sélection des métriques en trois niveaux : principale, secondaires et garde-fous. Principale : taux de complétion du formulaire (la conversion directe). Secondaires : qualité des leads (taux de conversion en MQL/SQL, taux d'activation après inscription). Garde-fous : volume total d'inscriptions (s'assurer que le formulaire plus long ne fait pas chuter les inscriptions en dessous d'un seuil acceptable). Doit expliquer l'arbitrage entre quantité et qualité de conversion. Doit noter qu'il faut une fenêtre d'observation plus longue pour mesurer les métriques en aval.",
+      "assertions": [
+        "Applique le cadre en trois niveaux (principale, secondaires, garde-fous)",
+        "Identifie le taux de complétion du formulaire comme métrique principale",
+        "Identifie la qualité des leads comme métrique secondaire",
+        "Définit des métriques de garde-fou pour éviter les effets négatifs",
+        "Explique l'arbitrage quantité vs qualité",
+        "Mentionne la nécessité d'une fenêtre d'observation plus longue pour les métriques en aval"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peux-tu écrire la copy de notre nouvelle landing page ? On veut ensuite la tester contre la version actuelle.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'abord d'une tâche de copywriting, pas de configuration de test. Doit renvoyer vers le skill copywriting ou y faire référence pour rédiger la copy. Peut aider à cadrer l'hypothèse du test et sa configuration, mais doit préciser que le skill copywriting est le bon outil pour créer la copy de la page elle-même.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'abord d'une tâche de copywriting",
+        "Renvoie vers le skill copywriting ou y fait référence",
+        "N'essaie pas de rédiger toute la copy de la page avec les patterns de configuration de test",
+        "Propose d'aider sur l'hypothèse et la configuration du test"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "On a fait tourner un A/B test sur notre page de tarifs pendant 4 semaines. Contrôle : 2,1 % de conversion. Variante : 2,4 % de conversion. 12 000 visiteurs par variante. C'est statistiquement significatif ? On met en production ?",
+      "expected_output": "Doit évaluer les résultats selon les critères de significativité statistique. Doit calculer ou estimer si la taille d'échantillon est suffisante pour détecter une hausse de 0,3 point de pourcentage depuis un taux de référence de 2,1 % (soit environ 14 % de hausse relative). Doit référencer le seuil de confiance à 95 %. Doit distinguer significativité statistique et significativité pratique. Doit recommander clairement de mettre en production, de continuer à tester ou d'itérer. Doit envisager une analyse par segment si les résultats sont limites.",
+      "assertions": [
+        "Évalue selon les critères de significativité statistique",
+        "Traite la question de la suffisance de l'échantillon pour cet effet",
+        "Référence le seuil de confiance à 95 %",
+        "Distingue significativité statistique et pratique",
+        "Formule une recommandation claire sur la mise en production",
+        "Suggère une analyse par segment ou un suivi si le résultat est limites",
+        "Typographie française correcte dans la réponse (guillemets «», espaces insécables, virgule décimale, pourcentages avec espace)"
+      ],
+      "files": []
+    }
+  ]
+}

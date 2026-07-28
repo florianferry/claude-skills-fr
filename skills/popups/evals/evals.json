@@ -1,0 +1,103 @@
+{
+  "skill_name": "popups",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à créer un popup exit-intent pour notre landing page SaaS. On veut capturer les e-mails des visiteurs qui s'apprêtent à partir sans s'inscrire. Notre produit est un outil de planification des réseaux sociaux.",
+      "expected_output": "Doit commencer par vérifier l'existence de product-marketing.md. Doit identifier le type de popup comme capture e-mail en exit-intent. Doit appliquer les bonnes pratiques exit-intent : titre accrocheur (reconnaître le départ ou proposer une valeur supplémentaire), lead magnet ou incitation (réduction, ressource gratuite, essai prolongé), champ unique (e-mail seulement), CTA clair, option de fermeture facile. Doit appliquer les formules de copy du skill. Doit aborder la configuration du déclencheur (détection exit-intent). Doit recommander des règles de fréquence (ne plus afficher si fermé). Doit inclure des références de performance (les popups exit-intent convertissent typiquement entre 3 et 10 %). Doit utiliser la typographie française : espaces insécables, guillemets « », chiffres à la française (3 %). Aucun anglicisme injustifié dans la copy proposée.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie le type comme popup exit-intent",
+        "Inclut un titre accrocheur",
+        "Inclut un lead magnet ou une incitation",
+        "Champ unique (e-mail seulement)",
+        "Applique les formules de copy du skill",
+        "Aborde la configuration du déclencheur",
+        "Recommande des règles de fréquence",
+        "Inclut des références de performance chiffrées",
+        "Utilise la typographie française (guillemets « », espaces insécables, % avec espace)",
+        "Aucun anglicisme injustifié dans la copy produite"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On veut proposer une réduction de 10 % aux premiers visiteurs via un popup. Quand le montrer et que doit-il dire ?",
+      "expected_output": "Doit identifier le type comme popup de réduction / promotion. Doit appliquer les recommandations sur les déclencheurs : déconseiller l'affichage immédiat au chargement de la page (trop agressif). Doit suggérer un délai (30 à 60 secondes), un déclencheur au scroll (50 %+) ou l'exit-intent comme alternatives préférables. Doit appliquer la formule de copy pour popup de réduction : titre qui présente la valeur, conditions de l'offre claires, élément d'urgence, capture d'e-mail, CTA. Doit aborder la conformité (RGPD si applicable). Doit recommander une limitation de fréquence. La copy proposée doit être en français naturel, sans calques de l'anglais ni tics d'IA. Typographie française respectée (10 %, guillemets « »).",
+      "assertions": [
+        "Identifie le type comme popup de réduction",
+        "Déconseille l'affichage immédiat au chargement",
+        "Suggère des alternatives de déclenchement (délai, scroll, exit-intent)",
+        "Applique la formule de copy pour popup de réduction",
+        "Inclut un élément d'urgence",
+        "Aborde la limitation de fréquence",
+        "Aborde les considérations de conformité (RGPD)",
+        "Copy en français naturel sans tics d'IA ni calques de l'anglais",
+        "Typographie française respectée (10 %, guillemets « »)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "nos popups énervent tout le monde. on reçoit des plaintes mais on a aussi beaucoup d'inscriptions par e-mail grâce à eux. comment trouver l'équilibre ?",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit appliquer les recommandations sur la fréquence et les règles d'affichage. Doit aborder l'équilibre : réduire l'agacement tout en préservant les conversions. Doit recommander : limitation de fréquence (une fois par session ou une fois tous les X jours), ne plus afficher aux visiteurs récurrents qui ont déjà fermé, exclure les abonnés existants, respecter l'action « fermer », envisager des formats moins intrusifs (slide-in plutôt que modale plein écran, bandeau d'annonce plutôt qu'overlay). Doit aborder la conformité et l'accessibilité. Doit suggérer de tester en A/B différents déclencheurs et formats pour trouver le meilleur équilibre. Aucun confirmshaming. La réponse doit être en français irréprochable.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Applique les recommandations sur la fréquence",
+        "Aborde l'équilibre conversions / expérience utilisateur",
+        "Recommande la limitation de fréquence",
+        "Suggère d'exclure les abonnés existants",
+        "Recommande des alternatives moins intrusives",
+        "Suggère de tester en A/B",
+        "Aucun confirmshaming ni tic d'IA",
+        "Réponse en français irréprochable (typographie, accords, registre)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Quels types de popups utiliser sur notre blog ? On publie du contenu sur l'e-mail marketing et on veut développer notre liste d'abonnés.",
+      "expected_output": "Doit recommander des types de popups adaptés au blog : popup déclenché au scroll (après 50 à 70 % de lecture, signe d'engagement), popup exit-intent, slide-in (moins intrusif qu'une modale), et contenus embarqués dans l'article. Doit recommander des lead magnets pertinents pour le sujet (templates d'e-mail, checklists, bibliothèque de swipe). Doit aborder les différents emplacements du popup : en milieu d'article, en fin d'article, slide-in latéral. Doit recommander des déclencheurs comportementaux plutôt que temporels pour les blogs. Doit appliquer les formules de copy avec des accroches adaptées au contexte blog. Typographie française respectée. Aucun tic d'IA dans la copy proposée.",
+      "assertions": [
+        "Recommande des types de popups adaptés au blog",
+        "Inclut le déclencheur au scroll et l'exit-intent",
+        "Suggère des formats moins intrusifs (slide-in)",
+        "Recommande des lead magnets pertinents",
+        "Aborde les emplacements du popup sur les pages blog",
+        "Recommande des déclencheurs comportementaux pour le blog",
+        "Applique les formules de copy",
+        "Typographie française respectée",
+        "Aucun tic d'IA dans la copy (pas de « Découvrez », « Boostez », etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Conçois un bandeau d'annonce pour le lancement d'une nouvelle fonctionnalité. On veut l'afficher sur tout le site pendant 2 semaines.",
+      "expected_output": "Doit identifier le type comme bandeau d'annonce. Doit appliquer les bonnes pratiques : titre court et clair annonçant la fonctionnalité, brève description du bénéfice, CTA pour en savoir plus ou l'essayer, option de fermeture. Doit recommander la position du bandeau (en haut de page, sticky ou statique). Doit prendre en compte la durée (2 semaines, comme indiqué). Doit recommander un ciblage (montrer aux utilisateurs existants susceptibles d'en bénéficier, pas à tout le monde). Doit fournir des recommandations de copy en français naturel. Typographie française respectée : espaces insécables, guillemets « », casse de phrase pour les titres.",
+      "assertions": [
+        "Identifie le type comme bandeau d'annonce",
+        "Fournit un titre court et clair",
+        "Inclut une brève description du bénéfice et un CTA",
+        "Inclut une option de fermeture",
+        "Aborde la position du bandeau",
+        "Recommande un ciblage de l'audience",
+        "Fournit des recommandations de copy en français naturel",
+        "Typographie française respectée (espaces insécables, guillemets « », casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On veut optimiser le formulaire de capture à l'intérieur de notre popup. Actuellement il demande le prénom, l'e-mail, l'entreprise et le téléphone. Trop de champs ?",
+      "expected_output": "Doit reconnaître que la question touche à l'optimisation de formulaire. Doit renvoyer vers le skill cro ou y faire référence, qui traite l'optimisation des champs de formulaire, la mise en page et la conversion. Peut apporter un contexte propre aux popups (les popups nécessitent peu de champs en raison de l'attention fugace) mais doit préciser que cro est le bon skill pour une optimisation détaillée des formulaires.",
+      "assertions": [
+        "Reconnaît le chevauchement avec l'optimisation de formulaire",
+        "Renvoie vers le skill cro ou y fait référence",
+        "Note que les popups nécessitent peu de champs en raison du contexte",
+        "Ne tente pas une refonte détaillée du formulaire"
+      ],
+      "files": []
+    }
+  ]
+}

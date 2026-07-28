@@ -1,0 +1,101 @@
+{
+  "skill_name": "site-architecture",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à planifier l'architecture de notre nouveau site marketing SaaS. Nous avons une page d'accueil, une page produit, une page tarifs, une page à propos, un blog, et on voudrait ajouter des pages comparatives avec les concurrents ainsi que des pages d'intégration.",
+      "expected_output": "Doit vérifier en premier l'existence de product-marketing.md. Doit appliquer les principes de hiérarchie de pages (règle des 3 clics, structure plate ou profonde). Doit créer une arborescence ASCII montrant la structure complète du site. Doit organiser les pages logiquement : nav principale (Accueil, Produit, Tarifs, À propos, Blog), section pages comparatives, hub d'intégrations. Doit recommander des patterns d'URL pour chaque section. Doit fournir des recommandations de navigation (4 à 7 entrées en en-tête). Doit inclure une stratégie de maillage interne (hub-and-spoke pour les comparatifs et intégrations). Doit fournir le jeu de livrables complet : hiérarchie, tableau d'URL, spécification de navigation.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Applique la règle des 3 clics et les principes plate/profonde",
+        "Crée une arborescence ASCII pour la structure du site",
+        "Organise les pages de façon logique",
+        "Recommande des patterns d'URL pour chaque section",
+        "Fournit une conception de navigation (4 à 7 entrées en en-tête)",
+        "Inclut une stratégie de maillage interne",
+        "Fournit hiérarchie, tableau d'URL et spécification de navigation",
+        "Typographie française : espaces insécables avant : ; ! ?, guillemets « », pas de tiret cadratin",
+        "Aucun tic d'IA (Découvrez, Optimisez, Incontournable…) ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre site a grandi de façon anarchique et la navigation est devenue un vrai casse-tête. On a plus de 50 pages et les visiteurs ne trouvent rien. Aidez-nous à tout réorganiser.",
+      "expected_output": "Doit traiter cette demande comme un audit et une refonte d'architecture de site. Doit recommander de commencer par un inventaire de toutes les pages existantes. Doit appliquer les principes de hiérarchie pour réorganiser : regrouper les pages connexes, établir des relations parent-enfant claires, appliquer la règle des 3 clics. Doit repenser la navigation (réduire les entrées en en-tête, utiliser méga-menus ou menus déroulants pour les pages plus profondes). Doit fournir une structure avant/après en arborescence ASCII. Doit aborder les redirections d'URL pour les pages déplacées. Doit inclure un plan du site visuel (Mermaid).",
+      "assertions": [
+        "Recommande un inventaire de contenu en premier",
+        "Regroupe les pages connexes de façon logique",
+        "Applique la règle des 3 clics",
+        "Repense la structure de navigation",
+        "Fournit une arborescence ASCII ou un plan du site visuel",
+        "Aborde les redirections d'URL pour les pages déplacées",
+        "Réduit les entrées de la navigation principale",
+        "Typographie française : espaces insécables avant : ; ! ?, guillemets « », pas de tiret cadratin",
+        "Aucun tic d'IA ni calque de l'anglais dans les exemples de libellés de navigation"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "C'est quoi la meilleure structure d'URL pour notre site ? On hésite entre /blog/titre-article et /ressources/blog/titre-article, et entre /produit/fonctionnalite et /fonctionnalites/nom-fonctionnalite.",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit appliquer les recommandations sur les patterns d'URL. Doit recommander des URL propres et concises : préférer les chemins courts (/blog/titre-article plutôt que /ressources/blog/titre-article), utiliser des patterns cohérents, éviter l'imbrication inutile. Doit fournir des recommandations de structure d'URL pour chaque type de section (blog, fonctionnalités, comparatifs, intégrations). Doit aborder les implications SEO de la structure d'URL. Doit fournir un tableau de correspondance URL complet comme référence.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Applique les patterns de structure d'URL",
+        "Recommande des chemins plus courts et plus propres",
+        "Fournit des recommandations pour chaque type de section",
+        "Aborde les implications SEO",
+        "Fournit un tableau de correspondance URL en référence",
+        "Typographie française correcte dans les exemples et explications",
+        "Aucun anglicisme injustifié dans les recommandations formulées en français"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On va ajouter des pages SEO programmatiques : 200 pages d'intégration et 50 pages comparatives avec nos concurrents. Comment les intégrer dans notre architecture de site ?",
+      "expected_output": "Doit expliquer comment intégrer du contenu à grande échelle dans l'architecture du site. Doit recommander des pages hub pour chacune des deux sections (/integrations et /comparer ou /vs). Doit appliquer le modèle de maillage interne hub-and-spoke. Doit traiter la navigation : ces pages ne doivent pas encombrer la nav principale, mais être accessibles via les pages hub. Doit fournir la structure d'URL pour les deux sections. Doit aborder la gestion du budget de crawl pour 250 nouvelles pages. Doit renvoyer vers le skill programmatic-seo pour la stratégie de contenu.",
+      "assertions": [
+        "Recommande des pages hub pour chaque section",
+        "Applique le maillage hub-and-spoke",
+        "Maintient les pages programmatiques hors de la nav principale",
+        "Fournit la structure d'URL pour les deux sections",
+        "Aborde la gestion du budget de crawl pour 250 pages",
+        "Renvoie vers le skill programmatic-seo",
+        "Typographie française : espaces insécables, guillemets « », pas de tiret cadratin",
+        "Aucun tic d'IA ni anglicisme injustifié dans la réponse"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Pouvez-vous créer un plan du site visuel pour notre site ? On voudrait quelque chose qu'on puisse partager avec notre équipe design.",
+      "expected_output": "Doit fournir un plan du site visuel au format Mermaid. Doit organiser le plan hiérarchiquement en montrant les relations entre pages. Doit utiliser la syntaxe Mermaid graph TD rendue par la plupart des outils. Doit inclure toutes les sections principales et les pages clés. Doit être suffisamment clair pour que l'équipe design puisse s'en servir comme référence pour la navigation et les maquettes. Les libellés de nœuds doivent être en français.",
+      "assertions": [
+        "Fournit un plan du site visuel au format Mermaid",
+        "Montre les relations hiérarchiques entre pages",
+        "Inclut toutes les sections principales",
+        "Utilise un format clair et lisible",
+        "Adapté à un partage avec l'équipe design",
+        "Libellés Mermaid en français (Accueil, Fonctionnalités, Tarifs…)",
+        "Typographie française dans les commentaires et explications",
+        "Aucun tic d'IA dans les descriptions fournies"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre sitemap XML n'a pas été mis à jour depuis 6 mois et on a des erreurs d'exploration dans la Search Console. Vous pouvez corriger notre SEO technique ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de SEO technique, pas d'architecture de site. Doit renvoyer vers ou citer le skill seo-audit, qui traite les sitemaps XML, les erreurs d'exploration et les problèmes de SEO technique. Le skill site-architecture couvre la conception de la hiérarchie, la navigation et la structure d'URL, pas le dépannage du SEO technique.",
+      "assertions": [
+        "Reconnaît qu'il s'agit de SEO technique, pas d'architecture de site",
+        "Renvoie vers le skill seo-audit ou le cite",
+        "Explique que site-architecture couvre la conception, pas le SEO technique",
+        "Typographie française correcte dans la réponse",
+        "Aucun tic d'IA dans la réponse"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "skill_name": "aso",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Voici notre app sur l'App Store : https://apps.apple.com/fr/app/exemple/id123456789. Peux-tu auditer notre fiche et me dire ce qu'il faut corriger ?",
+      "expected_output": "Doit vérifier en premier la présence de product-marketing.md. Doit détecter que c'est une URL App Store d'Apple et lancer le workflow complet d'audit ASO. Doit récupérer la fiche et extraire les champs propres à Apple (titre 30 car., sous-titre 30 car., description, texte promotionnel 170 car., catégorie, captures d'écran, vidéo, notes). Doit classer le niveau de maturité de marque (Dominant/Établi/Challenger) avant de scorer. Doit scorer les 6 dimensions (Titre et sous-titre 20 %, Description 15 %, Visuels 25 %, Notes et avis 20 %, Métadonnées et fraîcheur 10 %, Signaux de conversion 10 %) avec un total pondéré sur 100 et une note. Doit produire un tableau de bord, les 3 gains rapides, une analyse détaillée, des suggestions de mots-clés, des recommandations visuelles et un plan d'action priorisé avec des recommandations spécifiques du type « remplace X par Y » incluant le nombre de caractères. Le texte rédigé doit respecter la typographie française : espaces insécables avant « : », « ; », « ! », « ? » ; guillemets « » ; nombres à la française (ex. : 12 000, 29 €, 80 %) ; pas de tiret cadratin en prose.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Identifie comme URL App Store d'Apple",
+        "Classe le niveau de maturité de marque",
+        "Score les 6 dimensions avec pondérations",
+        "Fournit un tableau de bord avec note",
+        "Liste les 3 gains rapides",
+        "Les recommandations incluent le nombre de caractères",
+        "Les recommandations sont spécifiques (format X vers Y)",
+        "Typographie française respectée (espaces insécables, guillemets « », nombres)",
+        "Aucun anglicisme injustifié (pas de 'boost', 'découvrez', 'optimisez')"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre app sur le Play Store a une note de 2,8 étoiles, environ 5 000 téléchargements et une description qu'on n'a pas mise à jour depuis 8 mois. Par où commencer ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une app Google Play de niveau Challenger. Doit immédiatement signaler les problèmes à toujours flagguer : note inférieure à 4,0 (critique), dernière mise à jour il y a plus de 3 mois. Doit appliquer un scoring strict selon les meilleures pratiques ASO pour les Challengers. Doit se concentrer sur les spécificités Google Play : la description complète est indexée pour la recherche (cible 2 à 3 % de densité de mots-clés), pas de champ mots-clés masqué, graphique de une obligatoire (1 024 x 500), maximum 8 captures, les Android Vitals affectent le classement. Doit prioriser la correction de la note (stratégie de réponse aux avis, invites d'avis in-app) et la refonte de la description avec une stratégie de mots-clés. Doit recommander de mettre à jour le listing rapidement pour casser le signal de stagnation de plus de 3 mois. Le texte rédigé ne doit comporter ni tiret cadratin ni anglicisme injustifié.",
+      "assertions": [
+        "Identifie comme app Google Play",
+        "Classe au niveau Challenger",
+        "Signale la note inférieure à 4,0",
+        "Signale la mise à jour trop ancienne (plus de 3 mois)",
+        "Mentionne que Google indexe la description complète",
+        "Mentionne l'obligation du graphique de une",
+        "Recommande une stratégie de mots-clés dans la description",
+        "Priorise l'amélioration de la note",
+        "Typographie française respectée (virgule décimale, espaces insécables)",
+        "Pas de calques de l'anglais (pas de 'boostez', 'optimisez')"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Le listing App Store d'Instagram n'a que « Instagram » comme titre et très peu de mots-clés. Faut-il le corriger ?",
+      "expected_output": "Doit classer Instagram au niveau Dominant et appliquer un scoring ajusté. Doit expliquer que les titres uniquement composés du nom de marque sont valides pour les apps Dominantes (score 8+ si la marque est le mot-clé), car les utilisateurs cherchent par nom de marque, pas par termes génériques. Ne doit PAS signaler cela comme une occasion manquée. Doit énoncer le principe clé : « C'est une erreur ou un choix délibéré d'une équipe qui dispose de données que je n'ai pas ? » Doit noter que les autres dimensions (captures, description, nouveautés) sont aussi évaluées selon le niveau, et que les visuels de lifestyle et les notes de version courtes sont acceptables pour les Dominantes. Doit mettre en contraste avec ce qui serait un problème pour une app Challenger.",
+      "assertions": [
+        "Classe Instagram au niveau Dominant",
+        "Explique que les titres uniquement marque sont valides pour les Dominantes",
+        "Ne signale PAS le titre comme un problème",
+        "Met en contraste le traitement Dominant vs Challenger",
+        "Cite le principe « erreur vs choix délibéré »",
+        "Typographie française correcte dans la réponse rédigée"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Compare notre app https://apps.apple.com/fr/app/notre-app/id111 avec ces deux concurrentes : https://apps.apple.com/fr/app/concurrent1/id222 et https://apps.apple.com/fr/app/concurrent2/id333",
+      "expected_output": "Doit exécuter la Phase 3 de comparaison concurrentielle. Doit récupérer et scorer les trois apps avec le même cadre à 6 dimensions. Doit construire un tableau comparatif mettant en évidence les points plus faibles et plus forts de l'app de l'utilisateur sur chaque dimension. Doit identifier les lacunes en mots-clés : termes ciblés par les concurrents que l'app de l'utilisateur ne couvre pas. Doit produire une liste priorisée de changements éclairés par la concurrence. Doit signaler les spécificités de plateforme de façon cohérente pour les trois apps.",
+      "assertions": [
+        "Score les 3 apps avec le même cadre",
+        "Construit un tableau comparatif",
+        "Identifie les dimensions où l'app de l'utilisateur est plus faible",
+        "Identifie les lacunes en mots-clés vs concurrents",
+        "Produit un plan d'action éclairé par la concurrence"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Nous n'avons que 3 captures d'écran et pas de vidéo de présentation. C'est vraiment si important ?",
+      "expected_output": "Doit expliquer que le nombre de captures et la présence de vidéo ont un fort poids dans la dimension Visuels (25 % du score total). Doit citer des données précises : Apple autorise jusqu'à 10 captures par appareil, les 3 premières sont visibles dans la recherche, et 90 % des utilisateurs ne dépassent jamais la 3e. Doit mentionner que les légendes des captures sont indexées sur Apple depuis juin 2025. Doit citer le benchmark de conversion : la vidéo de présentation apporte +20 à +40 % de gain de conversion sur iOS (noter que la vidéo Google Play a un ROI plus faible, seulement ~6 % cliquent). Doit recommander d'ajouter au minimum 5 à 8 captures avec du texte de légende, et une vidéo de 15 à 30 s. Doit signaler que moins de 5 captures est un problème à signaler quel que soit le niveau. Le texte doit respecter la typographie française : virgule décimale, espaces insécables, guillemets « ».",
+      "assertions": [
+        "Indique que les Visuels représentent 25 % du score",
+        "Cite que les 3 premières captures sont les plus importantes",
+        "Mentionne l'indexation des légendes de captures (Apple, 2025)",
+        "Cite le benchmark de gain de conversion lié à la vidéo",
+        "Note le faible ROI de la vidéo sur Google Play",
+        "Recommande un nombre de captures et des specs vidéo spécifiques",
+        "Signale moins de 5 captures comme problème systématique",
+        "Nombres à la française (ex. : 90 %, +20 à +40 %, 15 à 30 s)",
+        "Pas d'anglicismes injustifiés dans le texte rédigé"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Devrais-je lancer une expérience sur une Page produit personnalisée sur iOS pour nos campagnes de publicité au coût par clic ?",
+      "expected_output": "Doit référencer des faits propres à Apple : les Pages produit personnalisées (CPP), jusqu'à 70, apparaissent dans les résultats de recherche organiques depuis juillet 2025 avec un gain de conversion moyen de +5,9 %. Doit expliquer que les CPP permettent de tester des variantes de captures, de vidéos et de texte promotionnel pour des sources de trafic spécifiques (ex. : mots-clés de recherche payante). Doit recommander d'aligner les variantes CPP sur l'intention de requête de la campagne. Doit renvoyer au skill ab-testing pour la conception rigoureuse de l'expérience et au skill ads pour le volet campagne. Doit noter qu'il s'agit d'une fonctionnalité propre à iOS (Google Play dispose d'équivalents : Expériences de listing et Listings personnalisés).",
+      "assertions": [
+        "Identifie les pages produit personnalisées comme spécifiques à iOS",
+        "Cite le benchmark de +5,9 % de gain de conversion",
+        "Explique que les CPP peuvent cibler l'intention d'une source de trafic",
+        "Renvoie au skill ab-testing ou ads",
+        "Mentionne les équivalents Google Play",
+        "Typographie française correcte (pas de guillemets droits, espaces insécables)"
+      ],
+      "files": []
+    }
+  ]
+}

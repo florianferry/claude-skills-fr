@@ -1,0 +1,106 @@
+{
+  "skill_name": "directory-submissions",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Nous lançons notre SaaS IA dans 3 semaines. Aide-moi à planifier toutes les soumissions aux annuaires.",
+      "expected_output": "Doit d'abord vérifier l'existence de product-marketing.md. Doit lancer l'évaluation de préparation de phase 0 avec les 9 questions avant de recommander des soumissions. Doit bloquer la soumission si l'un des éléments 1 à 7 est 'non' (blocage dur) et expliquer pourquoi. Doit recommander le mix de niveaux adapté : niveau 1 lancement phare (~15 : Product Hunt comme ancre, BetaList, HN Show HN, Fazier, DevHunt), niveau 2 startup/SaaS (~50), niveau 3 annuaires IA (~40 : TAAFT, Futurepedia, Toolify), niveau 4 MCP/agent si applicable. Doit caler le calendrier de préparation Product Hunt sur 3 semaines avec des dates calendaires. Doit déconseiller de soumettre avant que les pages de destination existent. Doit référencer references/directory-list.md et references/positioning-variations.md. Doit recommander le protocole 10-en-30 pour G2/Capterra. Doit fixer des cibles pour J30 et J90 depuis le tableau KPI.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Lance l'évaluation de préparation de phase 0",
+        "Recommande le mix de niveaux adapté au SaaS IA",
+        "Cale le calendrier PH sur 3 semaines avec des dates calendaires",
+        "Désigne Product Hunt comme événement ancre",
+        "Recommande le protocole 10-en-30 pour les avis",
+        "Fixe des cibles KPI pour J30 et J90",
+        "Référence directory-list.md ou positioning-variations.md",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin)",
+        "Aucun tic d'IA ni anglicisme injustifié (pas de 'Découvrez', 'Boostez', 'Optimisez', 'Incontournable')"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Est-ce que je peux copier-coller la même description dans tous les annuaires ?",
+      "expected_output": "Doit refuser et expliquer la règle 3 : le positionnement varie selon le type d'annuaire. Doit expliquer que les moteurs IA pénalisent le contenu dupliqué : Claude, ChatGPT et Perplexity font des recoupements entre annuaires et déclassent les copies répétitives. Doit expliquer le cadrage différent par surface : les annuaires de lancement ouvrent sur le résultat (audience = fondateurs), les annuaires SaaS ouvrent sur l'alternative (les gens cherchent 'alternative à [concurrent]'), les annuaires IA ouvrent sur l'architecture IA en premier, les registres agent/MCP ouvrent sur l'angle agent/MCP, les sites d'avis B2B ouvrent sur le ROI + cas d'usage. Doit recommander de préparer des variantes distinctes par niveau : accroche de moins de 10 mots, description courte de 60 caractères, description longue de 150 mots, 5 à 8 tags de catégorie. Doit référencer references/positioning-variations.md.",
+      "assertions": [
+        "Refuse la demande",
+        "Cite la règle 3 (le positionnement varie par type d'annuaire)",
+        "Note que les moteurs IA pénalisent le contenu dupliqué",
+        "Liste le cadrage différent par type de surface",
+        "Précise les longueurs des variantes (accroche, description courte, longue)",
+        "Référence positioning-variations.md",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin)",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "On nous propose un service de soumission à 200 annuaires pour 99 €. Ça vaut le coup ?",
+      "expected_output": "Doit répondre non, en citant la règle 1 de 'Ce qu'il ne faut pas faire' : ne pas payer de services de soumission. Doit expliquer que tout l'intérêt est que ces annuaires sont gratuits, c'est une après-midi de copier-coller. Doit prévenir que les services de soumission en masse ciblent généralement des annuaires de faible qualité (DR sous 10, pas de trafic, pas de sélection éditoriale), ce qui dilue le profil de backlinks et peut déclencher la détection antispam de Google. Doit recommander l'alternative : soumettre manuellement aux annuaires de niveaux 1 à 4 avec les variantes de positionnement adaptées et le tableau de suivi. Doit rappeler que la valeur vient de la qualité des annuaires avec des exigences éditoriales, pas du volume.",
+      "assertions": [
+        "Répond non au service payant",
+        "Cite la règle 'ne pas payer de services de soumission'",
+        "Prévient contre les annuaires de faible DR",
+        "Prévient du risque de pénalité antispam Google",
+        "Recommande la soumission manuelle aux annuaires de qualité",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin)",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Explique-moi comment lancer sur Product Hunt le mois prochain. On n'a jamais fait ça.",
+      "expected_output": "Doit appliquer le guide Product Hunt en détail. Doit caler le calendrier de préparation sur 3 semaines : J-21 à J-14 (chauffer le compte hunter, voter et commenter sur 3 lancements par jour), J-14 (créer la page Upcoming), J-10 (optionnel : réserver un hunter (échange, pas d'argent)), J-7 (rédiger les ressources du jour J : images galerie 1270×760, accroche, description de 260 caractères, premier commentaire), J-3 (chauffer la liste e-mail), J-1 (vérification finale). Doit expliquer le jour J : lancer à 0 h 01, heure du Pacifique, mardi/mercredi/jeudi uniquement, les 2 premières heures sont décisives (50+ soutiens requis), poster le premier commentaire soi-même, répondre à chaque commentaire en moins de 30 minutes, partager sur plusieurs canaux. Doit prévenir de ne jamais demander des votes mais des retours. Doit prévenir de ne pas envoyer de messages à des inconnus. Doit expliquer l'après-lancement : article bilan avec chiffres et enseignements, cross-post sur Indie Hackers, ne soumettre à Show HN que s'il y a un angle technique. Doit noter que 80 % des lancements ratés échouent par absence d'audience chaude ou demande de votes.",
+      "assertions": [
+        "Cale le calendrier sur 3 semaines avec les jalons jour par jour",
+        "Note le lancement à 0 h 01, heure du Pacifique",
+        "Restreint aux mardi/mercredi/jeudi",
+        "Souligne les 2 premières heures / 50+ soutiens",
+        "Prévient de ne jamais demander des votes",
+        "Recommande de demander des retours",
+        "Déconseille les messages à des inconnus",
+        "Inclut le bilan post-lancement et le cross-post",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin)",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On veut se référencer sur G2 mais on n'a que 4 clients pour l'instant. Ça vaut le coup de le faire maintenant ?",
+      "expected_output": "Doit expliquer que les fiches G2 et Capterra ne valent rien sans avis, le seuil magique pour apparaître dans la Grid est 10 avis. Doit recommander de NE PAS soumettre encore, ou de revendiquer la fiche et planifier une campagne d'avis en parallèle. Doit expliquer le protocole 10-en-30 : identifier 20 utilisateurs ayant accompli une action significative, envoyer un e-mail personnel à chacun avec un lien direct vers le formulaire d'avis (réduit la friction d'environ 70 %), offrir un petit geste de remerciement (une carte-cadeau de 25 € est autorisée par G2/TrustRadius), relancer une seule fois après 5 jours, viser 50 % de conversion. Doit noter que le badge 'Users Love Us' est gratuit (20 avis à 4,0 de moyenne) mais que les badges Grid/Momentum/Index/Award nécessitent une offre payante G2 (à partir de 2 999 $/an depuis l'été 2025), et déconseiller de payer pour G2 en première année. Doit mentionner les dates limites des rapports d'été G2 (vers le 28 avril) et d'automne (vers le 28 juillet). Doit suggérer d'attendre d'avoir ~10 utilisateurs potentiels avant de soumettre.",
+      "assertions": [
+        "Explique le seuil de 10 avis pour la Grid",
+        "Recommande de NE PAS soumettre encore OU de revendiquer la fiche + planifier la campagne d'avis",
+        "Détaille le protocole 10-en-30",
+        "Note que la carte-cadeau (~25 €) est autorisée",
+        "Mentionne les conditions du badge Users Love Us",
+        "Déconseille de payer pour une offre G2 en première année",
+        "Mentionne les dates limites des rapports d'été et d'automne",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin, nombres à la française)",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On a soumis à 50 annuaires la semaine dernière. Quelle est la prochaine étape ?",
+      "expected_output": "Doit prévenir contre le fait de traiter les soumissions comme toute la stratégie. Doit référencer la règle 11 de 'Ce qu'il ne faut pas faire' : ne pas tout miser sur le pic du jour de lancement. L'effet volant, ce sont les modèles + les alternatives + les avis + le contenu continu. Doit recommander de vérifier le statut dofollow des backlinks obtenus (curl -sIL | grep -i rel=). Doit pivoter vers la distribution continue : stratégie des pages de destination (pages alternatives à 5-15 % de conversion, pages de cas d'usage/ICP, galerie de modèles si applicable, articles 'meilleur de' rédigés soi-même, pages d'intégration), tactiques GEO pour les citations IA (un seul H1, schéma FAQ, tableaux comparatifs, être mentionné sur Reddit/HN, revendiquer Crunchbase/LinkedIn/Wikidata), présence communautaire (Reddit règle 90/10, LinkedIn 3-5 posts/semaine, Twitter build-in-public, Indie Hackers, Dev.to/Hashnode). Doit rappeler de suivre les KPIs hebdomadaires (DR, domaines référents, pages indexées, clics organiques, inscriptions via referral annuaires) et de chercher pourquoi les chiffres ne bougent pas plutôt que de soumettre davantage.",
+      "assertions": [
+        "Prévient contre la sur-indexation sur le pic du lancement",
+        "Recommande de vérifier le statut dofollow des backlinks",
+        "Pivote vers la stratégie des pages de destination",
+        "Mentionne les tactiques GEO",
+        "Inclut la distribution communautaire continue",
+        "Recommande le suivi des KPIs hebdomadaires",
+        "Dit d'investiguer avant de soumettre davantage",
+        "Typographie française respectée (espaces insécables, guillemets «  », absence de tiret cadratin)",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    }
+  ]
+}

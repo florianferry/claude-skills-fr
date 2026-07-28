@@ -1,0 +1,12 @@
+{
+  "name": "skills-fr",
+  "description": "50 skills de rédaction et de marketing en français : typographie française, anti-slop, CRO, copywriting, SEO, pricing, ads, offres, prospection, relations presse, growth. Adaptation française du pack marketingskills de Corey Haines.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Florian Ferry"
+  },
+  "homepage": "https://github.com/florianferry/claude-skills-fr",
+  "repository": "https://github.com/florianferry/claude-skills-fr",
+  "license": "MIT",
+  "skills": "./skills"
+}

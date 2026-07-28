@@ -1,0 +1,112 @@
+{
+  "skill_name": "marketing-psychology",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Comment utiliser la psychologie pour augmenter les conversions sur notre page de tarifs ? Nous vendons un outil SaaS B2B avec trois niveaux (29 €, 79 €, 199 €/mois).",
+      "expected_output": "Doit d'abord vérifier product-marketing.md. Doit appliquer les modèles de psychologie des prix pertinents : ancrage (montrer le niveau le plus élevé en premier ou utiliser un leurre), prix charme (évaluer 29 € vs 30 €), règle des 100 (remise en pourcentage vs remise absolue), cadrage bon-mieux-excellent, aversion à la perte (montrer ce qu'on perd sur les niveaux inférieurs). Doit aussi appliquer des modèles de persuasion plus larges : preuve sociale près des prix, rareté pour les offres à durée limitée, effet de sélection par défaut (présélectionner le niveau recommandé). Doit fournir des recommandations concrètes et actionnables en lien avec leurs niveaux de prix.",
+      "assertions": [
+        "Vérifie product-marketing.md",
+        "Applique les modèles de psychologie des prix (ancrage, prix charme, règle des 100)",
+        "Applique le cadrage bon-mieux-excellent",
+        "Applique l'aversion à la perte à la différenciation entre niveaux",
+        "Applique la preuve sociale près des prix",
+        "Fournit des recommandations concrètes pour leurs niveaux de prix",
+        "Cite les modèles mentaux par leur nom",
+        "Utilise la typographie française (€ avec espace insécable, pas de guillemets droits)",
+        "Aucun tic d'IA (Boostez, Optimisez, Incontournable…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Explique le principe de rareté et comment l'utiliser de façon éthique dans le marketing SaaS sans être manipulateur.",
+      "expected_output": "Doit expliquer la rareté comme modèle mental (la disponibilité limitée augmente la valeur perçue). Doit proposer des applications SaaS légitimes : places limitées en bêta, tarifs early bird avec une vraie date limite, accès temporaire à une fonctionnalité, lancements par cohorte. Doit distinguer la vraie rareté (contrainte réelle) de l'urgence fabriquée (compte à rebours fictif, stock artificiel). Doit donner des exemples concrets et un guide d'implémentation. Doit référencer les modèles liés (urgence, FOMO, aversion à la perte).",
+      "assertions": [
+        "Explique clairement le principe de rareté",
+        "Propose des applications SaaS légitimes",
+        "Distingue l'usage éthique de l'usage manipulateur",
+        "Fournit des exemples concrets",
+        "Référence les modèles mentaux liés",
+        "Traite directement les considérations éthiques",
+        "Typographie française correcte (guillemets « », espace insécable avant « : »)",
+        "Registre tu/vous homogène sur tout le texte"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "quels principes psychologiques je devrais utiliser pour écrire une meilleure copy marketing ?",
+      "expected_output": "Doit se déclencher sur une formulation familière. Doit recommander les modèles mentaux pertinents pour la copy issus de la taxonomie du skill : preuve sociale, réciprocité, aversion à la perte, ancrage, rareté, effet IKEA, effet de dotation, engagement et cohérence. Pour chaque principe, doit expliquer ce que c'est et donner une application concrète en copywriting. Doit s'appuyer sur le tableau de référence rapide par défi. Doit organiser les recommandations par endroit dans la copy où chaque principe s'applique (titres, corps de texte, CTA, témoignages).",
+      "assertions": [
+        "Se déclenche sur une formulation familière",
+        "Recommande les modèles mentaux pertinents pour la copy",
+        "Explique brièvement chaque principe",
+        "Fournit une application copywriting concrète par principe",
+        "Organise par endroit dans la copy",
+        "Référence plusieurs catégories de modèles",
+        "Aucun tic d'IA dans les exemples de copy produits (Découvrez, Boostez…)",
+        "Exemples de copy en français natif, pas calqués sur l'anglais"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Je conçois un flux d'onboarding et je veux utiliser la psychologie comportementale pour augmenter l'activation. Quels modèles appliquer ?",
+      "expected_output": "Doit appliquer des modèles de conception et comportementaux issus de la taxonomie du skill : effet de gradient vers l'objectif (la motivation monte à l'approche du but), loi de Hick (réduire les choix), effet IKEA (laisser l'utilisateur construire quelque chose), effet de dotation (lui faire vivre l'expérience de la possession), effet Zeigarnik (les tâches inachevées poussent à finir), engagement et cohérence (petites demandes d'abord). Doit expliquer comment chaque modèle s'applique spécifiquement à l'onboarding. Doit fournir des recommandations actionnables pour chaque modèle.",
+      "assertions": [
+        "Applique l'effet de gradient vers l'objectif",
+        "Applique la loi de Hick",
+        "Applique l'effet IKEA ou l'effet de dotation",
+        "Applique l'effet Zeigarnik ou les principes d'engagement",
+        "Explique comment chaque modèle s'applique à l'onboarding",
+        "Fournit des recommandations actionnables par modèle",
+        "Typographie française (guillemets « », espaces insécables, pas de tiret cadratin)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Quelle est la psychologie derrière le fait que les essais gratuits fonctionnent mieux que le freemium pour certains produits ?",
+      "expected_output": "Doit appliquer les modèles mentaux pertinents : aversion à la perte (les utilisateurs en essai ont peur de perdre l'accès), effet de dotation (ils se sentent propriétaires après utilisation), biais des coûts irrécupérables (le temps investi pendant l'essai), effet prix zéro (la gratuité lève la barrière psychologique au démarrage), biais du statu quo (inertie pour conserver ce qu'on a). Doit expliquer comment ces modèles interagissent dans le contexte essai vs freemium. Doit préciser quand chaque approche est la plus efficace (essai pour les produits à forte charge d'activation, freemium pour les produits à effets de réseau).",
+      "assertions": [
+        "Applique l'aversion à la perte dans le contexte de l'essai",
+        "Applique l'effet de dotation",
+        "Applique l'effet prix zéro",
+        "Explique comment les modèles interagissent dans essai vs freemium",
+        "Précise quand chaque approche est la plus pertinente",
+        "Fournit une explication claire et pédagogique",
+        "Aucun anglicisme injustifié dans le texte de réponse produit"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Aide-moi à monter un A/B test pour savoir quel principe psychologique fonctionne le mieux pour notre CTA : rareté ou preuve sociale.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de conception d'A/B test, pas d'une tâche de psychologie. Doit orienter ou renvoyer vers le skill ab-testing pour la conception de l'expérience. Peut fournir un contexte psychologique sur les deux principes pour alimenter l'hypothèse, mais doit préciser que ab-testing est le skill approprié pour concevoir et piloter l'expérience.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une tâche de conception d'A/B test",
+        "Renvoie vers le skill ab-testing",
+        "Peut fournir un contexte psychologique pour l'hypothèse",
+        "Ne tente pas de concevoir l'intégralité du test avec des principes psychologiques"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Voici ma copy pour la page d'accueil. Peux-tu l'améliorer avec la psychologie marketing ?\n\n« Boostez vos performances grâce à notre solution innovante ! Découvrez comment notre outil révolutionnaire vous permet d'optimiser vos process en toute simplicité. N'hésitez pas à démarrer votre essai gratuit dès aujourd'hui — c'est sans engagement ! »",
+      "expected_output": "Doit identifier les tics d'IA (Boostez, Découvrez, optimiser, révolutionnaire, en toute simplicité, N'hésitez pas à), les calques de l'anglais (en toute simplicité, N'hésitez pas à), le tiret cadratin (—) et les points d'exclamation en série. Doit réécrire la copy en appliquant des principes psychologiques concrets : cadrage orienté bénéfice (jobs to be done), aversion à la perte (ce qu'on risque de rater), réduction du risque perçu (garanties, sans engagement), CTA actif et naturel en français. La copy résultante doit être en français natif, avec une typographie correcte (guillemets « », espace insécable, pas de tiret cadratin) et sans tics d'IA.",
+      "assertions": [
+        "Identifie les tics d'IA présents dans la copy d'entrée",
+        "Signale le tiret cadratin (—) à supprimer",
+        "Signale les calques de l'anglais",
+        "Applique au moins deux principes psychologiques nommés dans la réécriture",
+        "La copy produite ne contient aucun tic d'IA de la liste",
+        "Typographie française correcte : guillemets « », espaces insécables avant : ; ! ?, pas de tiret cadratin",
+        "Titre et CTA en casse de phrase (pas de Title Case)",
+        "Registre tu/vous homogène dans la copy produite"
+      ],
+      "files": []
+    }
+  ]
+}

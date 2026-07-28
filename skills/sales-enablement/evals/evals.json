@@ -1,0 +1,100 @@
+{
+  "skill_name": "sales-enablement",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à créer un deck commercial pour notre logiciel B2B de gestion RH. On vend une plateforme d'engagement des collaborateurs aux DRH d'entreprises de 500 à 5 000 salariés. Notre principal différenciateur : des sondages pulse en temps réel avec analyses intégrées.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit appliquer le framework en 10-12 slides : problème actuel, coût du problème, ce qui change, votre approche, présentation produit, preuves, étude de cas, implémentation, ROI, tarification, prochaines étapes. Doit adapter le deck à la cible DRH et au domaine de l'engagement collaborateur. Doit intégrer le différenciateur (sondages pulse + analyses en temps réel). Doit fournir des recommandations slide par slide avec notes orateur. Doit suggérer une direction visuelle. Toute la copy doit être en français correct avec typographie française (espaces insécables, guillemets « », casse de phrase) et aucun tic d'IA (Découvrez, Boostez, etc.).",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Applique le framework en 10-12 slides",
+        "Inclut les slides Problème, Solution, Preuves, Tarification, Prochaines étapes",
+        "Adapte le contenu à la cible DRH",
+        "Intègre le différenciateur annoncé",
+        "Fournit un plan slide par slide",
+        "Inclut des notes orateur ou points de discours",
+        "Typographie française correcte (guillemets «», espaces insécables, casse de phrase)",
+        "Absence de tics d'IA (Découvrez, Boostez, Révolutionnaire, etc.)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre équipe commerciale entend toujours les mêmes objections. Les principales : « on utilise déjà Google Forms », « pas de budget en ce moment », et « on est trop petits pour avoir besoin de ça ». Aide-moi à créer une fiche de traitement des objections.",
+      "expected_output": "Doit appliquer le framework de traitement des objections avec la structure de réponse pour chaque objection. Doit catégoriser les objections (concurrent/statu quo, budget, besoin/taille). Pour chaque objection : reconnaître, recadrer, preuve, pont vers la valeur, question de relance. Doit proposer 2-3 variantes de réponse par objection selon le contexte. Doit organiser en format consultable facilement pendant un appel. Doit utiliser le vouvoiement commercial. Pas de calques anglais ni de tics d'IA. Typographie française correcte.",
+      "assertions": [
+        "Applique le framework de traitement des objections",
+        "Catégorise les trois objections",
+        "Fournit une réponse structurée pour chacune (reconnaître, recadrer, preuve, relance)",
+        "Propose 2-3 variantes par objection",
+        "Organisation consultable facilement pendant un appel",
+        "Catégorise selon le framework du skill (concurrent, budget, besoin)",
+        "Vouvoiement commercial cohérent",
+        "Typographie française correcte (guillemets «», espaces insécables)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "j'ai besoin d'un truc à laisser après mes rdv commerciaux. quelque chose qui résume mon produit et ses avantages.",
+      "expected_output": "Doit se déclencher sur la formulation décontractée. Doit appliquer le framework one-pager / leave-behind. Doit inclure : titre avec proposition de valeur centrale, bénéfices clés (3-5), preuve sociale (logos clients, métrique forte), fonctionnement simplifié, résumé tarifaire ou « à partir de » si pertinent, et appel à l'action clair. Doit recommander les principes de mise en page : lisible en un coup d'œil, hiérarchie visuelle, pas de texte surchargé. Doit noter que ça tient sur une page. Doit utiliser des formulations françaises naturelles (pas de calques anglais). Typographie française correcte.",
+      "assertions": [
+        "Se déclenche sur la formulation décontractée",
+        "Applique le framework one-pager / leave-behind",
+        "Inclut titre, bénéfices, preuve sociale, fonctionnement, appel à l'action",
+        "Reste sur une page",
+        "Recommande une mise en page lisible",
+        "Fournit du contenu précis pour chaque section",
+        "Formulations françaises naturelles, sans calques anglais",
+        "Typographie française correcte (guillemets «», espaces insécables avant : ; ! ?)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Crée un script de démo pour notre tableau de bord analytique. La démo dure 30 minutes, face à un directeur marketing.",
+      "expected_output": "Doit appliquer le framework de script de démo / talk track en 5 parties. Doit inclure : ouverture (rapport, ordre du jour, questions de découverte), validation du problème (confirmer les douleurs), présentation de la solution (montrer le produit sur leurs douleurs), preuves (métriques, études de cas pendant la démo), clôture (prochaines étapes, calendrier). Doit répartir les 30 minutes entre les scènes. Doit inclure des questions clés à poser en phase de découverte. Doit indiquer quand personnaliser selon les réponses du prospect. Doit utiliser le vouvoiement commercial. Typographie française correcte.",
+      "assertions": [
+        "Applique la structure en 5 parties",
+        "Inclut ouverture avec questions de découverte",
+        "Inclut validation du problème",
+        "Inclut présentation de la solution",
+        "Inclut preuves",
+        "Inclut clôture avec prochaines étapes",
+        "Répartit les 30 minutes entre les scènes",
+        "Indique quand adapter selon les réponses du prospect",
+        "Vouvoiement commercial cohérent",
+        "Typographie française correcte"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Aide-moi à construire un calculateur ROI à utiliser pendant les appels commerciaux. On veut montrer aux prospects combien ils économisent en passant à notre solution.",
+      "expected_output": "Doit appliquer le framework de calculateur ROI. Doit définir les données d'entrée (ce qu'on collecte auprès du prospect : taille équipe, coûts actuels, temps passé sur les tâches manuelles), la méthodologie de calcul (comment calculer les économies) et le format de présentation des résultats (visuel montrant le ROI, délai de retour sur investissement, économies annuelles en €). Doit recommander des estimations prudentes et transparentes. Doit suggérer de valider les hypothèses pendant l'appel. Doit fournir la structure du calculateur et la logique des formules. Montants en € avec espace insécable. Pourcentages avec espace insécable avant %.",
+      "assertions": [
+        "Applique le framework de calculateur ROI",
+        "Définit les données d'entrée requises",
+        "Fournit la méthodologie de calcul",
+        "Recommande des estimations prudentes",
+        "Inclut délai de retour sur investissement et économies annuelles",
+        "Suggère de valider les hypothèses pendant les appels",
+        "Fournit la structure du calculateur",
+        "Montants en € et pourcentages avec typographie française (29 €, 80 %)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On a besoin d'une page publique de comparaison pour montrer comment on se positionne face à Salesforce et HubSpot.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une page comparative en accès public, pas d'un support commercial interne. Doit renvoyer vers le skill competitors, qui gère les pages comparatives et d'alternatives destinées au SEO. Le skill sales-enablement couvre les supports internes (battle cards, fiches d'objections) ; competitors gère les pages comparatives publiques à visée SEO et conversion.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une page comparative publique",
+        "Renvoie vers le skill competitors",
+        "Explique la distinction entre supports internes et contenus publics",
+        "Ne tente pas de créer une page comparative SEO avec les patterns sales-enablement"
+      ],
+      "files": []
+    }
+  ]
+}

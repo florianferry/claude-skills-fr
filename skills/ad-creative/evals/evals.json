@@ -1,0 +1,113 @@
+{
+  "skill_name": "ad-creative",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Génère des créatifs pour notre campagne Meta (Facebook/Instagram). On vend un assistant d'écriture IA pour les content managers. Proposition de valeur principale : rédiger des articles de blog 5× plus vite. Cible : responsables marketing contenu dans des boîtes SaaS B2B. Budget : 5 000 €/mois.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit générer des créatifs selon l'approche par angles : identifier 3 à 5 angles (vitesse, qualité, ROI, angoisse de la page blanche, avantage concurrentiel). Pour chaque angle, produire un primary text (≤125 car.), un headline (≤40 car.) et une description (≤30 car.) en respectant les limites Meta. Fournir plusieurs variations par angle. Suggérer une direction visuelle pour chacun. Organiser la sortie avec angle, hook, corps, CTA pour chaque variation. Recommander les angles à tester en priorité. Tous les textes en français avec typographie correcte (espaces insécables, guillemets « »). Aucun tic d'IA (Découvrez, Boostez, Optimisez, Révolutionnaire).",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Utilise l'approche de génération par angles",
+        "Identifie plusieurs angles (3 à 5)",
+        "Respecte les limites de caractères Meta (125/40/30)",
+        "Génère plusieurs variations par angle",
+        "Suggère une direction visuelle ou image",
+        "Inclut hook, corps et CTA pour chaque variation",
+        "Recommande les angles à tester en priorité",
+        "Typographie française correcte (espaces insécables avant : ; ! ?, guillemets « »)",
+        "Aucun anglicisme injustifié ni tic d'IA (Découvrez, Boostez, Optimisez, Révolutionnaire)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "J'ai besoin de copy Google Ads pour notre CRM. On cible le mot-clé 'meilleur CRM petite entreprise'. Il me faut des responsive search ads.",
+      "expected_output": "Doit générer des créatifs RSA en respectant les limites de caractères : headlines (≤30 car. chacun, 10 à 15 variations) et descriptions (≤90 car. chacune, 4+ variations). Rappeler que l'épinglage doit être utilisé avec parcimonie car il réduit l'optimisation. Inclure le mot-clé cible dans les headlines. Fournir des variations basées sur plusieurs angles. Suggérer des extensions d'annonces (liens annexes, accroche, extraits de site). Tous les textes doivent tenir dans 30 caractères — rappeler que le français est plus long que l'anglais. Typographie française correcte, aucun tic d'IA.",
+      "assertions": [
+        "Respecte les limites RSA Google (30 car. headlines, 90 car. descriptions)",
+        "Génère 10 à 15 variations de headlines",
+        "Génère 4+ variations de descriptions",
+        "Inclut le mot-clé cible dans les headlines",
+        "Note que l'épinglage doit être utilisé avec parcimonie",
+        "Suggère des extensions d'annonces",
+        "Utilise l'approche par angles pour varier les variations",
+        "Typographie française correcte (nombres à la française, espaces insécables)",
+        "Aucun anglicisme injustifié ni tic d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Voici nos données de performance : Annonce A (angle point de douleur) — CTR 2,1 %, CPC 3,20 €, taux de conversion 4,5 %. Annonce B (angle preuve sociale) — CTR 1,4 %, CPC 4,10 €, taux de conversion 6,2 %. Annonce C (angle fonctionnalité) — CTR 0,8 %, CPC 5,50 €, taux de conversion 2,1 %. Aide-moi à itérer.",
+      "expected_output": "Doit activer le mode itération depuis les données de performance (pas générer depuis zéro). Doit analyser les données : l'annonce A a le meilleur CTR, l'annonce B a le meilleur taux de conversion (meilleure efficacité malgré un CTR plus faible), l'annonce C sous-performe sur tous les indicateurs. Doit recommander de doubler la mise sur l'angle point de douleur (CTR élevé) et l'angle preuve sociale (haute conversion), tout en mettant en pause ou en refondant l'angle fonctionnalité. Doit générer de nouvelles variations combinant les éléments gagnants (hook point de douleur + preuve sociale). Doit proposer des itérations concrètes sur les annonces A et B. Données présentées avec virgule décimale et symbole € à la française.",
+      "assertions": [
+        "Active le mode itération à partir des données de performance",
+        "Analyse le CTR, CPC et taux de conversion pour chaque annonce",
+        "Identifie les angles gagnants depuis les données",
+        "Recommande de mettre en pause ou refondre le créatif sous-performant",
+        "Génère de nouvelles variations combinant les éléments gagnants",
+        "Fournit des itérations concrètes sur les top performers",
+        "Utilise les nombres à la française (2,1 %, 3,20 €, pas 2.1% ni $3.20)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "j'ai besoin d'annonces linkedin pour notre produit de cybersécurité entreprise. la cible c'est des RSSI et des DSI.",
+      "expected_output": "Doit se déclencher sur la formulation décontractée. Doit générer des créatifs LinkedIn en respectant les limites : texte d'intro (≤150 car.), headline (≤70 car.), description (≤100 car.). Doit adapter le ton et le message à l'audience sécurité entreprise (RSSI, DSI) — plus formel, langage axé conformité et réduction des risques. Doit fournir plusieurs angles pertinents pour les acheteurs sécurité (réduction des risques, conformité, temps de réponse aux incidents, coût des violations). Doit suggérer des recommandations de format LinkedIn (contenu sponsorisé, message ads, etc.). Typographie française correcte.",
+      "assertions": [
+        "Se déclenche sur la formulation décontractée",
+        "Respecte les limites LinkedIn (150/70/100 car.)",
+        "Adapte le ton à l'audience sécurité entreprise",
+        "Utilise un langage axé réduction des risques et conformité",
+        "Fournit plusieurs angles pertinents pour les acheteurs sécurité",
+        "Suggère des recommandations de format LinkedIn",
+        "Typographie française correcte (espaces insécables, guillemets « »)",
+        "Aucun anglicisme injustifié ni tic d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Je dois générer un grand lot de variations d'annonces pour une campagne multi-plateforme qui lance la semaine prochaine. On est un service de livraison de repas qui cible les actifs pressés. Il me faut des annonces pour Google, Meta et TikTok.",
+      "expected_output": "Doit activer le workflow de génération en lot. Doit générer des créatifs pour les trois plateformes en respectant les limites spécifiques à chacune : Google RSA (30/90 car.), Meta (125/40/30 car.), TikTok (80 car. recommandés, 100 max). Doit identifier 3 à 5 angles qui fonctionnent sur toutes les plateformes (praticité, santé, gain de temps, variété, coût vs restaurant). Doit générer des variations par angle par plateforme. Doit noter les spécificités créatives de TikTok (besoin de concepts vidéo, pas seulement du texte). Doit organiser la sortie clairement par plateforme. Typographie française correcte sur tous les textes.",
+      "assertions": [
+        "Active le workflow de génération en lot",
+        "Génère pour les trois plateformes",
+        "Respecte les limites de caractères de chaque plateforme",
+        "Identifie des angles qui fonctionnent sur toutes les plateformes",
+        "Note que TikTok nécessite des concepts vidéo",
+        "Organise la sortie par plateforme",
+        "Génère plusieurs variations par angle par plateforme",
+        "Typographie française correcte (espaces insécables, guillemets « », nombres à la française)",
+        "Aucun tic d'IA ni calque de l'anglais dans les textes d'annonces"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On a un budget pub de 20 000 €/mois. Aide-moi à définir notre stratégie publicitaire globale : quelles plateformes choisir et comment répartir le budget.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de stratégie publicitaire, pas de génération de créatifs. Doit renvoyer vers le skill ads, qui gère la stratégie de campagne, le choix des plateformes et la répartition budgétaire. Peut mentionner brièvement les considérations créatives mais doit clairement indiquer que ads est le bon skill pour la stratégie.",
+      "assertions": [
+        "Reconnaît qu'il s'agit de stratégie pub, pas de génération de créatifs",
+        "Renvoie vers le skill ads ou le mentionne explicitement",
+        "Ne tente pas de déployer une stratégie de campagne complète via les patterns de génération créative"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Voici notre annonce actuelle pour Meta qui performe mal : 'Découvrez notre solution révolutionnaire ! Boostez votre productivité en un clin d'oeil ! Optimisez vos process maintenant!! Prix spécial: 99$ au lieu de 199$'. Aide-moi à l'améliorer.",
+      "expected_output": "Doit identifier les problèmes multiples : tics d'IA (Découvrez, révolutionnaire, Boostez, Optimisez, en un clin d'œil), typographie incorrecte (!! excessif, $ au lieu de €, apostrophe ASCII, pas d'espace insécable avant !), calques de l'anglais, absence de bénéfice concret, absence de preuve. Doit réécrire avec : hook concret sur un bénéfice réel, typographie française correcte (99 € au lieu de 199 €, espaces insécables, guillemets), aucun tic d'IA, appel à l'action en verbe d'action naturel, respect des limites Meta (125 car. primary text).",
+      "assertions": [
+        "Identifie les tics d'IA à éliminer (Découvrez, révolutionnaire, Boostez, Optimisez, en un clin d'œil)",
+        "Corrige la typographie française (99 € pas 99$, espaces insécables, guillemets « »)",
+        "Élimine la ponctuation excessive (!!)",
+        "Produit un texte sans anglicismes injustifiés",
+        "Respecte les limites Meta (≤125 car. pour le primary text visible)",
+        "Propose un appel à l'action en verbe d'action naturel en français"
+      ],
+      "files": []
+    }
+  ]
+}

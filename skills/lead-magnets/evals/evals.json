@@ -1,0 +1,99 @@
+{
+  "skill_name": "lead-magnets",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Nous vendons un logiciel de gestion de projet B2B à des agences marketing. Quel lead magnet devrions-nous créer ?",
+      "expected_output": "Doit vérifier d'abord l'existence de product-marketing.md. Doit poser des questions sur la génération de leads actuelle, les ressources de contenu disponibles et l'objectif principal (croissance de la liste, qualité des leads, éducation produit). Doit appliquer les 5 principes fondamentaux : résoudre un problème précis (pas « le marketing d'agence »), correspondre à l'étape de l'acheteur, valeur perçue élevée et effort faible, chemin naturel vers le produit, facilité de consommation. Doit recommander un format adapté à une audience d'agences occupées — probablement un template (Notion/tableur) ou une checklist plutôt qu'un ebook. Exemples : « Calculateur de rentabilité des projets d'agence » (décision, mène naturellement au logiciel de gestion de projet), « Checklist d'onboarding client pour agences » (évaluation), « Template de planification des capacités d'agence » (décision). Doit justifier le choix en liant l'étape de l'acheteur au ratio effort/valeur. Doit couvrir les 5 sections de sortie : recommandation, plan de contenu, gating, distribution, mesure.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Pose des questions sur l'étape de l'acheteur et l'objectif",
+        "Applique les 5 principes fondamentaux",
+        "Recommande un format précis avec justification",
+        "Les exemples correspondent à l'audience et au produit",
+        "Couvre les 5 sections de sortie (recommandation, contenu, gating, distribution, mesure)",
+        "Typographie française respectée : espaces insécables, guillemets « », casse de phrase",
+        "Aucun anglicisme injustifié ni tic d'IA (pas de Boostez, Optimisez, Découvrez)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Nous avons un ebook de 50 pages sur lequel nous avons travaillé 3 mois. Le taux de conversion de notre page d'atterrissage n'est que de 4 %. Faut-il continuer à itérer ?",
+      "expected_output": "Doit diagnostiquer une probable inadéquation avec le principe n° 3 (valeur perçue élevée, effort de consommation faible — consommable en moins de 30 minutes, idéalement en moins de 10). Doit signaler que 50 pages peut représenter un effort perçu trop important. Doit recommander un test A/B sur le format : découper l'ebook en mini-formation de 5 e-mails, le transformer en checklist + ebook, ou le décomposer en guides courts et ciblés. Doit passer en revue la structure de la page : titre, aperçu visuel, contenu détaillé, preuve sociale, champs du formulaire, FAQ. Doit suggérer de tester un accès partiel (aperçu des 5 premières pages) vs. accès complet conditionné. Doit interroger sur la source du trafic — 4 % sur du trafic froid peut être acceptable, 4 % sur du trafic chaud est faible. Doit renvoyer aux skills cro et ab-testing.",
+      "assertions": [
+        "Diagnostique une inadéquation format/effort probable",
+        "Recommande un test A/B sur le format",
+        "Propose de découper en formats plus courts",
+        "Passe en revue la structure de la page d'atterrissage",
+        "Interroge sur la source du trafic (froid vs. chaud)",
+        "Renvoie aux skills cro ou ab-testing",
+        "Typographie française : pas de tiret cadratin, espaces insécables avant : ; ! ?",
+        "Pas d'anglicismes injustifiés ni de tics d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Notre formulaire de lead demande le prénom, l'e-mail, l'entreprise, le poste, la taille de l'entreprise et le numéro de téléphone. Nous n'obtenons pas assez d'inscriptions. Le formulaire pourrait-il être en cause ?",
+      "expected_output": "Doit immédiatement identifier la longueur du formulaire comme cause probable. Doit citer la règle : chaque champ supplémentaire réduit la conversion de 5 à 10 %. Doit recommander de réduire au strict nécessaire : idéalement l'e-mail seul (conversion maximale), ou e-mail + prénom si la personnalisation est importante. Doit expliquer quand un formulaire multi-champs se justifie (uniquement pour les offres à forte valeur : webinaires, démos). Doit demander quelles informations sont réellement utilisées dans le suivi — les champs non exploités doivent être supprimés. Doit suggérer le profilage progressif : capturer l'e-mail maintenant, demander plus d'informations plus tard via enrichissement ou formulaires de suivi. Doit renvoyer au skill cro pour l'optimisation des formulaires.",
+      "assertions": [
+        "Identifie la longueur du formulaire comme cause probable",
+        "Cite la règle des 5 à 10 % par champ",
+        "Recommande de réduire à l'e-mail seul ou e-mail + prénom",
+        "Demande quels champs sont réellement utilisés",
+        "Suggère le profilage progressif",
+        "Renvoie au skill cro",
+        "Typographie française correcte : virgule décimale, espaces insécables",
+        "Aucun tic d'IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Quelle est la différence entre un lead magnet et un outil gratuit ? Lequel dois-je créer en premier ?",
+      "expected_output": "Doit expliquer la distinction : les lead magnets sont des offres de contenu statiques (ebooks, checklists, templates) tandis que les outils gratuits sont interactifs (calculateurs, diagnostics, quiz). Doit préciser quand créer l'un ou l'autre. Lead magnets : plus rapides à produire (quelques heures à quelques jours), bien adaptés à l'éducation en phase de sensibilisation/évaluation, maintenance réduite, qualité des leads variable. Outils gratuits : temps de création plus long (plusieurs semaines à plusieurs mois), engagement et partageabilité plus élevés, permettent de segmenter les leads par usage, peuvent être référencés pour des mots-clés SEO (« calculateur X », « diagnostic Y »), qualité des leads généralement supérieure. Doit recommander de commencer par un lead magnet si la rapidité est prioritaire, et d'investir dans un outil gratuit si le temps de développement est disponible et que les entrées utilisateurs sont répétables pour produire un résultat significatif. Doit renvoyer au skill free-tools.",
+      "assertions": [
+        "Distingue contenu statique et outil interactif",
+        "Compare l'effort de création",
+        "Compare les caractéristiques SEO et de partageabilité",
+        "Recommande en fonction du compromis rapidité vs. investissement",
+        "Renvoie au skill free-tools",
+        "Typographie française respectée dans la réponse",
+        "Registre cohérent (tutoiement dans les conseils, vouvoiement dans les exemples de copy)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Nous avons un article très performant sur les objets d'e-mails. Peut-on s'en servir comme lead magnet ?",
+      "expected_output": "Doit recommander de créer un upgrade de contenu spécifique à l'article plutôt que de conditionner l'accès à l'article lui-même (les upgrades spécifiques convertissent 2 à 5 fois mieux que les CTA génériques en sidebar). Doit proposer des idées d'upgrades concrètes : « 50 templates d'objets d'e-mails » (format template, phase de décision), « Mémo de référence sur les objets d'e-mails » (cheat sheet, sensibilisation/évaluation), « Fichier d'exemples d'objets performants » (swipe file avec annotations). Doit expliquer pourquoi les upgrades de contenu convertissent mieux : le lecteur est déjà engagé sur le sujet, la pertinence et l'intention sont plus élevées qu'avec une offre générique. Doit recommander de laisser l'article en accès libre (préserver le SEO) et de proposer l'upgrade en CTA inline ou en fin d'article. Doit renvoyer aux skills cro et copywriting.",
+      "assertions": [
+        "Recommande un upgrade de contenu plutôt que de conditionner l'accès à l'article",
+        "Cite l'amélioration de 2 à 5 fois vs. les CTA génériques",
+        "Propose des formats d'upgrade avec justification",
+        "Recommande de laisser l'article en accès libre pour préserver le SEO",
+        "Explique pourquoi les upgrades convertissent mieux",
+        "Typographie française : guillemets « », pas de title case dans les exemples",
+        "Exemples en français plausible, pas de calque anglophone"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre checklist génère beaucoup de téléchargements mais très peu de ces personnes s'inscrivent à un essai. Le lead magnet est-il raté ?",
+      "expected_output": "Doit diagnostiquer un problème de qualité des leads ou d'inadéquation avec l'étape de l'acheteur. Doit vérifier si la checklist est un contenu de sensibilisation attirant des personnes pas encore prêtes à acheter. Doit passer en revue les signaux de qualité des leads : taux d'ouverture des 3 premiers e-mails supérieur à 40 %, progression vers l'essai/la démo, faible taux de désabonnement, correspondance avec le profil client idéal. Doit rappeler le principe : un lead magnet doit créer un chemin naturel vers le produit. Si une checklist pour grands débutants attire des débutants, c'est prévu, mais ils ne convertiront pas rapidement : ils ont besoin de nurturing. Doit recommander de revoir la séquence de nurturing (renvoyer au skill emails) et de vérifier si l'offre correspond à la bonne étape de l'acheteur selon l'objectif. Peut suggérer de créer un lead magnet de phase d'évaluation ou de décision (template, calculateur ROI, tableur de comparaison) pour attirer des leads à plus forte intention. Doit recommander de suivre le délai jusqu'à la conversion par source de lead magnet.",
+      "assertions": [
+        "Diagnostique un problème de qualité des leads ou d'étape de l'acheteur",
+        "Interroge sur la correspondance des leads avec le profil client idéal",
+        "Renvoie aux signaux de qualité des leads",
+        "Renvoie au skill emails pour le nurturing",
+        "Suggère un lead magnet de phase d'évaluation ou de décision en alternative",
+        "Mentionne le suivi du délai jusqu'à la conversion par source",
+        "Typographie française irréprochable dans la réponse",
+        "Aucun tic d'IA (Découvrez, Révolutionnaire, etc.) ni anglicisme injustifié"
+      ],
+      "files": []
+    }
+  ]
+}

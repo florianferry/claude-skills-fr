@@ -1,0 +1,91 @@
+{
+  "skill_name": "product-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Je veux mettre en place mon contexte product marketing. On fait du B2B SaaS : on vend une plateforme de feedback client aux équipes produit.",
+      "expected_output": "Doit vérifier si .agents/product-marketing.md existe déjà. Si non, propose deux options : (1) brouillon automatique depuis le dépôt (recommandé) ou (2) partir de zéro. Si l'utilisateur choisit de partir de zéro, guide la conversation section par section, une à la fois. Doit couvrir toutes les sections applicables : Présentation du produit, Audience cible, Personas, Problèmes et points de friction, Paysage concurrentiel, Différenciation, Objections, Dynamiques de changement, Langage client, Voix de la marque, Preuves et réassurance, Objectifs. Doit créer le fichier dans .agents/product-marketing.md une fois terminé.",
+      "assertions": [
+        "Vérifie si product-marketing.md existe",
+        "Propose deux options : brouillon automatique ou départ de zéro",
+        "Couvre les sections applicables",
+        "Guide la conversation section par section, une à la fois",
+        "Utilise les guillemets français « » et la casse de phrase pour les titres",
+        "Aucun anglicisme injustifié (pas de 'Discover', 'Boost', 'Leverage')",
+        "Crée le fichier dans .agents/product-marketing.md"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Mets à jour notre contexte product marketing. On vient de lancer un palier Entreprise et notre audience cible s'élargit aux VP Engineering, pas seulement aux chefs de produit.",
+      "expected_output": "Doit vérifier si .agents/product-marketing.md existe et le lire. Doit identifier les sections à mettre à jour selon les changements : Audience cible (ajouter VP Engineering), Personas (nouveau persona), Présentation du produit (nouveau palier Entreprise et mise à jour de la tarification), Objections (spécifiques Entreprise) et Paysage concurrentiel (concurrents Entreprise). Doit mettre à jour uniquement les sections concernées, en préservant le contenu existant inchangé.",
+      "assertions": [
+        "Lit le product-marketing.md existant",
+        "Identifie les sections à mettre à jour",
+        "Met à jour l'Audience cible avec VP Engineering",
+        "Ajoute un nouveau persona pour l'audience élargie",
+        "Met à jour la Présentation du produit pour le palier Entreprise",
+        "Préserve les sections non concernées",
+        "Respecte la typographie française : espaces insécables, guillemets «  »"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "crée un doc de contexte produit pour mon appli. c'est une appli mobile qui aide les gens à trouver des sentiers de randonnée. on vient juste de démarrer.",
+      "expected_output": "Doit se déclencher sur une formulation informelle. Doit vérifier si un document de contexte existe déjà. Doit proposer le brouillon automatique ou le départ de zéro. Doit adapter les questions à une appli mobile B2C en phase de démarrage (niche plein air / randonnée). Doit noter que certaines sections seront légères pour un produit early-stage, et c'est normal — elles pourront être complétées à mesure que le projet mûrit. Doit ignorer les sections non applicables (ex. : Personas, qui est orienté B2B) plutôt que de forcer les 12. Doit accepter des réponses légères pour Preuves et réassurance ou Paysage concurrentiel si la structure est nouvelle.",
+      "assertions": [
+        "Se déclenche sur une formulation informelle",
+        "Vérifie si un document de contexte existe",
+        "Propose le brouillon automatique ou le départ de zéro",
+        "Adapte les questions à une appli mobile B2C early-stage",
+        "Note que certaines sections peuvent être légères au démarrage",
+        "Ignore les sections non applicables plutôt que de toutes les forcer",
+        "Crée le fichier dans .agents/product-marketing.md",
+        "Pas de tics d'IA : pas de 'Découvrez', 'Boostez', 'Révolutionnaire'"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Peux-tu faire un brouillon automatique de notre contexte product marketing à partir du dépôt et de nos contenus marketing ?",
+      "expected_output": "Doit activer le mode brouillon automatique. Doit analyser le dépôt pour trouver le contexte marketing existant : README, copy de la page d'accueil, page de tarification, page À propos, méta-descriptions, toute documentation existante. Doit rédiger le product-marketing.md à partir de ce qu'il trouve, en complétant les sections disponibles et en signalant celles qui nécessitent une saisie manuelle. Doit présenter le brouillon pour relecture avant d'enregistrer.",
+      "assertions": [
+        "Active le mode brouillon automatique",
+        "Analyse le dépôt pour les contenus marketing existants",
+        "Rédige le contexte à partir des informations trouvées",
+        "Signale les sections à compléter manuellement",
+        "Présente le brouillon pour relecture avant enregistrement",
+        "Utilise la typographie française dans le document généré (guillemets «  », casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Est-ce qu'on a un contexte product marketing configuré ? Je veux m'assurer que les autres skills marketing ont les infos sur notre produit.",
+      "expected_output": "Doit vérifier si .agents/product-marketing.md existe (et l'ancien emplacement .claude/product-marketing.md). Doit indiquer s'il existe et résumer son contenu si trouvé. S'il n'existe pas, doit proposer d'en créer un et expliquer pourquoi c'est utile (les autres skills comme copywriting, cro, seo-audit le consultent en premier). Doit expliquer comment les autres skills utilisent ce document de contexte.",
+      "assertions": [
+        "Vérifie les deux emplacements de fichier",
+        "Indique si le document de contexte existe",
+        "Résume le contenu si trouvé",
+        "Propose de créer le document s'il est absent",
+        "Explique comment les autres skills l'utilisent",
+        "Réponse en français correct, sans tics d'IA ni anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Écris la copy de la page d'accueil pour notre produit SaaS.",
+      "expected_output": "Doit reconnaître que c'est une tâche de copywriting, pas de création de contexte product marketing. Doit vérifier si product-marketing.md existe (comme le font les autres skills) et, s'il n'existe pas, peut suggérer d'en créer un d'abord. Doit renvoyer au skill copywriting pour la rédaction effective de la page d'accueil.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une tâche de copywriting",
+        "Peut vérifier ou suggérer de créer product-marketing.md",
+        "Renvoie au skill copywriting pour la rédaction",
+        "Ne tente pas de rédiger la copy avec les patterns de création de contexte"
+      ],
+      "files": []
+    }
+  ]
+}

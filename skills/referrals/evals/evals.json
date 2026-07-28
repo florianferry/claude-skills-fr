@@ -1,0 +1,102 @@
+{
+  "skill_name": "referrals",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à concevoir un programme de parrainage pour notre SaaS. C'est un outil de gestion de projet à 49 €/mois, avec environ 1 000 clients. On veut encourager le bouche-à-oreille.",
+      "expected_output": "Doit vérifier d'abord l'existence d'un product-marketing.md. Doit distinguer parrainage et affiliation (ici : parrainage, clients existants qui recommandent). Doit concevoir la boucle de parrainage : moment déclencheur, mécanisme de partage (lien unique, invitation e-mail, partage social), parcours de conversion du filleul, structure de récompenses. Doit recommander une récompense bilatérale (parrain et filleul reçoivent tous les deux quelque chose). Doit proposer des récompenses concrètes adaptées à un abonnement à 49 €/mois (ex. : un mois offert). Doit inclure la liste de vérification au lancement. Doit mentionner les outils (Rewardful, Tolt, etc.). Typographie française respectée tout au long (espaces insécables, guillemets « », unités à la française).",
+      "assertions": [
+        "Vérifie l'existence d'un product-marketing.md",
+        "Distingue parrainage et affiliation",
+        "Conçoit la boucle de parrainage (déclencheur, partage, conversion, récompense)",
+        "Recommande une récompense bilatérale",
+        "Propose des récompenses concrètes adaptées au ticket",
+        "Inclut la liste de vérification au lancement",
+        "Mentionne des outils concrets",
+        "Typographie française : espaces insécables avant : ; ! ?, guillemets « », unités (€ %) avec espace",
+        "Aucun anglicisme injustifié (pas de 'referral loop' non traduit, pas de 'double-sided' brut)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On a un programme de parrainage mais seulement 5 % de nos clients ont déjà parrainé quelqu'un. Comment augmenter la participation ?",
+      "expected_output": "Doit appliquer le guide d'optimisation du programme. Doit diagnostiquer les causes d'une faible participation : les clients sont-ils au courant du programme ? Le moment de sollicitation est-il bien choisi ? La récompense est-elle suffisamment attractive ? Le partage est-il simple ? Doit recommander des actions concrètes : meilleur placement/visibilité, sollicitation aux pics de satisfaction, amélioration de la récompense, simplification du partage, relances par e-mail et in-app. Doit proposer des idées d'expérimentations à tester. Pas de calque anglophone, pas de tics d'IA (Boostez, Optimisez, etc.).",
+      "assertions": [
+        "Applique le guide d'optimisation",
+        "Diagnostique les causes possibles de faible participation",
+        "Vérifie notoriété, timing, récompense et friction",
+        "Recommande des actions concrètes",
+        "Suggère de solliciter aux moments de satisfaction élevée",
+        "Propose des idées de tests",
+        "Pas de tics d'IA (Boostez, Optimisez, Découvrez…)",
+        "Aucun anglicisme non justifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "on devrait faire du parrainage ou de l'affiliation ? on vend des formations en ligne entre 199 et 499 € et on veut que des créateurs et des influenceurs nous promeuvent",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit distinguer clairement parrainage et affiliation. Pour ce cas d'usage (faire promouvoir par des créateurs/influenceurs), doit recommander un programme d'affiliation (pas du parrainage : les affiliés ne sont pas des clients). Doit appliquer la section affiliation : structure de commission pour les produits digitaux (typiquement 20 à 40 % pour des formations), durée des cookies, modalités de paiement, onboarding des affiliés. Doit recommander des plateformes adaptées aux créateurs. Typographie française correcte (pas de — en prose, pas de title case).",
+      "assertions": [
+        "Se déclenche sur formulation décontractée",
+        "Distingue clairement parrainage et affiliation",
+        "Recommande l'affiliation pour ce cas",
+        "Fournit une structure de commission adaptée aux formations",
+        "Aborde la durée des cookies et les modalités de paiement",
+        "Recommande des plateformes appropriées",
+        "Pas de tiret cadratin en prose",
+        "Casse de phrase sur les titres (pas de title case anglophone)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Quelle structure de récompenses fonctionne le mieux ? On offre 10 € de réduction aux parrains mais ça ne marche pas. Notre produit est à 29 €/mois.",
+      "expected_output": "Doit évaluer la récompense actuelle : 10 € de réduction sur un abonnement à 29 €/mois est significatif, mais profite uniquement au parrain (récompense unilatérale). Doit recommander de tester une récompense bilatérale (parrain + filleul reçoivent tous les deux quelque chose). Doit passer en revue les types de récompenses : crédit compte, mois offerts, déblocage de fonctionnalités, argent. Doit aborder les récompenses par paliers (récompenses croissantes pour plusieurs parrainages). Doit proposer des alternatives concrètes à tester. Doit préciser que la récompense n'est peut-être pas le seul problème : le placement et le timing comptent aussi. Typographie française irréprochable (29 €/mois avec espace, guillemets « »).",
+      "assertions": [
+        "Évalue la récompense actuelle",
+        "Identifie qu'elle est unilatérale et recommande une bilatérale",
+        "Présente plusieurs types de récompenses",
+        "Aborde les récompenses par paliers",
+        "Propose des alternatives concrètes à tester",
+        "Signale que la récompense n'est pas le seul levier",
+        "Typographie : 29 €/mois avec espace insécable, guillemets « »",
+        "Pas d'anglicismes (pas de 'double-sided' brut, pas de 'single-sided')"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Comment mesure-t-on le succès d'un programme de parrainage ? Quelles métriques suivre ?",
+      "expected_output": "Doit appliquer le cadre de mesure du skill. Doit définir les métriques clés : taux de participation (% de clients qui parrainent), taux de partage (parrainages envoyés par participant), taux de conversion (visiteurs filleuls devenus clients), coefficient viral (K-factor), CAC via parrainage vs. autres canaux, LTV des clients parrainés vs. clients organiques. Doit recommander une approche de suivi. Doit donner des benchmarks pour chaque métrique. Terminologie française : « coefficient viral » et non « k-factor » seul, « taux de conversion » et non « conversion rate ».",
+      "assertions": [
+        "Applique le cadre de mesure",
+        "Définit taux de participation, taux de partage, taux de conversion",
+        "Inclut le coefficient viral (K-factor)",
+        "Compare le CAC via parrainage aux autres canaux",
+        "Compare la LTV des filleuls à celle des clients organiques",
+        "Recommande une approche de suivi",
+        "Fournit des benchmarks",
+        "Terminologie française : 'taux de conversion', 'coefficient viral', 'taux de parrainage'",
+        "Pas d'anglicismes bruts non justifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peut-tu écrire les e-mails d'invitation à parrainer ? J'ai besoin de l'e-mail envoyé quand quelqu'un partage son lien de parrainage.",
+      "expected_output": "Doit reconnaître que cela recoupe la rédaction d'e-mails. Doit s'appuyer sur la section séquences e-mail du skill pour les e-mails de parrainage spécifiques. Pour une séquence e-mail multi-messages (nurture des filleuls), doit renvoyer vers le skill emails. Doit fournir un e-mail d'invitation au parrainage, en vouvoiement par défaut (avec note sur le tutoiement comme option si la marque l'adopte). Typographie française : objet sans point d'exclamation en série, espaces insécables, guillemets « » si citation, apostrophes typographiques '.",
+      "assertions": [
+        "S'appuie sur la section séquences e-mail du skill",
+        "Fournit un e-mail d'invitation au parrainage",
+        "Renvoie vers le skill emails pour des séquences plus larges",
+        "E-mail en vouvoiement avec note sur le tutoiement comme option",
+        "Typographie française : espaces insécables, apostrophes ', guillemets « »",
+        "Pas de — en corps de texte",
+        "Pas de tics d'IA (Découvrez, Boostez…)"
+      ],
+      "files": []
+    }
+  ]
+}

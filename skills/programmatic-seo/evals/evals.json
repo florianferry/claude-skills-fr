@@ -1,0 +1,103 @@
+{
+  "skill_name": "programmatic-seo",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "On veut créer des pages SEO programmatiques pour notre CRM. On pense à des pages « CRM pour [secteur] » — par exemple « CRM pour l'immobilier », « CRM pour la santé »… Comment aborder ça ?",
+      "expected_output": "Doit vérifier d'abord l'existence de product-marketing.md. Doit identifier le playbook Personas (pages par secteur d'activité). Doit appliquer les principes fondamentaux : valeur unique par page (pas seulement l'échange du nom de secteur), données propriétaires ou insights spécifiques par secteur, structure d'URL propre. Doit recommander le cadre d'implémentation : recherche de mots-clés par variation sectorielle, besoins en données (quel contenu propre à chaque secteur rend la page unique), conception du template, stratégie de liens internes entre les pages sectorielles et les pages principales, et stratégie d'indexation. Doit mettre en garde contre le contenu mince (simple template + échange du mot-clé). La réponse doit être rédigée en français, sans anglicisme injustifié, avec des espaces insécables avant « : » et « ? ».",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Identifie le playbook Personas",
+        "Applique les principes fondamentaux (valeur unique, données propriétaires, URLs propres)",
+        "Recommande une recherche de mots-clés par variation",
+        "Aborde les besoins en données pour du contenu unique",
+        "Fournit des conseils sur la conception du template",
+        "Inclut une stratégie de liens internes",
+        "Met en garde contre le contenu mince",
+        "Réponse en français correct, typographie française respectée (espaces insécables, guillemets « »)",
+        "Aucun anglicisme injustifié (pas de 'leverage', 'framework', 'insights' sans équivalent)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On veut créer une stratégie de pages comparatives. Des pages du type « Notion vs Asana », « Notion vs Monday »… pour tous nos concurrents. On en a 15.",
+      "expected_output": "Doit identifier le playbook Comparatifs. Doit appliquer l'approche programmatique pour les pages de comparaison concurrentielles à grande échelle. Doit recommander : une structure de template pour les pages comparatives, des données uniques par comparaison (pas le même template avec juste les noms échangés), une recherche de mots-clés pour chaque variation « [concurrent A] vs [concurrent B] », une structure d'URL (/comparer/notion-vs-asana), des liens internes entre les pages comparatives, et des contrôles qualité. Doit faire référence au skill competitors pour la structure du contenu. La réponse doit être en français avec la typographie correcte.",
+      "assertions": [
+        "Identifie le playbook Comparatifs",
+        "Recommande une structure de template adaptée à l'échelle",
+        "Aborde la nécessité de données uniques par comparaison",
+        "Inclut une recherche de mots-clés pour les variations",
+        "Fournit une recommandation de structure d'URL",
+        "Inclut une stratégie de liens internes",
+        "Fait référence au skill competitors",
+        "Applique les contrôles qualité",
+        "Réponse en français sans calque de l'anglais (pas de 'scale', 'cross-reference' non traduits)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "on voudrait se positionner sur les mots-clés « intégration [nom de l'outil] ». on est intégrés avec plus de 50 outils et on veut une page pour chacun. genre « intégration Slack », « intégration Salesforce », etc.",
+      "expected_output": "Doit répondre même avec un style décontracté. Doit identifier le playbook Intégrations. Doit recommander : la conception du template pour les pages d'intégration (ce que ça fait, comment configurer, cas d'usage), du contenu unique par intégration (workflows spécifiques, captures d'écran, étapes de configuration), une recherche de mots-clés pour « intégration [outil] + [ton produit] », une structure d'URL (/integrations/slack), une page hub reliant toutes les pages d'intégration, et des considérations de balisage Schema. Doit insister sur le fait que chaque page doit apporter une vraie valeur unique, pas seulement « on s'intègre avec [outil] ». Réponse en français irréprochable.",
+      "assertions": [
+        "Répond malgré le style familier de la demande",
+        "Identifie le playbook Intégrations",
+        "Recommande un template avec du contenu unique par intégration",
+        "Inclut étapes de configuration et cas d'usage par page",
+        "Fournit une recommandation de structure d'URL",
+        "Recommande une page hub pour toutes les intégrations",
+        "Insiste sur la valeur unique réelle par page",
+        "Typographie française respectée (espaces insécables, guillemets « »)",
+        "Aucun tic d'IA : pas de 'Découvrez', 'Boostez', 'Optimisez'"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On a créé 500 pages SEO programmatiques mais Google n'en indexe que 80. Qu'est-ce qui cloche ?",
+      "expected_output": "Doit diagnostiquer le problème d'indexation. Doit appliquer les contrôles qualité et les conseils de stratégie d'indexation. Doit investiguer : le contenu mince (les pages apportent-elles une valeur unique ou sont-elles juste template + mot-clé échangé ?), le budget de crawl (500 pages peut être gérable mais dépend de l'autorité du site), les liens internes (les pages sont-elles accessibles ?), l'inclusion dans le sitemap XML, les problèmes de contenu dupliqué ou quasi-dupliqué. Doit recommander des correctifs précis : améliorer l'unicité du contenu, renforcer les liens internes, soumettre le sitemap, vérifier le robots.txt, utiliser la Search Console pour les demandes d'indexation. Doit prévenir que Google peut refuser d'indexer les pages minces quoi qu'il arrive. Réponse en français avec typographie correcte.",
+      "assertions": [
+        "Diagnostique le problème d'indexation",
+        "Identifie le contenu mince comme cause probable",
+        "Vérifie les considérations de budget de crawl",
+        "Vérifie les liens internes vers les pages programmatiques",
+        "Vérifie le sitemap XML et le robots.txt",
+        "Recommande des correctifs précis pour l'indexation",
+        "Avertit des politiques de Google sur le contenu mince",
+        "Réponse sans anglicisme injustifié, typographie française (espaces insécables)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Aide-moi à créer une section glossaire pour notre plateforme de marketing automation. On veut définir plus de 200 termes marketing et se positionner sur les requêtes « définition de [terme] ».",
+      "expected_output": "Doit identifier le playbook Glossaire. Doit appliquer la conception du template : page de définition d'un terme (définition, exemples, termes connexes, lien avec le produit), page hub/index reliant tous les termes, structure d'URL (/glossaire/{terme}), navigation alphabétique et thématique. Doit aborder la qualité : chaque définition doit apporter une valeur réelle au-delà du dictionnaire. Doit inclure une stratégie de liens internes et un balisage Schema (DefinedTerm). Doit recommander de commencer par les termes à plus fort volume. Réponse en français irréprochable, casse de phrase pour les titres.",
+      "assertions": [
+        "Identifie le playbook Glossaire",
+        "Fournit une conception de template pour les pages de termes",
+        "Recommande une page hub/index",
+        "Fournit une structure d'URL",
+        "Aborde la qualité du contenu au-delà du dictionnaire",
+        "Inclut une stratégie de liens internes",
+        "Recommande de commencer par les termes à fort volume",
+        "Casse de phrase respectée dans les titres (pas de title case anglais)",
+        "Aucun tic d'IA ('Découvrez', 'Optimisez', 'Incontournable')"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peux-tu auditer nos pages SEO programmatiques existantes pour des problèmes techniques ? On a des erreurs de crawl et certaines pages renvoient des 404.",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche d'audit SEO technique, pas d'une tâche de stratégie de SEO programmatique. Doit renvoyer vers le skill seo-audit ou s'y référer, puisque c'est lui qui traite la crawlabilité, l'indexation et les problèmes SEO techniques. programmatic-seo se concentre sur la stratégie, la conception des templates et la planification du contenu pour des pages à grande échelle.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'une tâche d'audit SEO technique",
+        "Renvoie vers le skill seo-audit ou s'y réfère",
+        "Explique que programmatic-seo couvre la stratégie et la conception des templates",
+        "Ne tente pas de réaliser un audit SEO technique complet",
+        "Réponse en français correct, sans anglicisme non justifié"
+      ],
+      "files": []
+    }
+  ]
+}

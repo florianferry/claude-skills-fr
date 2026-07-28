@@ -1,0 +1,99 @@
+{
+  "skill_name": "ai-seo",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Notre outil de gestion de projet n'apparaît jamais dans les recommandations de ChatGPT ou de Perplexity quand on cherche un logiciel de gestion de projet. Comment faire pour être cité par ces plateformes ?",
+      "expected_output": "Doit vérifier d'abord product-marketing.md. Doit appliquer le cadre des trois piliers : Structure (rendre le contenu extractible), Autorité (rendre le contenu citable), Présence (être là où l'IA cherche). Doit passer en revue l'audit de visibilité IA sur les différentes plateformes (Google AI Overviews, ChatGPT, Perplexity, etc.). Doit vérifier l'extractibilité du contenu (définitions claires, comparatifs structurés, statistiques). Doit mentionner les résultats de l'étude Princeton GEO (les citations améliorent la visibilité de +40 %, les statistiques de +37 %). Doit vérifier l'accès des robots IA dans robots.txt. Doit fournir un plan d'action priorisé. Doit utiliser la typographie française (espaces insécables, guillemets « », casse de phrase). Ne doit contenir aucun tic d'IA (Découvrez, Boostez, Optimisez, Révolutionnaire).",
+      "assertions": [
+        "Vérifie product-marketing.md avant tout",
+        "Applique le cadre des trois piliers (Structure, Autorité, Présence)",
+        "Passe en revue l'audit de visibilité IA sur plusieurs plateformes",
+        "Vérifie l'extractibilité du contenu",
+        "Mentionne les résultats de l'étude Princeton GEO",
+        "Vérifie l'accès des robots IA dans robots.txt",
+        "Fournit un plan d'action priorisé",
+        "Typographie française correcte (espaces insécables, guillemets « »)",
+        "Aucun tic d'IA (Découvrez, Boostez, Optimisez, Révolutionnaire)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On hésite à bloquer les robots IA comme GPTBot et PerplexityBot dans notre robots.txt pour protéger nos contenus. Qu'est-ce que tu en penses ?",
+      "expected_output": "Doit aborder directement la question de l'accès des robots IA. Doit expliquer le compromis : bloquer les robots IA empêche l'entraînement sur ton contenu mais aussi la citation et la recommandation par ces plateformes. Doit mentionner les robots spécifiques et leur rôle (GPTBot, Google-Extended, PerplexityBot, ClaudeBot, etc.). Doit fournir la configuration robots.txt recommandée. Doit expliquer que le blocage peut nuire à la visibilité IA plus qu'il ne protège le contenu. Doit proposer une recommandation nuancée selon les objectifs. Doit utiliser la typographie française correcte. Ne doit pas contenir d'anglicismes injustifiés.",
+      "assertions": [
+        "Aborde directement le compromis blocage / citation",
+        "Explique l'impact sur la visibilité IA vs la protection du contenu",
+        "Liste les user agents IA spécifiques",
+        "Fournit la configuration robots.txt recommandée",
+        "Donne une recommandation nuancée selon les objectifs",
+        "Explique le rôle de chaque bot",
+        "Typographie française correcte (espaces insécables avant : ; ! ?)",
+        "Pas d'anglicismes injustifiés"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Quels types de contenus sont les plus cités par les systèmes IA ? On veut créer des contenus qui ont le plus de chances d'être repris.",
+      "expected_output": "Doit mentionner les types de contenus les plus cités, notamment les comparatifs (~33 % des citations IA), les guides de référence (~15 %), et les autres formats à forte citation. Doit expliquer pourquoi ces formats fonctionnent (ils fournissent des informations structurées, extractibles et faisant autorité). Doit donner des recommandations concrètes : définitions claires, données structurées, statistiques originales, tableaux comparatifs, citations d'experts. Doit mentionner les résultats de l'étude Princeton GEO sur ce qui augmente la probabilité de citation. Doit utiliser la typographie française correcte. Ne doit pas contenir de tics d'IA.",
+      "assertions": [
+        "Mentionne les types de contenus avec leurs taux de citation",
+        "Cite les articles comparatifs comme format le plus cité",
+        "Explique pourquoi ces formats fonctionnent pour l'IA",
+        "Donne des recommandations concrètes de création de contenu",
+        "Mentionne l'étude Princeton GEO",
+        "Évoque les données structurées, les statistiques et les définitions claires",
+        "Typographie française correcte (% avec espace insécable, guillemets « »)",
+        "Aucun tic d'IA (Découvrez, Boostez, Optimisez)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "nos concurrents apparaissent dans google AI overviews mais pas nous. qu'est-ce qu'on doit changer ?",
+      "expected_output": "Doit répondre même à la formulation informelle. Doit se concentrer spécifiquement sur la visibilité dans Google AI Overviews. Doit expliquer comment les AI Overviews sélectionnent leurs sources (contenu faisant autorité, bien structuré, qui répond directement aux requêtes). Doit passer en revue le pilier Structure : extractibilité du contenu, hiérarchie des titres, format réponse-d'abord, données structurées. Doit vérifier les signaux d'Autorité : autorité de domaine, citations, E-E-A-T. Doit recommander des modifications structurelles concrètes. Doit suggérer une approche de suivi. Doit utiliser la typographie française correcte.",
+      "assertions": [
+        "Répond même à la formulation informelle",
+        "Se concentre spécifiquement sur Google AI Overviews",
+        "Explique comment les AI Overviews sélectionnent leurs sources",
+        "Vérifie le pilier Structure (extractibilité, titres, réponse-d'abord)",
+        "Vérifie les signaux d'Autorité",
+        "Recommande des modifications structurelles concrètes",
+        "Suggère une approche de suivi",
+        "Typographie française correcte"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Peux-tu auditer notre site pour évaluer sa préparation à la recherche IA ? On veut savoir comment on est visible sur ChatGPT, Perplexity, Google AI Overviews et les autres plateformes IA.",
+      "expected_output": "Doit conduire l'audit de visibilité IA complet. Doit vérifier chaque plateforme du paysage (Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, Copilot). Doit évaluer les trois piliers : Structure (extractibilité du contenu, JSON-LD, définitions claires), Autorité (citations, backlinks, signaux E-E-A-T), Présence (accès des robots IA, facteurs spécifiques par plateforme). Doit présenter les constats organisés par pilier. Doit fournir un plan d'action priorisé avec des corrections précises. Doit utiliser la typographie française correcte. Ne doit pas contenir de tics d'IA.",
+      "assertions": [
+        "Conduit l'audit de visibilité IA complet",
+        "Vérifie plusieurs plateformes IA",
+        "Évalue les trois piliers (Structure, Autorité, Présence)",
+        "Vérifie l'extractibilité du contenu",
+        "Vérifie l'accès des robots IA",
+        "Présente les constats par pilier",
+        "Fournit un plan d'action priorisé",
+        "Typographie française correcte (espaces insécables, guillemets « »)",
+        "Aucun tic d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Notre trafic organique a chuté de 30 % ce trimestre. Peux-tu faire un audit SEO complet pour comprendre ce qui se passe ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une demande d'audit SEO traditionnel et non d'une tâche SEO IA. Doit orienter vers le skill seo-audit ou s'y référer, car c'est lui qui traite les audits SEO complets : crawlabilité, fondations techniques, optimisation on-page et qualité du contenu. Peut mentionner la recherche IA comme facteur à investiguer, mais doit préciser que seo-audit est le skill principal pour cette tâche.",
+      "assertions": [
+        "Reconnaît qu'il s'agit d'un audit SEO traditionnel",
+        "Oriente vers le skill seo-audit ou s'y réfère",
+        "Ne tente pas de conduire un audit SEO traditionnel complet avec les patterns SEO IA",
+        "Peut mentionner la recherche IA comme facteur parmi d'autres"
+      ],
+      "files": []
+    }
+  ]
+}

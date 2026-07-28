@@ -1,0 +1,138 @@
+{
+  "skill_name": "seo-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Peux-tu faire un audit SEO de notre site SaaS ? On reçoit environ 2 000 visites organiques par mois mais on pense qu'on devrait en avoir bien plus. URL : https://exemple.fr",
+      "expected_output": "Doit d'abord chercher product-marketing.md. Doit poser des questions sur les mots-clés prioritaires, l'accès à la Search Console, les changements récents et les concurrents. Doit suivre l'ordre de priorité du cadre d'audit : exploration et indexation, fondations techniques, optimisation on-page, qualité du contenu, autorité et liens. Doit vérifier robots.txt, sitemap XML, architecture du site. Doit évaluer les balises title, meta descriptions, structure des titres et optimisation du contenu. Ne doit PAS signaler l'absence de schema en se basant uniquement sur web_fetch (doit noter la limitation de détection). Le rapport doit suivre la structure : synthèse exécutive, résultats SEO technique, résultats SEO on-page, résultats contenu et plan d'action priorisé.",
+      "assertions": [
+        "Cherche product-marketing.md",
+        "Pose des questions sur les mots-clés, la Search Console, les changements récents",
+        "Suit l'ordre de priorité : exploration d'abord, puis technique, on-page, contenu, autorité",
+        "Vérifie robots.txt et sitemap XML",
+        "Évalue les balises title, meta descriptions, structure des titres",
+        "Ne déclare pas 'aucun schema trouvé' en se basant uniquement sur web_fetch",
+        "Note la limitation de détection du schema",
+        "Le rapport inclut une synthèse exécutive",
+        "Le rapport inclut un plan d'action priorisé",
+        "Chaque problème identifié comporte un libellé, un impact, une preuve, une correction et une priorité",
+        "Typographie française respectée dans la sortie (espaces insécables, guillemets « », absence de tiret cadratin)",
+        "Absence de tics d'IA et d'anglicismes injustifiés dans la rédaction des recommandations"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Pourquoi je ne suis pas bien positionné sur 'logiciel de gestion de projet' ? J'ai une page qui cible ce mot-clé mais elle est bloquée en page 3.",
+      "expected_output": "Doit se déclencher sur le ton naturel de 'pourquoi je ne suis pas bien positionné'. Doit examiner les facteurs on-page et off-page. On-page : vérifier l'alignement balise title, H1, URL avec le mot-clé ; évaluer la profondeur du contenu par rapport aux concurrents ; vérifier la cannibalisation de mots-clés. Technique : vérifier le statut d'indexation, les balises canoniques, l'exploration. Qualité du contenu : évaluer les signaux E-E-A-T, la profondeur du contenu, l'engagement utilisateur. Doit fournir des corrections précises et concrètes organisées par priorité. Doit mentionner l'analyse comparative avec les pages bien positionnées.",
+      "assertions": [
+        "Se déclenche sur la formulation naturelle 'pourquoi je ne suis pas bien positionné'",
+        "Vérifie l'alignement balise title, H1, URL avec le mot-clé cible",
+        "Évalue la profondeur du contenu par rapport aux concurrents",
+        "Vérifie la cannibalisation de mots-clés",
+        "Vérifie le statut d'indexation et les balises canoniques",
+        "Évalue les signaux E-E-A-T",
+        "Mentionne l'analyse comparative avec les pages bien positionnées",
+        "Fournit des corrections concrètes organisées par priorité"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "On vient de migrer de WordPress vers Next.js et notre trafic organique a chuté de 40 % en un mois. À l'aide !",
+      "expected_output": "Doit traiter ça comme un diagnostic de migration urgent. Doit vérifier immédiatement : la cartographie des redirections (301 des anciennes URL vers les nouvelles), les balises canoniques sur les nouvelles pages, que robots.txt ne bloque pas les crawlers, que le sitemap XML est soumis et mis à jour, que les balises meta ont été conservées. Doit vérifier les problèmes courants de migration : chaînes ou boucles de redirections, erreurs 404 douces, liens internes perdus, changements de structure d'URL sans redirections. Doit référencer le rapport de couverture de la Search Console pour les problèmes d'indexation. Doit fournir un plan de récupération priorisé avec les corrections critiques en premier. Doit mentionner le délai de récupération (peut prendre des semaines).",
+      "assertions": [
+        "Traite la demande comme un diagnostic de migration urgent",
+        "Vérifie la cartographie des redirections (301)",
+        "Vérifie les balises canoniques sur les nouvelles pages",
+        "Vérifie que robots.txt ne bloque pas les crawlers",
+        "Vérifie que le sitemap XML est mis à jour et soumis",
+        "Vérifie les chaînes ou boucles de redirections",
+        "Vérifie les erreurs 404 douces",
+        "Référence le rapport de couverture de la Search Console",
+        "Fournit un plan de récupération priorisé",
+        "Mentionne le délai de récupération attendu"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Fais un audit SEO technique de notre site e-commerce. On a environ 50 000 produits et on utilise la navigation à facettes.",
+      "expected_output": "Doit se concentrer sur les problèmes techniques propres à l'e-commerce : navigation à facettes générant du contenu dupliqué, gestion du budget de crawl pour un catalogue produit important, URL paramétrées, schema produit (avec la réserve sur les limites de détection). Doit vérifier les pages catégorie légères en contenu, les descriptions produit dupliquées, la gestion des produits épuisés. Doit aborder les problèmes de budget de crawl : pagination, gestion du scroll infini, identifiants de session dans les URL. Doit fournir des résultats structurés avec des évaluations d'impact et des corrections précises.",
+      "assertions": [
+        "Aborde la navigation à facettes et le contenu dupliqué",
+        "Aborde le budget de crawl pour le grand catalogue",
+        "Vérifie les problèmes d'URL paramétrées",
+        "Mentionne le schema produit avec la réserve sur la détection",
+        "Vérifie les pages catégorie légères en contenu",
+        "Vérifie les descriptions produit dupliquées",
+        "Aborde la gestion des produits épuisés",
+        "Aborde la pagination et le scroll infini",
+        "Les résultats incluent des évaluations d'impact et des corrections précises"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Peux-tu analyser nos articles de blog pour détecter des problèmes SEO on-page ? On publie 4 articles par semaine mais le trafic stagne depuis 6 mois.",
+      "expected_output": "Doit appliquer le cadre sites de contenu / blog : vérifier le contenu ancien non rafraîchi, la cannibalisation de mots-clés, l'absence de clustering thématique, la faiblesse du maillage interne, les pages auteur manquantes. Doit auditer les éléments on-page : balises title, meta descriptions, structure des titres, ciblage des mots-clés par article. Doit évaluer les signaux E-E-A-T pour le contenu de blog. Doit vérifier la profondeur du contenu et si les articles répondent à l'intention de recherche. Doit recommander un processus d'audit de contenu et un plan d'action priorisé pour le fonds éditorial existant.",
+      "assertions": [
+        "Applique le cadre sites de contenu / blog",
+        "Vérifie le contenu ancien non rafraîchi",
+        "Vérifie la cannibalisation de mots-clés",
+        "Vérifie le clustering thématique",
+        "Vérifie la qualité du maillage interne",
+        "Vérifie les pages auteur et les signaux E-E-A-T",
+        "Audite les balises title, meta descriptions, structure des titres",
+        "Évalue si le contenu répond à l'intention de recherche",
+        "Recommande un processus d'audit de contenu",
+        "Fournit un plan d'action priorisé"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Je gère une plomberie avec 3 agences. Mon site n'apparaît presque pas quand les gens cherchent 'plombier près de chez moi' dans nos zones. Qu'est-ce qui cloche ?",
+      "expected_output": "Doit appliquer le cadre commerce local. Doit vérifier : l'incohérence des NAP (Nom, Adresse, Téléphone) sur le site, le schema local manquant (avec la réserve sur la détection), l'optimisation de la fiche Google Business Profile, les pages de localisation manquantes pour chacune des 3 agences, et l'absence de contenu local. Doit également vérifier les facteurs techniques et on-page standard. Doit recommander des corrections propres au SEO local : pages dédiées par agence avec du contenu unique, schema local sur chacune, optimisation de la fiche GBP, cohérence des citations.",
+      "assertions": [
+        "Applique le cadre commerce local",
+        "Vérifie la cohérence des NAP",
+        "Vérifie le schema local avec la réserve sur la détection",
+        "Aborde l'optimisation de la fiche Google Business Profile",
+        "Recommande des pages individuelles pour chaque agence",
+        "Recommande une stratégie de contenu local",
+        "Vérifie aussi les facteurs SEO technique standard",
+        "Fournit un plan d'action SEO local priorisé"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Notre site se charge très lentement, surtout sur mobile. Les pages mettent 5 à 6 secondes à s'afficher. Est-ce que ça pénalise notre SEO ?",
+      "expected_output": "Doit se concentrer sur la vitesse et les Core Web Vitals. Doit expliquer les seuils CWV : LCP inférieur à 2,5 s, INP inférieur à 200 ms, CLS inférieur à 0,1, et que 5 à 6 s est largement au-dessus du seuil acceptable. Doit investiguer les facteurs de vitesse : temps de réponse serveur (TTFB), optimisation des images, exécution JavaScript, chargement CSS, headers de cache, utilisation d'un CDN, chargement des polices. Doit recommander des outils précis : PageSpeed Insights, WebPageTest, Chrome DevTools, rapport Core Web Vitals de la Search Console. Doit confirmer que la vitesse de page est un facteur de positionnement et impacte directement le SEO. Doit fournir des corrections priorisées.",
+      "assertions": [
+        "Se concentre sur les Core Web Vitals",
+        "Explique les seuils CWV (LCP, INP, CLS)",
+        "Identifie 5 à 6 s comme nettement au-dessus du seuil acceptable",
+        "Investigate les facteurs de vitesse spécifiques",
+        "Recommande des outils de diagnostic précis",
+        "Confirme que la vitesse de page impacte le positionnement SEO",
+        "Fournit des corrections de vitesse priorisées",
+        "Aborde les spécificités de la performance mobile"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Je veux ajouter du schema FAQ sur mes pages produit. Tu peux m'aider à mettre ça en place ?",
+      "expected_output": "Doit reconnaître que c'est une tâche d'implémentation de données structurées, pas un audit SEO. Doit renvoyer vers le skill schema, qui gère spécifiquement l'implémentation des données structurées y compris le schema FAQ. Peut mentionner brièvement que le schema FAQ peut permettre des résultats enrichis, mais doit préciser que schema est le skill adapté pour l'implémentation.",
+      "assertions": [
+        "Reconnaît que c'est une tâche d'implémentation de données structurées",
+        "Renvoie vers le skill schema",
+        "Ne lance pas un audit SEO complet",
+        "Peut mentionner brièvement les bénéfices du schema FAQ"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "skill_name": "content-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aide-moi à construire une stratégie de contenu pour notre logiciel SaaS B2B. Nous vendons un outil de gestion des notes de frais aux équipes finance d'entreprises de 50 à 500 salariés. Nous n'avons pas encore de blog et voulons partir de zéro.",
+      "expected_output": "Doit vérifier l'existence de product-marketing.md en premier. Doit établir des piliers de contenu (3 à 5 grandes thématiques). Doit cartographier les types de contenu par étape d'achat (sensibilisation → considération → décision → mise en œuvre). Doit identifier des opportunités de recherche de mots-clés par étape d'achat. Doit recommander un mix de contenus trouvables (SEO) et partageables (leadership d'opinion, données). Doit utiliser la grille de priorisation (impact client 40 %, adéquation contenu-marché 30 %, potentiel de recherche 20 %, ressources 10 %). Doit proposer un premier calendrier éditorial ou une cadence de publication. Doit recommander des types de contenu adaptés au démarrage de zéro.",
+      "assertions": [
+        "Vérifie l'existence de product-marketing.md",
+        "Établit 3 à 5 piliers de contenu",
+        "Cartographie les contenus par étape d'achat (sensibilisation jusqu'à mise en œuvre)",
+        "Inclut une recherche de mots-clés par étape d'achat",
+        "Recommande un mix de contenus trouvables et partageables",
+        "Utilise la grille de priorisation avec les pondérations",
+        "Propose une cadence de publication ou un calendrier éditorial",
+        "Recommande des types de contenu adaptés au démarrage",
+        "N'utilise pas de titre case (casse de phrase uniquement)",
+        "Aucun anglicisme injustifié dans les recommandations"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On a plus de 200 articles de blog mais le trafic stagne depuis un an. Notre contenu part dans tous les sens, aucune logique d'ensemble. Comment on redresse la barre ?",
+      "expected_output": "Doit diagnostiquer le problème du contenu éparpillé. Doit recommander un processus d'audit du contenu existant. Doit introduire les piliers de contenu et les clusters thématiques pour organiser le catalogue. Doit identifier des opportunités hub/rayons à partir des contenus existants. Doit recommander pour chaque contenu : actualiser, consolider ou supprimer. Doit utiliser la grille de priorisation pour planifier les prochaines étapes. Doit aborder la construction d'autorité thématique via les clusters.",
+      "assertions": [
+        "Diagnostique le problème du contenu éparpillé",
+        "Recommande un audit du contenu existant",
+        "Introduit les piliers de contenu et les clusters thématiques",
+        "Identifie des opportunités hub/rayons",
+        "Recommande : actualiser, consolider ou supprimer",
+        "Utilise la grille de priorisation",
+        "Aborde la construction d'autorité thématique",
+        "Titres et sous-titres en casse de phrase",
+        "Aucun tic d'IA (Boostez, Optimisez, Révolutionnaire…)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "quel type de contenu on devrait créer ? on fait un outil pour les devs (plateforme de tests d'API) et on s'adresse à des développeurs back-end et des ingénieurs QA",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit recommander des types de contenu adaptés à une audience de développeurs : tutoriels techniques, guides façon documentation, contenu par cas d'usage, bibliothèques d'exemples, benchmarks basés sur des données. Doit noter que les développeurs privilégient la profondeur, l'exactitude et la valeur pratique à tout discours marketing. Doit suggérer des piliers de contenu alignés avec les centres d'intérêt des développeurs. Doit utiliser le cadre des sources d'idées (données de mots-clés, forums de la communauté comme Stack Overflow / Reddit, lacunes concurrentielles).",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Recommande des types de contenu pour une audience de développeurs",
+        "Met en avant la profondeur technique et la valeur pratique",
+        "Note que les développeurs préfèrent le fond au marketing",
+        "Suggère des piliers adaptés à un outil développeur",
+        "Utilise le cadre des sources d'idées",
+        "Mentionne les communautés développeurs",
+        "Aucun anglicisme injustifié dans les recommandations"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Comment prioriser les contenus à créer en premier ? On a une liste de 50 idées d'articles mais peu de ressources : une seule rédactrice, 2 articles par semaine.",
+      "expected_output": "Doit appliquer la grille de priorisation : impact client (40 %), adéquation contenu-marché (30 %), potentiel de recherche (20 %), ressources nécessaires (10 %). Doit aider à noter ou classer les idées avec cette grille. Doit recommander de commencer par les contenus à fort impact et faible effort. Doit prendre en compte la répartition par étapes d'achat (ne pas écrire uniquement du top-of-funnel). Doit proposer un workflow pratique pour la rédactrice à utiliser au fil du temps.",
+      "assertions": [
+        "Applique la grille de priorisation avec les pondérations",
+        "Explique chaque dimension de notation",
+        "Recommande de commencer par fort impact, faible effort",
+        "Prend en compte la répartition par étapes d'achat",
+        "Propose un workflow pratique pour des ressources limitées",
+        "Titres en casse de phrase",
+        "Aucun tic d'IA dans les recommandations"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "On veut construire notre autorité thématique sur la rénovation intérieure. À quoi ressemble un cluster de contenu sur ce sujet ?",
+      "expected_output": "Doit appliquer le modèle hub et rayons. Doit concevoir une page pilier sur la rénovation intérieure (guide exhaustif, 3 000+ mots). Doit identifier 8 à 15 articles de rayons ciblant des mots-clés longue traîne liés à la rénovation intérieure. Doit cartographier la structure de maillage interne entre hub et rayons. Doit aborder la recherche de mots-clés pour le cluster. Doit recommander des types de contenu pour chaque article (guide, tutoriel, modèle, basé sur des données…).",
+      "assertions": [
+        "Applique le modèle hub et rayons",
+        "Conçoit une page pilier sur la thématique centrale",
+        "Identifie 8 à 15 articles de rayons",
+        "Cartographie le maillage interne entre hub et rayons",
+        "Aborde la recherche de mots-clés pour le cluster",
+        "Recommande des types de contenu pour chaque article",
+        "Exemples de titres en casse de phrase",
+        "Aucun anglicisme injustifié ni tic d'IA"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Peux-tu rédiger un article de blog sur les meilleures pratiques du télétravail pour notre blog RH ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une tâche de rédaction et non de stratégie de contenu. Doit renvoyer vers le skill copywriting pour l'écriture de contenus individuels. Peut fournir un contexte stratégique (positionnement dans la stratégie de contenu, ciblage de mots-clés, audience) mais doit clairement indiquer que copywriting est le skill adapté pour rédiger le contenu.",
+      "assertions": [
+        "Reconnaît qu'il s'agit de rédaction et non de stratégie",
+        "Renvoie vers le skill copywriting",
+        "Ne tente pas de rédiger l'article complet",
+        "Peut fournir un contexte stratégique pour l'article"
+      ],
+      "files": []
+    }
+  ]
+}

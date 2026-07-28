@@ -1,0 +1,102 @@
+{
+  "skill_name": "community-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "On est un SaaS B2B et on veut lancer une communauté. On hésite entre Discord et Slack, qu’est-ce que tu nous conseilles ?",
+      "expected_output": "Doit vérifier en premier si product-marketing.md existe. Doit appliquer le guide de choix de plateforme. Doit recommander Slack pour une communauté B2B SaaS : familier des acheteurs SaaS, contexte professionnel. Doit signaler les limites de Slack : historique limité en version gratuite, ambiance « au travail » qui peut peser. Doit expliquer que Discord convient mieux aux communautés de développeurs, créateurs ou gamers avec des échanges en temps réel. Doit prendre en compte l’identité du membre idéal : si les acheteurs sont des professionnels en journée, Slack colle au contexte ; s’ils sont hobbyistes ou développeurs, Discord peut fonctionner. Doit poser des questions sur le membre idéal et l’objectif principal avant de trancher définitivement. Doit mentionner Circle comme alternative pour une UX soignée sans la connotation d’une messagerie d’équipe.",
+      "assertions": [
+        "Vérifie l’existence de product-marketing.md",
+        "Recommande Slack pour un contexte B2B",
+        "Signale les limites du forfait gratuit Slack",
+        "Compare les cas d’usage de Discord",
+        "Mentionne Circle ou d’autres alternatives",
+        "Pose des questions sur l’identité du membre ou l’objectif",
+        "Typographie française respectée (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Notre communauté a trois semaines. On a 40 membres mais seulement 2 ou 3 personnes postent régulièrement. Tout le monde se contente de lire. Qu’est-ce qu’on fait ?",
+      "expected_output": "Doit diagnostiquer cela comme un problème de stade lancement / activation des nouveaux membres et appliquer le playbook correspondant. Doit identifier le point de fuite : les membres rejoignent mais ne passent pas à l’action. Doit recommander des actions concrètes : faire des choses qui ne passent pas à l’échelle (envoyer un message direct personnalisé à chaque nouveau membre, les accueillir par leur prénom, organiser un appel hebdomadaire), créer un parcours nouveau membre (message épinglé, canal #je-me-présente, chemin « par où commencer »), amorcer des conversations (publier 5 à 10 messages qui modèlent le comportement voulu), définir la boucle principale (quelle action hebdomadaire ?), mettre en avant les victoires des membres. Doit rappeler que 1 % des membres génèrent 90 % de la valeur à ce stade : investir dans ces power users est plus efficace que de courir après les inactifs. Doit citer le signal d’alerte : la majorité des messages vient de l’équipe, pas des membres.",
+      "assertions": [
+        "Diagnostique le problème comme un déficit d’activation des nouveaux membres",
+        "Applique le playbook lancement depuis zéro",
+        "Recommande des messages directs personnalisés aux nouveaux membres",
+        "Recommande un parcours nouveau membre structuré",
+        "Recommande d’amorcer des conversations modèles",
+        "Cite la dynamique 1 % / 90 % des power users",
+        "Mentionne le signal d’alerte des posts dominés par l’équipe",
+        "Typographie française respectée (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Aide-moi à rédiger la charte de notre communauté Discord. On construit une communauté pour les développeurs de jeux indépendants francophones.",
+      "expected_output": "Doit appliquer le principe « construire autour d’une identité partagée » : la communauté s’adresse aux développeurs de jeux indé, l’identité c’est le maker débrouillard qui crée et publie ses jeux. Doit rédiger une charte qui décrit l’ambiance souhaitée, pas seulement les règles. Doit répondre à la question : à quoi ressemble une participation exemplaire ici ? Doit inclure à la fois des règles (pas de spam, pas de harcèlement, pas de piratage) ET des guides aspirationnels (partage tes projets en cours librement, donne des retours constructifs, mets les autres devs en valeur). Doit faire résonner l’identité tout au long de la charte. Doit adapter le ton à l’audience : les devs indé apprécient le naturel, sans jargon corporate. Peut suggérer une architecture de canaux qui renforce l’identité (ex. #devlog, #playtests, #conseils-publication). Doit respecter la typographie française et écrire en vouvoiement ou tutoiement selon le ton de la communauté, en restant cohérent.",
+      "assertions": [
+        "Renforce l’identité partagée (développeurs de jeux indépendants)",
+        "Décrit l’ambiance souhaitée, pas seulement les règles",
+        "Inclut règles et guides aspirationnels",
+        "Adopte un ton adapté à l’audience (naturel, sans jargon corporate)",
+        "Peut suggérer une architecture de canaux",
+        "Typographie française respectée (guillemets «», espaces insécables, casse de phrase, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié",
+        "Registre tu/vous homogène d’un bout à l’autre"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On veut créer un programme d’ambassadeurs pour notre communauté. On a environ 5 000 membres et quelques personnes qui aident toujours les autres. On voudrait leur donner plus de reconnaissance.",
+      "expected_output": "Doit appliquer le playbook programme d’ambassadeurs. Doit recommander : identifier les candidats parmi ceux qui recommandent et aident déjà spontanément (posts, réponses, avis, mentions sur les réseaux sociaux) ; contacter chacun personnellement en expliquant pourquoi on l’a choisi en particulier ; proposer des avantages concrets au-delà de l’accès anticipé (accès exclusif, goodies, partage de revenus, mise en avant publique, entrée directe dans les décisions produit) ; leur fournir des outils (liens de parrainage, visuels partageables, éléments de langage, canal privé dédié) ; mesurer et affiner (trafic de parrainage, inscriptions, engagement générés par les ambassadeurs). Doit renvoyer vers le skill referrals pour les mécaniques d’incitation structurées. Doit mettre en garde contre les formulaires génériques et les approches impersonnelles.",
+      "assertions": [
+        "Identifie les candidats à partir de leur comportement d’aide existant",
+        "Recommande une approche personnelle en 1:1",
+        "Propose des avantages concrets au-delà de l’accès anticipé",
+        "Mentionne les outils à mettre à disposition des ambassadeurs",
+        "Inclut un plan de suivi et de mesure",
+        "Peut renvoyer vers le skill referrals",
+        "Typographie française respectée (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Notre communauté est au point mort. Des membres ont rejoint il y a 6 mois mais la plupart n’ont plus posté depuis des semaines. Comment savoir si elle est récupérable ?",
+      "expected_output": "Doit produire un rapport d’audit de santé. Doit s’appuyer sur les indicateurs de santé communautaire : ratio DAU/MAU (au-dessus de 20 % c’est sain pour la plupart des communautés), taux de post des nouveaux membres (pourcentage ayant posté dans les 7 jours), taux de réponse aux fils, ratio inactifs/lurkers, part du contenu créé par des non-employés. Doit lister les signaux d’alerte : majorité des posts venant de l’équipe, questions sans réponse plus de 24 h, 5 mêmes personnes représentant 80 % ou plus de l’engagement, nouveaux membres qui ne postent plus après leur message d’intro. Doit recommander des étapes d’audit concrètes : extraire les indicateurs, analyser les tendances de publication, contacter des membres inactifs. Doit évaluer honnêtement : parfois la solution c’est un relaunch avec une nouvelle identité, parfois quelques rituels suffisent à relancer la dynamique. Doit proposer 3 priorités principales à traiter selon les patterns les plus fréquents.",
+      "assertions": [
+        "Produit un rapport d’audit de santé",
+        "Cite les indicateurs de santé avec leurs seuils de référence",
+        "Liste les signaux d’alerte",
+        "Recommande des étapes d’audit concrètes",
+        "Envisage honnêtement qu’une communauté peut être irrécupérable",
+        "Propose 3 priorités principales",
+        "Typographie française respectée (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "On utilise notre communauté principalement pour le support. Comment réduire le volume de tickets sans que les clients se sentent délaissés ?",
+      "expected_output": "Doit appliquer le playbook support communautaire (déflexion + rétention). Doit recommander : construire une base de connaissances consultable à partir des questions les plus fréquentes dans la communauté ; valoriser les membres qui aident les autres (badges « Expert communauté », classements, mentions publiques, car cela incite au support entre pairs) ; boucler la boucle avec le produit (quand un retour de la communauté aboutit à un changement, l’annoncer publiquement en créditant les membres concernés) ; surveiller le sentiment chaque semaine pour repérer les signaux de churn avant qu’ils s’aggravent. Doit préciser que le support communautaire fonctionne quand les réponses des pairs sont reconnues comme une vraie valeur, et non perçues comme un moyen d’esquiver la responsabilité de l’entreprise. Doit signaler le signal d’alerte des questions sans réponse au-delà de 24 h.",
+      "assertions": [
+        "Applique le playbook support communautaire",
+        "Recommande une base de connaissances issues des questions de la communauté",
+        "Recommande de valoriser les membres qui aident les autres",
+        "Mentionne la boucle de retour avec le produit",
+        "Met en garde contre les questions sans réponse au-delà de 24 h",
+        "Précise que le support entre pairs doit être vécu comme une vraie valeur, pas comme un désengagement de l’entreprise",
+        "Typographie française respectée (guillemets «», espaces insécables, pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié"
+      ],
+      "files": []
+    }
+  ]
+}

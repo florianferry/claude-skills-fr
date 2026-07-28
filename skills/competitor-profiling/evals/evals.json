@@ -1,0 +1,89 @@
+{
+  "skill_name": "competitor-profiling",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Profile ces trois concurrents pour nous : https://concurrent1.com, https://concurrent2.com, https://concurrent3.com. On en a besoin pour les supports de vente et pour trouver des failles de positionnement.",
+      "expected_output": "Doit d’abord vérifier la présence d’un fichier product-marketing.md. Doit dérouler le processus de recherche complet : Phase 1 exploration du site (Firecrawl map + scraping page d’accueil, tarifs, fonctionnalités, à propos, clients, intégrations, changelog), Phase 2 données SEO et marché (DataForSEO pour backlinks, mots-clés positionnés, trafic, concurrents), Phase 3 synthèse. Doit enregistrer les données brutes dans competitor-profiles/raw/<slug>/<YYYY-MM-DD>/ avec les sous-dossiers scrapes/, seo/, reviews/ avant de synthétiser. Doit produire un fichier markdown par concurrent selon le modèle de profil (En un coup d’œil, Positionnement et messages, Produit et fonctionnalités, Tarification, Clients et preuves sociales, SEO et stratégie de contenu, Points forts et faiblesses, Implications concurrentielles). Doit produire un _summary.md après les profils individuels avec tableau comparatif, carte de positionnement, enseignements clés, lacunes et opportunités. Doit paralléliser le scraping pour plusieurs concurrents et utiliser des métriques cohérentes sur les trois pour pouvoir comparer.",
+      "assertions": [
+        "Vérifie la présence de product-marketing.md",
+        "Déroule les trois phases (scraping, données SEO, synthèse)",
+        "Enregistre les données brutes dans competitor-profiles/raw/ avec sous-dossier daté",
+        "Produit un profil individuel par concurrent",
+        "Produit un _summary.md après les profils individuels",
+        "Utilise des métriques cohérentes sur tous les concurrents",
+        "Parallélise le scraping quand c’est possible",
+        "Typographie française respectée dans les textes produits (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Aucun tic d’IA ni anglicisme injustifié dans les analyses rédigées"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "On a 12 concurrents. Profile-les tous.",
+      "expected_output": "Doit recommander de prioriser plutôt que de tout profiler d’un coup. Doit suggérer de commencer par les 5 premiers en se basant sur le chevauchement de domaine ou la similarité de marché (consigne gestion multi-concurrents). Doit opter par défaut pour l’analyse rapide pour une liste de cette taille, pas le profil complet. Doit expliquer la différence : l’analyse rapide couvre la page d’accueil + les tarifs + la vue d’ensemble du domaine + le résumé des mots-clés positionnés ; le profil complet ajoute les avis, le stack technologique, les détails des backlinks. Ne doit proposer le profil complet que si l’utilisateur le demande ou pour 3 concurrents ou moins. Doit inviter l’utilisateur à préciser ses priorités s’il veut affiner la liste.",
+      "assertions": [
+        "Recommande la priorisation plutôt que de profiler les 12",
+        "Propose les 5 premiers par pertinence",
+        "Opte par défaut pour l’analyse rapide sur une longue liste",
+        "Explique la différence analyse rapide / profil complet",
+        "Invite l’utilisateur à préciser ses priorités"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "J’ai un profil de Pennylane datant de 4 mois. Je le mets à jour ou je repart de zéro ?",
+      "expected_output": "Doit expliquer le processus de mise à jour des profils. Doit recommander la mise à jour plutôt que de repartir de zéro, préserve l’historique et permet de comparer les snapshots. Doit préciser ce qu’il faut recollecter en priorité : la page tarifs d’abord (la plus volatile), les métriques SEO (le trafic et les positions changent chaque mois), le changelog pour les évolutions produit. Doit mettre à jour la date de génération. Doit ajouter une section Journal des modifications en bas du profil en indiquant ce qui a changé depuis le dernier profil. Doit également enregistrer les nouvelles données brutes dans un nouveau dossier <YYYY-MM-DD> sans écraser les données de la date précédente.",
+      "assertions": [
+        "Recommande la mise à jour plutôt que de repartir de zéro",
+        "Liste ce qu’il faut recollecter (tarifs, SEO, changelog)",
+        "Mentionne l’ajout d’une section Journal des modifications",
+        "Indique d’enregistrer les données brutes dans un nouveau dossier daté",
+        "Indique de ne jamais écraser les données d’une date précédente"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Quelles pages dois-je scraper pour un profil concurrentiel ?",
+      "expected_output": "Doit lister les types de pages prioritaires de la Phase 1 : page d’accueil, page tarifs, pages fonctionnalités / produit, page à propos / entreprise, blog (niveau racine pour les signaux de stratégie de contenu), clients / études de cas, intégrations, changelog / nouveautés (si disponible). Doit préciser ce qu’il faut extraire de chaque page : accueil (titre, proposition de valeur, CTA principal, preuves sociales, signaux d’audience cible), tarifs (formules, prix, détail des fonctionnalités par formule, options de facturation, essai gratuit), fonctionnalités (catégories, capacités clés, façon de les présenter), à propos (histoire, taille d’équipe, levées de fonds, mission, siège), clients (nommés, logos, secteurs, thèmes des études de cas), intégrations (nombre, intégrations clés, catégories), changelog (vélocité, axes récents, signaux de direction produit). Doit mentionner le scraping optionnel des avis (G2, Capterra, Product Hunt, TrustRadius).",
+      "assertions": [
+        "Liste tous les types de pages clés dans l’ordre de priorité",
+        "Précise ce qu’il faut extraire de chaque type de page",
+        "Inclut le changelog comme signal de direction produit",
+        "Mentionne le scraping optionnel des avis",
+        "Cite le flux Firecrawl Map puis Scrape"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Je veux un profil mais les données SEO ne m’intéressent pas, juste la tarification, le positionnement et les logos clients. Tu peux sauter les appels DataForSEO ?",
+      "expected_output": "Doit accepter la demande délimitée et sauter la Phase 2. Doit exécuter la Phase 1 (scraping Firecrawl des pages d’accueil, tarifs, clients) et la Phase 3 de synthèse uniquement. Doit expliquer qu’en l’absence de données SEO, le profil n’inclura pas l’autorité de domaine, les estimations de trafic organique, les mots-clés positionnés, les domaines référents ni les pages organiques les plus performantes, mais que les sections positionnement, tarification et clients seront complètes. Doit produire un profil abrégé en indiquant que la section SEO est « non collectée à la demande de l’utilisateur » plutôt que de laisser des espaces réservés vides. Doit tout de même enregistrer les scrapes bruts sur disque pour réutilisation.",
+      "assertions": [
+        "Saute la Phase 2 (DataForSEO) comme demandé",
+        "Exécute les Phases 1 et 3",
+        "Explique ce qui manque sans les données SEO",
+        "Signale la section SEO comme non collectée, pas vide",
+        "Enregistre quand même les données brutes"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Le mur de logos clients sur la page d’accueil du concurrent, c’est une preuve fiable de leur clientèle ?",
+      "expected_output": "Doit appliquer les principes « Les faits, pas les suppositions » et « Évaluation honnête ». Doit expliquer que les logos clients sont une affirmation de positionnement, pas un reflet fidèle de la clientèle réelle, les entreprises mettent souvent en avant leurs logos les plus connus, quelle que soit leur part de chiffre d’affaires. Doit recommander de croiser les sources : consulter les études de cas pour les détails d’usage réels, chercher des communiqués de presse citant des clients, parcourir les avis sur G2, Capterra ou TrustRadius pour repérer des noms d’entreprises, vérifier leurs posts LinkedIn évoquant des clients. Doit noter que si le site affiche « 10 000 clients » mais que le profil de trafic et de backlinks est modeste, l’affirmation doit être signalée comme à vérifier dans le profil. Doit distinguer clients nommés (affirmations vérifiables) et « secteurs couverts » (positionnement). Doit toujours indiquer la date de collecte des données.",
+      "assertions": [
+        "Traite les logos comme une affirmation de positionnement, pas comme un reflet de la clientèle",
+        "Recommande de croiser avec les études de cas et les avis",
+        "Mentionne de vérifier la cohérence entre l’affirmation et le profil trafic / backlinks",
+        "Distingue clients nommés (vérifiables) et affirmations génériques",
+        "Rappelle d’indiquer la date de collecte",
+        "Typographie française respectée dans la réponse (espaces insécables, guillemets « », pas de tiret cadratin)",
+        "Aucun tic d’IA dans la formulation (pas de ’Découvrez’, ’Boostez’, ’En un clin d’œil’, etc.)"
+      ],
+      "files": []
+    }
+  ]
+}

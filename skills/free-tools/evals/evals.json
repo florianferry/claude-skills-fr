@@ -1,0 +1,102 @@
+{
+  "skill_name": "free-tools",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "On veut créer un outil gratuit pour générer des leads pour notre logiciel SEO. On hésite entre un auditeur SEO et un outil de recherche de mots-clés. Lequel choisir et comment s’y prendre ?",
+      "expected_output": "Doit commencer par vérifier l’existence de product-marketing.md. Doit appliquer la grille d’évaluation pour comparer les deux idées sur plusieurs dimensions (correspondance audience, qualité des leads, effort de construction, valeur SEO, charge de maintenance, différenciation concurrentielle). Doit faire référence aux types d’outils du skill (analyseurs, testeurs). Doit recommander l’option la plus solide avec une justification claire. Doit aborder la stratégie de gating (ce qui est gratuit vs ce qui nécessite un e-mail). Doit définir le périmètre du MVP. Doit fournir des recommandations de mise en œuvre.",
+      "assertions": [
+        "Vérifie l’existence de product-marketing.md",
+        "Applique la grille d’évaluation pour comparer les deux options",
+        "Fait référence aux types d’outils du skill",
+        "Recommande une option avec une justification claire",
+        "Aborde la stratégie de gating",
+        "Définit le périmètre du MVP",
+        "Fournit des recommandations de mise en œuvre",
+        "N’utilise pas de tics d’IA (Découvrez, Boostez, Optimisez) ni de tiret cadratin",
+        "Respecte la typographie française (guillemets « », espaces insécables, casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Je veux créer un calculateur de ROI gratuit pour notre logiciel RH. Les utilisateurs saisissent la taille de leur entreprise et leurs processus actuels, et l’outil leur montre le temps et l’argent qu’ils économiseraient.",
+      "expected_output": "Doit identifier le type d’outil comme un calculateur. Doit appliquer le cadre d’idéation pour valider le concept. Doit aborder la stratégie de gating : le résultat de base est-il gratuit et le rapport détaillé est-il bloqué derrière un e-mail ? Doit traiter la question construire ou acheter. Doit recommander le périmètre du MVP (quelles saisies, quels résultats, quelle formule). Doit aborder les considérations SEO pour la page de l’outil. Doit référencer la grille d’évaluation pour noter l’idée.",
+      "assertions": [
+        "Identifie le type d’outil comme calculateur",
+        "Applique le cadre d’idéation pour valider",
+        "Aborde la stratégie de gating",
+        "Traite la question construire ou acheter",
+        "Recommande le périmètre du MVP (saisies, résultats, formule)",
+        "Aborde les considérations SEO",
+        "Référence la grille d’évaluation",
+        "N’utilise pas de tics d’IA ni de calques de l’anglais",
+        "Respecte la typographie française (guillemets « », espaces insécables)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "donne-moi des idées d’outils gratuits qu’on pourrait créer. on vend un logiciel d’e-mail marketing pour les boutiques e-commerce.",
+      "expected_output": "Doit se déclencher sur une formulation décontractée. Doit appliquer le cadre d’idéation pour générer des idées d’outils en lien avec l’e-mail marketing et l’e-commerce. Doit proposer 5 à 8 idées couvrant différents types d’outils (calculateurs, générateurs, analyseurs, testeurs). Exemples : testeur d’objets d’e-mail, vérificateur de délivrabilité, calculateur de ROI e-mail, générateur de templates d’e-mail, vérificateur de score spam. Doit brièvement évaluer chaque idée selon les dimensions de la grille. Doit recommander 2 à 3 idées prioritaires à poursuivre.",
+      "assertions": [
+        "Se déclenche sur une formulation décontractée",
+        "Applique le cadre d’idéation",
+        "Génère des idées couvrant plusieurs types d’outils",
+        "Les idées sont pertinentes pour l’e-mail marketing et l’e-commerce",
+        "Propose entre 5 et 8 idées",
+        "Évalue brièvement chaque idée",
+        "Recommande 2 à 3 idées prioritaires",
+        "N’utilise pas de tics d’IA ni de tiret cadratin",
+        "Respecte la typographie française (guillemets « », espaces insécables, casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "On a lancé un outil gratuit de test de vitesse de site il y a 6 mois, mais il n’attire presque aucun trafic. Qu’est-ce qui a cloché et comment redresser la situation ?",
+      "expected_output": "Doit diagnostiquer les raisons du manque de trafic. Doit examiner : la stratégie SEO de la page de l’outil (mots-clés ciblés, optimisation on-page), la stratégie de diffusion (l’outil a-t-il été lancé puis oublié ?), le paysage concurrentiel (des outils gratuits dominants existent-ils déjà ?), la qualité et l’UX de l’outil (apporte-t-il une valeur distinctive ?). Doit appliquer les principes de l’engineering as marketing. Doit recommander un plan de redressement : améliorations SEO, marketing de contenu autour de l’outil, améliorations produit pour se différencier.",
+      "assertions": [
+        "Diagnostique les causes potentielles du manque de trafic",
+        "Examine la stratégie SEO de la page de l’outil",
+        "Évalue le paysage concurrentiel",
+        "Questionne la proposition de valeur distinctive",
+        "Applique les principes de l’engineering as marketing",
+        "Recommande un plan de redressement avec des actions concrètes",
+        "N’utilise pas de tics d’IA ni de calques de l’anglais",
+        "Respecte la typographie française (guillemets « », espaces insécables, absence de tiret cadratin)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Faut-il bloquer notre outil gratuit derrière une capture d’e-mail ou le rendre entièrement accessible ? On veut des leads mais sans tuer l’usage.",
+      "expected_output": "Doit appliquer le cadre de stratégie de gating. Doit présenter le spectre : entièrement libre, gating partiel (résultats de base gratuits, rapport détaillé bloqué), entièrement bloqué. Doit recommander le gating partiel comme approche optimale dans la plupart des cas : donner assez de valeur pour démontrer l’intérêt de l’outil, puis bloquer le résultat détaillé et actionnable. Doit exposer les compromis : sans gating = plus de valeur SEO et d’usage, avec gating = plus de leads mais moins d’utilisateurs. Doit fournir des recommandations de gating adaptées au type d’outil.",
+      "assertions": [
+        "Applique le cadre de stratégie de gating",
+        "Présente le spectre des options (libre à entièrement bloqué)",
+        "Recommande le gating partiel",
+        "Expose les compromis de chaque approche",
+        "Fournit des recommandations adaptées au type d’outil",
+        "Aborde l’impact SEO des choix de gating",
+        "N’utilise pas de tics d’IA ni de tiret cadratin",
+        "Respecte la typographie française (guillemets « », espaces insécables, casse de phrase)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Comment optimiser la landing page de notre outil gratuit pour obtenir plus d’inscriptions ? L’outil lui-même est bon, mais personne ne le trouve.",
+      "expected_output": "Doit reconnaître qu’il s’agit d’une tâche d’optimisation du taux de conversion sur une landing page, et non d’une stratégie d’outil gratuit. Doit orienter vers le skill cro ou y faire explicitement référence pour l’optimisation du taux de conversion. Peut apporter un contexte propre aux outils gratuits (stratégie de gating, démonstration de valeur) sans pour autant traiter l’intégralité de la problématique CRO avec les schémas du skill free-tools.",
+      "assertions": [
+        "Reconnaît qu’il s’agit d’une problématique CRO, pas d’une stratégie d’outil gratuit",
+        "Oriente vers le skill cro ou y fait explicitement référence",
+        "Peut apporter un contexte propre aux outils gratuits",
+        "Ne tente pas de traiter l’intégralité du CRO avec les schémas du skill free-tools",
+        "N’utilise pas de tics d’IA ni de calques de l’anglais",
+        "Respecte la typographie française (guillemets « », espaces insécables, absence de tiret cadratin)"
+      ],
+      "files": []
+    }
+  ]
+}
