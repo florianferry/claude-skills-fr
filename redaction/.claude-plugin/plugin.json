@@ -1,0 +1,11 @@
+{
+  "name": "redaction-fr",
+  "description": "Rédaction française irréprochable et skills de contenu utilisées au quotidien : typographie, anti-calques, anti-slop, copywriting, relecture, SEO, recherche client, contenu visuel.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Florian Ferry"
+  },
+  "repository": "https://github.com/florianferry/claude-skills-fr",
+  "license": "MIT",
+  "skills": "./skills"
+}

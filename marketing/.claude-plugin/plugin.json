@@ -1,0 +1,11 @@
+{
+  "name": "marketing-fr",
+  "description": "40 skills marketing en français : acquisition, conversion, rétention, stratégie, vente, mesure. Adaptation française du pack marketingskills de Corey Haines. Prévu pour Cowork plutôt que pour les sessions de code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Florian Ferry"
+  },
+  "repository": "https://github.com/florianferry/claude-skills-fr",
+  "license": "MIT",
+  "skills": "./skills"
+}

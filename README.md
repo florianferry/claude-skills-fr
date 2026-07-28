@@ -22,17 +22,28 @@ mise à jour d'un bouton.
 
 ## Installation
 
+Le dépôt expose **deux plugins** séparés, à installer selon la surface.
+
+| Plugin | Skills | Où l'installer |
+| --- | --- | --- |
+| `redaction-fr` | 10 | partout, y compris en session de code |
+| `marketing-fr` | 40 | Cowork et claude.ai seulement |
+
+Cette séparation est délibérée. Les descriptions de 50 skills coûtent environ 15 000 tokens à
+chaque session, ce qui est du gaspillage quand on code. Et `skillOverrides` ne permet pas de
+masquer une skill livrée par plugin : la seule granularité disponible est le plugin lui-même.
+
 ### Claude Code
 
 ```
 /plugin marketplace add florianferry/claude-skills-fr
-/plugin install skills-fr@claude-skills-fr
+/plugin install redaction-fr@claude-skills-fr
 ```
 
 ### Cowork et claude.ai
 
 Ouvrir **Customize** dans la barre latérale, onglet **Plugins**, puis **Add marketplace** et
-saisir `florianferry/claude-skills-fr`. Installer ensuite le plugin `skills-fr`.
+saisir `florianferry/claude-skills-fr`. Installer ensuite `redaction-fr` et `marketing-fr`.
 
 Le bouton **Update** de la page du marketplace récupère les dernières versions.
 

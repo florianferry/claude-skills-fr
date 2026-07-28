@@ -6,14 +6,19 @@
   },
   "metadata": {
     "description": "Skills francophones pour Claude : rédaction française irréprochable et pack marketing adapté au français",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "repository": "https://github.com/florianferry/claude-skills-fr"
   },
   "plugins": [
     {
-      "name": "skills-fr",
-      "description": "50 skills en français : rédaction française irréprochable (typographie, anti-calques, anti-slop) et 49 skills marketing adaptées au français (CRO, copywriting, SEO, pricing, ads, ad creative, analytics, attribution, offres, prospection, relations presse, SMS, growth)",
-      "source": "./"
+      "name": "redaction-fr",
+      "description": "10 skills de rédaction et de contenu en français : typographie française, anti-calques, anti-slop, copywriting, relecture, audit SEO, AI SEO, recherche client, profilage concurrentiel, contenu visuel et vidéo. Le paquet à installer partout, y compris en session de code.",
+      "source": "./redaction"
+    },
+    {
+      "name": "marketing-fr",
+      "description": "40 skills marketing en français : acquisition (SEO programmatique, publicité, ASO, relations presse, influence), conversion (CRO, paywalls, popups, A/B, pricing, offres), rétention (onboarding, churn, e-mails, SMS, parrainage), stratégie (plan marketing, conseil, psychologie, lancement), vente (prospection, cold email, revops) et mesure (analytics, attribution). Prévu pour Cowork plutôt que pour les sessions de code.",
+      "source": "./marketing"
     }
   ]
 }
