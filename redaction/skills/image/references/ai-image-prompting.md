@@ -1,229 +1,229 @@
-# AI Image Prompting Guide
+# Guide de prompt pour l'image IA
 
-How to write effective prompts for AI image generation models (Gemini/Nano Banana, Flux, Ideogram, DALL-E, Midjourney).
-
----
-
-## Prompt Structure
-
-A strong image prompt follows this formula:
-
-```
-[Subject] + [Setting/context] + [Visual style] + [Lighting] + [Composition] + [Technical specs]
-```
-
-### Example Prompts by Use Case
-
-**Blog hero — SaaS product:**
-```
-A clean workspace with a laptop displaying a colorful analytics dashboard,
-minimalist desk with a coffee cup and notebook,
-bright natural window lighting from the right,
-shallow depth of field, commercial photography style,
-1200x630, high resolution
-```
-
-**Social media graphic — announcement:**
-```
-Abstract flowing gradient in deep purple and electric blue,
-geometric shapes forming a network pattern,
-dramatic rim lighting on edges,
-modern tech aesthetic, clean and minimal,
-1080x1080, vibrant colors
-```
-
-**Product lifestyle shot:**
-```
-A person in a modern office smiling while looking at a tablet,
-showing a project management interface on screen,
-warm candid photography, natural lighting,
-medium shot, shallow depth of field, editorial style
-```
-
-**Profile banner — professional:**
-```
-Wide panoramic abstract background in navy blue and teal,
-subtle geometric grid pattern with soft gradient,
-clean corporate aesthetic, muted lighting,
-1584x396, no text, space for logo overlay on left third
-```
-
-**Directory listing — Product Hunt:**
-```
-Product screenshot on a clean gradient background,
-soft shadow underneath, slight 3D perspective tilt,
-modern SaaS product presentation style,
-1270x760, bright and professional
-```
+Comment rédiger des prompts efficaces pour les modèles de génération d'images (Gemini/Nano Banana, Flux, Ideogram, DALL-E, Midjourney).
 
 ---
 
-## Style Keywords
+## Structure d'un prompt
 
-### Photorealistic
-- "commercial photography"
-- "shot on Canon EOS R5"
-- "editorial style"
-- "natural lighting"
-- "shallow depth of field"
+Un bon prompt d'image suit cette formule :
 
-### Clean/Corporate
-- "clean modern aesthetic"
-- "minimal design"
-- "professional corporate style"
-- "bright and airy"
-- "white background"
+```
+[Sujet] + [Décor/contexte] + [Style visuel] + [Éclairage] + [Composition] + [Specs techniques]
+```
 
-### Illustrative
-- "flat vector illustration"
-- "isometric 3D render"
-- "hand-drawn sketch style"
-- "watercolor illustration"
-- "line art"
+### Exemples de prompts par cas d'usage
 
-### Abstract/Brand
-- "flowing gradient"
-- "geometric pattern"
-- "abstract data visualization"
-- "particle effects"
-- "holographic iridescent"
+**En-tête d'article, produit SaaS :**
+```
+Un espace de travail épuré avec un ordinateur portable affichant un tableau de bord analytique coloré,
+bureau minimaliste avec une tasse de café et un carnet,
+lumière naturelle vive venant d'une fenêtre à droite,
+faible profondeur de champ, style photographie publicitaire,
+1200x630, haute résolution
+```
 
-### Tech/SaaS
-- "dark mode UI aesthetic"
-- "neon accent lighting"
-- "glassmorphism"
-- "futuristic minimal"
-- "developer-focused"
+**Visuel pour les réseaux sociaux, annonce :**
+```
+Dégradé abstrait et fluide en violet profond et bleu électrique,
+formes géométriques dessinant un réseau,
+éclairage de contour dramatique sur les bords,
+esthétique tech moderne, nette et minimaliste,
+1080x1080, couleurs vives
+```
 
----
+**Photo produit en situation :**
+```
+Une personne dans un bureau moderne qui sourit en regardant une tablette,
+l'écran affiche une interface de gestion de projet,
+photographie chaleureuse prise sur le vif, lumière naturelle,
+plan moyen, faible profondeur de champ, style éditorial
+```
 
-## Lighting Keywords
+**Bannière de profil, professionnelle :**
+```
+Large fond abstrait panoramique en bleu marine et bleu canard,
+trame géométrique discrète avec un dégradé doux,
+esthétique corporate épurée, lumière tamisée,
+1584x396, sans texte, espace réservé au logo sur le tiers gauche
+```
 
-| Term | Effect | Best For |
-|------|--------|----------|
-| **Natural light** | Warm, organic feel | Lifestyle, editorial |
-| **Studio lighting** | Even, controlled | Product shots |
-| **Rim lighting** | Edge highlights, dramatic | Hero images, abstract |
-| **Soft directional** | Gentle shadows, dimensional | Blog headers |
-| **Volumetric** | Light rays, atmospheric | Dramatic, cinematic |
-| **Flat/even** | No shadows, clean | Icons, diagrams |
-| **Golden hour** | Warm orange tones | Lifestyle, outdoor |
-| **High key** | Bright, minimal shadows | Clean, corporate |
-
----
-
-## Composition Keywords
-
-| Term | Effect | Best For |
-|------|--------|----------|
-| **Rule of thirds** | Subject off-center | Editorial, lifestyle |
-| **Centered** | Subject in middle | Product shots, icons |
-| **Wide/panoramic** | Expansive view | Banners, headers |
-| **Close-up/macro** | Detail focus | Texture, product detail |
-| **Bird's eye/overhead** | Top-down view | Desk setups, flat lays |
-| **Negative space** | Room for text overlay | Blog headers, banners |
-| **Symmetrical** | Balanced, formal | Corporate, luxury |
+**Fiche d'annuaire, Product Hunt :**
+```
+Capture du produit sur un fond dégradé épuré,
+ombre douce en dessous, légère inclinaison en perspective 3D,
+style de présentation de produit SaaS moderne,
+1270x760, lumineux et professionnel
+```
 
 ---
 
-## Model-Specific Tips
+## Mots-clés de style
+
+### Photoréaliste
+- « photographie publicitaire »
+- « pris avec un Canon EOS R5 »
+- « style éditorial »
+- « lumière naturelle »
+- « faible profondeur de champ »
+
+### Épuré, corporate
+- « esthétique moderne et épurée »
+- « design minimaliste »
+- « style corporate professionnel »
+- « lumineux et aéré »
+- « fond blanc »
+
+### Illustré
+- « illustration vectorielle en aplats »
+- « rendu 3D isométrique »
+- « style croquis dessiné à la main »
+- « illustration à l'aquarelle »
+- « dessin au trait »
+
+### Abstrait, marque
+- « dégradé fluide »
+- « motif géométrique »
+- « visualisation de données abstraite »
+- « effets de particules »
+- « holographique irisé »
+
+### Tech, SaaS
+- « esthétique d'interface en mode sombre »
+- « éclairage d'accent néon »
+- « glassmorphism »
+- « minimalisme futuriste »
+- « pensé pour les développeurs »
+
+---
+
+## Mots-clés d'éclairage
+
+| Terme | Effet | Idéal pour |
+|-------|-------|------------|
+| **Lumière naturelle** | Rendu chaleureux, organique | Scènes de vie, éditorial |
+| **Éclairage studio** | Homogène, maîtrisé | Photos produit |
+| **Éclairage de contour** | Bords soulignés, effet dramatique | Images d'en-tête, abstrait |
+| **Lumière directionnelle douce** | Ombres légères, relief | En-têtes de blog |
+| **Volumétrique** | Rayons lumineux, atmosphère | Dramatique, cinématique |
+| **Plat, homogène** | Pas d'ombres, net | Icônes, schémas |
+| **Heure dorée** | Tons orangés chauds | Scènes de vie, extérieur |
+| **High key** | Lumineux, ombres minimales | Épuré, corporate |
+
+---
+
+## Mots-clés de composition
+
+| Terme | Effet | Idéal pour |
+|-------|-------|------------|
+| **Règle des tiers** | Sujet décentré | Éditorial, scènes de vie |
+| **Centré** | Sujet au milieu | Photos produit, icônes |
+| **Large, panoramique** | Vue étendue | Bannières, en-têtes |
+| **Gros plan, macro** | Accent sur le détail | Textures, détails produit |
+| **Vue plongeante, du dessus** | Vue en surplomb | Bureaux, mises à plat |
+| **Espace négatif** | Place pour un texte en surcouche | En-têtes de blog, bannières |
+| **Symétrique** | Équilibré, formel | Corporate, luxe |
+
+---
+
+## Conseils par modèle
 
 ### Gemini Image (Google)
 
-- Best all-around for marketing images — good quality, reasonable cost
-- Supports **image editing** — upload an existing image and describe changes
-- Decent text rendering — can handle short headlines
-- Specify "high resolution" for best output
-- Works well with detailed, descriptive prompts
-- Same API as text generation — easy to integrate
+- Le plus polyvalent pour les images marketing : bonne qualité, coût raisonnable
+- Gère la **retouche d'image** : on importe une image existante et on décrit les changements
+- Rendu du texte correct : tient un titre court
+- Préciser « haute résolution » pour un meilleur résultat
+- Répond bien aux prompts détaillés et descriptifs
+- Même API que la génération de texte : facile à intégrer
 
 ### Flux (Black Forest Labs)
 
-- **Multi-image reference** is the killer feature — upload product screenshots, brand assets, or style references
-- Best for **brand consistency** across a set of images
-- Use Flux Pro for final assets, Flux Dev for rapid iteration
-- Flux Klein for high-volume batch generation (cheapest)
-- Style transfer via reference images > style keywords in prompt
-- Prompts can be shorter than other models — the references do heavy lifting
+- La **référence multi-images** est l'atout majeur : on importe des captures produit, des éléments de marque ou des références de style
+- Le meilleur pour la **cohérence de marque** sur une série d'images
+- Flux Pro pour les visuels définitifs, Flux Dev pour itérer vite
+- Flux Klein pour la génération en grand volume (le moins cher)
+- Le transfert de style par images de référence l'emporte sur les mots-clés de style dans le prompt
+- Les prompts peuvent être plus courts qu'avec les autres modèles : les références font le gros du travail
 
 ### Ideogram
 
-- **Best text rendering** of any model (industry-leading accuracy)
-- Use when you need headlines, taglines, or brand names in the image
-- Style reference system (up to 3 images) for brand consistency
-- Supports "Magic Prompt" auto-enhancement
-- Keep text requests simple — 3-5 words max for reliability
-- Best for social graphics and banners that need text baked in
+- **Le meilleur rendu du texte** de tous les modèles (la précision de référence du marché)
+- À utiliser quand il faut un titre, une accroche ou un nom de marque dans l'image
+- Système de références de style (jusqu'à 3 images) pour la cohérence de marque
+- Propose l'amélioration automatique « Magic Prompt »
+- Garder des demandes de texte simples : 3 à 5 mots au plus pour un résultat fiable
+- Idéal pour les visuels sociaux et les bannières qui doivent intégrer du texte
 
 ### GPT Image (OpenAI)
 
-- Current models: `gpt-image-1` and variants (DALL-E 3 is deprecated)
-- Integrated with ChatGPT — conversational image generation
-- Good at following detailed prompts
-- Decent text rendering (behind Ideogram, comparable to Gemini)
-- Automatic prompt rewriting — may deviate from exact request
-- Best for quick one-offs through ChatGPT interface
-- API gives more control than ChatGPT interface
+- Modèles actuels : `gpt-image-1` et ses variantes (DALL-E 3 est abandonné)
+- Intégré à ChatGPT : génération d'images en conversation
+- Suit bien les prompts détaillés
+- Rendu du texte correct (derrière Ideogram, comparable à Gemini)
+- Réécrit automatiquement le prompt : peut s'écarter de la demande exacte
+- Idéal pour des images ponctuelles, vite faites dans l'interface de ChatGPT
+- L'API donne plus de contrôle que l'interface de ChatGPT
 
 ### Midjourney
 
-- Highest aesthetic quality for artistic/editorial images
-- No official API — Discord-based or web interface
-- **Not agent-friendly** — use for manual creative exploration only
-- Style flags: `--style raw` for less stylized, `--ar 16:9` for aspect ratio
-- Best for hero images where pure visual quality matters most
-- V6+ has improved text rendering but still unreliable
+- La meilleure qualité esthétique pour les images artistiques ou éditoriales
+- Pas d'API officielle : Discord ou interface web
+- **Pas adapté aux agents** : à réserver à l'exploration créative manuelle
+- Options de style : `--style raw` pour un rendu moins stylisé, `--ar 16:9` pour le format
+- Idéal pour les images d'en-tête où seule compte la qualité visuelle
+- Le rendu du texte progresse depuis la V6, mais reste peu fiable
 
 ---
 
-## Common Prompt Mistakes
+## Erreurs de prompt fréquentes
 
-| Mistake | Why It Fails | Fix |
-|---------|-------------|-----|
-| "A professional image" | No visual detail | Describe subject, setting, style, lighting |
-| Long paragraph of text in image | Models can't render paragraphs | 3-5 words max; add text in post |
-| "Make it look good" | Not actionable | Specify style: "commercial photography, bright" |
-| 200+ word prompts | Models lose focus | 40-80 words, specific over comprehensive |
-| No aspect ratio | Random output size | Always specify dimensions or ratio |
-| "Logo in bottom right" | Unreliable placement | Add logos in post-processing |
-| "Make it viral" | Not a visual instruction | Describe the aesthetic you want |
-| Requesting UI screenshots | AI hallucinates interfaces | Capture real screenshots instead |
-
----
-
-## Batch Generation Workflow
-
-When you need multiple images with consistent style (e.g., a blog series or social campaign):
-
-1. **Generate 3-4 test images** with different style prompts
-2. **Pick the winning style** based on brand fit
-3. **Save the exact prompt** as your template
-4. **Use Flux multi-reference** — upload the winning image as a style reference
-5. **Batch generate** variations with the same style, different subjects
-6. **Post-process** — add text overlays, logos, crop to platform sizes
+| Erreur | Pourquoi ça échoue | Correction |
+|--------|--------------------|------------|
+| « Une image professionnelle » | Aucun détail visuel | Décrire le sujet, le décor, le style, l'éclairage |
+| Un long paragraphe de texte dans l'image | Les modèles ne savent pas rendre un paragraphe | 3 à 5 mots au plus ; ajouter le texte en post-production |
+| « Fais quelque chose de beau » | Rien d'actionnable | Préciser le style : « photographie publicitaire, lumineuse » |
+| Des prompts de plus de 200 mots | Le modèle perd le fil | 40 à 80 mots, précis plutôt qu'exhaustifs |
+| Pas de format | Taille de sortie aléatoire | Toujours préciser les dimensions ou le ratio |
+| « Logo en bas à droite » | Placement peu fiable | Ajouter les logos en post-production |
+| « Rends-le viral » | Ce n'est pas une consigne visuelle | Décrire l'esthétique voulue |
+| Demander des captures d'interface | L'IA invente les interfaces | Faire de vraies captures à la place |
 
 ---
 
-## Aspect Ratios Quick Reference
+## Workflow de génération en série
 
-| Use Case | Ratio | Pixels | Notes |
-|----------|-------|--------|-------|
-| Blog hero / OG image | 1.91:1 | 1200x630 | Universal web standard |
-| Full-width hero | 16:9 | 1920x1080 | Website headers |
-| Instagram Feed | 1:1 | 1080x1080 | Square |
-| Instagram Feed (tall) | 4:5 | 1080x1350 | More screen real estate |
-| Stories / Reels | 9:16 | 1080x1920 | Vertical full screen |
-| LinkedIn cover | 4:1 | 1584x396 | Personal profile |
-| Twitter/X header | 3:1 | 1500x500 | Profile banner |
-| Product Hunt gallery | 5:3 | 1270x760 | Launch page |
-| GitHub social preview | 2:1 | 1280x640 | Repo link card |
+Quand il faut plusieurs images d'un style cohérent (par exemple une série d'articles ou une campagne sociale) :
+
+1. **Générer 3 ou 4 images de test** avec des prompts de style différents
+2. **Retenir le style gagnant** selon son adéquation à la marque
+3. **Conserver le prompt exact** comme modèle
+4. **Utiliser la référence multi-images de Flux** : importer l'image gagnante comme référence de style
+5. **Générer en série** des variantes au même style, sur des sujets différents
+6. **Post-produire** : ajouter textes et logos en surcouche, recadrer aux formats des plateformes
 
 ---
 
-## Cost Optimization
+## Aide-mémoire des formats
 
-- **Iterate at low quality first** — use Flux Dev or Gemini Flash for drafts, upgrade for finals
-- **Use references over long prompts** — Flux multi-reference produces more consistent results with fewer retries
-- **Batch similar requests** — generate all blog headers in one session with the same style
-- **Cache and reuse** — abstract backgrounds, patterns, and textures can be reused across multiple images
-- **Post-process instead of re-generate** — crop, overlay text, and adjust color in code rather than generating new images
+| Cas d'usage | Ratio | Pixels | Remarques |
+|-------------|-------|--------|-----------|
+| En-tête d'article / image OG | 1,91:1 | 1200x630 | Standard du web |
+| En-tête pleine largeur | 16:9 | 1920x1080 | En-têtes de site |
+| Instagram (fil) | 1:1 | 1080x1080 | Carré |
+| Instagram (fil, vertical) | 4:5 | 1080x1350 | Occupe plus d'écran |
+| Stories / Reels | 9:16 | 1080x1920 | Plein écran vertical |
+| Couverture LinkedIn | 4:1 | 1584x396 | Profil personnel |
+| En-tête Twitter/X | 3:1 | 1500x500 | Bannière de profil |
+| Galerie Product Hunt | 5:3 | 1270x760 | Page de lancement |
+| Aperçu social GitHub | 2:1 | 1280x640 | Carte de lien du dépôt |
+
+---
+
+## Maîtriser les coûts
+
+- **Itérer d'abord en basse qualité** : Flux Dev ou Gemini Flash pour les brouillons, la montée en gamme pour les versions finales
+- **Préférer les références aux longs prompts** : la référence multi-images de Flux donne des résultats plus cohérents avec moins d'essais
+- **Regrouper les demandes similaires** : générer tous les en-têtes de blog dans une même séance, au même style
+- **Mettre en cache et réutiliser** : fonds abstraits, motifs et textures resservent sur plusieurs images
+- **Post-produire plutôt que régénérer** : recadrer, poser le texte et ajuster les couleurs par le code plutôt que générer de nouvelles images

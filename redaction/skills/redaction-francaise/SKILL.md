@@ -84,9 +84,10 @@ Un verbe concret vaut mieux qu'une périphrase administrative.
 - **Bannir les calques structurels** : « Vous voulez X ? Nous avons Y. », « C'est simple. »,
   « En quelques clics. », « N'hésitez pas à… », « Et si… ? », « Imaginez un monde où… ». Ces
   structures trahissent une traduction.
-- **Proscrire les tics d'IA en français** : *Découvrez, Boostez, Optimisez, Dopez, Révolutionnaire,
-  Incontournable, Ultime, En un clin d'œil, En toute simplicité, Que vous soyez… ou…*, ainsi que la
-  répétition de *grâce à / permet de / afin de / au cœur de / véritable*.
+- **Remplacer les formules de réclame par un fait** : *Découvrez, Boostez, Optimisez, Dopez,
+  Révolutionnaire, Incontournable, Ultime, En un clin d'œil, En toute simplicité, Que vous soyez…
+  ou…*, et la répétition de *grâce à / permet de / afin de / au cœur de / véritable*. Le lecteur
+  les a lues mille fois et saute la phrase qui les porte.
 - **Franglais** (*insights, workflow, game-changer, deal, must-have*) **uniquement** si l'audience
   l'emploie réellement dans la vraie vie. Sinon, mot français.
 - Préférer le mot **concret et courant** au mot abstrait ou ronflant.
@@ -155,12 +156,12 @@ Ces tournures ne sont ni des anglicismes ni des fautes. Ce sont les patrons de p
 génération automatique produit par défaut, et que le lecteur reconnaît sans savoir les nommer.
 
 - **Le contraste binaire.** « Ce n'est pas X, c'est Y. » « Non pas X, mais Y. » Écris Y directement.
-- **La triade systématique.** « rapide, simple et efficace ». Deux éléments valent mieux que trois,
-  et un exemple concret vaut mieux que deux adjectifs.
+- **La triade systématique.** « rapide, simple et efficace ». Garde le nombre d'éléments que le
+  propos demande, et un exemple concret plutôt que deux adjectifs.
 - **La question rhétorique en chaîne.** Une question en intertitre est utile. Trois questions
   d'affilée dans un paragraphe sont une posture.
-- **La fragmentation dramatique.** Phrase courte. Très courte. Pour l'effet. Deux ruptures par texte,
-  pas davantage.
+- **La fragmentation dramatique.** Phrase courte. Très courte. Pour l'effet. Réserve la phrase très
+  courte aux vraies ruptures, et qu'elles restent rares.
 - **L'inanimé qui agit.** « Le budget explose », « la méthode s'impose », « la plainte devient un
   correctif ». Nomme qui fait l'action.
 - **La voix passive.** « La résine doit être appliquée sur… » devient « Appliquez la résine sur… ».
@@ -174,25 +175,25 @@ génération automatique produit par défaut, et que le lecteur reconnaît sans 
 - **Le catalogue froid.** Un comparatif, une liste d'options ou un tableau qui se termine sans
   recommandation laisse au lecteur le travail qu'il était venu déléguer. Tranche.
 
-## 6. Grille de contrôle avant de livrer
+## 6. Ce que le texte livré tient
 
-Relis le texte à voix haute et vérifie, point par point :
+Le texte livré tient chacun de ces points :
 
-1. **Aucun paragraphe sans fait vérifiable** (§1). C'est le premier point parce que c'est celui
+1. **Aucun paragraphe sans fait vérifiable** (§ 1). C'est le premier point parce que c'est celui
    qu'on saute.
 2. Aucune phrase ne survit au test de substitution : rien qui reste vrai pour n'importe quel
    concurrent.
-3. Aucune phrase ne « sonne traduite ». Sinon, réécris-la.
+3. Aucune phrase ne sonne traduite.
 4. **Tous les accents et diacritiques** sont présents (jamais d'ASCII à la place : « é » pas « e »,
    « à » pas « a »).
-5. **Accords** corrects (relire spécifiquement les participes passés et adjectifs).
-6. **Typographie** : espaces insécables, guillemets « », apostrophes ’, pas de tiret cadratin,
-   nombres à la française.
-7. **Registre** tu/vous homogène d'un bout à l'autre.
-8. Aucun tic d'IA ni anglicisme injustifié des listes §2.
-9. Aucune structure du §5 laissée en place.
+5. Les **accords** sont justes, participes passés et adjectifs compris.
+6. La **typographie** suit le § 3 : espaces insécables, guillemets « », apostrophes ’, pas de tiret
+   cadratin, nombres à la française.
+7. Le **registre** tu/vous est homogène d'un bout à l'autre.
+8. Aucune formule des listes du § 2 ni anglicisme injustifié ne reste.
+9. Aucune structure du § 5 ne reste en place.
 
-Puis note le texte de 1 à 10 sur chaque dimension :
+Cinq questions départagent un texte correct d'un bon texte :
 
 | Dimension | Question |
 |---|---|
@@ -202,9 +203,9 @@ Puis note le texte de 1 à 10 sur chaque dimension :
 | Authenticité | Un professionnel du sujet aurait-il pu l'écrire ainsi ? |
 | Densité | Reste-t-il une phrase supprimable sans perte ? |
 
-**Sous 40 sur 50, révise. Sous 30, réécris la section fautive plutôt que de la rapiécer.**
+Une section qui échoue à l'une d'elles se réécrit plutôt que de se rapiécer.
 
-Un texte qui note 10 partout sauf en Concret n'est pas un bon texte à corriger : c'est un texte
+Un texte qui passe toutes ces questions sauf Concret n'est pas un bon texte à corriger : c'est un texte
 vide bien habillé. Reprends-le par le §1, pas par la typographie.
 
 ## 7. Contrôles automatiques

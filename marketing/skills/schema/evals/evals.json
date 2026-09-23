@@ -3,83 +3,83 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Add schema markup to our SaaS product's homepage. We're a project management tool called TaskFlow. We need Organization schema and any other relevant types.",
-      "expected_output": "Should check for product-marketing.md first. Should implement Organization schema in JSON-LD format with all required and recommended properties (name, url, logo, description, sameAs for social profiles). Should recommend additional schema types for a SaaS homepage: WebSite (with SearchAction if applicable), SoftwareApplication or Product. Should use @graph for multiple schema types on one page. Should provide the complete JSON-LD code ready to implement. Should recommend validation with Google's Rich Results Test and Schema.org validator.",
+      "prompt": "Ajoute un balisage schema sur la page d'accueil de notre produit SaaS. On est un outil de gestion de projet qui s'appelle TaskFlow. Il nous faut un schema Organization et tous les autres types pertinents.",
+      "expected_output": "Doit d'abord vérifier la présence de product-marketing.md. Doit implémenter un schema Organization au format JSON-LD avec toutes les propriétés obligatoires et recommandées (name, url, logo, description, sameAs pour les profils sociaux). Doit recommander d'autres types de schema pour une page d'accueil SaaS : WebSite (avec SearchAction si c'est pertinent), SoftwareApplication ou Product. Doit utiliser @graph pour combiner plusieurs types sur une même page. Doit fournir le code JSON-LD complet, prêt à intégrer. Doit recommander la validation avec le test des résultats enrichis de Google et le validateur Schema.org.",
       "assertions": [
-        "Checks for product-marketing.md",
-        "Implements Organization schema in JSON-LD",
-        "Includes required and recommended properties",
-        "Recommends additional relevant schema types",
-        "Uses @graph for multiple types",
-        "Provides complete JSON-LD code",
-        "Recommends validation tools"
+        "Vérifie la présence de product-marketing.md",
+        "Implémente un schema Organization en JSON-LD",
+        "Inclut les propriétés obligatoires et recommandées",
+        "Recommande d'autres types de schema pertinents",
+        "Utilise @graph pour combiner plusieurs types",
+        "Fournit le code JSON-LD complet",
+        "Recommande des outils de validation"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "We have a FAQ page with 20 questions about our product. How do I add FAQ schema to get the rich results in Google?",
-      "expected_output": "Should implement FAQPage schema in JSON-LD format. Should show the correct structure: FAQPage as mainEntity containing Question items, each with acceptedAnswer. Should provide a complete code example with 2-3 sample questions. Should explain that FAQ schema can enable rich results showing questions/answers directly in search. Should note Google's guidelines for FAQ schema (factual answers, not promotional). Should recommend validation approach.",
+      "prompt": "On a une page FAQ avec 20 questions sur notre produit. Comment ajouter un schema FAQ pour obtenir les résultats enrichis dans Google ?",
+      "expected_output": "Doit implémenter un schema FAQPage au format JSON-LD. Doit montrer la bonne structure : FAQPage dont le mainEntity contient des éléments Question, chacun avec son acceptedAnswer. Doit fournir un exemple de code complet avec 2 ou 3 questions types. Doit expliquer que le schema FAQ peut ouvrir droit à des résultats enrichis affichant questions et réponses directement dans la recherche. Doit rappeler les consignes de Google pour le schema FAQ (réponses factuelles, pas promotionnelles). Doit recommander une méthode de validation.",
       "assertions": [
-        "Implements FAQPage schema in JSON-LD",
-        "Shows correct nested structure (FAQPage > Question > Answer)",
-        "Provides complete code example",
-        "Explains rich result benefits",
-        "Notes Google's FAQ schema guidelines",
-        "Recommends validation"
+        "Implémente un schema FAQPage en JSON-LD",
+        "Montre la bonne structure imbriquée (FAQPage > Question > Answer)",
+        "Fournit un exemple de code complet",
+        "Explique l'intérêt des résultats enrichis",
+        "Rappelle les consignes de Google pour le schema FAQ",
+        "Recommande une validation"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "add schema to our blog posts. we publish articles about marketing tips.",
-      "expected_output": "Should trigger on casual phrasing. Should implement Article (or BlogPosting) schema in JSON-LD. Should include required properties: headline, author (as Person with name and url), datePublished, dateModified, image, publisher (as Organization). Should recommend BreadcrumbList schema alongside the article schema. Should provide template code that can be reused across blog posts. Should address how to populate dynamic fields (date, author, headline) from the CMS.",
+      "prompt": "ajoute du schema sur nos articles de blog. on publie des conseils marketing.",
+      "expected_output": "Doit se déclencher sur une formulation familière. Doit implémenter un schema Article (ou BlogPosting) en JSON-LD. Doit inclure les propriétés obligatoires : headline, author (en Person avec name et url), datePublished, dateModified, image, publisher (en Organization). Doit recommander un schema BreadcrumbList en plus du schema d'article. Doit fournir un modèle de code réutilisable pour tous les articles. Doit expliquer comment renseigner les champs dynamiques (date, auteur, titre) depuis le CMS.",
       "assertions": [
-        "Triggers on casual phrasing",
-        "Implements Article or BlogPosting schema",
-        "Includes author, datePublished, image, publisher",
-        "Recommends BreadcrumbList alongside",
-        "Provides reusable template code",
-        "Addresses CMS integration for dynamic fields"
+        "Se déclenche sur une formulation familière",
+        "Implémente un schema Article ou BlogPosting",
+        "Inclut author, datePublished, image, publisher",
+        "Recommande BreadcrumbList en complément",
+        "Fournit un modèle de code réutilisable",
+        "Traite l'intégration au CMS pour les champs dynamiques"
       ],
       "files": []
     },
     {
       "id": 4,
-      "prompt": "We're an e-commerce site selling physical products. What schema markup do we need for our product pages?",
-      "expected_output": "Should implement Product schema with full properties: name, description, image, brand, sku, offers (with price, priceCurrency, availability, url). Should recommend AggregateRating if they have reviews, and Review schema for individual reviews. Should include BreadcrumbList for navigation. Should address common e-commerce schema types: Product, Offer, AggregateRating, Review. Should provide complete JSON-LD code. Should note that Product schema can enable rich results (price, availability, ratings in search).",
+      "prompt": "On est un site e-commerce qui vend des produits physiques. Quel balisage schema nous faut-il sur nos pages produit ?",
+      "expected_output": "Doit implémenter un schema Product avec toutes ses propriétés : name, description, image, brand, sku, offers (avec price, priceCurrency, availability, url). Doit recommander AggregateRating s'il existe des avis, et Review pour les avis individuels. Doit inclure BreadcrumbList pour la navigation. Doit couvrir les types de schema courants en e-commerce : Product, Offer, AggregateRating, Review. Doit fournir le code JSON-LD complet. Doit noter que le schema Product peut ouvrir droit à des résultats enrichis (prix, disponibilité, notes dans la recherche).",
       "assertions": [
-        "Implements Product schema with full properties",
-        "Includes Offer with price, availability",
-        "Recommends AggregateRating and Review schema",
-        "Includes BreadcrumbList",
-        "Provides complete JSON-LD code",
-        "Notes rich result benefits for products"
+        "Implémente un schema Product avec toutes ses propriétés",
+        "Inclut une Offer avec prix et disponibilité",
+        "Recommande AggregateRating et Review",
+        "Inclut BreadcrumbList",
+        "Fournit le code JSON-LD complet",
+        "Note l'intérêt des résultats enrichis pour les produits"
       ],
       "files": []
     },
     {
       "id": 5,
-      "prompt": "We added schema markup to our site but it's not showing rich results in Google. Can you help debug?",
-      "expected_output": "Should provide a systematic debugging approach: first validate with Google Rich Results Test and Schema.org validator (syntax errors), then check for common issues (incorrect nesting, missing required properties, JSON-LD placement errors). Should explain that valid schema doesn't guarantee rich results — Google chooses when to show them. Should recommend checking Search Console for structured data reports and errors. Should address common debugging scenarios: schema not detected, warnings vs errors, eligible vs displayed.",
+      "prompt": "On a ajouté du balisage schema sur notre site, mais aucun résultat enrichi n'apparaît dans Google. Tu peux nous aider à trouver le problème ?",
+      "expected_output": "Doit proposer une démarche de diagnostic méthodique : valider d'abord avec le test des résultats enrichis de Google et le validateur Schema.org (erreurs de syntaxe), puis chercher les problèmes courants (imbrication incorrecte, propriétés obligatoires manquantes, JSON-LD mal placé). Doit expliquer qu'un schema valide ne garantit pas de résultat enrichi : c'est Google qui décide quand les afficher. Doit recommander de consulter les rapports sur les données structurées et les erreurs dans la Search Console. Doit couvrir les cas de diagnostic courants : schema non détecté, avertissements ou erreurs, éligible ou affiché.",
       "assertions": [
-        "Recommends validation tools for debugging",
-        "Checks for common schema errors",
-        "Explains valid schema doesn't guarantee rich results",
-        "Recommends Search Console structured data reports",
-        "Addresses warnings vs errors distinction",
-        "Provides systematic debugging approach"
+        "Recommande des outils de validation pour le diagnostic",
+        "Cherche les erreurs de schema courantes",
+        "Explique qu'un schema valide ne garantit pas de résultat enrichi",
+        "Recommande les rapports de données structurées de la Search Console",
+        "Distingue avertissements et erreurs",
+        "Propose une démarche de diagnostic méthodique"
       ],
       "files": []
     },
     {
       "id": 6,
-      "prompt": "Our organic search traffic dropped after a site redesign. Can you do a technical SEO audit?",
-      "expected_output": "Should recognize this is a technical SEO audit request, not a schema markup task. Should defer to or cross-reference the seo-audit skill, which handles comprehensive technical SEO audits. Schema markup is one component of SEO but doesn't address the broader technical issues (redirects, crawlability, indexation) that likely caused the traffic drop.",
+      "prompt": "Notre trafic organique a chuté après la refonte du site. Tu peux faire un audit SEO technique ?",
+      "expected_output": "Doit reconnaître qu'il s'agit d'une demande d'audit SEO technique, pas d'une tâche de balisage schema. Doit renvoyer vers la skill seo-audit, qui traite les audits SEO techniques complets. Le balisage schema est une composante du SEO, mais il ne traite pas les problèmes techniques plus larges (redirections, exploration, indexation) qui ont probablement causé la chute de trafic.",
       "assertions": [
-        "Recognizes this as a technical SEO audit request",
-        "References or defers to seo-audit skill",
-        "Does not attempt full SEO audit using schema markup patterns"
+        "Reconnaît une demande d'audit SEO technique",
+        "Renvoie vers la skill seo-audit",
+        "Ne tente pas un audit SEO complet avec les motifs du balisage schema"
       ],
       "files": []
     }

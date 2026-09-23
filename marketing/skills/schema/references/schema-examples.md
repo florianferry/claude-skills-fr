@@ -1,10 +1,10 @@
-# Schema Markup Examples
+# Exemples de balisage schema
 
-Complete JSON-LD examples for common schema types.
+Exemples JSON-LD complets pour les types de schema courants. Les clés et les valeurs d'énumération (`@type`, `dayOfWeek`, URL `https://schema.org/...`) restent en anglais : c'est le vocabulaire de schema.org, que les moteurs lisent tel quel. Seules les valeurs de contenu se rédigent en français.
 
-## Contents
+## Sommaire
 - Organization
-- WebSite (with SearchAction)
+- WebSite (avec SearchAction)
 - Article / BlogPosting
 - Product
 - SoftwareApplication
@@ -13,28 +13,28 @@ Complete JSON-LD examples for common schema types.
 - BreadcrumbList
 - LocalBusiness
 - Event
-- Multiple Schema Types
-- Implementation Example (Next.js)
+- Plusieurs types de schema
+- Exemple d'implémentation (Next.js)
 
 ## Organization
 
-For company/brand homepage or about page.
+Pour la page d'accueil ou la page « À propos » d'une entreprise ou d'une marque.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Example Company",
-  "url": "https://example.com",
-  "logo": "https://example.com/logo.png",
+  "name": "Exemple SAS",
+  "url": "https://exemple.fr",
+  "logo": "https://exemple.fr/logo.png",
   "sameAs": [
-    "https://twitter.com/example",
-    "https://linkedin.com/company/example",
-    "https://facebook.com/example"
+    "https://twitter.com/exemple",
+    "https://linkedin.com/company/exemple",
+    "https://facebook.com/exemple"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-555-555-5555",
+    "telephone": "+33-1-23-45-67-89",
     "contactType": "customer service"
   }
 }
@@ -42,21 +42,21 @@ For company/brand homepage or about page.
 
 ---
 
-## WebSite (with SearchAction)
+## WebSite (avec SearchAction)
 
-For homepage, enables sitelinks search box.
+Pour la page d'accueil : ouvre droit au champ de recherche dans les liens annexes.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Example",
-  "url": "https://example.com",
+  "name": "Exemple",
+  "url": "https://exemple.fr",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://example.com/search?q={search_term_string}"
+      "urlTemplate": "https://exemple.fr/recherche?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }
@@ -67,33 +67,33 @@ For homepage, enables sitelinks search box.
 
 ## Article / BlogPosting
 
-For blog posts and news articles.
+Pour les articles de blog et d'actualité.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How to Implement Schema Markup",
-  "image": "https://example.com/image.jpg",
-  "datePublished": "2024-01-15T08:00:00+00:00",
-  "dateModified": "2024-01-20T10:00:00+00:00",
+  "headline": "Comment implémenter le balisage schema",
+  "image": "https://exemple.fr/image.jpg",
+  "datePublished": "2024-01-15T08:00:00+01:00",
+  "dateModified": "2024-01-20T10:00:00+01:00",
   "author": {
     "@type": "Person",
-    "name": "Jane Doe",
-    "url": "https://example.com/authors/jane"
+    "name": "Camille Martin",
+    "url": "https://exemple.fr/auteurs/camille"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Example Company",
+    "name": "Exemple SAS",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://example.com/logo.png"
+      "url": "https://exemple.fr/logo.png"
     }
   },
-  "description": "A complete guide to implementing schema markup...",
+  "description": "Le guide complet pour implémenter le balisage schema...",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://example.com/schema-guide"
+    "@id": "https://exemple.fr/guide-schema"
   }
 }
 ```
@@ -102,24 +102,24 @@ For blog posts and news articles.
 
 ## Product
 
-For product pages (e-commerce or SaaS).
+Pour les pages produit (e-commerce ou SaaS).
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Premium Widget",
-  "image": "https://example.com/widget.jpg",
-  "description": "Our best-selling widget for professionals",
+  "name": "Widget Premium",
+  "image": "https://exemple.fr/widget.jpg",
+  "description": "Notre widget le plus vendu, pensé pour les professionnels",
   "sku": "WIDGET-001",
   "brand": {
     "@type": "Brand",
-    "name": "Example Co"
+    "name": "Exemple"
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://example.com/products/widget",
-    "priceCurrency": "USD",
+    "url": "https://exemple.fr/produits/widget",
+    "priceCurrency": "EUR",
     "price": "99.99",
     "availability": "https://schema.org/InStock",
     "priceValidUntil": "2024-12-31"
@@ -132,23 +132,25 @@ For product pages (e-commerce or SaaS).
 }
 ```
 
+Dans le JSON-LD, un prix ou une note s'écrit avec un point décimal (`99.99`, `4.8`), jamais avec une virgule : c'est une valeur machine, pas un texte affiché.
+
 ---
 
 ## SoftwareApplication
 
-For SaaS product pages and app landing pages.
+Pour les pages produit SaaS et les landing pages d'application.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Example App",
+  "name": "Exemple App",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web, iOS, Android",
   "offers": {
     "@type": "Offer",
     "price": "0",
-    "priceCurrency": "USD"
+    "priceCurrency": "EUR"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -162,7 +164,7 @@ For SaaS product pages and app landing pages.
 
 ## FAQPage
 
-For pages with frequently asked questions.
+Pour les pages qui portent une foire aux questions.
 
 ```json
 {
@@ -171,55 +173,57 @@ For pages with frequently asked questions.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is schema markup?",
+      "name": "Qu'est-ce que le balisage schema ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Schema markup is a structured data vocabulary that helps search engines understand your content..."
+        "text": "Le balisage schema est un vocabulaire de données structurées qui aide les moteurs de recherche à comprendre votre contenu..."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I implement schema?",
+      "name": "Comment implémenter un schema ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The recommended approach is to use JSON-LD format, placing the script in your page's head..."
+        "text": "La méthode recommandée est le format JSON-LD, avec le script placé dans le head de la page..."
       }
     }
   ]
 }
 ```
 
+Les questions et les réponses sont du texte lu par un humain dans les résultats enrichis : elles suivent la typographie française et reprennent mot pour mot la FAQ visible sur la page.
+
 ---
 
 ## HowTo
 
-For instructional content and tutorials.
+Pour les contenus pédagogiques et les tutoriels.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Add Schema Markup to Your Website",
-  "description": "A step-by-step guide to implementing JSON-LD schema",
+  "name": "Comment ajouter un balisage schema à son site",
+  "description": "Un guide pas à pas pour implémenter un schema JSON-LD",
   "totalTime": "PT15M",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Choose your schema type",
-      "text": "Identify the appropriate schema type for your page content...",
-      "url": "https://example.com/guide#step1"
+      "name": "Choisir le type de schema",
+      "text": "Identifiez le type de schema adapté au contenu de la page...",
+      "url": "https://exemple.fr/guide#etape1"
     },
     {
       "@type": "HowToStep",
-      "name": "Write the JSON-LD",
-      "text": "Create the JSON-LD markup following schema.org specifications...",
-      "url": "https://example.com/guide#step2"
+      "name": "Rédiger le JSON-LD",
+      "text": "Écrivez le balisage JSON-LD en suivant les spécifications de schema.org...",
+      "url": "https://exemple.fr/guide#etape2"
     },
     {
       "@type": "HowToStep",
-      "name": "Add to your page",
-      "text": "Insert the script tag in your page's head section...",
-      "url": "https://example.com/guide#step3"
+      "name": "L'ajouter à la page",
+      "text": "Insérez la balise script dans la section head de la page...",
+      "url": "https://exemple.fr/guide#etape3"
     }
   ]
 }
@@ -229,7 +233,7 @@ For instructional content and tutorials.
 
 ## BreadcrumbList
 
-For any page with breadcrumb navigation.
+Pour toute page dotée d'un fil d'Ariane.
 
 ```json
 {
@@ -239,20 +243,20 @@ For any page with breadcrumb navigation.
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
-      "item": "https://example.com"
+      "name": "Accueil",
+      "item": "https://exemple.fr"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://example.com/blog"
+      "item": "https://exemple.fr/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "SEO Guide",
-      "item": "https://example.com/blog/seo-guide"
+      "name": "Guide SEO",
+      "item": "https://exemple.fr/blog/guide-seo"
     }
   ]
 }
@@ -262,28 +266,28 @@ For any page with breadcrumb navigation.
 
 ## LocalBusiness
 
-For local business location pages.
+Pour les pages d'établissement d'un commerce local.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Example Coffee Shop",
-  "image": "https://example.com/shop.jpg",
+  "name": "Café Exemple",
+  "image": "https://exemple.fr/cafe.jpg",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "San Francisco",
-    "addressRegion": "CA",
-    "postalCode": "94102",
-    "addressCountry": "US"
+    "streetAddress": "12 rue de la Paix",
+    "addressLocality": "Paris",
+    "addressRegion": "Île-de-France",
+    "postalCode": "75002",
+    "addressCountry": "FR"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "37.7749",
-    "longitude": "-122.4194"
+    "latitude": "48.8686",
+    "longitude": "2.3316"
   },
-  "telephone": "+1-555-555-5555",
+  "telephone": "+33-1-23-45-67-89",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -292,7 +296,7 @@ For local business location pages.
       "closes": "18:00"
     }
   ],
-  "priceRange": "$$"
+  "priceRange": "€€"
 }
 ```
 
@@ -300,48 +304,48 @@ For local business location pages.
 
 ## Event
 
-For event pages, webinars, conferences.
+Pour les pages d'événement, de webinaire ou de conférence.
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Annual Marketing Conference",
-  "startDate": "2024-06-15T09:00:00-07:00",
-  "endDate": "2024-06-15T17:00:00-07:00",
+  "name": "Conférence marketing annuelle",
+  "startDate": "2024-06-15T09:00:00+02:00",
+  "endDate": "2024-06-15T17:00:00+02:00",
   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "location": {
     "@type": "VirtualLocation",
-    "url": "https://example.com/conference"
+    "url": "https://exemple.fr/conference"
   },
-  "image": "https://example.com/conference.jpg",
-  "description": "Join us for our annual marketing conference...",
+  "image": "https://exemple.fr/conference.jpg",
+  "description": "Rejoignez-nous pour notre conférence marketing annuelle...",
   "offers": {
     "@type": "Offer",
-    "url": "https://example.com/conference/tickets",
+    "url": "https://exemple.fr/conference/billets",
     "price": "199",
-    "priceCurrency": "USD",
+    "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "validFrom": "2024-01-01"
   },
   "performer": {
     "@type": "Organization",
-    "name": "Example Company"
+    "name": "Exemple SAS"
   },
   "organizer": {
     "@type": "Organization",
-    "name": "Example Company",
-    "url": "https://example.com"
+    "name": "Exemple SAS",
+    "url": "https://exemple.fr"
   }
 }
 ```
 
 ---
 
-## Multiple Schema Types
+## Plusieurs types de schema
 
-Combine multiple schema types using @graph.
+Combiner plusieurs types de schema avec @graph.
 
 ```json
 {
@@ -349,17 +353,17 @@ Combine multiple schema types using @graph.
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://example.com/#organization",
-      "name": "Example Company",
-      "url": "https://example.com"
+      "@id": "https://exemple.fr/#organization",
+      "name": "Exemple SAS",
+      "url": "https://exemple.fr"
     },
     {
       "@type": "WebSite",
-      "@id": "https://example.com/#website",
-      "url": "https://example.com",
-      "name": "Example",
+      "@id": "https://exemple.fr/#website",
+      "url": "https://exemple.fr",
+      "name": "Exemple",
       "publisher": {
-        "@id": "https://example.com/#organization"
+        "@id": "https://exemple.fr/#organization"
       }
     },
     {
@@ -372,7 +376,7 @@ Combine multiple schema types using @graph.
 
 ---
 
-## Implementation Example (Next.js)
+## Exemple d'implémentation (Next.js)
 
 ```jsx
 export default function ProductPage({ product }) {
@@ -380,7 +384,7 @@ export default function ProductPage({ product }) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
-    // ... other properties
+    // ... autres propriétés
   };
 
   return (
@@ -391,7 +395,7 @@ export default function ProductPage({ product }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
-      {/* Page content */}
+      {/* Contenu de la page */}
     </>
   );
 }

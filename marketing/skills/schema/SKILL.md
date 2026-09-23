@@ -1,97 +1,99 @@
 ---
 name: schema
-description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
+description: "Quand l'utilisateur veut ajouter, corriger ou optimiser le balisage schema et les données structurées de son site. À utiliser aussi quand il mentionne « balisage schema », « schema markup », « données structurées », « JSON-LD », « résultats enrichis », « rich snippets », « schema.org », « schema FAQ », « FAQPage », « schema produit », « schema avis », « fil d'Ariane », « breadcrumb », « résultats enrichis Google », « Knowledge Panel », « étoiles dans les résultats de recherche » ou « ajouter des données structurées ». À déclencher dès que quelqu'un veut que ses pages affichent des résultats enrichis dans Google. Pour les questions SEO plus larges, voir seo-audit. Pour l'optimisation pour la recherche IA, voir ai-seo."
 metadata:
   version: 2.0.0
 ---
 
-# Schema Markup
+# Balisage schema
 
-You are an expert in structured data and schema markup. Your goal is to implement schema.org markup that helps search engines understand content and enables rich results in search.
+> **Style français, prioritaire sur les exemples anglais de ce skill.** Pour tout texte destiné à un lectorat francophone : pense en français, ne traduis pas l'anglais. Évite les calques (« C'est simple. », « N'hésitez pas à… ») et les formules de réclame (Découvrez, Boostez, Optimisez, Incontournable, En un clin d'œil). Typographie : espace insécable avant `: ; ! ?` et dans « … » ; apostrophe ’ ; titres en casse de phrase ; pas de tiret cadratin (U+2014) dans le corps (→ `,` `:` `.` ou parenthèses) ; nombres à la française (`29 €`, `80 %`, `12 000`, `24 h`). Accorde genre, nombre et participes ; choisis le tutoiement ou le vouvoiement et tiens-t'y ; une tournure qui sonne traduite se réécrit. Détail complet dans `french-copy.md`, fourni avec ce skill.
 
-## Initial Assessment
+Tu es expert en données structurées et en balisage schema. Ton but : implémenter un balisage schema.org qui aide les moteurs de recherche à comprendre le contenu et qui ouvre droit aux résultats enrichis.
 
-**Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+## Évaluation initiale
 
-Before implementing schema, understand:
+**Vérifie d'abord le contexte produit :**
+Si `.agents/product-marketing.md` existe (ou `.claude/product-marketing.md`, ou l'ancien nom `product-marketing-context.md`), lis-le avant de poser des questions. Utilise ce contexte et ne pose que les questions non couvertes ou spécifiques à la tâche.
 
-1. **Page Type** - What kind of page? What's the primary content? What rich results are possible?
+Avant d'implémenter le schema, établis :
 
-2. **Current State** - Any existing schema? Errors in implementation? Which rich results already appearing?
+1. **Le type de page** : de quelle page s'agit-il ? Quel est son contenu principal ? Quels résultats enrichis sont possibles ?
 
-3. **Goals** - Which rich results are you targeting? What's the business value?
+2. **L'état actuel** : un schema existe-t-il déjà ? Des erreurs d'implémentation ? Quels résultats enrichis apparaissent déjà ?
 
----
-
-## Core Principles
-
-### 1. Accuracy First
-- Schema must accurately represent page content
-- Don't markup content that doesn't exist
-- Keep updated when content changes
-
-### 2. Use JSON-LD
-- Google recommends JSON-LD format
-- Easier to implement and maintain
-- Place in `<head>` or end of `<body>`
-
-### 3. Follow Google's Guidelines
-- Only use markup Google supports
-- Avoid spam tactics
-- Review eligibility requirements
-
-### 4. Validate Everything
-- Test before deploying
-- Monitor Search Console
-- Fix errors promptly
+3. **Les objectifs** : quels résultats enrichis vises-tu ? Qu'apportent-ils à l'activité ?
 
 ---
 
-## Common Schema Types
+## Principes fondamentaux
 
-| Type | Use For | Required Properties |
-|------|---------|-------------------|
-| Organization | Company homepage/about | name, url |
-| WebSite | Homepage (search box) | name, url |
-| Article | Blog posts, news | headline, image, datePublished, author |
-| Product | Product pages | name, image, offers |
-| SoftwareApplication | SaaS/app pages | name, offers |
-| FAQPage | FAQ content | mainEntity (Q&A array) |
-| HowTo | Tutorials | name, step |
-| BreadcrumbList | Any page with breadcrumbs | itemListElement |
-| LocalBusiness | Local business pages | name, address |
-| Event | Events, webinars | name, startDate, location |
+### 1. L'exactitude d'abord
+- Le schema doit refléter fidèlement le contenu de la page
+- Ne pas baliser un contenu qui n'existe pas
+- Le tenir à jour quand le contenu change
 
-**For complete JSON-LD examples**: See [references/schema-examples.md](references/schema-examples.md)
+### 2. Utiliser JSON-LD
+- Google recommande le format JSON-LD
+- Plus simple à implémenter et à maintenir
+- À placer dans le `<head>` ou en fin de `<body>`
+
+### 3. Suivre les consignes de Google
+- N'utiliser que le balisage que Google prend en charge
+- Éviter les pratiques de spam
+- Vérifier les conditions d'éligibilité
+
+### 4. Tout valider
+- Tester avant de déployer
+- Surveiller la Search Console
+- Corriger les erreurs sans attendre
 
 ---
 
-## Quick Reference
+## Types de schema courants
 
-### Organization (Company Page)
-Required: name, url
-Recommended: logo, sameAs (social profiles), contactPoint
+| Type | Pour | Propriétés obligatoires |
+|------|------|-------------------------|
+| Organization | Page d'accueil ou « À propos » de l'entreprise | name, url |
+| WebSite | Page d'accueil (champ de recherche) | name, url |
+| Article | Articles de blog, actualités | headline, image, datePublished, author |
+| Product | Pages produit | name, image, offers |
+| SoftwareApplication | Pages SaaS ou d'application | name, offers |
+| FAQPage | Contenu de FAQ | mainEntity (tableau de questions-réponses) |
+| HowTo | Tutoriels | name, step |
+| BreadcrumbList | Toute page avec un fil d'Ariane | itemListElement |
+| LocalBusiness | Pages de commerce local | name, address |
+| Event | Événements, webinaires | name, startDate, location |
+
+**Pour des exemples JSON-LD complets** : voir [references/schema-examples.md](references/schema-examples.md)
+
+---
+
+## Aide-mémoire
+
+### Organization (page entreprise)
+Obligatoires : name, url
+Recommandées : logo, sameAs (profils sociaux), contactPoint
 
 ### Article/BlogPosting
-Required: headline, image, datePublished, author
-Recommended: dateModified, publisher, description
+Obligatoires : headline, image, datePublished, author
+Recommandées : dateModified, publisher, description
 
 ### Product
-Required: name, image, offers (price + availability)
-Recommended: sku, brand, aggregateRating, review
+Obligatoires : name, image, offers (prix + disponibilité)
+Recommandées : sku, brand, aggregateRating, review
 
 ### FAQPage
-Required: mainEntity (array of Question/Answer pairs)
+Obligatoire : mainEntity (tableau de paires Question/Answer)
 
 ### BreadcrumbList
-Required: itemListElement (array with position, name, item)
+Obligatoire : itemListElement (tableau avec position, name, item)
 
 ---
 
-## Multiple Schema Types
+## Plusieurs types de schema
 
-You can combine multiple schema types on one page using `@graph`:
+On peut combiner plusieurs types de schema sur une même page avec `@graph` :
 
 ```json
 {
@@ -106,74 +108,74 @@ You can combine multiple schema types on one page using `@graph`:
 
 ---
 
-## Validation and Testing
+## Validation et tests
 
-### Tools
-- **Google Rich Results Test**: https://search.google.com/test/rich-results
-- **Schema.org Validator**: https://validator.schema.org/
-- **Search Console**: Enhancements reports
+### Outils
+- **Test des résultats enrichis de Google** : https://search.google.com/test/rich-results
+- **Validateur Schema.org** : https://validator.schema.org/
+- **Search Console** : rapports « Améliorations »
 
-### Common Errors
+### Erreurs fréquentes
 
-**Missing required properties** - Check Google's documentation for required fields
+**Propriétés obligatoires manquantes** : vérifier dans la documentation de Google les champs exigés
 
-**Invalid values** - Dates must be ISO 8601, URLs fully qualified, enumerations exact
+**Valeurs invalides** : les dates au format ISO 8601, les URL complètes, les énumérations exactes
 
-**Mismatch with page content** - Schema doesn't match visible content
+**Décalage avec le contenu de la page** : le schema ne correspond pas au contenu visible
 
 ---
 
-## Implementation
+## Implémentation
 
-### Static Sites
-- Add JSON-LD directly in HTML template
-- Use includes/partials for reusable schema
+### Sites statiques
+- Ajouter le JSON-LD directement dans le gabarit HTML
+- Passer par des includes ou des partials pour un schema réutilisable
 
-### Dynamic Sites (React, Next.js)
-- Component that renders schema
-- Server-side rendered for SEO
-- Serialize data to JSON-LD
+### Sites dynamiques (React, Next.js)
+- Un composant qui rend le schema
+- Rendu côté serveur pour le SEO
+- Sérialiser les données en JSON-LD
 
 ### CMS / WordPress
-- Plugins (Yoast, Rank Math, Schema Pro)
-- Theme modifications
-- Custom fields to structured data
+- Extensions (Yoast, Rank Math, Schema Pro)
+- Modifications du thème
+- Champs personnalisés convertis en données structurées
 
 ---
 
-## Output Format
+## Format de sortie
 
-### Schema Implementation
+### Implémentation du schema
 ```json
-// Full JSON-LD code block
+// Bloc de code JSON-LD complet
 {
   "@context": "https://schema.org",
   "@type": "...",
-  // Complete markup
+  // Balisage complet
 }
 ```
 
-### Testing Checklist
-- [ ] Validates in Rich Results Test
-- [ ] No errors or warnings
-- [ ] Matches page content
-- [ ] All required properties included
+### Liste de contrôle des tests
+- [ ] Validé par le test des résultats enrichis
+- [ ] Aucune erreur ni aucun avertissement
+- [ ] Conforme au contenu de la page
+- [ ] Toutes les propriétés obligatoires présentes
 
 ---
 
-## Task-Specific Questions
+## Questions spécifiques à la tâche
 
-1. What type of page is this?
-2. What rich results are you hoping to achieve?
-3. What data is available to populate the schema?
-4. Is there existing schema on the page?
-5. What's your tech stack?
+1. De quel type de page s'agit-il ?
+2. Quels résultats enrichis espères-tu obtenir ?
+3. Quelles données sont disponibles pour renseigner le schema ?
+4. Un schema existe-t-il déjà sur la page ?
+5. Quelle est ta stack technique ?
 
 ---
 
-## Related Skills
+## Skills liés
 
-- **seo-audit**: For overall SEO including schema review
-- **ai-seo**: For AI search optimization (schema helps AI understand content)
-- **programmatic-seo**: For templated schema at scale
-- **site-architecture**: For breadcrumb structure and navigation schema planning
+- **seo-audit** : pour le SEO dans son ensemble, revue du schema comprise
+- **ai-seo** : pour l'optimisation pour la recherche IA (le schema aide l'IA à comprendre le contenu)
+- **programmatic-seo** : pour un schema gabaritisé à grande échelle
+- **site-architecture** : pour la structure du fil d'Ariane et la planification du schema de navigation

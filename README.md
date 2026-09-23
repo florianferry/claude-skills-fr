@@ -72,10 +72,10 @@ mesure (`analytics`, `attribution`).
 
 ## Particularité de l'adaptation française
 
-Chaque skill du pack marketing porte en tête un bloc « Style français (impératif) » et embarque un
-`french-copy.md`. Les `description` sont réécrites en français avec les expressions de
-déclenchement correspondantes, pour que la skill se charge sur une formulation française et non
-sur ses mots-clés anglais d'origine.
+Chaque skill du pack marketing porte en tête un bloc « Style français, prioritaire sur les exemples
+anglais » et embarque un `french-copy.md`. Les `description` sont réécrites en français avec les
+expressions de déclenchement correspondantes, pour que la skill se charge sur une formulation
+française et non sur ses mots-clés anglais d'origine.
 
 Les 39 skills issues de la v2.0.0 amont sont traduites intégralement. Les 10 arrivées en v2.10.0
 n'ont pour l'instant que leur `description` traduite et le bloc de style : le corps reste en

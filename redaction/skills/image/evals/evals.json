@@ -3,85 +3,85 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "I need a hero image for a blog post about email deliverability. Make it visually striking.",
-      "expected_output": "Should check for product-marketing.md first. Should recommend AI generation as the approach for a one-off blog hero. Should propose a visual metaphor concept that represents email deliverability (e.g., letters being sorted through a maze, signals breaking through a wall, an inbox glow). Should specify 1200x630 (works for both hero and OG image). Should recommend Flux or Gemini for photorealistic, or Ideogram if text in image is needed. Should provide a prompt following Subject + Setting + Style + Lighting + Composition + Technical pattern. Should mention WebP optimization (target <200KB, JPEG fallback). Should not suggest using AI for product UI screenshots.",
+      "prompt": "J'ai besoin d'une image d'en-tête pour un article de blog sur la délivrabilité des e-mails. Il faut qu'elle marque les esprits.",
+      "expected_output": "Doit d'abord vérifier la présence de product-marketing.md. Doit recommander la génération IA comme approche pour une image d'en-tête ponctuelle. Doit proposer une métaphore visuelle qui représente la délivrabilité des e-mails (par exemple des lettres triées à travers un labyrinthe, des signaux qui traversent un mur, une boîte de réception qui s'illumine). Doit préciser le format 1200x630 (qui sert à la fois d'en-tête et d'image OG). Doit recommander Flux ou Gemini pour du photoréaliste, ou Ideogram s'il faut du texte dans l'image. Doit fournir un prompt qui suit la formule Sujet + Décor + Style + Éclairage + Composition + Specs techniques. Doit mentionner l'optimisation en WebP (moins de 200 Ko, repli JPEG). Ne doit pas proposer l'IA pour des captures d'interface produit.",
       "assertions": [
-        "Checks for product-marketing.md",
-        "Recommends AI generation for one-off hero",
-        "Proposes visual metaphor for topic",
-        "Specifies 1200x630 dimensions",
-        "Recommends Flux, Gemini, or Ideogram",
-        "Provides structured prompt",
-        "Mentions WebP optimization"
+        "Vérifie la présence de product-marketing.md",
+        "Recommande la génération IA pour une image d'en-tête ponctuelle",
+        "Propose une métaphore visuelle du sujet",
+        "Précise les dimensions 1200x630",
+        "Recommande Flux, Gemini ou Ideogram",
+        "Fournit un prompt structuré",
+        "Mentionne l'optimisation en WebP"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "Generate me an image of our app's dashboard.",
-      "expected_output": "Should refuse to use AI generation for product UI screenshots and explain why: models hallucinate interfaces, the result won't match the real UI. Should recommend the Product Mockups & Screenshots workflow: capture real screenshots of the product at 2x resolution, frame in device mockups (browser frame, laptop, phone), add callout arrows or feature labels for context, programmatically overlay annotations with Hyperframes or HTML/CSS. Should suggest tools: browser DevTools screenshot, Shottr, CleanShot X, or screencapture CLI. Should warn this is Common Mistake #1: using AI for product UI.",
+      "prompt": "Génère-moi une image du tableau de bord de notre application.",
+      "expected_output": "Doit refuser d'utiliser la génération IA pour des captures d'interface produit et expliquer pourquoi : les modèles inventent les interfaces, le résultat ne correspondra pas à la vraie interface. Doit recommander le workflow « Mockups produit et captures d'écran » : faire de vraies captures du produit en résolution 2x, les placer dans un cadre d'appareil (fenêtre de navigateur, ordinateur portable, téléphone), ajouter des flèches d'annotation ou des étiquettes de fonctionnalités, poser les annotations par programme avec Hyperframes ou HTML/CSS. Doit proposer des outils : capture via les DevTools du navigateur, Shottr, CleanShot X ou la commande screencapture. Doit signaler qu'il s'agit de l'erreur fréquente n° 1 : utiliser l'IA pour une interface produit.",
       "assertions": [
-        "Refuses to use AI generation for product UI",
-        "Explains models hallucinate UI",
-        "Recommends real screenshots at 2x resolution",
-        "Mentions device mockups for framing",
-        "Suggests specific screenshot tools",
-        "Notes this as a common mistake"
+        "Refuse la génération IA pour une interface produit",
+        "Explique que les modèles inventent les interfaces",
+        "Recommande de vraies captures en résolution 2x",
+        "Mentionne les cadres d'appareil",
+        "Propose des outils de capture précis",
+        "Signale qu'il s'agit d'une erreur fréquente"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "Need a Twitter/X header banner for our company. We just want to show our product and tagline.",
-      "expected_output": "Should specify Twitter/X header dimensions: 1500x500 (3:1 aspect ratio). Should warn the banner is partially obscured by the avatar — center critical content and avoid important elements near the avatar overlap area. Should recommend keeping text minimal (seen at small sizes on mobile). Should suggest design tools (Canva or Figma) over AI generation since brand consistency matters. Should recommend Ideogram if heavy text rendering is needed since other AI models butcher text. Should suggest using brand colors + tagline + optional product shot. Should remind to test at actual display size by zooming out.",
+      "prompt": "Il nous faut une bannière d'en-tête Twitter/X pour l'entreprise. On veut juste montrer le produit et notre accroche.",
+      "expected_output": "Doit préciser les dimensions de l'en-tête Twitter/X : 1500x500 (ratio 3:1). Doit prévenir que la bannière est en partie masquée par l'avatar : centrer l'essentiel et éviter les éléments importants dans la zone de recouvrement. Doit recommander un texte minimal (affiché en petit sur mobile). Doit préférer les outils de design (Canva ou Figma) à la génération IA, puisque la cohérence de marque compte. Doit recommander Ideogram s'il faut beaucoup de texte, les autres modèles massacrant le texte. Doit proposer couleurs de la marque + accroche + capture produit facultative. Doit rappeler de tester à la taille d'affichage réelle en dézoomant.",
       "assertions": [
-        "Specifies 1500x500 dimensions",
-        "Warns about avatar overlap area",
-        "Recommends minimal text",
-        "Suggests Canva or Figma over AI",
-        "Mentions Ideogram for text-heavy designs",
-        "Recommends testing at display size"
+        "Précise les dimensions 1500x500",
+        "Prévient du recouvrement par l'avatar",
+        "Recommande un texte minimal",
+        "Préfère Canva ou Figma à l'IA",
+        "Mentionne Ideogram pour les visuels chargés de texte",
+        "Recommande de tester à la taille d'affichage"
       ],
       "files": []
     },
     {
       "id": 4,
-      "prompt": "I need 5 versions of the same hero image for Twitter, LinkedIn, Instagram feed, Instagram stories, and Facebook. What's the fastest way?",
-      "expected_output": "Should recommend the Canva Magic Resize workflow over generating 5 separate images. Should list dimensions: Twitter/X 1200x675 (16:9), LinkedIn 1200x627 (1.91:1), Instagram feed 1080x1080 (1:1 — note 1080x1350 / 4:5 also strong), Instagram Stories 1080x1920 (9:16), Facebook 1200x630 (1.91:1). Should explain workflow: create the hero concept at highest resolution needed, use Canva Magic Resize for variants, manually crop if needed, add text overlays programmatically if required (Ideogram or post-processing), export at each platform's specs. Should note this is what Canva Magic Resize is specifically designed for.",
+      "prompt": "Il me faut 5 versions de la même image d'en-tête pour Twitter, LinkedIn, le fil Instagram, les stories Instagram et Facebook. Quel est le moyen le plus rapide ?",
+      "expected_output": "Doit recommander le workflow Magic Resize de Canva plutôt que de générer 5 images distinctes. Doit lister les dimensions : Twitter/X 1200x675 (16:9), LinkedIn 1200x627 (1,91:1), fil Instagram 1080x1080 (1:1, en notant que le 1080x1350 en 4:5 fonctionne aussi très bien), stories Instagram 1080x1920 (9:16), Facebook 1200x630 (1,91:1). Doit expliquer le workflow : créer le visuel principal à la plus haute résolution nécessaire, décliner avec Magic Resize de Canva, recadrer à la main si besoin, ajouter les textes en surcouche par programme si nécessaire (Ideogram ou post-traitement), exporter aux formats de chaque plateforme. Doit noter que c'est précisément l'usage pour lequel Magic Resize est conçu.",
       "assertions": [
-        "Recommends Canva Magic Resize",
-        "Lists dimensions for all 5 platforms",
-        "Notes Instagram 4:5 variant",
-        "Suggests programmatic text overlays for variants",
-        "Says start at highest resolution"
+        "Recommande Magic Resize de Canva",
+        "Liste les dimensions des 5 plateformes",
+        "Signale la variante Instagram en 4:5",
+        "Propose des textes en surcouche par programme pour les déclinaisons",
+        "Dit de partir de la plus haute résolution"
       ],
       "files": []
     },
     {
       "id": 5,
-      "prompt": "What's the best image format for our website?",
-      "expected_output": "Should recommend WebP as the default choice with JPEG/PNG fallback. Should explain the format guide: WebP for photos and graphics (lossy + lossless, ~96% browser support), AVIF for highest compression (~94% support, newer), JPEG as universal fallback (lossy only), PNG for transparency and screenshots (lossless, universal), SVG for logos and icons (vector, scales, universal). Should reference the optimization checklist: resize to display size, compress (target quality 75-85% for photos), lazy load below-the-fold, set explicit width/height attributes (prevents CLS), use a CDN with auto-optimization (Cloudflare, Vercel, Imgix, Cloudinary), add descriptive alt text. Should provide a quick cwebp or mogrify command. Should note skipping image optimization is the #1 page speed killer.",
+      "prompt": "Quel est le meilleur format d'image pour notre site ?",
+      "expected_output": "Doit recommander WebP comme choix par défaut, avec un repli JPEG/PNG. Doit expliquer le guide des formats : WebP pour les photos et les visuels (avec ou sans perte, ~96 % de prise en charge), AVIF pour la compression maximale (~94 %, plus récent), JPEG comme repli universel (avec perte seulement), PNG pour la transparence et les captures (sans perte, universel), SVG pour les logos et les icônes (vectoriel, universel). Doit reprendre la liste de contrôle : redimensionner à la taille d'affichage, compresser (qualité de 75 à 85 % pour les photos), charger en différé sous la ligne de flottaison, fixer les attributs width et height (évite le CLS), passer par un CDN à optimisation automatique (Cloudflare, Vercel, Imgix, Cloudinary), renseigner un texte alternatif descriptif. Doit fournir une commande cwebp ou mogrify. Doit noter que négliger l'optimisation des images est la première cause de lenteur d'une page.",
       "assertions": [
-        "Recommends WebP as default",
-        "Mentions JPEG/PNG fallback strategy",
-        "Lists optimization checklist items",
-        "Mentions lazy loading",
-        "Mentions explicit dimensions to prevent CLS",
-        "Provides command line tool example"
+        "Recommande WebP par défaut",
+        "Mentionne la stratégie de repli JPEG/PNG",
+        "Liste des points de la liste de contrôle",
+        "Mentionne le chargement différé",
+        "Mentionne les dimensions explicites contre le CLS",
+        "Donne un exemple de commande"
       ],
       "files": []
     },
     {
       "id": 6,
-      "prompt": "We're a SaaS that just launched. Need OG images for every blog post we ship — about 2 per week. Doing it manually is killing us.",
-      "expected_output": "Should recommend Dynamic OG Images programmatic approach. Should explain options: Vercel OG (@vercel/og) generates images at the edge using JSX — best for programmatic SEO since you can dynamically pull post title, author, image into a template; Satori converts HTML/CSS to SVG (powers Vercel OG); Cloudinary for URL-based text overlay on template images. Should explain you build the template once with your branding then it generates unique OG images per page using post metadata. Should mention required meta tags: og:image (1200x630), og:image:width, og:image:height, twitter:card summary_large_image, twitter:image. Should note this is best for programmatic SEO.",
+      "prompt": "On est un SaaS qui vient de se lancer. Il nous faut une image OG pour chaque article de blog publié, environ 2 par semaine. Les faire à la main nous épuise.",
+      "expected_output": "Doit recommander la génération programmatique d'images OG dynamiques. Doit expliquer les options : Vercel OG (@vercel/og) génère les images en edge à partir de JSX, ce qui convient au SEO programmatique puisqu'on injecte dans un modèle le titre, l'auteur et l'image de l'article ; Satori convertit du HTML/CSS en SVG (c'est le moteur de Vercel OG) ; Cloudinary pose un texte en surcouche sur des images modèles, piloté par l'URL. Doit expliquer qu'on construit le modèle une fois, aux couleurs de la marque, puis qu'il génère une image OG unique par page à partir des métadonnées de l'article. Doit mentionner les balises meta obligatoires : og:image (1200x630), og:image:width, og:image:height, twitter:card summary_large_image, twitter:image. Doit noter que c'est l'approche adaptée au SEO programmatique.",
       "assertions": [
-        "Recommends programmatic OG image generation",
-        "Names Vercel OG, Satori, or Cloudinary",
-        "Mentions template + dynamic data approach",
-        "Lists required og:image meta tags",
-        "Specifies 1200x630 dimensions",
-        "Notes this is best for high-volume blogs"
+        "Recommande la génération programmatique d'images OG",
+        "Cite Vercel OG, Satori ou Cloudinary",
+        "Mentionne l'approche modèle + données dynamiques",
+        "Liste les balises meta og:image obligatoires",
+        "Précise les dimensions 1200x630",
+        "Note que c'est l'approche adaptée aux blogs à fort volume"
       ],
       "files": []
     }
