@@ -14,7 +14,7 @@ Sources : Grammarly (2025), Microsoft 365 Life Hacks (2025), GPTHuman (2025), Wa
 - Formules qui signalent l'écriture IA (phrases d'ouverture, phrases de transition, phrases de conclusion, structures récurrentes)
 - Mots parasites et intensificateurs creux
 - Spécificités de l'écriture IA académique
-- Auto-contrôle
+- Ce que le texte livré tient
 
 ## Le tiret cadratin : la trahison numéro un
 
@@ -201,11 +201,11 @@ Ces mots n'ajoutent souvent rien au sens. Supprime-les ou trouve des alternative
 
 ---
 
-## Auto-contrôle
+## Ce que le texte livré tient
 
-1. Lis le texte à voix haute. Si des formules semblent étranges à l'oral, retravaille-les
-2. Pose-toi la question : « Est-ce que je dirais ça dans une conversation avec un collègue ? »
-3. Vérifie les structures de phrases répétitives
-4. Repère les clusters de mots listés ci-dessus
-5. Assure-toi que la longueur des phrases varie (pas toutes de même longueur)
-6. Vérifie que chaque intensificateur apporte un sens réel
+1. Aucune formule ne sonne étrange à l'oral
+2. Chaque phrase pourrait se dire dans une conversation avec un collègue
+3. Les structures de phrase ne se répètent pas
+4. Les mots listés ci-dessus n'apparaissent pas en grappes
+5. La longueur des phrases varie
+6. Chaque intensificateur apporte un sens réel

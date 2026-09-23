@@ -11,7 +11,7 @@ Si la skill `redaction-fr:redaction-francaise` est chargée, c'est elle qui fait
 ## 1. Penser en français, pas traduire l'anglais
 
 - **Bannir les calques structurels** : « Vous voulez X ? Nous avons Y. », « C'est simple. », « En quelques clics. », « N'hésitez pas à… », « Et si… ? », « Imaginez un monde où… ». Ces structures trahissent une traduction.
-- **Proscrire les tics d'IA en français** : *Découvrez, Boostez, Optimisez, Dopez, Révolutionnaire, Incontournable, Ultime, En un clin d'œil, En toute simplicité, Que vous soyez… ou…*, ainsi que la répétition de *grâce à / permet de / afin de / au cœur de / véritable*.
+- **Remplacer les formules de réclame par un fait** : *Découvrez, Boostez, Optimisez, Dopez, Révolutionnaire, Incontournable, Ultime, En un clin d'œil, En toute simplicité, Que vous soyez… ou…*, et la répétition de *grâce à / permet de / afin de / au cœur de / véritable*. Le lecteur les a lues mille fois et saute la phrase qui les porte.
 - **Franglais** (*insights, workflow, game-changer, deal, must-have*) **uniquement** si l'audience l'emploie réellement dans la vraie vie. Sinon, mot français.
 - Préférer le mot **concret et courant** au mot abstrait ou ronflant.
 
@@ -41,4 +41,4 @@ Le texte livré tient chacun de ces points :
 3. Les **accords** sont justes, participes passés et adjectifs compris.
 4. La **typographie** suit le § 2 : espaces insécables, guillemets « », apostrophes ’, pas de tiret cadratin, nombres à la française.
 5. Le **registre** tu/vous est homogène d'un bout à l'autre.
-6. Aucun tic ni anglicisme injustifié de la liste du § 1 ne reste.
+6. Aucune formule de la liste du § 1 ni anglicisme injustifié ne reste.

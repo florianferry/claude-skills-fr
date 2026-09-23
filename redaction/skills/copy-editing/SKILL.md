@@ -387,7 +387,7 @@ Traque et supprime ces tics qui trahissent un texte généré ou traduit :
 
 Le franglais (*insight, workflow, deal, must-have*) ne passe que si l'audience l'emploie réellement. Sinon, mot français.
 
-**Auto-contrôle final :** relis le texte à voix haute. Aucune phrase ne doit « sonner traduite ». Vérifie tous les accents, les accords (participes passés, adjectifs), la typographie et l'homogénéité du registre tu/vous.
+**Ce que le texte livré tient :** aucune phrase ne sonne traduite, tous les accents sont présents, les accords sont justes (participes passés et adjectifs compris), la typographie suit les règles françaises et le registre tu/vous reste homogène d'un bout à l'autre.
 
 ---
 

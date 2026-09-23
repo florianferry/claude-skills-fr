@@ -234,7 +234,7 @@ grep -oE "[a-zà-ÿ]+ment\b" "$F" | sort | uniq -c | sort -rn | head
 grep -cE "'|\"" "$F"
 
 # Ponctuation double sans espace insécable devant
-grep -nE "[^  ][:;!?]" "$F" | grep -v http
+grep -nE "[^  ][:;!?]" "$F" | grep -v http
 
 # Points de suspension en trois points
 grep -n "\.\.\." "$F"
