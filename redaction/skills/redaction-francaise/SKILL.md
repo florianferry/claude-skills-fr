@@ -175,6 +175,41 @@ génération automatique produit par défaut, et que le lecteur reconnaît sans 
 - **Le catalogue froid.** Un comparatif, une liste d'options ou un tableau qui se termine sans
   recommandation laisse au lecteur le travail qu'il était venu déléguer. Tranche.
 
+### 5 bis. Les motifs de série
+
+Les structures du § 5 se voient dans un texte. Celles-ci se voient surtout d'un texte à l'autre :
+chacune passe sur une page, et c'est leur retour qui signe la génération automatique. Elles
+naissent quand une bonne règle (ouvrir sur une scène, un fait par paragraphe, un encart par texte)
+s'applique mécaniquement à toute une série. Le lecteur qui lit trois pages du même site reconnaît
+le moule avant d'avoir lu le fond, et un texte sans aucun tic du § 2 peut sonner généré pour
+cette seule raison.
+
+| Motif | À ne pas reproduire | Quota par texte | Remède |
+|---|---|---|---|
+| Contraste binaire, y compris en chute | « n'est pas un budget, c'est un souvenir », « se décide au relevé, pas au produit. » | 1, jamais en première phrase, en intertitre ni en fin de section | Écrire Y directement |
+| Superlatif d'exclusivité | « le seul poste qui », « la seule chose qui sépare », « le vrai sujet », « qui décide de tout » | 0 comme intensif | « Seul » reste quand l'exclusivité est un fait vérifiable |
+| Omniscience | « que personne ne lit », « tout le monde confond », « l'erreur classique », « la plupart des pages évitent » | 0 sans source | Nommer le fait, pas ce que les autres ignorent |
+| Nombre annoncé | « trois choses », « deux vérifications précèdent », « Voici les 3 chiffres » | 1, et recompté | Entrer par le premier élément ; si le nombre reste, recompter la liste |
+| Maxime de chute | « l'étude coûte moins cher que le doute », « Le carrelage habille, le SPEC protège. » | 0 | Finir sur un fait, un chiffre ou une consigne |
+| Balance avant, après | « deux minutes maintenant, deux jours après » | 1 | Dire le coût réel une fois, sans symétrie |
+| Intertitre en apposition | « Où poser le pare-vapeur, l'étape que l'on saute » | 0 | L'intertitre nomme le sujet, rien après la virgule |
+| Scène gabaritée | « La cloison est montée, les bandes sont poncées, la peinture est sèche. », « Samedi, 14 h 15. », « Trois semaines plus tard, » | selon la rotation des ouvertures du projet | Un détail vécu dans une phrase ordinaire |
+| Retour à la scène pour la requalifier | « Le rouleau du début n'était pas un mauvais produit, c'était… » | 0 | La conclusion avance, elle ne rejuge pas l'ouverture |
+| Verbe-juge, verbe de dramatisation | « le pot tranche », « le manomètre ment », « tient en une phrase », « se joue », « ne se rattrape pas », « ne se négocie pas » | 1 pour toute la famille | Un verbe d'action, avec un sujet humain quand c'est possible |
+| Réassurance en anaphore | « Pas de spam, pas de revente. », « Tes chantiers, eux, n'ont pas bougé. » | 0 | Dire ce qui se passe réellement, en une phrase |
+| Promesse répétée | la même garantie trois fois sur une page | 1 par page | La dire là où elle sert, une fois |
+| Chiffre à effet | « 99 % des particuliers », « dix à cinquante fois » | 0 sans source | Sourcer, ou donner l'ordre de grandeur en mots avec sa réserve |
+| Méta par la négative | « Cet article ne vous expliquera pas… », « C'est le passage le plus important de cet article » | 0 | Commencer par ce que le texte donne |
+| Phrase recopiée | une phrase de plus de 12 mots identique sur deux pages | 0 | Réécrire pour la page, ou renvoyer à celle qui la porte |
+
+**Le fait plaqué.** Appliqué mécaniquement, « un fait par paragraphe » (§ 1) produit des chiffres
+collés pour tenir la règle, un prix de plaque au milieu d'un paragraphe qui n'en a pas besoin. Un
+paragraphe sans fait se supprime ; il ne se rembourre pas.
+
+**Varier d'un texte à l'autre.** Avant d'écrire un texte d'une série (articles, fiches, pages
+d'outils), relis l'ouverture, les intertitres et la fin des deux ou trois textes voisins : ce qu'ils
+emploient déjà se remplace. Un gabarit fixe la structure, jamais les phrases.
+
 ## 6. Ce que le texte livré tient
 
 Le texte livré tient chacun de ces points :
@@ -192,6 +227,7 @@ Le texte livré tient chacun de ces points :
 7. Le **registre** tu/vous est homogène d'un bout à l'autre.
 8. Aucune formule des listes du § 2 ni anglicisme injustifié ne reste.
 9. Aucune structure du § 5 ne reste en place.
+10. Aucun motif du § 5 bis au-delà de son quota, et aucune phrase reprise d'un texte voisin.
 
 Cinq questions départagent un texte correct d'un bon texte :
 
@@ -238,6 +274,14 @@ grep -nE "[^  ][:;!?]" "$F" | grep -v http
 
 # Points de suspension en trois points
 grep -n "\.\.\." "$F"
+
+# Motifs de série (§ 5 bis) : contraste binaire, exclusivité, omniscience, nombre annoncé,
+# verbes de dramatisation. À relire un par un, le quota se juge à la main.
+grep -nEi "(ce n.est pas|ce ne sont pas)[^.]{0,120}(c.est|ce sont)|, pas (un|une|des|le|la|les|du|de) [^.,;:]{1,40}\." "$F"
+grep -nEi "(le|la|les) (seule?s?|vraie?s?) [a-zà-ÿ]+ (qui|que|du|de)|décide de tout" "$F"
+grep -nEi "personne ne|tout le monde|l.erreur (classique|la plus)" "$F"
+grep -nEi "(deux|trois|quatre|cinq) (choses|causes|cas|situations|familles|décisions|questions|chiffres|nombres|points|règles)" "$F"
+grep -nEi "tient en|se joue|se rattrap|se négoci|tranche\.|décide\." "$F"
 ```
 
 Trois occurrences de *notamment* dans 1 200 mots signalent une phrase à réécrire, pas une faute.
