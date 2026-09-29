@@ -116,6 +116,22 @@ notamment, simplement, facilement, rapidement*. Ils affaiblissent la phrase qu'i
 renforcer. Exception : les adverbes techniques qui portent une information
 (*perpendiculairement, horizontalement, trimestriellement*).
 
+**Cadrages d'époque et raclements de gorge.** *À l'ère de · en constante évolution · dans le
+paysage actuel · au cœur de (au figuré) · il est à noter · notons que · plongeons dans · explorons
+ensemble · cela étant dit · à cet égard · en d'autres termes · soyons clairs · la vérité, c'est que*
+
+**Verbes valises.** *tirer parti de · mettre en exergue · jouer un rôle clé · naviguer dans (au
+figuré) · ouvrir la voie · libérer le potentiel · favoriser l'engagement · s'impose comme · fait
+office de*. Le verbe « être » ou un verbe d'action précis les remplace presque toujours.
+
+**Calques et autorité vague.** *faire sens · adresser un problème · impacter · quand il s'agit de ·
+les études montrent · les experts s'accordent*. Une étude se nomme, avec son auteur et sa date, ou
+la phrase tombe.
+
+Ces trois listes viennent d'un relevé de septembre 2026 sur les guides francophones de détection
+(Wikipédia « Identifier l'usage d'une IA générative », Projet Voltaire, Blog du Modérateur, Journal
+du Net, newsletters de rédaction) et sur la liste anglophone « Signs of AI writing ».
+
 ## 3. Typographie française (non négociable)
 
 - **Espace insécable** avant `: ; ! ?` et à l'intérieur des guillemets : « comme ceci ».
@@ -175,6 +191,20 @@ génération automatique produit par défaut, et que le lecteur reconnaît sans 
 - **Le catalogue froid.** Un comparatif, une liste d'options ou un tableau qui se termine sans
   recommandation laisse au lecteur le travail qu'il était venu déléguer. Tranche.
 
+- **L'addition en balancier.** « Non seulement rapide, mais aussi fiable », « Il ne s'agit pas
+  seulement de peindre, mais de protéger », « Plus qu'un simple outil, un compagnon ». Même
+  défaut que le contraste binaire, sans négation : dire la chose une fois.
+- **La queue en participe présent.** « …, soulignant l'importance de la préparation », « …,
+  ouvrant de nouvelles possibilités ». Une phrase qui finit sur un commentaire d'elle-même :
+  couper à la virgule.
+- **La question-réponse éclair.** « Le résultat ? Des murs secs. », « La bonne nouvelle ? Ça se
+  répare. » Écrire la réponse directement.
+- **Le triplet en phrase seule.** « Simple, rapide, efficace. » Garder un seul adjectif, celui
+  qui se vérifie.
+- **La puce à libellé gras en série.** « * **Rapidité :** … » sur toute une liste, puis sur toutes
+  les listes du site. Réservée aux listes de définitions ou de valeurs ; une énumération ordinaire
+  s'écrit en phrase ou en puces simples.
+
 ### 5 bis. Les motifs de série
 
 Les structures du § 5 se voient dans un texte. Celles-ci se voient surtout d'un texte à l'autre :
@@ -210,6 +240,27 @@ paragraphe sans fait se supprime ; il ne se rembourre pas.
 d'outils), relis l'ouverture, les intertitres et la fin des deux ou trois textes voisins : ce qu'ils
 emploient déjà se remplace. Un gabarit fixe la structure, jamais les phrases.
 
+### 5 ter. Le dialecte des agents
+
+Quand le même agent écrit le code d'un site et ses textes, son vocabulaire de travail passe dans
+la page publique. Aucun de ces tics n'est une faute : ce sont des mots français détournés de leur
+sens courant, et c'est le lecteur non développeur qui les trouve étranges. Mesuré sur un site de
+225 000 mots en septembre 2026 : près de 90 phrases, alors que les tics grand public du § 2 y
+étaient presque absents.
+
+| Motif | À ne pas reproduire | Quota par texte | Remède |
+|---|---|---|---|
+| « Rendre » pour « produire un résultat » (*returns*) | « l'outil rend la section en mm² », « ce que chaque calculateur demande et rend » | 0 | calcule, donne, en déduit, indique, prépare. « Rendre » + attribut reste juste : « rend le joint invisible » |
+| La chose qui juge | « la hauteur départage la douche et le receveur », « le chiffre qui commande tout », « la logique qui gouverne », « cette page dit lequel est lequel » | 1 | Un sujet humain et un verbe d'action : « selon la hauteur disponible, vous aurez une douche ou un receveur » |
+| Mise en relief répétée | « c'est lui qui », « c'est elle qui », « c'est là que », « voilà pourquoi » | 1 | Le sujet directement : « elle engage le fabricant » |
+| Tournures pronominales en série | « ce qui se fige », « se décide », « se comptent », « se cotent », sept dans un même article | 3 | L'impératif ou un sujet nommé : « cotez les évacuations », « arrêtez l'épaisseur du sol » |
+| Virgule avant « et » en fin d'énumération | « le budget, les achats, l'ordre des travaux, et quoi faire » | 0 | Pas de virgule avant le dernier élément d'une liste. Elle reste avant un « et » qui ouvre une nouvelle proposition |
+
+Deux réflexes pour l'agent qui rédige : relire chaque phrase dont le sujet est une chose et le
+verbe un verbe de jugement (dire, décider, départager, commander, trancher, gouverner) ; et ne
+jamais employer dans un texte public un mot qu'il a utilisé dans le code ou le commit de la même
+séance sans vérifier qu'il a le même sens pour un lecteur ordinaire.
+
 ## 6. Ce que le texte livré tient
 
 Le texte livré tient chacun de ces points :
@@ -227,7 +278,7 @@ Le texte livré tient chacun de ces points :
 7. Le **registre** tu/vous est homogène d'un bout à l'autre.
 8. Aucune formule des listes du § 2 ni anglicisme injustifié ne reste.
 9. Aucune structure du § 5 ne reste en place.
-10. Aucun motif du § 5 bis au-delà de son quota, et aucune phrase reprise d'un texte voisin.
+10. Aucun motif du § 5 bis ni du § 5 ter au-delà de son quota, et aucune phrase reprise d'un texte voisin.
 
 Cinq questions départagent un texte correct d'un bon texte :
 
@@ -282,6 +333,17 @@ grep -nEi "(le|la|les) (seule?s?|vraie?s?) [a-zà-ÿ]+ (qui|que|du|de)|décide d
 grep -nEi "personne ne|tout le monde|l.erreur (classique|la plus)" "$F"
 grep -nEi "(deux|trois|quatre|cinq) (choses|causes|cas|situations|familles|décisions|questions|chiffres|nombres|points|règles)" "$F"
 grep -nEi "tient en|se joue|se rattrap|se négoci|tranche\.|décide\." "$F"
+
+# Formules repérées en 2026 (§ 2) et structures en balancier (§ 5)
+grep -nEi "à l.ère d|en constante évolution|il est à noter|notons que|plong(eons|er) dans|cela étant dit|à cet égard|tirer parti|mettre en exergue|joue un rôle|s.impose comme|fait office de|faire sens|adresser (un|le|ce) (problème|sujet)|impact(er|ant)|les études montrent" "$F"
+grep -nEi "non seulement|il ne s.agit pas (seulement|simplement)|plus qu.une? simple|, (soulignant|illustrant|reflétant|témoignant|ouvrant|offrant)" "$F"
+
+# Dialecte des agents (§ 5 ter)
+grep -nEi "(outil|calculateur|tableur|il|elle) (vous )?rend(ent)? (le|la|les|un|une|des) [a-zà-ÿ²]+( |,|\.)(en|et|par|de)?|demande et rend" "$F"
+grep -nEi "départage|gouverne|(qui|il|elle|ce) commande (la|le|les|l.|tout)" "$F"
+grep -nEi "c.est (lui|elle|ce) qui|c.est (là|ici) que|voilà pourquoi" "$F"
+grep -oEi "se (fige|figent|décide|décident|compte|comptent|cote|cotent|mesure|mesurent|lit|lisent|vérifie|vérifient)" "$F" | wc -l
+grep -nE "[a-zà-ÿ]+, [a-zà-ÿ' ]{1,30}, et [a-zà-ÿ]" "$F"
 ```
 
 Trois occurrences de *notamment* dans 1 200 mots signalent une phrase à réécrire, pas une faute.
