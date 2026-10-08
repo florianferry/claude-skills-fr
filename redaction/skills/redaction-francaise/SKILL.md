@@ -1,6 +1,6 @@
 ---
 name: redaction-francaise
-description: Règles de rédaction française irréprochable, à charger dès qu'on produit du contenu destiné à être lu en français, copy de page, e-mail, annonce, post social, microcopy, titre, CTA, script, documentation, article. Couvre ce qu'un texte doit contenir (fait vérifiable, mécanisme, lecteur adressé), la typographie française (insécables, guillemets, apostrophes, pas de tiret cadratin, nombres), les calques de l'anglais à bannir, les tics d'IA, les structures qui trahissent une génération automatique, les accords et le registre tu/vous. Prime sur les exemples anglophones des skills de rédaction. Ne pas charger pour du code sans texte affiché.
+description: Règles de rédaction française irréprochable, à charger dès qu'on produit du contenu destiné à être lu en français, copy de page, e-mail, annonce, post social, microcopy, titre, CTA, script, documentation, article. Couvre ce qu'un texte doit contenir (fait vérifiable, mécanisme, lecteur adressé), la typographie française (insécables, guillemets, apostrophes, pas de tiret cadratin, nombres), les calques de l'anglais à bannir, les tics d'IA, les structures qui trahissent une génération automatique, l'humanisation du texte et la relecture en passes, les accords et le registre tu/vous. Prime sur les exemples anglophones des skills de rédaction. Ne pas charger pour du code sans texte affiché.
 user-invocable: true
 allowed-tools:
   - Read
@@ -129,7 +129,7 @@ les études montrent · les experts s'accordent*. Une étude se nomme, avec son 
 la phrase tombe.
 
 Ces trois listes viennent d'un relevé de septembre 2026 sur les guides francophones de détection
-(Wikipédia « Identifier l'usage d'une IA générative », Projet Voltaire, Blog du Modérateur, Journal
+(Wikipédia, page d'aide « Identifier l'usage d'une IA générative », Projet Voltaire, Blog du Modérateur, Journal
 du Net, newsletters de rédaction) et sur la liste anglophone « Signs of AI writing ».
 
 ## 2 bis. Calques de l'anglais
@@ -174,6 +174,18 @@ outillée, un crochet de fin de séance l'impose.
 | un travail, chaque travail | *a job* | un chantier, un poste ; « les travaux » au pluriel | le travail comme activité : « du travail soigné » |
 | sécuriser un budget | *secure* | obtenir, réserver | sécuriser un chantier, le rendre sûr |
 | challenger | *challenge* | remettre en question, mettre à l'épreuve | jamais |
+| venir avec, venir en | *to come with, to come in* | être fourni avec, se vendre en, s'accompagner de ; « Travaux liés » | venir, se déplacer : « l'artisan vient avec son échafaudage » |
+| une alternative | *an alternative* | une autre solution, une possibilité | le choix entre deux voies |
+| résulter en | *to result in* | entraîner, provoquer, aboutir à | résulter de |
+| rencontrer une exigence | *to meet* | satisfaire à, être conforme à | rencontrer quelqu'un |
+| sauver du temps | *to save* | gagner du temps, économiser ; enregistrer un fichier | sauver une vie |
+| questionner un choix | *to question* | mettre en doute, s'interroger sur | questionner quelqu'un |
+| drastique | *drastic* | radical, massif, draconien | jamais |
+| significatif (quantité) | *significant* | important, notable | qui a un sens, ou un effet juridique |
+| spécifiquement | *specifically* | précisément, plus exactement | « propre à » : primaire spécifique |
+| au final | *in the end* | finalement, au bout du compte | jamais |
+| juste (intensif) | *just* | vraiment, ou rien | « juste » = exact |
+| versus, vs | *versus* | ou, contre, face à | une adresse de page déjà publiée |
 
 ### Mots anglais restés
 
@@ -207,6 +219,24 @@ le terme que l'audience emploie réellement (§ 2).
 | Noms empilés sans préposition | *noun adjuncts* | « liste courses chantier » devient « liste de courses du chantier » |
 | Possessif en série | *Your kitchen, your budget, your rules* | une seule fois, là où il porte un sens |
 
+### Anglicismes de syntaxe
+
+Les plus durs à voir, parce que chaque mot est français. Seule la construction vient de l'anglais.
+
+- **L'ordinal avant le nombre.** « les premiers cinq jours » devient « les cinq premiers jours ».
+  « Les premières 24 heures » reste admis quand le groupe fait bloc.
+- **« Comparé à » en tête de phrase.** « Comparé au placo, le Fermacell pèse plus » devient « Par
+  rapport au placo » ou « Le Fermacell pèse plus que le placo ».
+- **Le passif impossible.** « La question a été répondue » : « répondre » demande « à ». Écrire
+  « vous avez répondu à la question ».
+- **La préposition calquée.** « satisfait avec » devient « satisfait de », « m'aider avec la pose »
+  devient « m'aider à poser », « sur le site » devient « dans le site » ou « sur la page » selon le
+  sens, « sur un comité » devient « membre d'un comité ».
+- **Le possessif devant une partie du corps.** « Lavez vos mains » devient « lavez-vous les mains ».
+  « Protégez vos mains » reste juste.
+- **Le nom placé avant celui qu'il précise.** « Murmur chiffrage » ou « fiche ouvrage » deviennent
+  « le chiffrage de Murmur », « la fiche du travail » : en français, le nom précisé vient d'abord.
+
 ## 3. Typographie française (non négociable)
 
 - **Espace insécable** avant `: ; ! ?` et à l'intérieur des guillemets : « comme ceci ».
@@ -221,7 +251,9 @@ le terme que l'audience emploie réellement (§ 2).
 - **Nombres et unités à la française** : virgule décimale (`3,5`), espace insécable pour les milliers
   (`12 000`), symbole après le nombre avec espace (`29 €`, `80 %`, `24 h`, `15 min`).
 - **Fourchettes en toutes lettres** : `entre 2 et 4 heures`, pas `2-4h`.
-- **Majuscules accentuées** : `À`, `É`, `Ç` en début de phrase ou de titre.
+- **Majuscules accentuées** : `À`, `É`, `Ç` en début de phrase ou de titre.
+- **Minuscule après le deux-points** : « Astuce : pensez à… », pas « Astuce : Pensez à… ». La
+  majuscule ne reste que devant un nom propre ou une citation.
 - **Listes à puces** : pas de majuscule initiale sauf si l'élément est une phrase complète.
   Ponctuation de fin homogène sur toute la liste.
 
@@ -276,6 +308,35 @@ génération automatique produit par défaut, et que le lecteur reconnaît sans 
   répare. » Écrire la réponse directement.
 - **Le triplet en phrase seule.** « Simple, rapide, efficace. » Garder un seul adjectif, celui
   qui se vérifie.
+- **La pseudo-clivée.** « Ce qui coûte, c'est la reprise », « Ce qui décide, c'est le dormant ».
+  Une fois passe ; en série, c'est une signature. Écrire Y directement : « La dépense vient de la
+  reprise. »
+- **L'adversaire imaginaire.** « Contrairement à une idée reçue », « On pourrait croire que ». Le
+  texte réfute une opinion que personne n'a exprimée. Donner le fait sans le mettre en scène.
+- **Le lien flou.** « en lien avec », « associé à », « lié à » à la place de la relation réelle.
+  « La fissure est liée au retrait » devient « la fissure vient du retrait de l'enduit ».
+- **L'évitement du verbe « être ».** « constitue », « s'avère », « se veut », « représente un
+  véritable ». « Le primaire constitue une étape essentielle » devient « le primaire est
+  indispensable », et encore mieux, la raison.
+- **Les précautions empilées.** « pourrait potentiellement », « il semblerait que cela puisse ».
+  Garder une seule réserve, celle qui porte une incertitude réelle.
+- **Les absolus paresseux.** « toujours », « jamais », « tous les bricoleurs », sans fait derrière.
+- **La réserve générique.** « Les données précises sont limitées. » Une bonne réserve nomme ce qu'on
+  ignore et pourquoi (§ 1).
+- **Le texte qui parle de lui-même.** « Ce guide complet vous accompagne… », « Cette section
+  détaille… ». Le lecteur voit ce que le texte fait ; il n'a pas besoin qu'on le lui annonce.
+- **Trois phrases de suite sur le même sujet.** « Le primaire… Il… Il… » : varier l'attaque, ou
+  fondre deux phrases.
+- **L'ouverture en « Concrètement, » ou « En pratique, » à chaque paragraphe.** Une fois par
+  texte au plus.
+- **Le tableau qui aurait dû être une phrase.** Deux lignes et deux colonnes se disent en une phrase.
+- **Le plan qui se répète.** La même matière reprise sous plusieurs intertitres, ou un intertitre
+  redit mot pour mot par la phrase qui le suit (« Le temps de séchage », puis « Le temps de séchage
+  est une étape clé »).
+- **Les sections calibrées.** Toutes les sections font deux ou trois paragraphes, tous les
+  paragraphes la même longueur. Laisser une section courte quand elle a peu à dire.
+- **Les intertitres en question, en série.** Une question en intertitre aide ; cinq de suite font
+  un gabarit. La FAQ balisée en est exemptée.
 - **La puce à libellé gras en série.** « * **Rapidité :** … » sur toute une liste, puis sur toutes
   les listes du site. Réservée aux listes de définitions ou de valeurs ; une énumération ordinaire
   s'écrit en phrase ou en puces simples.
@@ -336,6 +397,32 @@ verbe un verbe de jugement (dire, décider, départager, commander, trancher, go
 jamais employer dans un texte public un mot qu'il a utilisé dans le code ou le commit de la même
 séance sans vérifier qu'il a le même sens pour un lecteur ordinaire.
 
+## 5 quater. Humaniser sans abîmer
+
+Retirer les tics ne suffit pas, et les retirer mal en crée d'autres. Un texte humain se reconnaît
+à ce qu'il contient : un détail vécu (« le seau de colle a croûté pendant la pause de midi »), un
+avis assumé (« je déconseille le multicouche à sertir pour un premier chantier »), une imprécision
+honnête (« entre deux et quatre heures selon la température »), un rythme qui suit la pensée. Il
+emploie le verbe « être », le mot courant, la répétition quand le terme est technique.
+
+Trois défauts naissent des corrections elles-mêmes :
+
+- **Le staccato fabriqué.** Couper des phrases ordinaires pour « varier le rythme » donne un texte
+  haché. On ne coupe qu'une phrase trop longue pour être lue d'une traite.
+- **Le texte poncé.** À force de retirer liants, adverbes et nuances, il ne reste qu'une suite
+  d'affirmations lisses. Garder « mais », « donc », « en général », « peut-être » quand ils portent
+  un sens : la règle du § 2 ne vise que le liant décoratif.
+- **La rotation de synonymes.** L'école apprend à éviter la répétition ; dans un texte technique,
+  « ragréage », « enduit de lissage » et « autolissant » pour la même chose égarent le lecteur.
+  Choisir un terme et le garder.
+
+Enfin, ne jamais inventer un fait pour combler un trou (§ 1) : le demander, ou couper le
+paragraphe.
+
+Les guides anglais comptent aussi parmi les signes d'IA les guillemets courbes et le tiret
+cadratin. Ni l'un ni l'autre ne s'importe : en français, guillemets et apostrophes courbes sont
+obligatoires (§ 3), et le tiret cadratin est proscrit pour des raisons de typographie.
+
 ## 6. Ce que le texte livré tient
 
 Le texte livré tient chacun de ces points :
@@ -354,6 +441,8 @@ Le texte livré tient chacun de ces points :
 8. Aucune formule des listes du § 2 ni anglicisme injustifié ne reste.
 9. Aucune structure du § 5 ne reste en place.
 10. Aucun motif du § 5 bis ni du § 5 ter au-delà de son quota, et aucune phrase reprise d'un texte voisin.
+11. La réécriture n'a rien abîmé (§ 5 quater) : ni fait perdu, ni staccato, ni synonymes en rotation.
+12. La relecture en passes du § 6 bis a été faite.
 
 Cinq questions départagent un texte correct d'un bon texte :
 
@@ -369,6 +458,30 @@ Une section qui échoue à l'une d'elles se réécrit plutôt que de se rapiéce
 
 Un texte qui passe toutes ces questions sauf Concret n'est pas un bon texte à corriger : c'est un texte
 vide bien habillé. Reprends-le par le §1, pas par la typographie.
+
+## 6 bis. La relecture en passes
+
+Relire en passes séparées, du fond vers la forme, deux allers-retours au plus : en cherchant tout à
+la fois, on laisse passer les calques et les tics, qui sont grammaticalement corrects. Sur un texte déjà écrit, ne relire que ce qui a été ajouté
+ou modifié.
+
+0. **Inventaire des faits.** Lister chiffres, normes, gestes et noms propres. Ce qui manque se
+   demande, ne s'invente pas.
+1. **Fond (§ 1).** Test de substitution, test de sortie. Un paragraphe sans fait se supprime.
+2. **Structure.** Lire les intertitres seuls : la matière se répète-t-elle, une section est-elle
+   gonflée pour ressembler aux autres, un tableau serait-il mieux en phrase ?
+3. **Voix, à voix haute.** Trois phrases de même longueur, ou ouvertes par le même sujet ? Une
+   maxime en chute, une pseudo-clivée, un adversaire imaginaire ? Puis la question de fond : quelle
+   phrase sonne encore générée, et pourquoi ?
+4. **Calques (§ 2 bis).** Rétro-traduction phrase par phrase, puis trois réflexes : la préposition,
+   l'ordre des mots, le mot anglais resté.
+5. **Contre-relecture de la réécriture (§ 5 quater).** Comparer à la version d'avant : aucun fait
+   perdu ni ajouté, pas de staccato fabriqué, les connecteurs utiles gardés, un seul terme par chose.
+6. **Mécanique en dernier.** Les contrôles du § 7, ou ceux du projet : ce qu'ils décident ne se
+   relit pas à l'œil.
+
+Au-delà de cinq signaux répartis sur trois familles dans un même passage, réécrire le passage plutôt
+que le rapiécer.
 
 ## 7. Contrôles automatiques
 
@@ -416,6 +529,11 @@ grep -nEi "non seulement|il ne s.agit pas (seulement|simplement)|plus qu.une? si
 # Calques de l'anglais (§ 2 bis) : un filet, jamais une preuve. La relecture de fin d'exercice reste due.
 grep -nEi "réalis(e|er|ez|é) que|en charge d|en capacité d|délivr[a-zé]* (un|une|le|la|des) (résultat|service)|en termes d|entre(nt)? en jeu|gard[a-z]* (à|en) l.esprit|prêt(e|s)? à [^.?]{1,60}\\?|le saviez-vous|en d.autres mots|travail par travail|(chaque|un) travail[ ,.]" "$F"
 grep -nEiw "wording|features?|home|templates?|items?|slots?|flows?|scope|fallback|layout|dashboard|onboarding|feedbacks?|tooltips?|snippets?|workflows?|roadmap|preview|release" "$F"
+grep -nEi "(peut|peuvent|qui vien(t|nent)) (venir )?avec|une alternative|résult(e|ent|er) en|rencontr[a-zé]* (les|des) (normes|exigences|besoins)|sauve[rz]? (du|de) (temps|place|argent)|drastique|au final|c.est juste (trop|super|parfait)|versus|vs\\.? |^compar(é|ée)s? (à|au)|(premiers|premières|derniers) (deux|trois|cinq|dix|[2-9]) |a été répondu|satisfaite?s? avec|fai(t|re) (toute )?la différence$|pourrai?t potentiellement" "$F"
+grep -nE "(^|[.!?] )Ce (qui|que) [^.,]{3,60}, c.est" "$F"
+grep -nE " : [A-ZÀÉÈ][a-zéèêà]+ [a-zéèêà]" "$F"
+grep -nEi "^(concrètement|en pratique), " "$F"
+grep -nEi "contrairement à une idée reçue|on pourrait croire|en lien avec|constitue (un|une|le|la)|s.avère|se veut|représente un véritable" "$F"
 
 # Dialecte des agents (§ 5 ter)
 grep -nEi "(outil|calculateur|tableur|il|elle) (vous )?rend(ent)? (le|la|les|un|une|des) [a-zà-ÿ²]+( |,|\.)(en|et|par|de)?|demande et rend" "$F"
