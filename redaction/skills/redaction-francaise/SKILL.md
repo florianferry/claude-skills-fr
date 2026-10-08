@@ -132,6 +132,81 @@ Ces trois listes viennent d'un relevé de septembre 2026 sur les guides francoph
 (Wikipédia « Identifier l'usage d'une IA générative », Projet Voltaire, Blog du Modérateur, Journal
 du Net, newsletters de rédaction) et sur la liste anglophone « Signs of AI writing ».
 
+## 2 bis. Calques de l'anglais
+
+Aucune liste ne couvrira tous les calques : il en naît un neuf à chaque texte. Les tableaux
+ci-dessous servent d'exemples, et le contrôle qui marche est un test, appliqué dans une relecture
+à part.
+
+**Le test de rétro-traduction.** Retraduis la phrase en anglais, mot pour mot. Si elle tombe
+en anglais idiomatique sans rien changer, et qu'un artisan au téléphone ne la dirait pas ainsi,
+c'est un calque : réécris-la à partir du sens, jamais à partir des mots. « Votre cuisine, travail
+par travail » donne *your kitchen, job by job* : calque. « Chiffrez chantier par chantier » ne
+repasse pas en anglais sans perte : c'est du français.
+
+**La relecture de fin d'exercice.** Une fois le texte écrit et les autres contrôles passés,
+relis chaque phrase ajoutée avec ce seul prisme, sans rien chercher d'autre : rétro-traduction,
+mot anglais resté, faux ami, tournure traduite. Une relecture qui cherche tout en même temps
+laisse passer les calques, parce qu'ils sont grammaticalement corrects. Dans un projet qui l'a
+outillée, un crochet de fin de séance l'impose.
+
+### Faux amis
+
+| Calque | Sens anglais | Mot juste | Reste juste quand |
+|---|---|---|---|
+| rendre un résultat | *returns* | donne, calcule, indique | rendre + attribut : « rend le joint invisible » |
+| adresser un problème | *address* | traiter, régler | adresser un courrier |
+| impacter | *impact* | toucher, changer, peser sur | le nom : « impact acoustique » |
+| réaliser que | *realize* | se rendre compte que, comprendre | réaliser un travail |
+| délivrer un résultat | *deliver* | fournir, produire, livrer | délivrer un permis, un certificat |
+| faire sens | *make sense* | avoir du sens, tenir debout | jamais |
+| être en charge de | *be in charge of* | être chargé de, s'occuper de | la prise en charge |
+| être en capacité de | *be able to* | pouvoir | jamais |
+| opportunité | *opportunity* | occasion | l'opportunité d'une décision, son caractère opportun |
+| consistant | *consistent* | cohérent, constant, régulier | « un enduit consistant », épais |
+| supporter un format | *support* | accepter, prendre en charge | supporter une charge, un poids |
+| initier un projet | *initiate* | lancer, engager | initier quelqu'un à un geste |
+| digital | *digital* | numérique | empreinte digitale |
+| éventuellement | *eventually* | finalement, à terme | « le cas échéant », son sens français |
+| définitivement | *definitely* | sans aucun doute | « pour toujours » : supprimer définitivement |
+| dédié | *dedicated* | réservé à, propre à | vocabulaire technique établi : circuit dédié |
+| basé sur | *based on* | fondé sur, calculé d'après | toléré, à éviter dans un texte soigné |
+| un travail, chaque travail | *a job* | un chantier, un poste ; « les travaux » au pluriel | le travail comme activité : « du travail soigné » |
+| sécuriser un budget | *secure* | obtenir, réserver | sécuriser un chantier, le rendre sûr |
+| challenger | *challenge* | remettre en question, mettre à l'épreuve | jamais |
+
+### Mots anglais restés
+
+Les mots du métier de celui qui écrit glissent dans le texte : *wording* (formulation),
+*feature* (fonction), *home* (accueil), *template* (gabarit, modèle), *item* (élément, ligne,
+article), *slot* (créneau), *flow* (parcours), *scope* (périmètre), *check* (contrôle,
+vérification), *fallback* (repli), *layout* (mise en page), *dashboard* (tableau de bord),
+*onboarding* (premiers pas), *feedback* (retour, avis), *tooltip* (infobulle), *snippet*
+(extrait), *workflow* (enchaînement, procédure), *roadmap* (feuille de route), *preview*
+(aperçu), *release* (version). Ils sont interdits dans un texte public, et à remplacer dans un
+plan ou un compte rendu dès qu'un mot français existe. Restent les noms propres de produits et
+le terme que l'audience emploie réellement (§ 2).
+
+### Tournures traduites
+
+| Calque | Anglais | En français |
+|---|---|---|
+| « Prêt à vous lancer ? » | *Ready to…?* | l'action directement : « Créez votre premier chantier. » |
+| « Le saviez-vous ? » | *Did you know?* | le fait directement |
+| « Gardez à l'esprit que » | *Keep in mind* | « Retenez que », « N'oubliez pas que », ou rien |
+| « En termes de » | *In terms of* | « pour », « côté », « en matière de » |
+| « Ça fait la différence » | *It makes a difference* | dire laquelle ; « faire la différence entre A et B » reste juste |
+| « C'est là que X entre en jeu » | *That's where X comes in* | « Il faut alors X » |
+| « À la fin de la journée » (figuré) | *At the end of the day* | « au bout du compte » |
+| « N'hésitez pas à » | *Don't hesitate to* | l'impératif nu |
+| « Tout ce que vous devez savoir sur » | *Everything you need to know* | le sujet nommé |
+| « En d'autres mots » | *In other words* | « autrement dit » |
+| « Être sur la même page » | *To be on the same page* | « être d'accord » |
+| « Assurez-vous que », en série | *Make sure* | « Vérifiez que », « veillez à » |
+| « X par X » forgé | *job by job, item by item* | garder ceux qu'un Français dit (pièce par pièce, poste par poste, ligne par ligne), sinon « un par un », « l'un après l'autre » |
+| Noms empilés sans préposition | *noun adjuncts* | « liste courses chantier » devient « liste de courses du chantier » |
+| Possessif en série | *Your kitchen, your budget, your rules* | une seule fois, là où il porte un sens |
+
 ## 3. Typographie française (non négociable)
 
 - **Espace insécable** avant `: ; ! ?` et à l'intérieur des guillemets : « comme ceci ».
@@ -269,7 +344,7 @@ Le texte livré tient chacun de ces points :
    qu'on saute.
 2. Aucune phrase ne survit au test de substitution : rien qui reste vrai pour n'importe quel
    concurrent.
-3. Aucune phrase ne sonne traduite.
+3. Aucune phrase ne sonne traduite : la relecture de fin d’exercice du § 2 bis a été faite, phrase ajoutée par phrase ajoutée.
 4. **Tous les accents et diacritiques** sont présents (jamais d'ASCII à la place : « é » pas « e »,
    « à » pas « a »).
 5. Les **accords** sont justes, participes passés et adjectifs compris.
@@ -335,8 +410,12 @@ grep -nEi "(deux|trois|quatre|cinq) (choses|causes|cas|situations|familles|déci
 grep -nEi "tient en|se joue|se rattrap|se négoci|tranche\.|décide\." "$F"
 
 # Formules repérées en 2026 (§ 2) et structures en balancier (§ 5)
-grep -nEi "à l.ère d|en constante évolution|il est à noter|notons que|plong(eons|er) dans|cela étant dit|à cet égard|tirer parti|mettre en exergue|joue un rôle|s.impose comme|fait office de|faire sens|adresser (un|le|ce) (problème|sujet)|impact(er|ant)|les études montrent" "$F"
+grep -nEi "à l.ère d|en constante évolution|il est à noter|notons que|plong(eons|er) dans|cela étant dit|à cet égard|tirer parti|mettre en exergue|joue un rôle|s.impose comme|fait office de|fai(re|t|s|sait|saient) (du )?sens|adress(er|e|ez|é) (un|le|ce|la|les) (problème|sujet|question|besoin)|impact(er|e|es|ent|é|ée|ant)|les études montrent" "$F"
 grep -nEi "non seulement|il ne s.agit pas (seulement|simplement)|plus qu.une? simple|, (soulignant|illustrant|reflétant|témoignant|ouvrant|offrant)" "$F"
+
+# Calques de l'anglais (§ 2 bis) : un filet, jamais une preuve. La relecture de fin d'exercice reste due.
+grep -nEi "réalis(e|er|ez|é) que|en charge d|en capacité d|délivr[a-zé]* (un|une|le|la|des) (résultat|service)|en termes d|entre(nt)? en jeu|gard[a-z]* (à|en) l.esprit|prêt(e|s)? à [^.?]{1,60}\\?|le saviez-vous|en d.autres mots|travail par travail|(chaque|un) travail[ ,.]" "$F"
+grep -nEiw "wording|features?|home|templates?|items?|slots?|flows?|scope|fallback|layout|dashboard|onboarding|feedbacks?|tooltips?|snippets?|workflows?|roadmap|preview|release" "$F"
 
 # Dialecte des agents (§ 5 ter)
 grep -nEi "(outil|calculateur|tableur|il|elle) (vous )?rend(ent)? (le|la|les|un|une|des) [a-zà-ÿ²]+( |,|\.)(en|et|par|de)?|demande et rend" "$F"
