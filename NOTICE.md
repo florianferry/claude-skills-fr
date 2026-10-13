@@ -59,6 +59,16 @@ Modifications : corps, `description` et `argument-hint` traduits en français, c
 rédiger le document de passation en français. Le fichier `agents/openai.yaml`, propre à Codex,
 n'est pas repris.
 
+## Skill `grilling`
+
+Traduite de la skill `grilling` du même dépôt [mattpocock/skills](https://github.com/mattpocock/skills),
+même licence, relevée au commit `49dd158` du 2026-10-09. Le texte de la licence figure dans
+`redaction/skills/grilling/LICENSE`.
+
+Modifications : corps et `description` traduits en français, avec des expressions de déclenchement
+françaises ; questions posées en français ; la recherche des faits se fait directement, et par un
+sous-agent seulement quand elle est longue.
+
 ## Licence de l'ensemble
 
 MIT, en cohérence avec le pack amont. Voir `LICENSE`.

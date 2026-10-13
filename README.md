@@ -7,9 +7,9 @@ L'installation dans Cowork suit le même chemin (Customize > Plugins > Add marke
 documentation d'Anthropic la décrit sans restriction de plan. La disponibilité dans le chat
 claude.ai est en revanche décrite de façon contradictoire par la documentation officielle.
 
-51 skills : la rédaction française irréprochable, la passation de séance entre agents, plus un
-pack marketing complet adapté au français (CRO, copywriting, SEO, pricing, publicité, analytics,
-offres, prospection, relations presse, growth).
+52 skills : la rédaction française irréprochable, la passation de séance entre agents,
+l'interrogatoire avant décision, plus un pack marketing complet adapté au français (CRO,
+copywriting, SEO, pricing, publicité, analytics, offres, prospection, relations presse, growth).
 
 ## Pourquoi ce dépôt
 
@@ -26,7 +26,7 @@ Le dépôt expose **deux plugins** séparés, à installer selon la surface.
 
 | Plugin | Skills | Où l'installer |
 | --- | --- | --- |
-| `redaction-fr` | 11 | partout, y compris en session de code |
+| `redaction-fr` | 12 | partout, y compris en session de code |
 | `marketing-fr` | 40 | Cowork et claude.ai seulement |
 
 Cette séparation est délibérée. Les descriptions de 50 skills coûtent environ 15 000 tokens à
@@ -63,6 +63,9 @@ et la cohérence du registre tu/vous.
 `handoff` résume la conversation en cours dans un document de passation rédigé en français,
 enregistré dans le dossier temporaire du système, pour qu'un autre agent reprenne le travail.
 Elle ne se lance qu'à la main, par `/handoff`.
+
+`grilling` interroge l'utilisateur sur un plan ou une décision, par séries de questions numérotées
+avec une réponse recommandée, jusqu'à ce que toutes les décisions soient prises.
 
 **Marketing**
 

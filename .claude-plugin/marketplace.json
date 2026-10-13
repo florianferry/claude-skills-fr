@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "redaction-fr",
-      "description": "11 skills de rédaction et de contenu en français : typographie française, anti-calques, anti-slop, copywriting, relecture, audit SEO, AI SEO, recherche client, profilage concurrentiel, contenu visuel et vidéo, passation de séance entre agents. Le paquet à installer partout, y compris en session de code.",
+      "description": "12 skills de rédaction et de contenu en français : typographie française, anti-calques, anti-slop, copywriting, relecture, audit SEO, AI SEO, recherche client, profilage concurrentiel, contenu visuel et vidéo, passation de séance entre agents, interrogatoire avant décision. Le paquet à installer partout, y compris en session de code.",
       "source": "./redaction"
     },
     {
