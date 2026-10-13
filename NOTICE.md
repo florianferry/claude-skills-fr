@@ -49,6 +49,16 @@ fonctionnement.
 Écrite par Florian Ferry. Ses sections 4 et 5 sont adaptées de `stop-slop`
 (Hardik Pandya, licence MIT), transposées au français.
 
+## Skill `handoff`
+
+Traduite de la skill `handoff` de [mattpocock/skills](https://github.com/mattpocock/skills),
+Copyright (c) 2026 Matt Pocock, licence MIT, relevée au commit `0f5e033` du 2026-10-06. Le texte
+de cette licence figure dans `redaction/skills/handoff/LICENSE`.
+
+Modifications : corps, `description` et `argument-hint` traduits en français, consigne ajoutée de
+rédiger le document de passation en français. Le fichier `agents/openai.yaml`, propre à Codex,
+n'est pas repris.
+
 ## Licence de l'ensemble
 
 MIT, en cohérence avec le pack amont. Voir `LICENSE`.
