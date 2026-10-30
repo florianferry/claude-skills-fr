@@ -301,7 +301,7 @@ le tiret cadratin est proscrit pour des raisons de typographie.
 
 1. **Chaque section porte un fait vérifiable** (§ 1), et aucun fait n'est plaqué.
 2. Aucune phrase ne survit au test de substitution.
-3. **Le texte se lit à voix haute** (§ 1 bis) : phrases entières, avis nuancés là où l'incertitude
+3. **Le texte se lit à voix haute** (§ 1 bis), au degré de sa surface : phrases entières, avis nuancés là où l'incertitude
    est réelle, mots courants, aucun mot forgé ni d'emballage.
 4. Aucune phrase ne sonne traduite : la passe de calques du § 6 bis a été faite.
 5. Tous les accents et diacritiques sont présents.
@@ -319,7 +319,7 @@ Cinq questions départagent un texte correct d'un bon texte :
 | Dimension | Question |
 |---|---|
 | Concret | Chaque section apporte-t-elle un fait, un geste ou une décision ? |
-| Voix | Quelqu'un du métier le dirait-il ainsi, au téléphone, à un ami ? |
+| Voix | Quelqu'un du métier le dirait-il ainsi, sur cette surface (au téléphone, dans un guide, sur un bouton) ? |
 | Rythme | Les phrases sont-elles entières et de longueurs variées, ou en notes et métronomiques ? |
 | Confiance | Le texte respecte-t-il l'intelligence du lecteur, sans surexpliquer ni ordonner ? |
 | Densité | Reste-t-il une phrase sans rôle ? Couper la phrase, jamais les mots qui la relient. |
