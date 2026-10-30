@@ -112,8 +112,9 @@ Les plus durs à voir, parce que chaque mot est français. Seule la construction
 Le vocabulaire des emballages, des fiches produit et des catalogues passe dans le texte sans
 qu'on le remarque. Il n'est pas du français courant, même quand il figure au dictionnaire.
 
-- **Adjectifs en -able forgés** : « peintable », « recouvrable », « carrelable » → « qui se
-  peint », « qu'on peut recouvrir », « qui accepte un carrelage ».
+- **Adjectifs en -able forgés** : « peintable », « carrelable » → « qui se peint », « qui accepte un carrelage ».
+  Restent les termes que les fiches techniques définissent et que le texte explique
+  (« recouvrable » au sens du délai de recouvrement).
 - **Verbes en re- forgés** : « relessiver », « repréparer » → « lessiver de nouveau », « reprendre
   la préparation ».
 - **Le libellé de fiche dans une phrase** : « finition mate velours », « usage intérieur pièces

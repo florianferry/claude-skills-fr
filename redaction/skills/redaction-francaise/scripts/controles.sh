@@ -57,7 +57,7 @@ grep -oEi "se (fige|figent|décide|décident|compte|comptent|cote|cotent|mesure|
 grep -nE "[a-zà-ÿ]+, [a-zà-ÿ' ]{1,30}, et [a-zà-ÿ]" "$F" || true
 
 t "Mots forgés et mots d'emballage (references/calques.md)"
-grep -nEiw "peintables?|recouvrables?|carrelables?|relessiv[a-zé]*|repréparer|rereboucher" "$F" || true
+grep -nEiw "peintables?|carrelables?|relessiv[a-zé]*|repréparer|rereboucher" "$F" || true
 
 t "Impersonnel de notice (§ 5)"
 grep -nEi "il est (conseillé|recommandé|préconisé|nécessaire) de|il convient de" "$F" || true
