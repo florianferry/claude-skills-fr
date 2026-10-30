@@ -9,7 +9,7 @@ metadata:
 
 Tu es un relecteur-correcteur expert, spécialisé dans la copy marketing et de conversion. Ton but : améliorer un texte existant par passes ciblées et successives, sans en trahir le message de fond.
 
-> **Style français, prioritaire sur les exemples anglais de ce skill.** Pour tout texte destiné à un lectorat francophone : pense en français, ne traduis pas l'anglais. Évite les calques (« C'est simple. », « N'hésitez pas à… ») et les formules de réclame (Découvrez, Boostez, Optimisez, Incontournable, En un clin d'œil). Typographie : espace insécable avant `: ; ! ?` et dans « … » ; apostrophe ’ ; titres en casse de phrase ; pas de tiret cadratin (U+2014) dans le corps (→ `,` `:` `.` ou parenthèses) ; nombres à la française (`29 €`, `80 %`, `12 000`, `24 h`). Accorde genre, nombre et participes ; choisis le tutoiement ou le vouvoiement et tiens-t'y ; une tournure qui sonne traduite se réécrit. Détail complet dans `french-copy.md`, fourni avec ce skill.
+> **Texte en français : charger d'abord la skill `redaction-fr:redaction-francaise`.** Elle prime sur les exemples anglais de cette skill (calques, tics d'IA, typographie, registre).
 
 ## Philosophie
 
@@ -363,31 +363,11 @@ Pour chaque phrase, demande-toi « OK, et alors ? ». Si la copy ne répond pas 
 
 ---
 
-## Typographie et tics d'IA
+## Typographie, calques et tics d'IA
 
-Avant de livrer, passe le texte au crible de ces deux contrôles. Ils priment sur tout le reste.
-
-### Typographie française
-
-- **Espace insécable** avant `: ; ! ?` et à l'intérieur des guillemets : « comme ceci ».
-- **Guillemets français** « » (jamais `" "`), **apostrophe typographique** ’ (jamais `'`), **points de suspension** … en un seul caractère (jamais `...`).
-- **Casse de phrase** pour les titres et les boutons : seules la 1re lettre et les noms propres prennent la majuscule. → « Commencez votre essai gratuit », pas « Commencez Votre Essai Gratuit ».
-- **Jamais de tiret cadratin** `—` dans le corps du texte : le remplacer par `,`, `.`, `:` ou des parenthèses.
-- **Nombres et unités à la française** : virgule décimale (`3,5`), espace insécable pour les milliers (`12 000`), symbole après le nombre avec espace (`29 €`, `80 %`, `24 h`, `15 min`).
-- **Majuscules accentuées** en tête de phrase ou de titre : `À`, `É`, `Ç`.
-
-### Chasse aux tics d'IA
-
-Traque et supprime ces tics qui trahissent un texte généré ou traduit :
-- Les verbes d'accroche usés : *Découvrez, Boostez, Optimisez, Dopez*.
-- Les superlatifs creux : *Révolutionnaire, Incontournable, Ultime*.
-- Les formules toutes faites : *En un clin d'œil, En toute simplicité, N'hésitez pas à…, Que vous soyez… ou…*.
-- Les calques structurels : « Vous voulez X ? Nous avons Y. », « C'est simple. », « En quelques clics. », « Et si… ? », « Imaginez un monde où… ».
-- Les béquilles répétées : *grâce à, permet de, afin de, au cœur de, véritable*.
-
-Le franglais (*insight, workflow, deal, must-have*) ne passe que si l'audience l'emploie réellement. Sinon, mot français.
-
-**Ce que le texte livré tient :** aucune phrase ne sonne traduite, tous les accents sont présents, les accords sont justes (participes passés et adjectifs compris), la typographie suit les règles françaises et le registre tu/vous reste homogène d'un bout à l'autre.
+Avant de livrer, applique la skill `redaction-fr:redaction-francaise` : relecture en passes
+(§ 6 bis) et contrôles (§ 7). Elle prime sur tout le reste de cette skill, y compris sur la passe
+« clarté » : resserrer une phrase ne veut jamais dire la réduire en notes (§ 1 bis).
 
 ---
 
@@ -449,7 +429,7 @@ Ce processus itératif garantit qu'aucune correction n'en crée de nouveaux prob
 
 ## Références
 
-- [Équivalents en français courant](references/plain-english-alternatives.md) : remplacer les mots compliqués par des mots simples
+- Mots simples à la place des mots compliqués : `references/mots-simples.md` de la skill `redaction-francaise`
 - [Rafraîchissement de contenu](references/content-refresh.md) : check-list complète, matrice rafraîchir / réécrire, et guide de cadence
 - [Check-list de relecture](references/checklist.md) : la check-list complète sur les sept passes
 
