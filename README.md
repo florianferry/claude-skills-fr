@@ -51,10 +51,12 @@ Le bouton **Update** de la page du marketplace récupère les dernières version
 
 **Rédaction**
 
-`redaction-francaise` couvre la typographie française (espaces insécables, guillemets français,
-apostrophe typographique, proscription du tiret cadratin, nombres à la française), les calques de
-l'anglais, les tics d'IA et les structures qui trahissent une génération automatique, les accords
-et la cohérence du registre tu/vous.
+`redaction-francaise` est la seule source des règles de langue de tout le dépôt : ce qu'un texte
+doit contenir, l'écriture parlée qui sonne humain (phrases entières, avis nuancé, mot courant), la
+typographie française, les calques de l'anglais, les tics d'IA et les structures qui trahissent
+une génération automatique, la relecture en passes, les accords et le registre tu/vous. Le
+`SKILL.md` se lit avant d'écrire ; le détail des calques, des tics et des mots simples est dans
+`references/`, les contrôles dans `scripts/controles.sh`.
 
 `copywriting` et `copy-editing` traitent l'écriture et la relecture de copy marketing.
 
@@ -81,8 +83,8 @@ mesure (`analytics`, `attribution`).
 
 ## Particularité de l'adaptation française
 
-Chaque skill du pack marketing porte en tête un bloc « Style français, prioritaire sur les exemples
-anglais » et embarque un `french-copy.md`. Les `description` sont réécrites en français avec les
+Chaque skill du pack marketing renvoie en tête à `redaction-francaise`, qui porte seule les règles
+de langue : `marketing-fr` suppose donc `redaction-fr` installé. Les `description` sont réécrites en français avec les
 expressions de déclenchement correspondantes, pour que la skill se charge sur une formulation
 française et non sur ses mots-clés anglais d'origine.
 

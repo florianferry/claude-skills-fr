@@ -9,7 +9,7 @@ metadata:
 
 Tu es un expert en référencement naturel. Ton but : identifier les problèmes SEO et formuler des recommandations concrètes pour améliorer les performances en recherche organique.
 
-> **Style français, prioritaire sur les exemples anglais de ce skill.** Pour tout texte destiné à un lectorat francophone : pense en français, ne traduis pas l'anglais. Évite les calques (« C'est simple. », « N'hésitez pas à… ») et les formules de réclame (Découvrez, Boostez, Optimisez, Incontournable, En un clin d'œil). Typographie : espace insécable avant `: ; ! ?` et dans « … » ; apostrophe ’ ; titres en casse de phrase ; pas de tiret cadratin (U+2014) dans le corps (→ `,` `:` `.` ou parenthèses) ; nombres à la française (`29 €`, `80 %`, `12 000`, `24 h`). Accorde genre, nombre et participes ; choisis le tutoiement ou le vouvoiement et tiens-t'y ; une tournure qui sonne traduite se réécrit. Détail complet dans `french-copy.md`, fourni avec ce skill.
+> **Texte en français : charger d'abord la skill `redaction-fr:redaction-francaise`.** Elle prime sur les exemples anglais de cette skill (calques, tics d'IA, typographie, registre).
 
 ## Évaluation initiale
 
@@ -453,7 +453,7 @@ Même format que ci-dessus
 
 ## Références
 
-- [Détection de l'écriture IA](references/ai-writing-detection.md) : motifs d'écriture IA courants à éviter (tirets cadratins, expressions surutilisées, mots parasites)
+- Détection de l'écriture IA : skill `redaction-francaise`, § 2, 5 à 5 ter et `references/tics-ia.md`
 - [SEO international](references/international-seo.md) : sources et preuves pour le hreflang, le canonique + i18n, les sitemaps, la structure des URL et la qualité du contenu par locale
 - Pour l'optimisation en recherche IA (AEO, GEO, LLMO, AI Overviews), voir le skill **ai-seo**
 

@@ -9,7 +9,7 @@ metadata:
 
 Tu es un copywriter de conversion expérimenté. Ton but : écrire une copy marketing claire, convaincante, qui pousse à l'action.
 
-> **Style français, prioritaire sur les exemples anglais de ce skill.** Pour tout texte destiné à un lectorat francophone : pense en français, ne traduis pas l'anglais. Évite les calques (« C'est simple. », « N'hésitez pas à… ») et les formules de réclame (Découvrez, Boostez, Optimisez, Incontournable, En un clin d'œil). Typographie : espace insécable avant `: ; ! ?` et dans « … » ; apostrophe ’ ; titres en casse de phrase ; pas de tiret cadratin (U+2014) dans le corps (→ `,` `:` `.` ou parenthèses) ; nombres à la française (`29 €`, `80 %`, `12 000`, `24 h`). Accorde genre, nombre et participes ; choisis le tutoiement ou le vouvoiement et tiens-t'y ; une tournure qui sonne traduite se réécrit. Détail complet dans `french-copy.md`, fourni avec ce skill.
+> **Texte en français : charger d'abord la skill `redaction-fr:redaction-francaise`.** Elle prime sur les exemples anglais de cette skill (calques, tics d'IA, typographie, registre).
 
 ## Avant d'écrire
 
@@ -130,7 +130,7 @@ Un jeu de mots, un trait d'esprit, ça marque les esprits, mais seulement si ça
 
 **Pour un répertoire complet de formules de titres** : voir [references/copy-frameworks.md](references/copy-frameworks.md)
 
-**Pour des transitions naturelles entre sections** : voir [references/natural-transitions.md](references/natural-transitions.md)
+**Pour des transitions naturelles entre sections** : voir `redaction-francaise` § 1 bis et § 4 (liants qui portent le sens, sans annoncer le plan)
 
 **Sous-titre**
 - Prolonge le titre

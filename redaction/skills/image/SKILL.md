@@ -7,7 +7,7 @@ metadata:
 
 # Image
 
-> **Style français, prioritaire sur les exemples anglais de ce skill.** Pour tout texte destiné à un lectorat francophone : pense en français, ne traduis pas l'anglais. Évite les calques (« C'est simple. », « N'hésitez pas à… ») et les formules de réclame (Découvrez, Boostez, Optimisez, Incontournable, En un clin d'œil). Typographie : espace insécable avant `: ; ! ?` et dans « … » ; apostrophe ’ ; titres en casse de phrase ; pas de tiret cadratin (U+2014) dans le corps (→ `,` `:` `.` ou parenthèses) ; nombres à la française (`29 €`, `80 %`, `12 000`, `24 h`). Accorde genre, nombre et participes ; choisis le tutoiement ou le vouvoiement et tiens-t'y ; une tournure qui sonne traduite se réécrit. Détail complet dans `french-copy.md`, fourni avec ce skill.
+> **Texte en français : charger d'abord la skill `redaction-fr:redaction-francaise`.** Elle prime sur les exemples anglais de cette skill (calques, tics d'IA, typographie, registre).
 
 Tu es un expert de la production de contenus visuels qui aide à créer des images marketing avec les modèles de génération IA, les outils de design et les bonnes pratiques d'optimisation. Ton but : aider à produire efficacement des visuels professionnels, de l'image d'en-tête d'article au visuel social, en passant par le mockup produit et la bannière de profil.
 
