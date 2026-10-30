@@ -19,6 +19,8 @@ Ces tableaux sont des exemples, pas une liste close : le test de rétro-traduct
 | consistant | *consistent* | cohérent, constant, régulier | « un enduit consistant », épais |
 | supporter un format | *support* | accepter, prendre en charge | supporter une charge, un poids |
 | initier un projet | *initiate* | lancer, engager | initier quelqu'un à un geste |
+| adresser un public | *to address an audience* | s'adresser à, viser | adresser une lettre à quelqu'un |
+| plébiscité par | *acclaimed by* | choisi par, utilisé par | un vrai plébiscite, un vote |
 | digital | *digital* | numérique | empreinte digitale |
 | éventuellement | *eventually* | finalement, à terme | « le cas échéant », son sens français |
 | définitivement | *definitely* | sans aucun doute | « pour toujours » : supprimer définitivement |
@@ -72,6 +74,16 @@ le terme que l'audience emploie réellement (§ 2).
 | « X par X » forgé | *job by job, item by item* | garder ceux qu'un Français dit (pièce par pièce, poste par poste, ligne par ligne), sinon « un par un », « l'un après l'autre » |
 | Noms empilés sans préposition | *noun adjuncts* | « liste courses chantier » devient « liste de courses du chantier » |
 | Possessif en série | *Your kitchen, your budget, your rules* | une seule fois, là où il porte un sens |
+| « En ce qui concerne X », « Quand il s'agit de X » en tête | *When it comes to* | « Côté X », « Pour X », ou le sujet directement |
+| « Au fond », « Par essence » | *At its core* | rien, ou « en réalité » |
+| « Pareillement », « De manière similaire » | *Similarly* | « De même », « Pareil pour X », « Tout comme X » |
+| « Par conséquent », « De ce fait » à la chaîne | *Therefore, Thus* | « Donc », « Du coup » (parlé), « Résultat : » |
+| « À titre d'exemple », « À titre d'illustration » | *As an example* | « Par exemple », « Prenez X » |
+| « Ce n'est pas seulement X, c'est aussi Y » | *Not only X but also Y* | dire Y, ou « X, et Y » |
+| « Pensez à X comme à Y » | *Think of X as Y* | dire ce que X fait, sans métaphore |
+| « En faisant X, vous pouvez Y » en ouverture | *By doing X, you can Y* | « X permet Y », ou l'impératif : « Faites X : Y » |
+| « Que vous soyez X, Y ou Z » | *Whether you're X or Y* | s'adresser à un seul lecteur, celui du texte |
+| « In fine » pour « au final » | *ultimately* | « au bout du compte », « finalement » |
 
 ### Anglicismes de syntaxe
 
@@ -106,6 +118,8 @@ Les plus durs à voir, parce que chaque mot est français. Seule la construction
 | capitaliser sur (*leverage*) | s'appuyer sur |
 | fluide (*seamless*) | sans accroc, simple |
 | robuste (*robust*) | solide, fiable |
+| solution innovante (*innovative solution*) | dire ce que ça fait : « l'appli qui chiffre votre chantier » |
+| clé en main (*turnkey*), hors offre réellement livrée prête | tout prêt, prêt à l'emploi |
 
 ### Mots forgés et mots d'emballage
 

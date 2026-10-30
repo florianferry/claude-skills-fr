@@ -20,7 +20,9 @@ il était décoratif. Un sur trois suffit.
 attendre*
 
 **Fermetures molles.** *En conclusion · Pour conclure · Vous l'aurez compris · N'hésitez pas à ·
-En espérant que cet article · Il ne vous reste plus qu'à*
+En espérant que cet article · Il ne vous reste plus qu'à ·
+Pour résumer · En fin de compte · Tout bien considéré · En substance · En essence · Pour le dire
+simplement*. Pour finir, « Dernier mot : » ou l'action attendue directement.
 
 **Adverbes en -ment.** Traque-les et coupe-les : *particulièrement, réellement, véritablement,
 notamment, simplement, facilement, rapidement*. Ils affaiblissent la phrase qu'ils prétendent
@@ -28,7 +30,8 @@ renforcer. Exception : les adverbes techniques qui portent une information
 (*perpendiculairement, horizontalement, trimestriellement*).
 
 **Cadrages d'époque et raclements de gorge.** *À l'ère de · en constante évolution · dans le
-paysage actuel · au cœur de (au figuré) · il est à noter · notons que · plongeons dans · explorons
+paysage actuel · à l'ère du numérique · dans le monde numérique d'aujourd'hui · dans un
+contexte de transformation accélérée · dans cette optique · cela soulève la question · au cœur de (au figuré) · il est à noter · notons que · plongeons dans · explorons
 ensemble · cela étant dit · à cet égard · en d'autres termes · soyons clairs · la vérité, c'est que*
 
 **Verbes valises.** *tirer parti de · mettre en exergue · jouer un rôle clé · naviguer dans (au
