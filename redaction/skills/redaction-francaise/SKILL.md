@@ -76,12 +76,25 @@ moyenne mesurée »). Ne jamais inventer un fait pour combler un trou : le dem
 désaccord ou là où le lecteur a besoin de son autorité. Ailleurs, elle va dans la liste des
 sources. Trois fabricants ou trois études cités à la file font lire une compilation de notices.
 
-## 1 bis. Écrire comme on parle
+## 1 bis. Écrire comme on parle, selon la surface
 
 Ce qui fait sonner un texte « machine » n'est le plus souvent pas un tic : c'est la compression.
 L'agent écrit en notes, affirme sans nuance, choisit le mot de la fiche technique, et coupe ce
 qui relie les idées. Un humain qui explique quelque chose à quelqu'un fait l'inverse. Ces règles
 viennent de corrections réelles, faites par un rédacteur sur des brouillons d'agent.
+
+**Le degré de parlé dépend de la surface.** Les gestes ci-dessous valent partout où l'on écrit
+des phrases ; leur dose, non. Fixer la surface avant d'écrire :
+
+| Surface | Ce qui s'applique | Ce qui ne s'applique pas |
+|---|---|---|
+| Message, réponse de forum, e-mail personnel | tout, y compris le registre familier de l'auteur (« clairement », « du coup », une exclamation) | rien |
+| Article, guide, page éditoriale | phrases entières, avis nuancé, mot courant, mise en garde en clair, paragraphes courts | familiarités (« c'est pas », « clairement », « du coup »), exclamations, « je » si la voix du projet l'exclut : un professionnel qui explique, pas un ami au téléphone |
+| Interface : bouton, libellé, titre d'écran, message d'erreur, tableau de bord | mot courant, mécanisme exact, verbe d'action, aucune formule | phrases entières, nuances et mise en garde narrative : l'interface est brève par nature, un libellé n'est pas une phrase en notes |
+| Texte d'aide dans l'interface (infobulle, état vide, explication d'un calcul) | phrases entières courtes, mot courant | nuances empilées, familiarités, exclamations |
+
+Le projet précise ses surfaces et leur registre ; sa table prime sur celle-ci.
+
 
 - **Des phrases entières, pas des notes.** L'article, le verbe, la fin de la phrase restent :
   « joints de 3 mm, croisillons obligatoires » devient « laissez des joints de 3 mm environ, avec
