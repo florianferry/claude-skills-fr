@@ -39,6 +39,7 @@ Ces tableaux sont des exemples, pas une liste close : le test de rétro-traduct
 | au final | *in the end* | finalement, au bout du compte | jamais |
 | juste (intensif) | *just* | vraiment, ou rien | « juste » = exact |
 | versus, vs | *versus* | ou, contre, face à | une adresse de page déjà publiée |
+| tenir une valeur | *to hold* | respecter, garder, atteindre : « une bonde qui garde 50 mm d'eau » | tenir 30 kg, tenir ses délais, tenir les cotes |
 
 ### Mots anglais restés
 
