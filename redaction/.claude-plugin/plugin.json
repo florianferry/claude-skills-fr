@@ -1,7 +1,7 @@
 {
   "name": "redaction-fr",
-  "description": "Rédaction française irréprochable et skills de contenu utilisées au quotidien : typographie, anti-calques, anti-slop, copywriting, relecture, SEO, recherche client, contenu visuel, passation de séance entre agents, interrogatoire avant décision.",
-  "version": "1.8.0",
+  "description": "Rédaction française irréprochable et skills de contenu utilisées au quotidien : typographie, anti-calques, anti-slop, copywriting, relecture, SEO, recherche client, contenu visuel, passation de séance entre agents, interrogatoire avant décision, règles rédactionnelles de Murmur.",
+  "version": "1.9.0",
   "author": {
     "name": "Florian Ferry"
   },
