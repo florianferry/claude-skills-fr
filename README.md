@@ -7,7 +7,7 @@ L'installation dans Cowork suit le même chemin (Customize > Plugins > Add marke
 documentation d'Anthropic la décrit sans restriction de plan. La disponibilité dans le chat
 claude.ai est en revanche décrite de façon contradictoire par la documentation officielle.
 
-53 skills : la rédaction française irréprochable, la passation de séance entre agents,
+57 skills : la rédaction française irréprochable, la passation de séance entre agents,
 l'interrogatoire avant décision, plus un pack marketing complet adapté au français (CRO,
 copywriting, SEO, pricing, publicité, analytics, offres, prospection, relations presse, growth).
 
@@ -26,7 +26,7 @@ Le dépôt expose **deux plugins** séparés, à installer selon la surface.
 
 | Plugin | Skills | Où l'installer |
 | --- | --- | --- |
-| `redaction-fr` | 13 | partout, y compris en session de code |
+| `redaction-fr` | 17 | partout, y compris en session de code |
 | `marketing-fr` | 40 | Cowork et claude.ai seulement |
 
 Cette séparation est délibérée. Les descriptions de 50 skills coûtent environ 15 000 tokens à
@@ -74,6 +74,10 @@ avec une réponse recommandée, jusqu'à ce que toutes les décisions soient pri
 `murmur-redaction` porte les règles rédactionnelles propres à Murmur : tiret cadratin proscrit et
 son tableau de remplacement, grille de relecture, corrections relevées sur les textes de l'app et
 du site.
+
+**Développement**
+
+`next-expert` (revue de plan et de diff pour un site Next.js 16), `build-runner` (génération de code Dart), `commit-push` (commit et push) et `retro` (rétrospective de séance) sont génériques et ne mentionnent aucun projet. `retro` est traduite de [mattpocock/skills](https://github.com/mattpocock/skills), licence MIT (texte dans `redaction/skills/retro/LICENSE`).
 
 **Marketing**
 

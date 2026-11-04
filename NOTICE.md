@@ -68,3 +68,10 @@ sous-agent seulement quand elle est longue.
 ## Licence de l'ensemble
 
 MIT, en cohérence avec le pack amont. Voir `LICENSE`.
+
+## Skill de développement
+
+`retro` est traduite de [mattpocock/skills](https://github.com/mattpocock/skills), Copyright (c)
+2026 Matt Pocock, licence MIT (texte dans `redaction/skills/retro/LICENSE`), relevée au commit
+`49dd158` du 2026-10-09. Modifications : traduction française, pistes présentées en français,
+chemin des journaux de séance de Claude Code et mémoire persistante ajoutés.
