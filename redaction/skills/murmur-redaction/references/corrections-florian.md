@@ -77,3 +77,8 @@ Propre aux forums : le lien vient en dernier, comme un coup de main, jamais com
 | Avec la neige sur le toit en Savoie | Avec la neige sur le toit | on ne montre pas qu'on a lu le profil | forum, 2026-10-30 |
 | en comptant la location et le temps, comme dit LaTeam. | en comptant en effet la location et le temps passé. | on ne cite pas un autre membre sans raison | forum, 2026-10-30 |
 | Pas mal de sous-couches l'ont déjà intégré, regardez l'étiquette. | (coupé) | conseil en trop | forum, 2026-10-30 |
+| Le prix du kit, et ce qu'il laisse de côté | (intertitre réécrit) | « X, et ce qu'il laisse de côté » : construction typiquement IA, et la formule ne veut rien dire ; « je ne veux plus jamais la voir » | blog, 2026-11-06 |
+| ce que la fourchette suppose, s'ajoute à la fourchette | (le montant, le budget, le prix) | « la fourchette » répétée ne veut pas dire grand-chose en soi | blog, 2026-11-06 |
+| un kit de grande surface | une cuisine en kit | pas français : on dit « cuisine en kit » | blog, 2026-11-06 |
+| Le kit des grandes surfaces de bricolage n'est pas la seule voie. | Entre la cuisine en kit et celle d'un cuisiniste, des fabricants vendent aussi en ligne. | ne pas réduire un marché à une seule voie (cuisinistes, IKEA) | blog, 2026-11-06 |
+| fabricant français | fabricant vendéen | le lieu précis quand on le connaît | blog, 2026-11-06 |

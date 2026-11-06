@@ -47,6 +47,7 @@ grep -nEi "(peut|peuvent|qui vien(t|nent)) (venir )?avec|une alternative|résult
 grep -nE "(^|[.!?] )Ce (qui|que) [^.,]{3,60}, c.est" "$F" || true
 grep -nE " : [A-ZÀÉÈ][a-zéèêà]+ [a-zéèêà]" "$F" || true
 grep -nEi "^(concrètement|en pratique), " "$F" || true
+grep -nEi "laiss(e|ent|er|é|ée|és|ées|ait|aient) de côté|^#+ [^,:]+, et (ce qu|ce que|comment|pourquoi|quand)" "$F" || true
 grep -nEi "contrairement à une idée reçue|on pourrait croire|en lien avec|constitue (un|une|le|la)|s.avère|se veut|représente un véritable" "$F" || true
 
 t "Dialecte des agents (§ 5 ter)"

@@ -136,7 +136,8 @@ cette seule raison.
 | Nombre annoncé | « trois choses », « deux vérifications précèdent », « Voici les 3 chiffres » | 1, et recompté | Entrer par le premier élément ; si le nombre reste, recompter la liste |
 | Maxime de chute | « l'étude coûte moins cher que le doute », « Le carrelage habille, le SPEC protège. » | 0 | Finir sur un fait, un chiffre ou une consigne |
 | Balance avant, après | « deux minutes maintenant, deux jours après » | 1 | Dire le coût réel une fois, sans symétrie |
-| Intertitre en apposition | « Où poser le pare-vapeur, l'étape que l'on saute » | 0 | L'intertitre nomme le sujet, rien après la virgule |
+| Intertitre en apposition | « Où poser le pare-vapeur, l'étape que l'on saute », « Le prix du kit, et ce qu'il laisse de côté », « Ce que couvre la garantie, et ce qu'elle exclut » | 0 | L'intertitre nomme le sujet, rien après la virgule ; pas de « X, et ce que / et pourquoi / et comment » ajouté en traîne |
+| « Ce qu'il laisse de côté » | « le kit, et ce qu'il laisse de côté », « ce que les tableaux laissent de côté » | 0 | Formule creuse : nommer ce qui manque (« les poignées ne sont pas comprises ») |
 | Scène gabaritée | « La cloison est montée, les bandes sont poncées, la peinture est sèche. », « Samedi, 14 h 15. », « Trois semaines plus tard, » | selon la rotation des ouvertures du projet | Un détail vécu dans une phrase ordinaire |
 | Retour à la scène pour la requalifier | « Le rouleau du début n'était pas un mauvais produit, c'était… » | 0 | La conclusion avance, elle ne rejuge pas l'ouverture |
 | Verbe-juge, verbe de dramatisation | « le pot tranche », « le manomètre ment », « tient en une phrase », « se joue », « ne se rattrape pas », « ne se négocie pas » | 1 pour toute la famille | Un verbe d'action, avec un sujet humain quand c'est possible |
