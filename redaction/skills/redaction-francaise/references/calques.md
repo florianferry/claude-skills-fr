@@ -133,3 +133,11 @@ qu'on le remarque. Il n'est pas du français courant, même quand il figure au d
   la préparation ».
 - **Le libellé de fiche dans une phrase** : « finition mate velours », « usage intérieur pièces
   humides » → une phrase : « une peinture mate, faite pour les pièces humides ».
+
+
+## Ajout du 2026-11-06 (Florian)
+
+| Calque | D'où il vient | En français |
+|---|---|---|
+| « vous vous dites vite que… », « on se dit que… » | *you'd think*, *you might think* | rien : dire le fait, sans prêter de pensée au lecteur |
+| « tiendra dans quelques centaines d'euros » | *will fit within a few hundred euros* | « coûtera quelques centaines d'euros », et mieux, le montant |
