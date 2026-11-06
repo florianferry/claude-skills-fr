@@ -82,3 +82,4 @@ Propre aux forums : le lien vient en dernier, comme un coup de main, jamais com
 | un kit de grande surface | une cuisine en kit | pas français : on dit « cuisine en kit » | blog, 2026-11-06 |
 | Le kit des grandes surfaces de bricolage n'est pas la seule voie. | Entre la cuisine en kit et celle d'un cuisiniste, des fabricants vendent aussi en ligne. | ne pas réduire un marché à une seule voie (cuisinistes, IKEA) | blog, 2026-11-06 |
 | fabricant français | fabricant vendéen | le lieu précis quand on le connaît | blog, 2026-11-06 |
+| À ce prix-là, vous vous dites vite qu'une cuisine refaite soi-même tiendra dans quelques centaines d'euros. | (supprimé) | « ça ne veut rien dire » : une phrase qui prête une pensée au lecteur sans fait ni chiffre part, chaque phrase doit apprendre quelque chose | blog, 2026-11-06 |
