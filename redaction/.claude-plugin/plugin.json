@@ -1,7 +1,7 @@
 {
   "name": "redaction-fr",
   "description": "Rédaction française irréprochable et skills de contenu utilisées au quotidien : typographie, anti-calques, anti-slop, copywriting, relecture, SEO, recherche client, contenu visuel, passation de séance entre agents, interrogatoire avant décision, règles rédactionnelles de Murmur, et quatre skills de développement génériques (next-expert, build-runner, commit-push, retro).",
-  "version": "1.10.0",
+  "version": "1.10.2",
   "author": {
     "name": "Florian Ferry"
   },

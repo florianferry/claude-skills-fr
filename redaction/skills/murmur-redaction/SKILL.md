@@ -87,6 +87,8 @@ applique, avec le code que `npm run check:slop` affiche. Un quota se change ici 
 | Réassurance en anaphore | 0 | `reassurance` |
 | Chiffre à effet sans source | 0 | `chiffre-effet` |
 | Intertitre en apposition | 0 | `apposition` |
+| « Ce qu'il laisse de côté » | 0 | `laisse-de-cote` |
+| Pensée prêtée au lecteur, « vous vous dites vite que » | 0 | `pensee-pretee` |
 | Vocabulaire d'application grand public | 0 | `lexique` |
 | Jargon d'outillage | 0 | `jargon` |
 | Mot du code dans le texte public | 0 | `vocabulaire-murmur` |
