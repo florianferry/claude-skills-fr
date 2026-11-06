@@ -140,4 +140,4 @@ qu'on le remarque. Il n'est pas du français courant, même quand il figure au d
 | Calque | D'où il vient | En français |
 |---|---|---|
 | « vous vous dites vite que… », « on se dit que… » | *you'd think*, *you might think* | rien : dire le fait, sans prêter de pensée au lecteur |
-| « tiendra dans quelques centaines d'euros » | *will fit within a few hundred euros* | « coûtera quelques centaines d'euros », et mieux, le montant |
+| « tiendra dans quelques centaines d'euros » | *will fit within a few hundred euros*, mauvaise traduction : un montant ne « tient » pas « dans » une somme (Florian : « c'est surtout “tiendra dans” qui ne veut rien dire ») | « coûtera quelques centaines d'euros », et mieux, le montant |
