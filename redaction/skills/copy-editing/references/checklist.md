@@ -2,7 +2,32 @@
 
 Sers-toi de cette checklist en complément des sept passes (voir SKILL.md), comme contrôle qualité final avant de livrer une copy retravaillée.
 
+## Choisir le mode
+
+Décide ce qu'on t'a donné avant toute passe. Le mode fixe ce que tu as le droit de changer.
+
+| Mode | Signes | Que faire |
+|---|---|---|
+| **A. Page blanche ou langue de bois** | Texte générique, bouillie d'IA, aucun point de vue | Les sept passes. Tu peux reconstruire les phrases à partir des faits ; jamais de chiffre, de client ni de résultat inventé |
+| **B. Une vraie voix** | Un angle ou un avis net, des mots reconnaissables, une exécution inégale | Les sept passes, en restauration. Garder son argument, son vocabulaire et ses accents |
+| **C. Retouche ponctuelle** | « Corrige ce titre », « cette phrase va-t-elle ? », « resserre le deuxième paragraphe » | Pas de passes. Mode retouche ci-dessous |
+
+**Mode retouche**
+- [ ] Ne changer que la ligne, le mot ou la section nommés, plus le minimum autour pour que la retouche se lise (un pronom, une liaison)
+- [ ] Vérifier la retouche contre les tics d'IA et la voix voisine, pour que la ligne neuve ne détonne pas
+- [ ] Rendre seulement le texte changé, avec une raison d'une ligne par changement, et une variante si le choix est serré
+- [ ] Signaler en une ligne, à la fin, un problème grave vu ailleurs (une affirmation fausse, un CTA cassé), sans le corriger
+- [ ] Ne pas réécrire les lignes voisines, ne pas ajouter de section, ne pas dérouler un rapport de passes
+
+**Lire le goût de l'auteur (B et C).** Son vocabulaire est un choix de voix, là où il a mis des mots est un choix de priorité, ce qu'il a laissé de côté est un choix de périmètre. S'y tenir.
+
+**Le test du « laisse comme c'est » (tous les modes).** Pour chaque changement : est-il mesurablement meilleur, ou seulement différent ? Annuler ce qu'on ne sait pas justifier.
+
+*Modes adaptés des skills `improved-copywriting` de Profound et `copy-editing` de Wispr Flow ([skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library), MIT), via `marketingskills` 2.2.*
+
 ## Avant de commencer
+
+- [ ] Tu as choisi le mode ; pour une retouche ponctuelle, arrête-toi là et suis le mode retouche
 
 - [ ] Tu as compris l'objectif de cette copy
 - [ ] Tu connais l'audience visée
@@ -81,3 +106,14 @@ Sers-toi de cette checklist en complément des sept passes (voir SKILL.md), comm
 - [ ] Mise en forme cohérente
 - [ ] Les liens fonctionnent (le cas échéant)
 - [ ] Le message central a survécu à toutes les passes
+
+## Tics d'IA
+
+- [ ] Aucun contraste révélé (« ce n'est pas X, c'est Y »)
+- [ ] Aucune liste de négations (« pas de X, pas de Y, pas de Z »)
+- [ ] Aucune phrase qui traîne des propositions redisant l'affirmation (une proposition qui apporte un fait nouveau reste)
+- [ ] Aucune question-réponse ni deux-points d'annonce (les questions de FAQ et celle du lecteur restent)
+- [ ] Aucune ouverture ni formule toute faite
+- [ ] Aucun tiret cadratin
+- [ ] Un fragment et une triade au plus par section
+- [ ] Chaque adjectif vague remplacé par le fait qu'il cachait

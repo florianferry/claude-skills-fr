@@ -1,8 +1,8 @@
 ---
 name: copy-editing
-description: "Quand l'utilisateur veut relire, resserrer ou rafraîchir une copy marketing existante, y compris un contenu daté. Pour écrire une copy neuve, voir copywriting."
+description: "Quand l'utilisateur veut relire, resserrer, corriger ou rafraîchir une copy marketing existante, y compris un contenu daté, ou demande s'il faut garder, couper ou changer une ligne, sans tout réécrire. Chaque relecture retire les tics d'IA. Une demande qui porte sur une ligne reçoit une retouche de cette ligne seulement. Pour écrire une copy neuve, voir copywriting."
 metadata:
-  version: 2.0.0
+  version: 2.2.4
 ---
 
 # Relecture et correction de copy
@@ -23,6 +23,8 @@ Bien relire une copy, ce n'est pas la réécrire : c'est la renforcer. Chaque pa
 - Plusieurs passes ciblées valent mieux qu'une seule relecture fourre-tout.
 - Chaque modification doit avoir une raison claire.
 - Préserve la voix de l'auteur tout en gagnant en clarté.
+
+**Choisis le mode avant de corriger.** Diagnostique ce qu'on te donne : A, page blanche ou langue de bois (reconstruire à partir des faits) ; B, une vraie voix (la restaurer, garder son argument et ses mots) ; C, une retouche ponctuelle (une ligne, un mot, une section). **Une retouche ponctuelle saute les sept passes** : change seulement ce qui est demandé et le minimum autour, rends les seules lignes changées avec leur raison, et laisse tout le reste comme il est écrit. Les sept passes valent pour A et B. Voir [references/checklist.md](references/checklist.md#choisir-le-mode).
 
 **Registre :** les instructions ci-dessous te sont adressées au tutoiement. Dans les exemples de copy, le vouvoiement est le réglage par défaut, mais le registre s'adapte au projet : aligne-toi sur l'existant ou sur la consigne, et tiens-toi à un seul registre sur tout le texte.
 
@@ -333,12 +335,16 @@ Pour chaque phrase, demande-toi « OK, et alors ? ». Si la copy ne répond pas 
 | Mettre en œuvre | Mettre en place |
 | Initier | Lancer, démarrer |
 | Faciliter | Aider |
-| Innovant | Nouveau |
-| Robuste | Solide, fiable |
-| Sans couture / seamless | Fluide |
-| À la pointe / cutting-edge | Moderne |
-| Solution clé en main | (nommer ce que ça fait) |
 | Impacter | Changer, peser sur |
+
+**À remplacer par le fait** (un synonyme ne fait que créer un autre tic) :
+
+| Vague | Écrire le fait |
+|-------|----------------|
+| Innovant, à la pointe | Ce que le produit fait et que les autres ne font pas |
+| Robuste | La disponibilité, la charge ou la panne qu'il encaisse |
+| Sans couture, fluide | Le nombre réel d'étapes ou la durée de la mise en place |
+| Solution clé en main | Ce que ça fait |
 
 **À surveiller :**
 - Les adverbes en *-ment* (souvent superflus)
@@ -365,9 +371,27 @@ Pour chaque phrase, demande-toi « OK, et alors ? ». Si la copy ne répond pas 
 
 ## Typographie, calques et tics d'IA
 
-Avant de livrer, applique la skill `redaction-fr:redaction-francaise` : relecture en passes
+Avant de livrer, applique la skill `redaction-fr:redaction-francaise` : relecture en passes
 (§ 6 bis) et contrôles (§ 7). Elle prime sur tout le reste de cette skill, y compris sur la passe
-« clarté » : resserrer une phrase ne veut jamais dire la réduire en notes (§ 1 bis).
+« clarté » : resserrer une phrase ne veut jamais dire la réduire en notes (§ 1 bis).
+
+### Contrôle des tics d'IA, à chaque relecture
+
+Après les passes, corrige chaque occurrence de ces formes. La forme d'une phrase trahit plus qu'un mot.
+
+| Forme | Exemple | Correction |
+|-------|---------|------------|
+| Contraste révélé | « Ce n'est pas X, c'est Y. » | Écrire Y, avec sa raison |
+| Liste de négations | « Pas d'appel, pas de modèle, pas d'attente. » | Dire ce qui se passe ; garder une absence si elle compte (« Sans carte bancaire ») |
+| Queue qui s'allonge | « …vos données, sans export, sans tableur. » | Finir la phrase sur l'affirmation ; le bénéfice a sa phrase |
+| Question-réponse | « Le résultat ? Trois fois plus vite. » | Retirer la question, garder la réponse |
+| Deux-points d'annonce | « Le meilleur : il apprend. » | Une phrase normale |
+| Formules toutes faites | « À l'heure où », « Que vous soyez X ou Y », « Dites adieu à » | Couper, ouvrir sur le problème du lecteur ou sur le fait |
+| Tiret cadratin | partout | Point, virgule ou deux-points |
+
+**Comment corriger :** revenir aux faits (le mécanisme, le chiffre, le client, l'étape) et réécrire à partir d'eux. Si le fait manque, marquer `[À FOURNIR : …]` plutôt que l'inventer. Garder le registre de la marque : une phrase soutenue qui affirme une chose précise est une bonne phrase.
+
+**À laisser tranquille :** les questions d'une FAQ, un seul « Sans carte bancaire » près du CTA, une liste de trois quand il y a vraiment trois fonctions, et une proposition après la virgule qui apporte un fait nouveau.
 
 ---
 
@@ -407,7 +431,11 @@ Pour une dernière passe de contrôle avant livraison, déroule la check-list co
 **Symptôme :** une copy qui veut parler à tout le monde et ne touche personne
 **Correction :** choisir une seule audience et lui écrire directement
 
-### Problème : trop de fonctionnalités
+### Problème : le texte se lit comme écrit par une IA
+**Symptôme :** contrastes « pas X, mais Y », listes de négations, longues phrases qui traînent, ouvertures toutes faites
+**Correction :** dérouler le contrôle des tics d'IA et réécrire ces phrases à partir des faits
+
+### Problème : trop de fonctionnalités
 **Symptôme :** lister chaque capacité, ce qui noie le lecteur
 **Correction :** se concentrer sur les 3 à 5 bénéfices qui comptent le plus pour l'audience
 
@@ -430,8 +458,8 @@ Ce processus itératif garantit qu'aucune correction n'en crée de nouveaux prob
 ## Références
 
 - Mots simples à la place des mots compliqués : `references/mots-simples.md` de la skill `redaction-francaise`
-- [Rafraîchissement de contenu](references/content-refresh.md) : check-list complète, matrice rafraîchir / réécrire, et guide de cadence
-- [Check-list de relecture](references/checklist.md) : la check-list complète sur les sept passes
+- [Rafraîchissement de contenu](references/content-refresh.md) : analyse des écarts face aux résultats de recherche, check-list complète, matrice rafraîchir / réécrire, et guide de cadence
+- [Check-list de relecture](references/checklist.md) : le choix du mode, la check-list complète sur les sept passes et le contrôle des tics d'IA
 
 ---
 

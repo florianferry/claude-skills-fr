@@ -176,3 +176,14 @@ Deux réflexes pour l'agent qui rédige : relire chaque phrase dont le sujet es
 verbe un verbe de jugement (dire, décider, départager, commander, trancher, gouverner) ; et ne
 jamais employer dans un texte public un mot qu'il a utilisé dans le code ou le commit de la même
 séance sans vérifier qu'il a le même sens pour un lecteur ordinaire.
+
+## Repères pour la relecture
+
+Repris de la skill `humaniseur-fr` (samber, MIT). Les chiffres sont ceux qu'elle cite, attribués à une étude de Labbé, Labbé et Savoy que nous n'avons pas lue : des ordres de grandeur, pas des seuils.
+
+- **La règle des trois signaux.** Un marqueur isolé est du bruit, la plupart sont du français normal. Trois dans le même passage font tiquer le lecteur : reprendre jusqu'à ce qu'aucun paragraphe n'en cumule trois.
+- **Une seule passe.** Ne pas repasser plusieurs fois le même texte au crible : chaque passe retire de la variété et ajoute ses propres habitudes (§ 5 quater, « le texte poncé »).
+- **Le lexique surreprésenté.** « également » (un par paragraphe au plus, sinon « aussi » ou rien), « notamment » (environ quatre fois plus fréquent dans un texte généré), « crucial ». La série « devoir, continuer, tenir, ensemble » dans une même phrase.
+- **Le jargon de ministre**, hors de tout contexte institutionnel : « dispositif », « acteurs », « enjeux », « mise en œuvre », « dynamique ». Dire qui fait quoi.
+- **Les liants qu'un modèle n'emploie presque jamais**, et qu'un rédacteur emploie : « or », « reste que », « n'empêche que », « toujours est-il que », « soit dit en passant ». En placer un là où il porte le sens.
+- **La dispersion des longueurs de phrase, pas leur moyenne.** Un texte généré n'a presque aucune phrase de moins de quinze mots ni de plus de quarante. Vérifier qu'il y en a, là où la pensée le demande, sans les fabriquer (§ 5, « staccato fabriqué »).

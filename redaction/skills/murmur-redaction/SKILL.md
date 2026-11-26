@@ -60,10 +60,16 @@ près de 90 phrases dans le dialecte des agents (§ 5 ter). D'où ces règles pr
   « corpus », « pages satellites », « lot », « mentor », « conditionnement », « email », « & »
   restent dans les scripts et les plans.
 - **Une promesse, une fois par page**, là où elle sert (« Quand il ne sait pas, il le dit »).
-- **Microcopy de l'espace connecté.** Une seule formule d'échec : « [L'action] n'a pas été
-  enregistrée. Vérifie ta connexion, puis réessaie. » Pas de réassurance « tes chantiers, eux, … », pas d'objet qui « part » ni d'adresse qui « s'abîme ».
-- **Boutons et CTA.** Un bouton dit ce qu'il fait (« Chiffrer votre salle de bain »), jamais
-  « Donnez vie à votre projet », ni « Téléchargez » tant que la bêta est sur invitation.
+- **Textes d'interface de l'app et de Mes Chantiers** (bouton, libellé, titre d'écran, message
+  d'erreur, état vide, feuille d'accord, texte d'aide) : charger `murmur-interface`, qui dit
+  d'abord si le texte doit exister, puis donne les formules fixes et les corrections de Florian.
+- **Un texte existant ne se réécrit pas sans demande.** Sur une tâche de mise en page, de
+  maquette ou de code, les textes et les données fournis (noms, descriptions, montants, comptes)
+  se reprennent tels quels : ni reformulés, ni arrondis, ni raccourcis. Un défaut vu au passage se
+  signale en une ligne, il ne se corrige pas d'office. La relecture en contexte neuf ne porte que
+  sur le texte qu'on a écrit.
+- **Boutons et CTA de la vitrine.** Un bouton dit ce qu'il fait (« Chiffrer votre salle de bain »),
+  jamais « Donnez vie à votre projet », ni « Téléchargez » tant que la bêta est sur invitation.
 - **Les e-mails aussi.** Les modèles de `web/emails/` vivent hors de `src/`, donc hors du régime
   par défaut de `check:slop` : `npm run check:slop -- --libre <fichier>` les lit, comme tout plan,
   brouillon ou réponse de forum, avant tout envoi.
@@ -121,6 +127,33 @@ La commande doit ne rien retourner. En cas de contenu DB ajouté, vérifier éga
 ```sql
 SELECT COUNT(*) FROM etapes WHERE contenu_detaille::text LIKE '%' || chr(8212) || '%';
 ```
+
+## Catalogue : conseils, astuces et garde-fous
+
+Le contenu d’une étape dit le geste. Le conseil, l’astuce et le garde-fou sont facultatifs, et la plupart des étapes n’en ont pas besoin.
+
+- **Un conseil apporte ce que le contenu de l’étape ne dit pas** : un tour de main, un piège qu’on ne voit qu’une fois dedans, un repère pour savoir que c’est réussi. S’il reformule l’étape, la résume, la justifie ou répète une consigne déjà donnée ailleurs dans le chantier, la colonne reste vide (`NULL`). « Le mieux est l’ennemi du bien » (Florian, 2026-11-22).
+- **Jamais de conseil pour tenir un quota** : ni un par étape, ni un par niveau. Deux ou trois étapes sans conseil sur cinq est un résultat normal.
+- **Un conseil est sûr ou n’est pas.** Un tour de main connu de tout le métier se donne ; une valeur, un produit ou un diagnostic (dosage, délai, « c’est une glycéro si… ») ne s’écrit que s’il vient du DTU, de la fiche du fabricant ou d’une source du brief. Au moindre doute, la colonne reste vide.
+- **La série se juge en entier.** Sur un chantier, garder les deux ou trois conseils qui changent vraiment le résultat. Cinq conseils sur cinq étapes est aussi suspect que zéro.
+- **Un garde-fou ne répète pas une étape** et ne s’affiche que là où le risque est réel pour ce chantier. Vu trop souvent, il n’est plus lu. Plusieurs garde-fous du même chantier se réunissent en un seul.
+- Vouvoiement, phrase entière, impératif sur le geste, une ou deux phrases.
+
+Avant de livrer une série de conseils : relire chaque conseil à côté du contenu de son étape et des autres étapes du chantier, et retirer tout ce qui s’y trouve déjà.
+
+## E-mail à un inconnu
+
+Florian a jugé « trop IA, trop robotique » des e-mails de démarchage construits comme un argumentaire (2026-10-30). Un e-mail à quelqu’un qui ne le connaît pas se lit comme un mot écrit par une personne à une autre :
+
+- objet court, en minuscules, qui parle de la personne et non de Murmur ;
+- une ouverture sur un fait précis lu chez elle, sans compliment général ;
+- un seul détail concret de Murmur, celui qui répond à ce fait ; jamais une liste de fonctions ;
+- une demande légère, une seule, à laquelle on répond en une ligne ;
+- « je » de Florian, vouvoiement, ton de `references/corrections-florian.md` (avis adouci, lien présenté avec modestie) ;
+- jamais « gratuite », jamais de vocabulaire d’annonce (« découvrir », « solution », « j’ai le plaisir ») ;
+- signature d’une ligne. Moins de 120 mots.
+
+Charger aussi `marketing-fr:cold-email`, dont les exemples anglophones cèdent devant ces règles.
 
 ## Relecture obligatoire, en contexte neuf
 

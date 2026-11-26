@@ -26,7 +26,7 @@ Le dépôt expose **deux plugins** séparés, à installer selon la surface.
 
 | Plugin | Skills | Où l'installer |
 | --- | --- | --- |
-| `redaction-fr` | 17 | partout, y compris en session de code |
+| `redaction-fr` | 18 | partout, y compris en session de code |
 | `marketing-fr` | 40 | Cowork et claude.ai seulement |
 
 Cette séparation est délibérée. Les descriptions de 50 skills coûtent environ 15 000 tokens à
@@ -73,7 +73,8 @@ avec une réponse recommandée, jusqu'à ce que toutes les décisions soient pri
 
 `murmur-redaction` porte les règles rédactionnelles propres à Murmur : tiret cadratin proscrit et
 son tableau de remplacement, grille de relecture, corrections relevées sur les textes de l'app et
-du site.
+du site. `murmur-interface` porte les textes d'interface de l'app et de Mes Chantiers : si le
+texte doit exister, formules fixes, règles par type d'écran, corrections relevées.
 
 **Développement**
 
