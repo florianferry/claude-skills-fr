@@ -65,6 +65,18 @@ Modifications : corps et `description` traduits en français, avec des expressio
 françaises ; questions posées en français ; la recherche des faits se fait directement, et par un
 sous-agent seulement quand elle est longue.
 
+## Mises à jour depuis l'amont, 2026-11-26
+
+`copywriting` et `copy-editing` reprennent les apports des versions 2.3.6 et 2.2.4 du pack amont
+(diagnostic de la situation, protocole de rédaction, affirmation prouvable, contrôle des tics
+d'IA, mode retouche, analyse des écarts avant un rafraîchissement). La liste anglaise
+`references/ai-tells.md` n'est pas reprise : `redaction-francaise` en tient lieu pour le français.
+Ces apports viennent en partie de la skill `improved-copywriting` de Profound et de la skill
+`copy-editing` de Wispr Flow ([skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library), MIT).
+
+La section « Repères pour la relecture » de `redaction-francaise/references/tics-ia.md` reprend
+des critères de la skill `humaniseur-fr` de [samber/cc-skills](https://github.com/samber/cc-skills), MIT.
+
 ## Licence de l'ensemble
 
 MIT, en cohérence avec le pack amont. Voir `LICENSE`.

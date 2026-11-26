@@ -2,6 +2,32 @@
 
 La relecture ne sert pas qu'au contenu neuf. Les pages et les articles déjà publiés se périment : statistiques dépassées, exemples qui datent, voix de marque qui a dérivé, occasions SEO ratées. Un rafraîchissement applique la même rigueur d'édition à un contenu déjà en ligne.
 
+## Avant de corriger : trouver l'écart
+
+Le rafraîchissement d'une page qui vise un classement part de la page de résultats. Première question : pourquoi les pages placées au-dessus de la tienne y sont-elles ?
+
+1. **Lis la page de résultats de la requête principale.** Note le format dominant (liste, guide, outil, comparatif), l'extrait mis en avant et sa forme, les questions « Autres questions posées » et les recherches associées.
+2. **Choisis cinq concurrents** : les trois premiers résultats, plus un concurrent direct ou une page récemment mise à jour classée près de toi.
+3. **Dresse la grille de couverture** : les sous-sujets que chaque page traite, ta page en première colonne.
+
+| Sous-sujet ou élément | Ta page | Conc. 1 | Conc. 2 | Conc. 3 | Conc. 4 | Conc. 5 |
+|-----------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| [Sous-sujet A] | ✗ | ✓ | ✓ | ✓ | ✓ | |
+| Tableau comparatif | ✗ | ✓ | | ✓ | | |
+| Données de l'année | ✗ | ✓ | ✓ | | ✓ | ✓ |
+
+4. **Classe ce qui manque** selon le nombre de concurrents qui le traitent : **attendu** (4 ou 5 sur 5), le lecteur le suppose présent, l'ajouter ; **courant** (2 ou 3), l'ajouter s'il sert ton lecteur ; **distinctif** (1), seulement s'il est vraiment utile ; **absent partout** (0), l'angle que personne n'a, ta meilleure chance d'être la page qu'on cite.
+5. **Vise la couverture, pas la longueur.** Ignore le nombre de mots des concurrents. Ferme les écarts qui comptent et arrête-toi quand la question du lecteur a sa réponse.
+
+Présente la grille et un plan avant de réécrire. Marque chaque section **Garder**, **Reprendre** ou **Nouvelle**, propose deux ou trois titres, et attends l'accord. Ne promets ni classement ni trafic.
+
+## Garder ce qui marche déjà
+
+- **Garder l'URL.** Si elle doit changer, rediriger l'ancienne en 301.
+- **Garder les ancres d'intertitre** vers lesquelles d'autres pages pointent, et les sections qui se classent sur leurs propres requêtes (liste des requêtes de la page dans la Search Console).
+- **Garder la voix.** Un rafraîchissement ne se lit pas comme écrit par quelqu'un d'autre.
+- **Montrer la mise à jour** : une date « Mis à jour le » visible, et l'année à côté de chaque statistique.
+
 ## Quand rafraîchir
 
 - **Le trafic baisse** sur une page qui performait bien
